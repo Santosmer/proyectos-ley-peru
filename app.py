@@ -1,4 +1,6 @@
 import json
+import re
+import unicodedata
 from pathlib import Path
 
 import pandas as pd
@@ -8,6 +10,7 @@ import streamlit as st
 st.set_page_config(page_title="Proyectos de Ley — Congreso del Perú", layout="wide")
 
 DATA_DIR = Path(__file__).parent / "data"
+ROOT_DIR = Path(__file__).parent
 
 MESES_ES = {
     1: "Ene", 2: "Feb", 3: "Mar", 4: "Abr", 5: "May", 6: "Jun",
@@ -15,8 +18,7 @@ MESES_ES = {
 }
 
 # Colores por bancada, según lo pedido. Los valores que no coincidan
-# exactamente con estas llaves (por ejemplo si el nombre real en los
-# datos difiere un poco) simplemente caen a un color por defecto de Plotly.
+# exactamente con estas llaves simplemente caen a un color por defecto de Plotly.
 COLOR_BANCADA = {
     "Fuerza Popular": "#FF8C00",              # naranja
     "Renovación Popular": "#87CEEB",          # celeste
@@ -26,6 +28,17 @@ COLOR_BANCADA = {
     "Juntos por el Perú": "#2E8B57",          # verde
     "Multipartidario": "#1E63C8",             # azul
     "Instituciones con Iniciativa Legislativa": "#C8A2C8",  # lila
+}
+
+# Logos oficiales de cada partido, tomados de decideperu.com (fuente pública,
+# resultados JNE 2026). Se muestran con st.image directo desde la URL.
+LOGO_PARTIDO = {
+    "Fuerza Popular": "https://d26x1qb2ouso7w.cloudfront.net/PartidosPeru2026/1366_FUERZA%20POPULAR.jpg",
+    "Juntos por el Perú": "https://d26x1qb2ouso7w.cloudfront.net/PartidosPeru2026/1264_JUNTOS%20POR%20EL%20PERU.jpg",
+    "Partido del Buen Gobierno": "https://d26x1qb2ouso7w.cloudfront.net/PartidosPeru2026/2961_PARTIDO%20DEL%20BUEN%20GOBIERNO.jpg",
+    "Renovación Popular": "https://d26x1qb2ouso7w.cloudfront.net/PartidosPeru2026/22_RENOVACION%20POPULAR.jpg",
+    "Partido Cívico Obras": "https://d26x1qb2ouso7w.cloudfront.net/PartidosPeru2026/2941_PARTIDO%20CIVICO%20OBRAS.jpg",
+    "Ahora Nación": "https://d26x1qb2ouso7w.cloudfront.net/PartidosPeru2026/2980_AHORA%20NACION%20-%20AN.jpg",
 }
 
 # Clasificación TEMÁTICA APROXIMADA, por palabras clave en el título.
@@ -57,14 +70,42 @@ def clasificar_tema(titulo: str) -> str:
     return "Otros / sin clasificar"
 
 
+def norm_tokens(s: str) -> set:
+    """Normaliza un nombre a un conjunto de palabras en mayúsculas sin tildes,
+    para poder cruzar 'Apellidos, Nombres' contra 'NOMBRES APELLIDOS' sin
+    depender del orden ni de los acentos."""
+    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode("ascii")
+    s = re.sub(r"[^A-Za-z ]", " ", s).upper()
+    return {t for t in s.split() if t not in ("DE", "DEL", "LA", "LOS", "LAS", "Y")}
+
+
 @st.cache_data
 def load_data():
     proyectos = json.loads((DATA_DIR / "proyectos.json").read_text(encoding="utf-8"))
     autorias = json.loads((DATA_DIR / "autorias.json").read_text(encoding="utf-8"))
-    return pd.DataFrame(proyectos), pd.DataFrame(autorias)
+    directorio_path = ROOT_DIR / "diputados_regiones.json"
+    directorio = json.loads(directorio_path.read_text(encoding="utf-8")) if directorio_path.exists() else []
+    for d in directorio:
+        d["tokens"] = norm_tokens(d["nombre_fuente"])
+    return pd.DataFrame(proyectos), pd.DataFrame(autorias), directorio
 
 
-df_proyectos, df_autorias = load_data()
+def buscar_region(persona: str, directorio: list, min_score: int = 3):
+    """Cruza un nombre 'Apellidos, Nombres' contra el directorio oficial
+    (fuente: JNE vía decideperu.com) usando coincidencia de palabras, no el
+    string exacto, porque el orden y los acentos difieren entre fuentes."""
+    toks = norm_tokens(persona)
+    best, best_score = None, 0
+    for d in directorio:
+        score = len(toks & d["tokens"])
+        if score > best_score:
+            best, best_score = d, score
+    if best and best_score >= min(min_score, len(toks)):
+        return best["region"].replace("_", " ").title(), best["partido"]
+    return None, None
+
+
+df_proyectos, df_autorias, directorio = load_data()
 df_proyectos["fecha_presentacion"] = pd.to_datetime(df_proyectos["fecha_presentacion"])
 df_proyectos["tema_aprox"] = df_proyectos["titulo"].apply(clasificar_tema)
 
@@ -94,6 +135,13 @@ st.subheader("Proyectos por bancada")
 if "bancada" in df_proyectos.columns and df_proyectos["bancada"].notna().any():
     banc = df_proyectos["bancada"].value_counts().reset_index()
     banc.columns = ["bancada", "count"]
+
+    logo_cols = st.columns(len(LOGO_PARTIDO))
+    for col, (partido, url) in zip(logo_cols, LOGO_PARTIDO.items()):
+        with col:
+            st.image(url, width=60)
+            st.caption(partido)
+
     st.plotly_chart(
         px.bar(banc, x="bancada", y="count", color="bancada", color_discrete_map=COLOR_BANCADA)
         .update_traces(marker_line_color="#999", marker_line_width=1)
@@ -144,11 +192,10 @@ st.dataframe(top_autores, use_container_width=True)
 
 st.subheader("Buscar diputado/a")
 st.caption(
-    "Selecciona un nombre para ver su bancada y los proyectos en los que participó. "
-    "La región todavía no está disponible (ver nota al final de la página) y esta "
-    "lista solo incluye a quienes ya presentaron, coautoraron o se adhirieron a algún "
-    "proyecto — no a los 130 diputados; los que aún no participan en ningún proyecto "
-    "no tienen datos en el Congreso para mostrar."
+    "Selecciona un nombre para ver su bancada, región y los proyectos en los que "
+    "participó. Esta lista solo incluye a quienes ya presentaron, coautoraron o se "
+    "adhirieron a algún proyecto en el Congreso — no a los 130 diputados electos; "
+    "para ver el padrón completo, baja hasta 'Directorio de diputados electos'."
 )
 nombres = sorted(df_autorias["persona"].dropna().unique().tolist())
 if nombres:
@@ -156,17 +203,44 @@ if nombres:
     proyectos_persona = df_autorias[df_autorias["persona"] == seleccionado]["proyecto_ley"]
     detalle = df_proyectos[df_proyectos["proyecto_ley"].isin(proyectos_persona)]
     bancada_persona = detalle["bancada"].mode()
-    bancada_persona = bancada_persona.iloc[0] if not bancada_persona.empty and bancada_persona.iloc[0] else "No disponible"
+    bancada_persona = bancada_persona.iloc[0] if not bancada_persona.empty and bancada_persona.iloc[0] else None
 
-    c1, c2, c3 = st.columns(3)
-    c1.metric("Bancada", bancada_persona)
-    c2.metric("Región", "No disponible")
-    c3.metric("Proyectos", len(detalle))
+    region_persona, partido_fuente = buscar_region(seleccionado, directorio)
+
+    c1, c2, c3, c4 = st.columns([1, 2, 2, 1])
+    with c1:
+        if bancada_persona and bancada_persona in LOGO_PARTIDO:
+            st.image(LOGO_PARTIDO[bancada_persona], width=70)
+    c2.metric("Bancada", bancada_persona or "No disponible")
+    c3.metric("Región", region_persona or "No identificada")
+    c4.metric("Proyectos", len(detalle))
+    if region_persona is None:
+        st.caption(
+            "No se pudo identificar la región para este nombre en el directorio "
+            "público cruzado (JNE / decideperu.com) — puede tratarse de un "
+            "reemplazo o accesitario que entró después de la lista original."
+        )
 
     st.dataframe(
         detalle[["proyecto_ley", "fecha_presentacion", "titulo", "estado", "tema_aprox"]],
         use_container_width=True,
     )
+
+st.subheader("Directorio de diputados electos (fuente externa: JNE / decideperu.com)")
+st.caption(
+    f"{len(directorio)} de 130 diputados electos, con región y partido, tomados de una "
+    "fuente pública externa (no del Congreso) porque el Congreso no publica este "
+    "directorio junto a los proyectos de ley. Puede haber pequeñas diferencias frente "
+    "al padrón oficial vigente (reemplazos, licencias, etc.)."
+)
+if directorio:
+    dir_df = pd.DataFrame([{"Región": d["region"].replace("_", " ").title(),
+                             "Partido": d["partido"],
+                             "Nombre": d["nombre_fuente"].title()} for d in directorio])
+    region_filtro = st.selectbox("Filtrar por región", ["Todas"] + sorted(dir_df["Región"].unique().tolist()))
+    if region_filtro != "Todas":
+        dir_df = dir_df[dir_df["Región"] == region_filtro]
+    st.dataframe(dir_df.sort_values(["Región", "Partido", "Nombre"]), use_container_width=True)
 
 st.subheader("Explorar proyectos")
 st.caption(
@@ -183,9 +257,10 @@ st.dataframe(
 )
 
 st.caption(
-    "Notas: (1) la región del congresista todavía no está integrada — el Congreso no "
-    "la expone junto a los proyectos, y cruzarla requiere un directorio externo (ONPE) "
-    "que aún no está conectado. (2) La lista de diputados de arriba no cubre a los 130 "
-    "electos, solo a quienes ya aparecen en algún proyecto — no encontramos todavía un "
-    "directorio oficial completo y actualizado para el periodo 2026-2031."
+    "Notas: (1) la región y el directorio completo vienen de una fuente externa "
+    "(JNE vía decideperu.com), cruzada por nombre — no del Congreso, que no expone "
+    "esa información junto a los proyectos. (2) El cruce de nombres es automático "
+    "por coincidencia de palabras, no exacto; 7 de 127 personas no se pudieron "
+    "identificar con certeza. (3) La clasificación temática es una aproximación por "
+    "palabras clave, no oficial."
 )
