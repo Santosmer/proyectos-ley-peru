@@ -153,6 +153,7 @@ def normalize(items: list[dict], fetch_details: bool = True) -> tuple[list[dict]
                     "persona": f.get("nombre"),
                     "dni": f.get("dni"),
                     "congresista_id": f.get("congresistaId"),
+                    "sexo": f.get("sexo"),
                     "rol": TIPO_FIRMANTE.get(f.get("tipoFirmanteId"), f"tipo_{f.get('tipoFirmanteId')}"),
                 })
         else:
@@ -164,6 +165,7 @@ def normalize(items: list[dict], fetch_details: bool = True) -> tuple[list[dict]
                     "persona": nombre,
                     "dni": None,
                     "congresista_id": None,
+                    "sexo": None,
                     "rol": None,
                 })
 
