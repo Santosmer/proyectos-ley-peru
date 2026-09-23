@@ -4,25 +4,49 @@ Scraper de proyectos de ley - Congreso del Perú (Cámara de Diputados / Senado)
 Consume la API JSON real que usa el buscador público de wb2server.congreso.gob.pe
 (confirmada por inspección de red, no es HTML scraping ni depende del Excel manual).
 
-Endpoint: POST https://api.congreso.gob.pe/spley-portal-service/proyecto-ley/lista-con-filtro
-
-Nota importante: este endpoint trae título, estado, fecha, proponente y el campo
-'autores' (todos los nombres juntos en un string separado por '; ', sin distinguir
-autor principal / coautor / adherente). La separación por rol y la bancada (grupo
-parlamentario) viven en el endpoint de detalle por proyecto, que usa un ID
-codificado que todavía no hemos descifrado — ver README.md, sección "Limitaciones".
+Dos endpoints:
+1. Lista:   POST /spley-portal-service/proyecto-ley/lista-con-filtro
+            Trae título, estado, fecha, proponente y todos los proyectos paginados.
+2. Detalle: GET  /spley-portal-service/expediente/{token1}/{token2}?codTipoParl=D
+            Trae el desglose por rol (autor principal / coautor / adherente) y la
+            bancada (grupo parlamentario). token1 y token2 son el periodo y el
+            número de proyecto (con 5 dígitos), cifrados con AES-128-ECB/PKCS7
+            usando una clave fija embebida en el bundle JS del sitio, y luego
+            codificados en base64 URL-safe. La función encrypt_id() de abajo
+            reproduce exactamente esa función (verificado contra valores reales
+            capturados del sitio).
 """
 
 import json
 import time
+from base64 import b64encode
 from pathlib import Path
 
 import requests
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad
 
 BASE_URL = "https://api.congreso.gob.pe/spley-portal-service/proyecto-ley/lista-con-filtro"
+DETAIL_URL = "https://api.congreso.gob.pe/spley-portal-service/expediente/{t1}/{t2}"
+ENCRYPTION_KEY = "ProdALg5ZrAsxBMD"  # clave fija encontrada en el bundle JS del sitio
 PAGE_SIZE = 100
 TIMEOUT = 30
 SLEEP_BETWEEN_REQUESTS = 0.5  # no golpear el servidor del Congreso sin necesidad
+
+# tipoFirmanteId -> rol, según lo observado en la API (verificado contra la UI)
+TIPO_FIRMANTE = {1: "autor_principal", 2: "coautor", 3: "adherente"}
+
+
+def encrypt_id(value: str, key: str = ENCRYPTION_KEY) -> str:
+    """
+    Reproduce la función de cifrado del sitio (AES-128-ECB + PKCS7 + base64 URL-safe)
+    para generar los dos tokens que pide el endpoint de detalle por proyecto.
+    """
+    cipher = AES.new(key.encode("utf-8"), AES.MODE_ECB)
+    padded = pad(value.encode("utf-8"), AES.block_size)
+    ciphertext = cipher.encrypt(padded)
+    b64 = b64encode(ciphertext).decode("utf-8")
+    return b64.replace("+", "-").replace("/", "_").replace("=", "")
 
 HEADERS = {
     "Content-Type": "application/json",
@@ -85,32 +109,78 @@ def fetch_all(per_par_id: int, cod_tipo_parl: str) -> list[dict]:
     return all_items
 
 
-def normalize(items: list[dict]) -> tuple[list[dict], list[dict]]:
+def fetch_detail(per_par_id: int, ply_num: int, cod_tipo_parl: str) -> dict | None:
+    """Trae el detalle de un proyecto (bancada + firmantes con rol) usando los tokens cifrados."""
+    t1 = encrypt_id(str(per_par_id))
+    t2 = encrypt_id(str(ply_num).zfill(5))
+    url = DETAIL_URL.format(t1=t1, t2=t2)
+    resp = requests.get(url, headers=HEADERS, params={"codTipoParl": cod_tipo_parl}, timeout=TIMEOUT)
+    if resp.status_code != 200:
+        return None
+    return resp.json().get("data")
+
+
+def normalize(items: list[dict], fetch_details: bool = True) -> tuple[list[dict], list[dict]]:
     """
-    Separa el campo 'autores' (string tipo "Nombre1; Nombre2; Nombre3")
-    en una tabla puente proyecto<->persona. Esto NO distingue autor principal
-    de coautor/adherente porque la API de lista no expone esa distinción
-    (ver README.md).
+    Arma la tabla de proyectos (con bancada, si se pudo obtener) y la tabla puente
+    proyecto<->persona, con el rol separado (autor_principal / coautor / adherente)
+    cuando fetch_details=True. Si el detalle de un proyecto puntual falla, cae de
+    vuelta al campo 'autores' de la lista (todos los nombres juntos, sin rol).
     """
     proyectos = []
     autorias = []
 
-    for it in items:
+    for i, it in enumerate(items):
         proyecto_ley = it.get("proyectoLey")
+        ply_num = it.get("pleyNum")
+        per_par_id = it.get("perParId")
+        cod_tipo_parl = it.get("codTipoParl")
+
+        bancada = None
+        detail = None
+        if fetch_details and ply_num and per_par_id:
+            try:
+                detail = fetch_detail(per_par_id, ply_num, cod_tipo_parl)
+            except requests.RequestException:
+                detail = None
+            time.sleep(SLEEP_BETWEEN_REQUESTS)
+
+        if detail:
+            bancada = detail.get("general", {}).get("desGpar")
+            for f in detail.get("firmantes", []):
+                autorias.append({
+                    "proyecto_ley": proyecto_ley,
+                    "persona": f.get("nombre"),
+                    "dni": f.get("dni"),
+                    "congresista_id": f.get("congresistaId"),
+                    "rol": TIPO_FIRMANTE.get(f.get("tipoFirmanteId"), f"tipo_{f.get('tipoFirmanteId')}"),
+                })
+        else:
+            # Sin detalle disponible: usamos el campo combinado de la lista, sin rol.
+            autores_raw = it.get("autores") or ""
+            for nombre in [a.strip() for a in autores_raw.split(";") if a.strip()]:
+                autorias.append({
+                    "proyecto_ley": proyecto_ley,
+                    "persona": nombre,
+                    "dni": None,
+                    "congresista_id": None,
+                    "rol": None,
+                })
+
         proyectos.append({
             "proyecto_ley": proyecto_ley,
-            "ply_num": it.get("pleyNum"),
-            "periodo": it.get("perParId"),
-            "camara": it.get("codTipoParl"),
+            "ply_num": ply_num,
+            "periodo": per_par_id,
+            "camara": cod_tipo_parl,
             "titulo": it.get("titulo"),
             "estado": it.get("desEstado"),
             "fecha_presentacion": it.get("fecPresentacion"),
             "proponente": it.get("desProponente"),
+            "bancada": bancada,
         })
 
-        autores_raw = it.get("autores") or ""
-        for nombre in [a.strip() for a in autores_raw.split(";") if a.strip()]:
-            autorias.append({"proyecto_ley": proyecto_ley, "persona": nombre})
+        if fetch_details and (i + 1) % 25 == 0:
+            print(f"  detalle: {i + 1}/{len(items)} proyectos procesados")
 
     return proyectos, autorias
 
