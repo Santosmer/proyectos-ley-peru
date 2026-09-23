@@ -23,26 +23,35 @@ Pipeline de tres piezas:
    que el workflow actualiza `data/`.
 5. Streamlit Cloud te da una URL pública tipo `tu-app.streamlit.app`.
 
+## Cómo se obtiene el desglose por rol y bancada
+
+El endpoint de detalle por proyecto (`/expediente/{token1}/{token2}`) usa dos
+IDs cifrados en la URL. Se descifró el esquema inspeccionando el bundle
+JavaScript del sitio: es AES-128 en modo ECB con relleno PKCS7, usando una
+clave fija embebida en el código (`ProdALg5ZrAsxBMD`), codificado después en
+base64 URL-safe. `token1` es el periodo parlamentario (p. ej. `"2026"`) y
+`token2` es el número de proyecto con 5 dígitos (p. ej. `"00417"`). La función
+`encrypt_id()` en `scraper.py` reproduce esto y fue verificada contra valores
+reales del sitio antes de usarse.
+
+Ese endpoint de detalle trae `firmantes[]` con un `tipoFirmanteId` por persona
+(1 = autor principal, 2 = coautor, 3 = adherente — inferido comparando contra
+lo que muestra la página, no confirmado por documentación oficial) y `desGpar`
+con el nombre de la bancada.
+
 ## Limitaciones conocidas (léelas antes de confiar en los números)
 
 - **Solo Cámara de Diputados por ahora** (`codTipoParl: "D"`). El código
   probable para Senado es `"S"`, pero no lo confirmé — probarlo es el primer
   ajuste si quieres cubrir ambas cámaras.
-- **El rol de cada firmante no está separado.** La API de lista trae a todos
-  los nombres (autor principal, coautores, adherentes) juntos en un solo
-  campo de texto. El endpoint de detalle sí los separa, pero usa un ID
-  codificado por proyecto que todavía no hemos descifrado — así que por ahora
-  el dashboard cuenta "proyectos por persona" sin distinguir el rol.
-- **No hay bancada (grupo parlamentario) por proyecto todavía**, por la misma
-  razón: vive en el endpoint de detalle.
+- **El scraper ahora hace una petición extra por proyecto** (para el detalle),
+  así que una corrida completa tarda varios minutos, no segundos. Si un
+  proyecto puntual falla al traer el detalle, ese proyecto queda sin rol ni
+  bancada pero no rompe el resto de la corrida.
+- **El mapeo de `tipoFirmanteId` es una inferencia**, no viene documentado por
+  el Congreso — se validó comparando un par de proyectos contra lo que
+  muestra la página, pero no se revisó exhaustivamente.
 - **Los nombres no están deduplicados entre variantes de escritura**
   (p. ej. "Pérez, Juan" vs "Perez Juan"). Antes de usar esto para conclusiones
   serias sobre quién presenta más proyectos, vale la pena revisar y limpiar
   esa columna.
-
-## Próximo paso sugerido
-
-Si quieres el desglose por rol y bancada, el siguiente trabajo es encontrar
-cómo el sitio genera el ID codificado del endpoint de detalle
-(`/expediente/{token1}/{token2}`) inspeccionando el bundle de JavaScript de
-`wb2server.congreso.gob.pe`. No lo resolvimos en esta primera pasada.
