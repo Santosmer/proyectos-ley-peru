@@ -39,12 +39,22 @@ st.plotly_chart(px.bar(timeline, x="fecha_presentacion", y="proyectos"), use_con
 st.subheader("Proyectos por estado procesal")
 st.plotly_chart(px.pie(df_proyectos, names="estado"), use_container_width=True)
 
-st.subheader("Congresistas con más proyectos (autor, coautor o adherente)")
-st.caption(
-    "Nota: la API de lista no distingue el rol de cada firmante — este conteo "
-    "junta autor principal, coautores y adherentes. Ver README.md."
-)
-top_autores = df_autorias["persona"].value_counts().head(25).reset_index()
+st.subheader("Proyectos por bancada")
+if "bancada" in df_proyectos.columns and df_proyectos["bancada"].notna().any():
+    st.plotly_chart(px.bar(df_proyectos["bancada"].value_counts().reset_index(), x="bancada", y="count"), use_container_width=True)
+else:
+    st.info("Sin datos de bancada todavía — corre el scraper de nuevo.")
+
+st.subheader("Congresistas con más proyectos, por rol")
+if "rol" in df_autorias.columns and df_autorias["rol"].notna().any():
+    rol_filtro = st.multiselect(
+        "Filtrar por rol", options=["autor_principal", "coautor", "adherente"],
+        default=["autor_principal", "coautor", "adherente"],
+    )
+    filtrado = df_autorias[df_autorias["rol"].isin(rol_filtro)]
+else:
+    filtrado = df_autorias
+top_autores = filtrado["persona"].value_counts().head(25).reset_index()
 top_autores.columns = ["Congresista", "Proyectos"]
 st.dataframe(top_autores, use_container_width=True)
 
@@ -54,6 +64,6 @@ tabla = df_proyectos
 if busqueda:
     tabla = tabla[tabla["titulo"].str.contains(busqueda, case=False, na=False)]
 st.dataframe(
-    tabla[["proyecto_ley", "fecha_presentacion", "titulo", "estado", "proponente"]],
+    tabla[["proyecto_ley", "fecha_presentacion", "titulo", "estado", "proponente", "bancada"]],
     use_container_width=True,
 )
