@@ -24,7 +24,16 @@ PAGE_SIZE = 100
 TIMEOUT = 30
 SLEEP_BETWEEN_REQUESTS = 0.5  # no golpear el servidor del Congreso sin necesidad
 
-HEADERS = {"Content-Type": "application/json"}
+HEADERS = {
+    "Content-Type": "application/json",
+    "Accept": "application/json, text/plain, */*",
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36"
+    ),
+    "Origin": "https://wb2server.congreso.gob.pe",
+    "Referer": "https://wb2server.congreso.gob.pe/",
+}
 
 
 def fetch_page(per_par_id: int, cod_tipo_parl: str, row_start: int, page_size: int = PAGE_SIZE) -> dict:
