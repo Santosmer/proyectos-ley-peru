@@ -1,5 +1,157 @@
 [
   {
+    "proyecto_ley": "00423-2026-2031-CD",
+    "persona": "Yarrow Lumbreras, Norma Martina",
+    "dni": "10806296",
+    "congresista_id": 126,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00423-2026-2031-CD",
+    "persona": "Rocha Gallegos, Roxana María",
+    "dni": "10275564",
+    "congresista_id": 236,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00423-2026-2031-CD",
+    "persona": "De Paz Lancho, Leo Miguel",
+    "dni": "43401219",
+    "congresista_id": 171,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00423-2026-2031-CD",
+    "persona": "Cipriani Thorne, Javier José María",
+    "dni": "07744156",
+    "congresista_id": 167,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00423-2026-2031-CD",
+    "persona": "Zeballos Aponte, Jorge Arturo",
+    "dni": "07026029",
+    "congresista_id": 128,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00423-2026-2031-CD",
+    "persona": "Krklec Torres, Frank",
+    "dni": "46548697",
+    "congresista_id": 197,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00423-2026-2031-CD",
+    "persona": "Martínez Paitan, Paola Isabel",
+    "dni": "45363882",
+    "congresista_id": 206,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00423-2026-2031-CD",
+    "persona": "Chang Apuy, Félix See Hung",
+    "dni": "07974594",
+    "congresista_id": 165,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00422-2026-2031-CD",
+    "persona": "Yalta Sotelo, Carlos Alberto",
+    "dni": "08878867",
+    "congresista_id": 256,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00422-2026-2031-CD",
+    "persona": "Martínez Paitan, Paola Isabel",
+    "dni": "45363882",
+    "congresista_id": 206,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00422-2026-2031-CD",
+    "persona": "Chang Apuy, Félix See Hung",
+    "dni": "07974594",
+    "congresista_id": 165,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00422-2026-2031-CD",
+    "persona": "De Paz Lancho, Leo Miguel",
+    "dni": "43401219",
+    "congresista_id": 171,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00422-2026-2031-CD",
+    "persona": "Cipriani Thorne, Javier José María",
+    "dni": "07744156",
+    "congresista_id": 167,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00421-2026-2031-CD",
+    "persona": "Domínguez Herrera, Carlos Alberto",
+    "dni": "40340841",
+    "congresista_id": 173,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00421-2026-2031-CD",
+    "persona": "Meza Rivera, Flor de Jesús",
+    "dni": "72393802",
+    "congresista_id": 211,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00421-2026-2031-CD",
+    "persona": "Gatica Vega, Francisco Javier",
+    "dni": "42667604",
+    "congresista_id": 184,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00421-2026-2031-CD",
+    "persona": "Castro Cruz, Javier Alejandro",
+    "dni": "16650849",
+    "congresista_id": 161,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00421-2026-2031-CD",
+    "persona": "Trujillo Zegarra, Gilmer",
+    "dni": "08571708",
+    "congresista_id": 249,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00421-2026-2031-CD",
+    "persona": "Barbarán Reyes, Rosangella Andrea",
+    "dni": "76030152",
+    "congresista_id": 15,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00420-2026-2031-CD",
     "persona": "Zunini Yerren, Ernesto Alonzo",
     "dni": "45327535",
