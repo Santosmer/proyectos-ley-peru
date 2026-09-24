@@ -1,3 +1,10 @@
+requests
+streamlit
+pandas
+plotly
+pycryptodome
+streamlit-aggrid
+
 import json
 import re
 import unicodedata
