@@ -42,7 +42,7 @@
   {
     "region": "Apurímac",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Luz Soto Ferrari"
+    "nombre_fuente": "Luz Mérida Soto Ferrari"
   },
   {
     "region": "Arequipa",
@@ -167,12 +167,12 @@
   {
     "region": "Huancavelica",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Catherin Palomino"
+    "nombre_fuente": "Catherin  Norma Palomino Casavilca"
   },
   {
     "region": "Huancavelica",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Héctor Guillén"
+    "nombre_fuente": "Héctor Guillén Valencia"
   },
   {
     "region": "Huánuco",
@@ -180,14 +180,14 @@
     "nombre_fuente": "Karina Juliza Beteta Rubín"
   },
   {
-    "region": "Huánuco",
+    "region": "Ucayali",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Oswar Cahuaza"
+    "nombre_fuente": "Oswar Elbis Cahuaza Mitivire"
   },
   {
-    "region": "Huánuco",
+    "region": "Moquegua",
     "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Nery Fernández"
+    "nombre_fuente": "Nery Rodolfo Fernández Nina"
   },
   {
     "region": "Ica",
@@ -195,9 +195,9 @@
     "nombre_fuente": "Carlos Alberto Zegarra Sánchez"
   },
   {
-    "region": "Ica",
+    "region": "Puno",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Jessica Pérez"
+    "nombre_fuente": "Jessica Sadith Perez Quispe"
   },
   {
     "region": "Ica",
@@ -205,7 +205,7 @@
     "nombre_fuente": "José Yataco Torrealva"
   },
   {
-    "region": "Ica",
+    "region": "Lima Metropolitana",
     "partido": "Renovación Popular",
     "nombre_fuente": "Aldo Antonio Bravo Quispe"
   },
@@ -222,7 +222,7 @@
   {
     "region": "Junín",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "Ana Patiño Urco"
+    "nombre_fuente": "Ana Bertha Patiño Urco"
   },
   {
     "region": "Junín",
@@ -327,25 +327,25 @@
   {
     "region": "Lima Metropolitana",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "Flor Meza"
+    "nombre_fuente": "Flor de Jesús Meza Rivera"
   },
   {
-    "region": "Lima Metropolitana",
+    "region": "Lima Provincias",
     "partido": "Fuerza Popular",
     "nombre_fuente": "Alexander Salas Rivera"
   },
   {
-    "region": "Lima Metropolitana",
+    "region": "Extranjero (PEX)",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "Liz Mendoza"
+    "nombre_fuente": "Liz Huli Mendoza Bernedo"
   },
   {
-    "region": "Lima Metropolitana",
+    "region": "Pasco",
     "partido": "Fuerza Popular",
     "nombre_fuente": "Jhonn Brayam Valqui Ordoñez"
   },
   {
-    "region": "Lima Metropolitana",
+    "region": "Pasco",
     "partido": "Fuerza Popular",
     "nombre_fuente": "Kim Tami Muñoz Yurivilca"
   },
@@ -385,9 +385,9 @@
     "nombre_fuente": "Romina Alejandra Uribe Sáenz"
   },
   {
-    "region": "Lima Metropolitana",
+    "region": "Lima Provincias",
     "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Milagros Santana"
+    "nombre_fuente": "Milagros Santana Vera"
   },
   {
     "region": "Lima Metropolitana",
@@ -430,9 +430,9 @@
     "nombre_fuente": "Leo Miguel De Paz Lancho"
   },
   {
-    "region": "Lima Metropolitana",
+    "region": "Ica",
     "partido": "Renovación Popular",
-    "nombre_fuente": "Mady Yonz"
+    "nombre_fuente": "Mady Yonz Nuñez"
   },
   {
     "region": "Lima Metropolitana",
@@ -470,12 +470,12 @@
     "nombre_fuente": "Gladys Griselda Andrade Salguero de Álvarez"
   },
   {
-    "region": "Lima Provincias",
+    "region": "San Martin",
     "partido": "Fuerza Popular",
     "nombre_fuente": "Francisco Javier Gatica Vega"
   },
   {
-    "region": "Lima Provincias",
+    "region": "Lima Metropolitana",
     "partido": "Juntos por el Perú",
     "nombre_fuente": "Giannina Avendaño Vilca"
   },
@@ -492,12 +492,12 @@
   {
     "region": "Loreto",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "Nary Pinasco"
+    "nombre_fuente": "Nary Bernandina Pinasco Montenegro"
   },
   {
-    "region": "Loreto",
+    "region": "San Martín",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Olver Peña"
+    "nombre_fuente": "Olver Peña Cordova"
   },
   {
     "region": "Loreto",
@@ -507,25 +507,25 @@
   {
     "region": "Madre de Dios",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Jaime Holguín"
+    "nombre_fuente": "James Arturo Holguín Aguirre"
   },
   {
-    "region": "Moquegua",
+    "region": "Lima Metropolitana",
     "partido": "Ahora Nación",
     "nombre_fuente": "Bernardino Manrique"
   },
   {
-    "region": "Moquegua",
+    "region": "Ica",
     "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Lila Prado"
+    "nombre_fuente": "Lila Prado Vallejos"
   },
   {
-    "region": "Pasco",
+    "region": "Huánuco",
     "partido": "Juntos por el Perú",
     "nombre_fuente": "Yuli Liliana Ambrosio Domínguez"
   },
   {
-    "region": "Pasco",
+    "region": "Huánuco",
     "partido": "Juntos por el Perú",
     "nombre_fuente": "Marco Antonio Flores Valdizán"
   },
@@ -547,7 +547,7 @@
   {
     "region": "Piura",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "María Silupú Inga"
+    "nombre_fuente": "María  Luisa Silupú Inga"
   },
   {
     "region": "Piura",
@@ -575,19 +575,19 @@
     "nombre_fuente": "Remigio Condori Flores"
   },
   {
-    "region": "Puno",
+    "region": "Tacna",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Svieta Fernández"
+    "nombre_fuente": "Svieta Fernández Gonzales"
   },
   {
-    "region": "Puno",
+    "region": "Moquegua",
     "partido": "Juntos por el Perú",
     "nombre_fuente": "Graciela Chipana Condori"
   },
   {
     "region": "Puno",
     "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Dina Hancco"
+    "nombre_fuente": "Dina Hancco Hancco"
   },
   {
     "region": "San Martín",
@@ -595,7 +595,7 @@
     "nombre_fuente": "Luis Arturo Alegría García"
   },
   {
-    "region": "San Martín",
+    "region": "Ucayali",
     "partido": "Fuerza Popular",
     "nombre_fuente": "Jaime Américo Abensur Pinasco"
   },
@@ -605,17 +605,17 @@
     "nombre_fuente": "Jacqueline Viviana Tapullima Insapillo"
   },
   {
-    "region": "San Martín",
+    "region": "Loreto",
     "partido": "Juntos por el Perú",
     "nombre_fuente": "Azucena Isla Rojas"
   },
   {
-    "region": "Tacna",
+    "region": "Loreto",
     "partido": "Fuerza Popular",
     "nombre_fuente": "Ana Luisa Yuffra Lugo"
   },
   {
-    "region": "Tacna",
+    "region": "Puno",
     "partido": "Ahora Nación",
     "nombre_fuente": "Helard Sonco Villanueva"
   },
@@ -627,7 +627,7 @@
   {
     "region": "Tumbes",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "María Ramos Rosales"
+    "nombre_fuente": "María Candelaria Ramos Rosales"
   },
   {
     "region": "Ucayali",
@@ -635,9 +635,9 @@
     "nombre_fuente": "Jessica Lizbeth Navas Sánchez"
   },
   {
-    "region": "Ucayali",
+    "region": "Madre de Dios",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Haydeé Poma"
+    "nombre_fuente": "Haydeé Celinda Poma Huamaní"
   },
   {
     "region": "Extranjero (PEX)",
@@ -645,8 +645,8 @@
     "nombre_fuente": "Jorge Arturo Zeballos Aponte"
   },
   {
-    "region": "Extranjero (PEX)",
+    "region": "Lima Metropolitana",
     "partido": "Ahora Nación",
     "nombre_fuente": "Ángel Meneses"
   }
-    ]
+]
