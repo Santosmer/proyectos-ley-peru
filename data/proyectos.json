@@ -1,5 +1,49 @@
 [
   {
+    "proyecto_ley": "00433-2026-2031-CD",
+    "ply_num": 433,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE OPORTUNIDADES LABORALES A LOS JÓVENES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-24T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00432-2026-2031-CD",
+    "ply_num": 432,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE RESOLUCIÓN LEGISLATIVA QUE RESTITUYE LA COMISIÓN DE INCLUSIÓN SOCIAL Y PERSONAS CON DISCAPACIDAD COMO COMISIÓN ORDINARIA LEGISLATIVA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-24T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00431-2026-2031-CD",
+    "ply_num": 431,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRIORIZA EL RECONOCIMIENTO DE LAS 284 LAGUNAS DEL ALTO PERÚ COMO PARTE DEL SITIO RAMSAR.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-24T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00430-2026-2031-CD",
+    "ply_num": 430,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LAS ACCIONES DE ESTERILIZACIÓN DE PERROS Y GATOS A CARGO DE LOS GOBIERNOS LOCALES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-24T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
     "proyecto_ley": "00429-2026-2031-CD",
     "ply_num": 429,
     "periodo": 2026,
