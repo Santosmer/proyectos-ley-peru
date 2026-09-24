@@ -17,12 +17,10 @@ MESES_ES = {
     7: "Jul", 8: "Ago", 9: "Sep", 10: "Oct", 11: "Nov", 12: "Dic",
 }
 
-# Dos etiquetas "sin clasificar" DISTINTAS a propósito:
-# - BANCADA_OTROS: para proyectos sin bancada (propuestos por el Ejecutivo,
-#   Judicial, colegios profesionales, etc.) — aparece en gráficos de bancada.
-# - TEMA_OTROS: para proyectos cuyo título no calzó con ninguna palabra
-#   clave — aparece SOLO en gráficos de temática. Antes usaban el mismo
-#   texto; ahora están separados a pedido.
+TODOS = "— TODOS —"
+TODAS = "— TODAS —"
+
+# Dos etiquetas "sin clasificar" DISTINTAS a propósito (bancada vs. temática).
 BANCADA_OTROS = "Instituciones con Iniciativa Legislativa"
 TEMA_OTROS = "Otros"
 
@@ -33,8 +31,7 @@ ORDEN_PARTIDOS = [
 ]
 
 # Colores por bancada, ajustados a los colores reales de cada logo/marca
-# partidaria (verificado contra fuentes públicas: Wikipedia, prensa).
-# Partido Cívico Obras se deja en blanco (excluido del ajuste, a pedido).
+# partidaria. Partido Cívico Obras se deja en blanco (excluido, a pedido).
 COLOR_BANCADA = {
     "Fuerza Popular": "#F7931E",
     "Renovación Popular": "#29ABE2",
@@ -46,8 +43,6 @@ COLOR_BANCADA = {
     BANCADA_OTROS: "#C8A2C8",
 }
 
-# Logos oficiales de cada partido, tomados de decideperu.com (fuente pública,
-# resultados JNE 2026).
 LOGO_PARTIDO = {
     "Fuerza Popular": "https://d26x1qb2ouso7w.cloudfront.net/PartidosPeru2026/1366_FUERZA%20POPULAR.jpg",
     "Juntos por el Perú": "https://d26x1qb2ouso7w.cloudfront.net/PartidosPeru2026/1264_JUNTOS%20POR%20EL%20PERU.jpg",
@@ -57,9 +52,6 @@ LOGO_PARTIDO = {
     "Ahora Nación": "https://d26x1qb2ouso7w.cloudfront.net/PartidosPeru2026/2980_AHORA%20NACION%20-%20AN.jpg",
 }
 
-# Clasificación TEMÁTICA APROXIMADA, por palabras clave en el título.
-# Esto NO es una clasificación oficial del Congreso. Un proyecto puede
-# tocar varios temas; aquí se le asigna el primero que calce.
 TEMAS_KEYWORDS = [
     ("Derechos Humanos", ["derechos humanos"]),
     ("Salud", ["salud", "essalud", "hospital", "médic", "medic", "sanitari", "enfermedad", "vacuna", "minsa", "cáncer", "cancer"]),
@@ -117,11 +109,11 @@ def mejor_match(tokens_objetivo: set, candidatos: dict, min_score: int = 3):
 
 def construir_link(row) -> str:
     """Enlace al expediente del proyecto en el portal público del Congreso.
-    Patrón CONFIRMADO EN VIVO (no es una inferencia esta vez): se probó
+    Patrón CONFIRMADO EN VIVO: se probó
     https://wb2server.congreso.gob.pe/spley-portal/#/diputados/expediente/2026/420
     y cargó exactamente el proyecto 00420-2026-2031-CD. Sin ceros a la
-    izquierda en el número, sin codTipoParl, con 'diputados' en la ruta
-    (no 'congreso', que es lo que usa el Congreso anterior 2021-2026)."""
+    izquierda, sin codTipoParl, con 'diputados' en la ruta (no 'congreso',
+    que es lo que usa el Congreso anterior 2021-2026)."""
     try:
         periodo = int(row["periodo"])
         ply_num = int(row["ply_num"])
@@ -169,6 +161,25 @@ def contar_proyectos_por_diputado(_directorio, _df_autorias):
     return pd.DataFrame(filas)
 
 
+@st.cache_data
+def mapear_proyectos_a_region(_directorio, _df_autorias):
+    """Une cada firma (persona, proyecto_ley) con la región de esa persona
+    en la nómina oficial, para poder armar el dashboard por región. Un
+    proyecto con coautores de dos regiones distintas cuenta para ambas."""
+    tokens_dir = {i: d["tokens"] for i, d in enumerate(_directorio)}
+    cache_persona = {}
+    filas = []
+    for _, row in _df_autorias.iterrows():
+        persona = row["persona"]
+        if persona not in cache_persona:
+            idx, score, ratio = mejor_match(norm_tokens(persona), tokens_dir)
+            cache_persona[persona] = _directorio[idx]["region"] if idx is not None else None
+        region = cache_persona[persona]
+        if region:
+            filas.append({"proyecto_ley": row["proyecto_ley"], "region": region})
+    return pd.DataFrame(filas).drop_duplicates()
+
+
 def ordenar_partidos(lista: list) -> list:
     resto = sorted([p for p in lista if p not in ORDEN_PARTIDOS])
     ordenados = [p for p in ORDEN_PARTIDOS if p in lista]
@@ -195,10 +206,6 @@ def preparar_para_mostrar(df: pd.DataFrame, columnas: list) -> pd.DataFrame:
 
 
 def filtros_multiselect(df: pd.DataFrame, columnas: list, prefix: str) -> pd.DataFrame:
-    """Un desplegable de selección múltiple por columna, con las opciones
-    reales que existen en los datos — el equivalente práctico en Streamlit
-    al filtro de Excel (elige qué valores ver), aunque vive arriba de la
-    tabla en vez de dentro del clic del encabezado."""
     filtrado = df.copy()
     cols_widgets = st.columns(len(columnas))
     for col_widget, nombre_col in zip(cols_widgets, columnas):
@@ -211,8 +218,6 @@ def filtros_multiselect(df: pd.DataFrame, columnas: list, prefix: str) -> pd.Dat
 
 
 def mostrar_tabla(df: pd.DataFrame, link_col: str = None):
-    """Tabla con el índice empezando en 1, y la columna de enlace (si existe)
-    como link clicable de verdad (st.column_config.LinkColumn)."""
     df = df.reset_index(drop=True)
     df.index = df.index + 1
     config = {}
@@ -221,27 +226,50 @@ def mostrar_tabla(df: pd.DataFrame, link_col: str = None):
     st.dataframe(df, use_container_width=True, column_config=config)
 
 
+def tabla_con_agrupado(df: pd.DataFrame, columna_valor: str = "Proyectos"):
+    """Selector 'Agrupar por' + resumen (N° de filas y suma de la columna
+    de valor por cada grupo — cada opción dentro de la columna, p. ej.
+    Lima Metropolitana y Lima Provincias, aparece como su propio grupo)
+    más la tabla de detalle ordenada por ese mismo criterio."""
+    opciones_agrupar = [c for c in ["Región", "Partido"] if c in df.columns]
+    agrupar_por = st.selectbox("Agrupar por", ["Sin agrupar"] + opciones_agrupar, key=f"agrupar_{id(df)}")
+    if agrupar_por != "Sin agrupar":
+        resumen = (
+            df.groupby(agrupar_por)
+            .agg(Diputados=("Nombre", "count"), **{f"{columna_valor} (total)": (columna_valor, "sum")})
+            .reset_index()
+            .sort_values(f"{columna_valor} (total)", ascending=False)
+        )
+        st.caption(f"Resumen agrupado por {agrupar_por} (cada valor de la columna es su propio grupo):")
+        mostrar_tabla(resumen)
+        df = df.sort_values([agrupar_por, columna_valor], ascending=[True, False])
+    mostrar_tabla(df)
+
+
 def bar_con_etiquetas(df: pd.DataFrame, x: str, y: str, color: str = None,
-                       color_discrete_map: dict = None, **kwargs):
+                       color_discrete_map: dict = None, orientation: str = "v", **kwargs):
+    """px.bar con el número y el porcentaje del total escritos junto a cada barra.
+    orientation='h' para barras horizontales (x=valores, y=categorías)."""
     df = df.copy()
-    total = df[y].sum()
-    df["_pct"] = (df[y] / total * 100) if total else 0
-    df["_label"] = df.apply(lambda r: f"{int(r[y])} ({r['_pct']:.1f}%)", axis=1)
+    val_col = y if orientation == "v" else x
+    total = df[val_col].sum()
+    df["_pct"] = (df[val_col] / total * 100) if total else 0
+    df["_label"] = df.apply(lambda r: f"{int(r[val_col])} ({r['_pct']:.1f}%)", axis=1)
     fig = px.bar(
         df, x=x, y=y, color=color, color_discrete_map=color_discrete_map,
-        text="_label", **kwargs,
+        text="_label", orientation=orientation, **kwargs,
     )
-    fig.update_traces(textposition="outside", cliponaxis=False)
-    fig.update_layout(margin=dict(t=60))
+    if orientation == "h":
+        fig.update_traces(textposition="outside")
+        fig.update_layout(margin=dict(r=90))
+    else:
+        fig.update_traces(textposition="outside", cliponaxis=False)
+        fig.update_layout(margin=dict(t=60))
     return fig
 
 
 def agregar_logos_dentro_de_barras(fig, df: pd.DataFrame, x_col: str, y_col: str,
                                     fraccion_alto: float = 0.35, sizex: float = 0.55):
-    """Coloca el logo DENTRO de cada barra (no encima), a una altura
-    proporcional al valor de esa barra. Como Plotly no ancla imágenes a
-    ejes categóricos con precisión de píxel, esto es aproximado — si un
-    logo se ve cortado o desbordado, ajusta 'fraccion_alto' o 'sizex'."""
     for _, row in df.iterrows():
         cat, val = row[x_col], row[y_col]
         url = LOGO_PARTIDO.get(cat)
@@ -286,8 +314,9 @@ col1.metric("Total de proyectos", len(df_proyectos))
 col2.metric("Personas involucradas", df_autorias["persona"].nunique())
 col3.metric("Proponentes distintos", df_proyectos["proponente"].nunique())
 
-tab_general, tab_partidos, tab_temas, tab_diputados = st.tabs(
-    ["📊 General", "🏛️ Dashboard por partido", "📚 Dashboard por temática", "🧑‍💼 Diputados"]
+tab_general, tab_partidos, tab_temas, tab_regiones, tab_diputados = st.tabs(
+    ["📊 General", "🏛️ Dashboard por partido", "📚 Dashboard por temática",
+     "🗺️ Dashboard por región", "🧑‍💼 Diputados"]
 )
 
 # ----------------------------------------------------------------------
@@ -354,34 +383,61 @@ with tab_general:
 # TAB: DASHBOARD POR PARTIDO
 # ----------------------------------------------------------------------
 with tab_partidos:
-    partidos_disponibles = ordenar_partidos(df_proyectos["bancada"].dropna().unique().tolist())
+    partidos_disponibles = [TODOS] + ordenar_partidos(df_proyectos["bancada"].dropna().unique().tolist())
     partido_sel = st.selectbox("Elige un partido / bancada", partidos_disponibles)
 
-    proy_partido = df_proyectos[df_proyectos["bancada"] == partido_sel]
+    if partido_sel == TODOS:
+        proy_partido = df_proyectos
+        st.metric("Proyectos (todos los partidos)", len(proy_partido))
 
-    c1, c2, c3 = st.columns([1, 2, 2])
-    with c1:
-        if partido_sel in LOGO_PARTIDO:
-            st.image(LOGO_PARTIDO[partido_sel], width=90)
-    c2.metric("Proyectos de este partido", len(proy_partido))
-    c2.metric("% del total", f"{len(proy_partido) / len(df_proyectos) * 100:.1f}%")
-    diputados_partido = [d for d in directorio if d["partido"] == partido_sel]
-    c3.metric("Diputados en la nómina", len(diputados_partido))
+        st.subheader("Proyectos por partido")
+        banc_todos = proy_partido["bancada"].value_counts().reset_index()
+        banc_todos.columns = ["bancada", "proyectos"]
+        fig_todos = bar_con_etiquetas(banc_todos, x="bancada", y="proyectos", color="bancada",
+                                       color_discrete_map=COLOR_BANCADA)
+        fig_todos.update_layout(showlegend=False)
+        st.plotly_chart(fig_todos, use_container_width=True)
 
-    st.subheader(f"Temáticas de {partido_sel}")
-    temas_partido = proy_partido["tema_aprox"].value_counts().reset_index()
-    temas_partido.columns = ["tema", "proyectos"]
-    st.plotly_chart(bar_con_etiquetas(temas_partido, x="tema", y="proyectos"), use_container_width=True)
+        st.subheader("Temáticas (todos los partidos)")
+        temas_todos = proy_partido["tema_aprox"].value_counts().reset_index()
+        temas_todos.columns = ["tema", "proyectos"]
+        st.plotly_chart(
+            bar_con_etiquetas(temas_todos.sort_values("proyectos"), x="proyectos", y="tema", orientation="h"),
+            use_container_width=True,
+        )
 
-    st.subheader(f"Diputados de {partido_sel} y sus proyectos")
-    tabla_diputados = contar_proyectos_por_diputado(directorio, df_autorias)
-    tabla_partido = tabla_diputados[tabla_diputados["Partido"] == partido_sel].sort_values(
-        "Proyectos", ascending=False
-    )
-    if tabla_partido.empty:
-        st.info("Esta bancada no tiene diputados en la nómina oficial (es una categoría institucional, no un partido).")
+        st.subheader("Todos los diputados y sus proyectos")
+        tabla_diputados = contar_proyectos_por_diputado(directorio, df_autorias)
+        tabla_con_agrupado(tabla_diputados.sort_values("Proyectos", ascending=False))
     else:
-        mostrar_tabla(tabla_partido)
+        proy_partido = df_proyectos[df_proyectos["bancada"] == partido_sel]
+        color_partido = COLOR_BANCADA.get(partido_sel, "#4C78A8")
+
+        c1, c2, c3 = st.columns([1, 2, 2])
+        with c1:
+            if partido_sel in LOGO_PARTIDO:
+                st.image(LOGO_PARTIDO[partido_sel], width=90)
+        c2.metric("Proyectos de este partido", len(proy_partido))
+        c2.metric("% del total", f"{len(proy_partido) / len(df_proyectos) * 100:.1f}%")
+        diputados_partido = [d for d in directorio if d["partido"] == partido_sel]
+        c3.metric("Diputados en la nómina", len(diputados_partido))
+
+        st.subheader(f"Temáticas de {partido_sel}")
+        temas_partido = proy_partido["tema_aprox"].value_counts().reset_index()
+        temas_partido.columns = ["tema", "proyectos"]
+        fig_tp = bar_con_etiquetas(temas_partido.sort_values("proyectos"), x="proyectos", y="tema", orientation="h")
+        fig_tp.update_traces(marker_color=color_partido, marker_line_color="#999", marker_line_width=1)
+        st.plotly_chart(fig_tp, use_container_width=True)
+
+        st.subheader(f"Diputados de {partido_sel} y sus proyectos")
+        tabla_diputados = contar_proyectos_por_diputado(directorio, df_autorias)
+        tabla_partido = tabla_diputados[tabla_diputados["Partido"] == partido_sel].sort_values(
+            "Proyectos", ascending=False
+        )
+        if tabla_partido.empty:
+            st.info("Esta bancada no tiene diputados en la nómina oficial (es una categoría institucional, no un partido).")
+        else:
+            tabla_con_agrupado(tabla_partido)
 
 # ----------------------------------------------------------------------
 # TAB: DASHBOARD POR TEMÁTICA
@@ -391,31 +447,105 @@ with tab_temas:
         "La clasificación temática es una aproximación por palabras clave en el título — "
         "no es oficial del Congreso."
     )
-    temas_disponibles = sorted(df_proyectos["tema_aprox"].unique().tolist())
+    temas_disponibles = [TODAS] + sorted(df_proyectos["tema_aprox"].unique().tolist())
     tema_sel = st.selectbox("Elige una temática", temas_disponibles)
 
-    proy_tema = df_proyectos[df_proyectos["tema_aprox"] == tema_sel]
+    if tema_sel == TODAS:
+        proy_tema = df_proyectos
+        st.metric("Proyectos (todas las temáticas)", len(proy_tema))
 
-    c1, c2 = st.columns(2)
-    c1.metric("Proyectos en esta temática", len(proy_tema))
-    c2.metric("% del total", f"{len(proy_tema) / len(df_proyectos) * 100:.1f}%")
+        st.subheader("Proyectos por temática")
+        temas_todos = proy_tema["tema_aprox"].value_counts().reset_index()
+        temas_todos.columns = ["tema", "proyectos"]
+        st.plotly_chart(
+            bar_con_etiquetas(temas_todos.sort_values("proyectos"), x="proyectos", y="tema", orientation="h"),
+            use_container_width=True,
+        )
 
-    st.subheader(f"'{tema_sel}' por bancada")
-    banc_tema = proy_tema["bancada"].value_counts().reset_index()
-    banc_tema.columns = ["bancada", "proyectos"]
-    fig_tema = bar_con_etiquetas(banc_tema, x="bancada", y="proyectos", color="bancada",
-                                  color_discrete_map=COLOR_BANCADA)
-    fig_tema.update_traces(marker_line_color="#999", marker_line_width=1)
-    fig_tema.update_layout(showlegend=False)
-    fig_tema = agregar_logos_dentro_de_barras(fig_tema, banc_tema, "bancada", "proyectos")
-    st.plotly_chart(fig_tema, use_container_width=True)
+        st.subheader("Por bancada (todas las temáticas)")
+        banc_todos = proy_tema["bancada"].value_counts().reset_index()
+        banc_todos.columns = ["bancada", "proyectos"]
+        fig_bt = bar_con_etiquetas(banc_todos, x="bancada", y="proyectos", color="bancada",
+                                    color_discrete_map=COLOR_BANCADA)
+        fig_bt.update_layout(showlegend=False)
+        st.plotly_chart(fig_bt, use_container_width=True)
+    else:
+        proy_tema = df_proyectos[df_proyectos["tema_aprox"] == tema_sel]
 
-    st.subheader(f"Proyectos de '{tema_sel}'")
+        c1, c2 = st.columns(2)
+        c1.metric("Proyectos en esta temática", len(proy_tema))
+        c2.metric("% del total", f"{len(proy_tema) / len(df_proyectos) * 100:.1f}%")
+
+        st.subheader(f"'{tema_sel}' por bancada")
+        banc_tema = proy_tema["bancada"].value_counts().reset_index()
+        banc_tema.columns = ["bancada", "proyectos"]
+        fig_tema = bar_con_etiquetas(banc_tema, x="bancada", y="proyectos", color="bancada",
+                                      color_discrete_map=COLOR_BANCADA)
+        fig_tema.update_traces(marker_line_color="#999", marker_line_width=1)
+        fig_tema.update_layout(showlegend=False)
+        fig_tema = agregar_logos_dentro_de_barras(fig_tema, banc_tema, "bancada", "proyectos")
+        st.plotly_chart(fig_tema, use_container_width=True)
+
+    st.subheader(f"Proyectos de '{tema_sel}'" if tema_sel != TODAS else "Todos los proyectos")
     proy_tema_f = filtros_multiselect(proy_tema, ["bancada", "estado"], prefix="tema")
     mostrar_tabla(
         preparar_para_mostrar(proy_tema_f, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "bancada", "link"]),
         link_col="Enlace",
     )
+
+# ----------------------------------------------------------------------
+# TAB: DASHBOARD POR REGIÓN
+# ----------------------------------------------------------------------
+with tab_regiones:
+    st.caption(
+        "Un proyecto cuenta para una región si al menos uno de sus firmantes es diputado "
+        "de esa región (según la nómina oficial). Un proyecto con coautores de dos "
+        "regiones distintas cuenta para ambas."
+    )
+    proy_region_map = mapear_proyectos_a_region(directorio, df_autorias)
+    proy_con_region = proy_region_map.merge(df_proyectos, on="proyecto_ley", how="left")
+
+    regiones_disponibles = [TODAS] + sorted(proy_region_map["region"].unique().tolist())
+    region_sel = st.selectbox("Elige una región", regiones_disponibles)
+
+    if region_sel == TODAS:
+        proy_r = proy_con_region
+        st.metric("Firmas región × proyecto (todas las regiones)", len(proy_r))
+
+        st.subheader("Proyectos por región")
+        por_region = proy_region_map["region"].value_counts().reset_index()
+        por_region.columns = ["region", "proyectos"]
+        st.plotly_chart(
+            bar_con_etiquetas(por_region.sort_values("proyectos"), x="proyectos", y="region", orientation="h"),
+            use_container_width=True,
+        )
+    else:
+        proy_r = proy_con_region[proy_con_region["region"] == region_sel]
+        diputados_region = [d for d in directorio if d["region"] == region_sel]
+
+        c1, c2 = st.columns(2)
+        c1.metric("Proyectos con algún firmante de esta región", proy_r["proyecto_ley"].nunique())
+        c2.metric("Diputados de la región en la nómina", len(diputados_region))
+
+        st.subheader(f"Temáticas — {region_sel}")
+        temas_region = proy_r["tema_aprox"].value_counts().reset_index()
+        temas_region.columns = ["tema", "proyectos"]
+        st.plotly_chart(
+            bar_con_etiquetas(temas_region.sort_values("proyectos"), x="proyectos", y="tema", orientation="h"),
+            use_container_width=True,
+        )
+
+        st.subheader(f"Bancadas — {region_sel}")
+        banc_region = proy_r["bancada"].value_counts().reset_index()
+        banc_region.columns = ["bancada", "proyectos"]
+        fig_br = bar_con_etiquetas(banc_region, x="bancada", y="proyectos", color="bancada",
+                                    color_discrete_map=COLOR_BANCADA)
+        fig_br.update_layout(showlegend=False)
+        st.plotly_chart(fig_br, use_container_width=True)
+
+        st.subheader(f"Diputados de {region_sel}")
+        tabla_diputados = contar_proyectos_por_diputado(directorio, df_autorias)
+        mostrar_tabla(tabla_diputados[tabla_diputados["Región"] == region_sel].sort_values("Proyectos", ascending=False))
 
 # ----------------------------------------------------------------------
 # TAB: DIPUTADOS
