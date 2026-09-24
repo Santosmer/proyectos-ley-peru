@@ -117,17 +117,17 @@ def mejor_match(tokens_objetivo: set, candidatos: dict, min_score: int = 3):
 
 def construir_link(row) -> str:
     """Enlace al expediente del proyecto en el portal público del Congreso.
-    Usa el mismo formato de número con 5 dígitos (con ceros a la izquierda)
-    que usa el propio sitio para cifrar internamente el token — es el
-    segundo intento tras confirmar que la versión sin ceros no abría.
-    Si TODAVÍA no funciona, dilo: el patrón real puede ser distinto para
-    este periodo bicameral (2026-2031) frente al Congreso anterior."""
+    Patrón CONFIRMADO EN VIVO (no es una inferencia esta vez): se probó
+    https://wb2server.congreso.gob.pe/spley-portal/#/diputados/expediente/2026/420
+    y cargó exactamente el proyecto 00420-2026-2031-CD. Sin ceros a la
+    izquierda en el número, sin codTipoParl, con 'diputados' en la ruta
+    (no 'congreso', que es lo que usa el Congreso anterior 2021-2026)."""
     try:
         periodo = int(row["periodo"])
         ply_num = int(row["ply_num"])
     except (TypeError, ValueError, KeyError):
         return ""
-    return f"https://wb2server.congreso.gob.pe/spley-portal/#/expediente/{periodo}/{ply_num:05d}?codTipoParl=D"
+    return f"https://wb2server.congreso.gob.pe/spley-portal/#/diputados/expediente/{periodo}/{ply_num}"
 
 
 @st.cache_data
@@ -474,7 +474,6 @@ st.caption(
     "Notas: (1) la región y el directorio completo vienen de la nómina oficial de los "
     "130 diputados proclamados; el cruce de nombres entre ambas fuentes es automático "
     "por coincidencia de palabras, no exacto. (2) La clasificación temática es una "
-    "aproximación por palabras clave, no oficial. (3) El enlace a cada proyecto sigue el "
-    "patrón usado en oficios reales del Congreso, ajustado al formato de 5 dígitos — si "
-    "no abre, avisa para seguir ajustando."
+    "aproximación por palabras clave, no oficial. (3) El enlace a cada proyecto se "
+    "verificó en vivo contra el portal del Congreso."
 )
