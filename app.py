@@ -217,13 +217,17 @@ def filtros_multiselect(df: pd.DataFrame, columnas: list, prefix: str) -> pd.Dat
     return filtrado
 
 
+_tabla_counter = [0]
+
+
 def mostrar_tabla(df: pd.DataFrame, link_col: str = None):
     df = df.reset_index(drop=True)
     df.index = df.index + 1
     config = {}
     if link_col and link_col in df.columns:
         config[link_col] = st.column_config.LinkColumn(link_col, display_text="Abrir ↗")
-    st.dataframe(df, use_container_width=True, column_config=config)
+    _tabla_counter[0] += 1
+    st.dataframe(df, use_container_width=True, column_config=config, key=f"tabla_{_tabla_counter[0]}")
 
 
 def tabla_con_agrupado(df: pd.DataFrame, columna_valor: str = "Proyectos"):
@@ -332,10 +336,10 @@ with tab_general:
         tmp.groupby(["mes_orden", "mes_num", "anio"]).size().reset_index(name="proyectos").sort_values("mes_orden")
     )
     timeline["mes"] = timeline.apply(lambda r: f"{MESES_ES[r['mes_num']]} {r['anio']}", axis=1)
-    st.plotly_chart(bar_con_etiquetas(timeline, x="mes", y="proyectos"), use_container_width=True)
+    st.plotly_chart(bar_con_etiquetas(timeline, x="mes", y="proyectos"), use_container_width=True, key="chart_1")
 
     st.subheader("Proyectos por estado procesal")
-    st.plotly_chart(px.pie(df_proyectos, names="estado"), use_container_width=True)
+    st.plotly_chart(px.pie(df_proyectos, names="estado"), use_container_width=True, key="chart_2")
 
     st.subheader("Proyectos por bancada")
     banc = df_proyectos["bancada"].value_counts().reset_index()
@@ -348,7 +352,7 @@ with tab_general:
     fig_banc.update_traces(marker_line_color="#999", marker_line_width=1)
     fig_banc.update_layout(showlegend=False)
     fig_banc = agregar_logos_dentro_de_barras(fig_banc, banc, "bancada", "count")
-    st.plotly_chart(fig_banc, use_container_width=True)
+    st.plotly_chart(fig_banc, use_container_width=True, key="chart_3")
 
     col_a, col_b = st.columns(2)
     with col_a:
@@ -356,13 +360,13 @@ with tab_general:
         if "sexo" in df_autorias.columns and df_autorias["sexo"].notna().any():
             personas_sexo = df_autorias.drop_duplicates("persona")["sexo"].value_counts().reset_index()
             personas_sexo.columns = ["Sexo", "Congresistas"]
-            st.plotly_chart(px.pie(personas_sexo, names="Sexo", values="Congresistas"), use_container_width=True)
+            st.plotly_chart(px.pie(personas_sexo, names="Sexo", values="Congresistas"), use_container_width=True, key="chart_4")
         else:
             st.info("Sin datos de sexo todavía — corre el scraper de nuevo.")
     with col_b:
         st.subheader("Proyectos por sexo del firmante")
         if "sexo" in df_autorias.columns and df_autorias["sexo"].notna().any():
-            st.plotly_chart(px.pie(df_autorias, names="sexo"), use_container_width=True)
+            st.plotly_chart(px.pie(df_autorias, names="sexo"), use_container_width=True, key="chart_5")
         else:
             st.info("Sin datos de sexo todavía — corre el scraper de nuevo.")
 
@@ -396,7 +400,7 @@ with tab_partidos:
         fig_todos = bar_con_etiquetas(banc_todos, x="bancada", y="proyectos", color="bancada",
                                        color_discrete_map=COLOR_BANCADA)
         fig_todos.update_layout(showlegend=False)
-        st.plotly_chart(fig_todos, use_container_width=True)
+        st.plotly_chart(fig_todos, use_container_width=True, key="chart_6")
 
         st.subheader("Temáticas (todos los partidos)")
         temas_todos = proy_partido["tema_aprox"].value_counts().reset_index()
@@ -404,7 +408,8 @@ with tab_partidos:
         st.plotly_chart(
             bar_con_etiquetas(temas_todos.sort_values("proyectos"), x="proyectos", y="tema", orientation="h"),
             use_container_width=True,
-        )
+        key="chart_11",
+    )
 
         st.subheader("Todos los diputados y sus proyectos")
         tabla_diputados = contar_proyectos_por_diputado(directorio, df_autorias)
@@ -427,7 +432,7 @@ with tab_partidos:
         temas_partido.columns = ["tema", "proyectos"]
         fig_tp = bar_con_etiquetas(temas_partido.sort_values("proyectos"), x="proyectos", y="tema", orientation="h")
         fig_tp.update_traces(marker_color=color_partido, marker_line_color="#999", marker_line_width=1)
-        st.plotly_chart(fig_tp, use_container_width=True)
+        st.plotly_chart(fig_tp, use_container_width=True, key="chart_7")
 
         st.subheader(f"Diputados de {partido_sel} y sus proyectos")
         tabla_diputados = contar_proyectos_por_diputado(directorio, df_autorias)
@@ -460,7 +465,8 @@ with tab_temas:
         st.plotly_chart(
             bar_con_etiquetas(temas_todos.sort_values("proyectos"), x="proyectos", y="tema", orientation="h"),
             use_container_width=True,
-        )
+        key="chart_12",
+    )
 
         st.subheader("Por bancada (todas las temáticas)")
         banc_todos = proy_tema["bancada"].value_counts().reset_index()
@@ -468,7 +474,7 @@ with tab_temas:
         fig_bt = bar_con_etiquetas(banc_todos, x="bancada", y="proyectos", color="bancada",
                                     color_discrete_map=COLOR_BANCADA)
         fig_bt.update_layout(showlegend=False)
-        st.plotly_chart(fig_bt, use_container_width=True)
+        st.plotly_chart(fig_bt, use_container_width=True, key="chart_8")
     else:
         proy_tema = df_proyectos[df_proyectos["tema_aprox"] == tema_sel]
 
@@ -484,7 +490,7 @@ with tab_temas:
         fig_tema.update_traces(marker_line_color="#999", marker_line_width=1)
         fig_tema.update_layout(showlegend=False)
         fig_tema = agregar_logos_dentro_de_barras(fig_tema, banc_tema, "bancada", "proyectos")
-        st.plotly_chart(fig_tema, use_container_width=True)
+        st.plotly_chart(fig_tema, use_container_width=True, key="chart_9")
 
     st.subheader(f"Proyectos de '{tema_sel}'" if tema_sel != TODAS else "Todos los proyectos")
     proy_tema_f = filtros_multiselect(proy_tema, ["bancada", "estado"], prefix="tema")
@@ -518,7 +524,8 @@ with tab_regiones:
         st.plotly_chart(
             bar_con_etiquetas(por_region.sort_values("proyectos"), x="proyectos", y="region", orientation="h"),
             use_container_width=True,
-        )
+        key="chart_13",
+    )
     else:
         proy_r = proy_con_region[proy_con_region["region"] == region_sel]
         diputados_region = [d for d in directorio if d["region"] == region_sel]
@@ -533,7 +540,8 @@ with tab_regiones:
         st.plotly_chart(
             bar_con_etiquetas(temas_region.sort_values("proyectos"), x="proyectos", y="tema", orientation="h"),
             use_container_width=True,
-        )
+        key="chart_14",
+    )
 
         st.subheader(f"Bancadas — {region_sel}")
         banc_region = proy_r["bancada"].value_counts().reset_index()
@@ -541,7 +549,7 @@ with tab_regiones:
         fig_br = bar_con_etiquetas(banc_region, x="bancada", y="proyectos", color="bancada",
                                     color_discrete_map=COLOR_BANCADA)
         fig_br.update_layout(showlegend=False)
-        st.plotly_chart(fig_br, use_container_width=True)
+        st.plotly_chart(fig_br, use_container_width=True, key="chart_10")
 
         st.subheader(f"Diputados de {region_sel}")
         tabla_diputados = contar_proyectos_por_diputado(directorio, df_autorias)
