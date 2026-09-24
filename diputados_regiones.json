@@ -1,637 +1,652 @@
 [
   {
-    "region": "AMAZONAS",
+    "region": "Amazonas",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "MERY ELIANA INFANTES CASTANEDA"
+    "nombre_fuente": "Royser Castro Grández"
   },
   {
-    "region": "AMAZONAS",
+    "region": "Amazonas",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "ROYSER CASTRO GRANDEZ"
+    "nombre_fuente": "Mery Eliana Infantes Castañeda"
   },
   {
-    "region": "ANCASH",
+    "region": "Áncash",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Luzmila María del Carmen Gamarra Pita"
+  },
+  {
+    "region": "Áncash",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Carlos Alberto Domínguez Herrera"
+  },
+  {
+    "region": "Áncash",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Daniel Jefferson Varas Seguín"
+  },
+  {
+    "region": "Áncash",
     "partido": "Ahora Nación",
-    "nombre_fuente": "JOSE MIGUEL MARCELO SALAZAR"
+    "nombre_fuente": "José Miguel Marcelo Salazar"
   },
   {
-    "region": "ANCASH",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "CARLOS ALBERTO DOMINGUEZ HERRERA"
-  },
-  {
-    "region": "ANCASH",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "LUZMILA MARIA DEL CARMEN GAMARRA PITA"
-  },
-  {
-    "region": "ANCASH",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "DANIEL JEFFERSON VARAS SEGUIN"
-  },
-  {
-    "region": "ANCASH",
+    "region": "Áncash",
     "partido": "Partido Cívico Obras",
-    "nombre_fuente": "EDGAR ADRIAN ALVARON DE LA CRUZ"
+    "nombre_fuente": "Édgar Adrián Alvarón de la Cruz"
   },
   {
-    "region": "APURIMAC",
+    "region": "Apurímac",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "JESUS PEREZ ALCCAHUAMAN"
+    "nombre_fuente": "Jesús Pérez Alcahuamán"
   },
   {
-    "region": "APURIMAC",
+    "region": "Apurímac",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "LUZ MERIDA SOTO FERRARI"
+    "nombre_fuente": "Luz Soto Ferrari"
   },
   {
-    "region": "AREQUIPA",
+    "region": "Arequipa",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Édgar Dember Gonzales Polar"
+  },
+  {
+    "region": "Arequipa",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Gloria Hirache Pizarro"
+  },
+  {
+    "region": "Arequipa",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Christian Aranda Vásquez"
+  },
+  {
+    "region": "Arequipa",
     "partido": "Ahora Nación",
-    "nombre_fuente": "MARLENY BIBIANA ARMINTA VALENCIA"
+    "nombre_fuente": "Marleny Bibiana Arminta Valencia"
   },
   {
-    "region": "AREQUIPA",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "EDGAR DEMBER GONZALES POLAR"
-  },
-  {
-    "region": "AREQUIPA",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "GLORIA CHARITO HIRACHE PIZARRO"
-  },
-  {
-    "region": "AREQUIPA",
+    "region": "Arequipa",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "AMALIA EMILIA PALOMINO PACHECO"
+    "nombre_fuente": "Amalia Palomino Pacheco"
   },
   {
-    "region": "AREQUIPA",
+    "region": "Arequipa",
     "partido": "Partido Cívico Obras",
-    "nombre_fuente": "LUIS AURELIO MASCO CACERES"
+    "nombre_fuente": "Luis Aurelio Masco Cáceres"
   },
   {
-    "region": "AREQUIPA",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "CHRISTIAN ARANDA VASQUEZ"
+    "region": "Ayacucho",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Alejandro Manay Pillaca"
   },
   {
-    "region": "AYACUCHO",
+    "region": "Ayacucho",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Pilar Sulca Castillo"
+  },
+  {
+    "region": "Ayacucho",
     "partido": "Ahora Nación",
-    "nombre_fuente": "FRESHMAN BUITRON MARTINEZ"
+    "nombre_fuente": "Freshman Buitrón Martínez"
   },
   {
-    "region": "AYACUCHO",
+    "region": "Cajamarca",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "ALEJANDRO JOSE MANAY PILLACA"
+    "nombre_fuente": "Yenifer Noelia Paredes Navarro"
   },
   {
-    "region": "AYACUCHO",
+    "region": "Cajamarca",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "PILAR SULCA CASTILLO"
+    "nombre_fuente": "Gabriel Robertino Gonzales Delgado"
   },
   {
-    "region": "CAJAMARCA",
+    "region": "Cajamarca",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Jessica Roxana Guevara Ramírez"
+  },
+  {
+    "region": "Cajamarca",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Luis Ángel Jibaja Ramos"
+  },
+  {
+    "region": "Cajamarca",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Juan Amílcar Villanueva Calderón"
+  },
+  {
+    "region": "Cajamarca",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "SEGUNDO SENOVIO TICLLA RAFAEL"
+    "nombre_fuente": "Segundo Senovio Ticlla Rafael"
   },
   {
-    "region": "CAJAMARCA",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "GABRIEL ROBERTINO GONZALES DELGADO"
-  },
-  {
-    "region": "CAJAMARCA",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "JESSICA ROXANA GUEVARA RAMIREZ"
-  },
-  {
-    "region": "CAJAMARCA",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "JUAN AMILCAR VILLANUEVA CALDERON"
-  },
-  {
-    "region": "CAJAMARCA",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "LUIS ANGEL JIBAJA RAMOS"
-  },
-  {
-    "region": "CAJAMARCA",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "YENIFER NOELIA PAREDES NAVARRO"
-  },
-  {
-    "region": "CALLAO",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "FERNANDO ALBERTO GARCIA HUBY"
-  },
-  {
-    "region": "CALLAO",
+    "region": "Callao",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "ANGEL BRUNO BOBADILLA GALINDO"
+    "nombre_fuente": "Auristela Ana Obando Morgan"
   },
   {
-    "region": "CALLAO",
+    "region": "Callao",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "AURISTELA ANA OBANDO MORGAN"
+    "nombre_fuente": "Ángel Bruno Bobadilla Galindo"
   },
   {
-    "region": "CALLAO",
+    "region": "Callao",
     "partido": "Renovación Popular",
-    "nombre_fuente": "CARLOS ALBERTO YALTA SOTELO"
+    "nombre_fuente": "Carlos Yalta Sotelo"
   },
   {
-    "region": "CUSCO",
+    "region": "Callao",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Fernando Alberto García Huby"
+  },
+  {
+    "region": "Cusco",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Analí Márquez Huanca"
+  },
+  {
+    "region": "Cusco",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Julián Pérez Mallqui"
+  },
+  {
+    "region": "Cusco",
     "partido": "Ahora Nación",
-    "nombre_fuente": "CESAR AUGUSTO HOLGUIN LOAIZA"
+    "nombre_fuente": "César Holguín Loaiza"
   },
   {
-    "region": "CUSCO",
+    "region": "Cusco",
     "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "EDWIN ESPINOZA HUILLCA"
+    "nombre_fuente": "Edwin Espinoza Huillca"
   },
   {
-    "region": "CUSCO",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "ANALI MARQUEZ HUANCA"
-  },
-  {
-    "region": "CUSCO",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "JULIAN LUIS PEREZ MALLQUI"
-  },
-  {
-    "region": "CUSCO",
+    "region": "Cusco",
     "partido": "Partido Cívico Obras",
-    "nombre_fuente": "HEBER LOPEZ LETONA"
+    "nombre_fuente": "Heber López Letona"
   },
   {
-    "region": "HUANCAVELICA",
+    "region": "Huancavelica",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "CATHERIN NORMA PALOMINO CASAVILCA"
+    "nombre_fuente": "Catherin Palomino"
   },
   {
-    "region": "HUANCAVELICA",
+    "region": "Huancavelica",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "HECTOR GUILLEN VALENCIA"
+    "nombre_fuente": "Héctor Guillén"
   },
   {
-    "region": "HUANUCO",
+    "region": "Huánuco",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "KARINA JULIZA BETETA RUBIN"
+    "nombre_fuente": "Karina Juliza Beteta Rubín"
   },
   {
-    "region": "HUANUCO",
+    "region": "Huánuco",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "MARCO ANTONIO FLORES VALDIZAN"
+    "nombre_fuente": "Oswar Cahuaza"
   },
   {
-    "region": "HUANUCO",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "YULI LILIANA AMBROSIO DOMINGUEZ"
-  },
-  {
-    "region": "ICA",
+    "region": "Huánuco",
     "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "LILA MARIANELA PRADO VALLEJOS"
+    "nombre_fuente": "Nery Fernández"
   },
   {
-    "region": "ICA",
+    "region": "Ica",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "CARLOS ALBERTO ZEGARRA SANCHEZ"
+    "nombre_fuente": "Carlos Alberto Zegarra Sánchez"
   },
   {
-    "region": "ICA",
+    "region": "Ica",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Jessica Pérez"
+  },
+  {
+    "region": "Ica",
     "partido": "Partido Cívico Obras",
-    "nombre_fuente": "JOSE RICARDO YATACO TORREALVA"
+    "nombre_fuente": "José Yataco Torrealva"
   },
   {
-    "region": "ICA",
+    "region": "Ica",
     "partido": "Renovación Popular",
-    "nombre_fuente": "MADY VERONICA YONZ NUNEZ"
+    "nombre_fuente": "Aldo Antonio Bravo Quispe"
   },
   {
-    "region": "JUNIN",
+    "region": "Junín",
     "partido": "Ahora Nación",
-    "nombre_fuente": "CESAR AUGUSTO MUEDAS BALBIESE"
+    "nombre_fuente": "César Muedas Balbiese"
   },
   {
-    "region": "JUNIN",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "CARMEN GEORGINA DUARTE PATINO DE PEZET"
-  },
-  {
-    "region": "JUNIN",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "ANA BERTHA PATINO URCO"
-  },
-  {
-    "region": "JUNIN",
+    "region": "Junín",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "MARLON ALBERTO AGUIRRE RAMOS"
+    "nombre_fuente": "Marlon Alberto Aguirre Ramos"
   },
   {
-    "region": "JUNIN",
+    "region": "Junín",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Ana Patiño Urco"
+  },
+  {
+    "region": "Junín",
     "partido": "Partido Cívico Obras",
-    "nombre_fuente": "MAXIMO PERALTA JORPA"
+    "nombre_fuente": "Máximo Peralta Jorpa"
   },
   {
-    "region": "LAMBAYEQUE",
+    "region": "Junín",
     "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "SEGUNDO JUAN CASTREJON FERNANDEZ"
+    "nombre_fuente": "Carmen Georgina Duarte Patiño de Pezet"
   },
   {
-    "region": "LAMBAYEQUE",
+    "region": "La Libertad",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "JAVIER ALEJANDRO CASTRO CRUZ"
+    "nombre_fuente": "Gilmer Trujillo Zegarra"
   },
   {
-    "region": "LAMBAYEQUE",
+    "region": "La Libertad",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "JOSE MARVIN PALMA MENDOZA"
+    "nombre_fuente": "Leticia Maruja Leiva Baylón"
   },
   {
-    "region": "LAMBAYEQUE",
+    "region": "La Libertad",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "LILIANA MILAGROS TAKAYAMA JIMENEZ"
+    "nombre_fuente": "Geanmarco Quezada Castro"
   },
   {
-    "region": "LAMBAYEQUE",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "ERNESTO ALONZO ZUNINI YERREN"
-  },
-  {
-    "region": "LA_LIBERTAD",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "NORA MARIA LLAQUE LINARES"
-  },
-  {
-    "region": "LA_LIBERTAD",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "GEANMARCO ANTONIO QUEZADA CASTRO"
-  },
-  {
-    "region": "LA_LIBERTAD",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "GILMER TRUJILLO ZEGARRA"
-  },
-  {
-    "region": "LA_LIBERTAD",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "LETICIA MARUJA LEIVA BAYLON"
-  },
-  {
-    "region": "LA_LIBERTAD",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "MARINO TEOFILO LAVADO VALDIVIA"
-  },
-  {
-    "region": "LA_LIBERTAD",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "DEMETRIO FLAVIO VALQUI CALDERON"
-  },
-  {
-    "region": "LA_LIBERTAD",
+    "region": "La Libertad",
     "partido": "Renovación Popular",
-    "nombre_fuente": "DIEGO ALONSO FERNANDO BAZAN CALDERON"
+    "nombre_fuente": "Diego Alonso Fernando Bazán Calderón"
   },
   {
-    "region": "LIMA_METROPOLITANA",
+    "region": "La Libertad",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Marino Teófilo Lavado Valdivia"
+  },
+  {
+    "region": "La Libertad",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Nora Llaque Linares"
+  },
+  {
+    "region": "La Libertad",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Demetrio Flavio Valqui Calderón"
+  },
+  {
+    "region": "Lambayeque",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "José Marvin Palma Mendoza"
+  },
+  {
+    "region": "Lambayeque",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Javier Alejandro Castro Cruz"
+  },
+  {
+    "region": "Lambayeque",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Liliana Milagros Takayama Jiménez"
+  },
+  {
+    "region": "Lambayeque",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Ernesto Alonzo Zunini Yerren"
+  },
+  {
+    "region": "Lambayeque",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Segundo Juan Castrejón Fernández"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Cecilia Isabel Chacón de Vettori"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Diethell Columbus Murata"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Rosangella Andrea Barbarán Reyes"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Pier Paolo Figari Mendoza"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Marco Antonio Pacheco Quispe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Pierangeli Daniela Dodero Jovich"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Flor Meza"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Alexander Salas Rivera"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Liz Mendoza"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Jhonn Brayam Valqui Ordoñez"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Kim Tami Muñoz Yurivilca"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Oscar Reto Otero"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Nathaly Molina Soto"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Luis Eliseo Quispe Candia"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Hilda Fernández de la Torre"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Jéssica Benítez Barrionuevo"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Rossana Herminia Alayza Maccera"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Romina Alejandra Uribe Sáenz"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Milagros Santana"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Norma Martina Yarrow Lumbreras"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "José Isidro Baella Malca"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Roxana María Rocha Gallegos"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Javier José María Cipriani Thorne"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Gustavo Segura Figueroa"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Frank Krklec Torres"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Paola Martínez Paitán"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Leo Miguel De Paz Lancho"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Mady Yonz"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Jenny Samanez Gonzales Vigil"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Víctor Piñan Mamani"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Andrea Medina Stein"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Raúl Camargo Porta"
+  },
+  {
+    "region": "Lima Metropolitana",
     "partido": "Ahora Nación",
-    "nombre_fuente": "ANGEL RENATO MENESES CRISPIN"
+    "nombre_fuente": "Harvey Julio Colchado Huamaní"
   },
   {
-    "region": "LIMA_METROPOLITANA",
+    "region": "Lima Metropolitana",
     "partido": "Ahora Nación",
-    "nombre_fuente": "BERNARDINO JAIR MANRIQUE OLIVERA"
+    "nombre_fuente": "Indira Isabel Huilca Flores"
   },
   {
-    "region": "LIMA_METROPOLITANA",
+    "region": "Lima Provincias",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Gladys Griselda Andrade Salguero de Álvarez"
+  },
+  {
+    "region": "Lima Provincias",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Francisco Javier Gatica Vega"
+  },
+  {
+    "region": "Lima Provincias",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Giannina Avendaño Vilca"
+  },
+  {
+    "region": "Lima Provincias",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Arturo Eusebio Padilla"
+  },
+  {
+    "region": "Loreto",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "César Manuel Vidaurre Floridas"
+  },
+  {
+    "region": "Loreto",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Nary Pinasco"
+  },
+  {
+    "region": "Loreto",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Olver Peña"
+  },
+  {
+    "region": "Loreto",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Juan César Cabrera Nieto"
+  },
+  {
+    "region": "Madre de Dios",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Jaime Holguín"
+  },
+  {
+    "region": "Moquegua",
     "partido": "Ahora Nación",
-    "nombre_fuente": "HARVEY JULIO COLCHADO HUAMANI"
+    "nombre_fuente": "Bernardino Manrique"
   },
   {
-    "region": "LIMA_METROPOLITANA",
+    "region": "Moquegua",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Lila Prado"
+  },
+  {
+    "region": "Pasco",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Yuli Liliana Ambrosio Domínguez"
+  },
+  {
+    "region": "Pasco",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Marco Antonio Flores Valdizán"
+  },
+  {
+    "region": "Piura",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "César Manuel Revilla Villanueva"
+  },
+  {
+    "region": "Piura",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Eduardo Enrique Castillo Rivas"
+  },
+  {
+    "region": "Piura",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Carmela Paucará Paxi"
+  },
+  {
+    "region": "Piura",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "María Silupú Inga"
+  },
+  {
+    "region": "Piura",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Félix See Hung Chang Apuy"
+  },
+  {
+    "region": "Piura",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Miguel Félix Huamán Cornejo"
+  },
+  {
+    "region": "Piura",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Henry Antonio Albañil Carmona"
+  },
+  {
+    "region": "Puno",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "César Hugo Tito Rojas"
+  },
+  {
+    "region": "Puno",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Remigio Condori Flores"
+  },
+  {
+    "region": "Puno",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Svieta Fernández"
+  },
+  {
+    "region": "Puno",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Graciela Chipana Condori"
+  },
+  {
+    "region": "Puno",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Dina Hancco"
+  },
+  {
+    "region": "San Martín",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Luis Arturo Alegría García"
+  },
+  {
+    "region": "San Martín",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Jaime Américo Abensur Pinasco"
+  },
+  {
+    "region": "San Martín",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Jacqueline Viviana Tapullima Insapillo"
+  },
+  {
+    "region": "San Martín",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Azucena Isla Rojas"
+  },
+  {
+    "region": "Tacna",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Ana Luisa Yuffra Lugo"
+  },
+  {
+    "region": "Tacna",
     "partido": "Ahora Nación",
-    "nombre_fuente": "INDIRA ISABEL HUILCA FLORES"
+    "nombre_fuente": "Helard Sonco Villanueva"
   },
   {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "HILDA JUDIT FERNANDEZ DE LA TORRE"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "JESSICA BENITEZ BARRIONUEVO"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "LUIS ELISEO QUISPE CANDIA"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "NATHALY MILAGROS MOLINA SOTO"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "OSCAR DE JESUS RETO OTERO"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "ROMINA ALEJANDRA URIBE SAENZ"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "ROSSANA HERMINIA ALAYZA MACCERA"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
+    "region": "Tumbes",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "CECILIA ISABEL CHACON DE VETTORI"
+    "nombre_fuente": "Rafael Aldo Celiz Castillo"
   },
   {
-    "region": "LIMA_METROPOLITANA",
+    "region": "Tumbes",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "DIETHELL COLUMBUS MURATA"
+    "nombre_fuente": "María Ramos Rosales"
   },
   {
-    "region": "LIMA_METROPOLITANA",
+    "region": "Ucayali",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "MARCO ANTONIO PACHECO QUISPE"
+    "nombre_fuente": "Jessica Lizbeth Navas Sánchez"
   },
   {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "PIER PAOLO FIGARI MENDOZA"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "PIERANGELI DANIELA DODERO JOVICH"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "ROSANGELLA ANDREA BARBARAN REYES"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
+    "region": "Ucayali",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "GIANNINA IRIS AVENDANO VILCA"
+    "nombre_fuente": "Haydeé Poma"
   },
   {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "JEENNY CRISTINA SAMANEZ GONZALES VIGIL"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "VICTOR EDUARDO PINAN MAMANI"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
+    "region": "Extranjero (PEX)",
     "partido": "Renovación Popular",
-    "nombre_fuente": "ALDO ANTONIO BRAVO QUISPE"
+    "nombre_fuente": "Jorge Arturo Zeballos Aponte"
   },
   {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "FRANK KRKLEC TORRES"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "GUSTAVO ALEXANDER SEGURA FIGUEROA"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "JAVIER JOSE MARIA CIPRIANI THORNE"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "JOSE ISIDRO BAELLA MALCA"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "LEO MIGUEL DE PAZ LANCHO"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "NORMA MARTINA YARROW LUMBRERAS"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "PAOLA ISABEL MARTINEZ PAITAN"
-  },
-  {
-    "region": "LIMA_METROPOLITANA",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "ROXANA MARIA ROCHA GALLEGOS"
-  },
-  {
-    "region": "LIMA_PROVINCIAS",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "MILAGROS KARINA SANTANA VERA"
-  },
-  {
-    "region": "LIMA_PROVINCIAS",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "ALEXANDER SALAS RIVERA"
-  },
-  {
-    "region": "LIMA_PROVINCIAS",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "GLADYS GRISELDA ANDRADE SALGUERO DE ALVAREZ"
-  },
-  {
-    "region": "LIMA_PROVINCIAS",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "ARTURO CESAR EUSEBIO PADILLA"
-  },
-  {
-    "region": "LORETO",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "ANA LUISA YUFFRA LUGO"
-  },
-  {
-    "region": "LORETO",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "CESAR MANUEL VIDAURRE FLORIDAS"
-  },
-  {
-    "region": "LORETO",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "NARY BENVINDA PINASCO MONTENEGRO"
-  },
-  {
-    "region": "LORETO",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "AZUCENA ISLA ROJAS"
-  },
-  {
-    "region": "MADRE_DE_DIOS",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "HAYDEE CELINDA POMA HUAMANI"
-  },
-  {
-    "region": "MADRE_DE_DIOS",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "JAMES ARTURO HOLGUIN AGUIRRE"
-  },
-  {
-    "region": "MOQUEGUA",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "NERY RODOLFO FERNANDEZ NINA"
-  },
-  {
-    "region": "MOQUEGUA",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "GRACIELA CHIPANA CONDORI"
-  },
-  {
-    "region": "PASCO",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "JHONN BRAYAM VALQUI ORDONEZ"
-  },
-  {
-    "region": "PASCO",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "KIM TAMI MUNOZ YURIVILCA"
-  },
-  {
-    "region": "PERUANOS_RESIDENTES_EN_EL_EXTRANJERO",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "LIZ HULI MENDOZA BERNEDO"
-  },
-  {
-    "region": "PERUANOS_RESIDENTES_EN_EL_EXTRANJERO",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "JORGE ARTURO ZEBALLOS APONTE"
-  },
-  {
-    "region": "PIURA",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "MIGUEL FELIX HUAMAN CORNEJO"
-  },
-  {
-    "region": "PIURA",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "CARMELA PAUCARA PAXI"
-  },
-  {
-    "region": "PIURA",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "CESAR MANUEL REVILLA VILLANUEVA"
-  },
-  {
-    "region": "PIURA",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "EDUARDO ENRIQUE CASTILLO RIVAS"
-  },
-  {
-    "region": "PIURA",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "MARIA LUISA SILUPU INGA"
-  },
-  {
-    "region": "PIURA",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "HENRY ANTONIO ALBANIL CARMONA"
-  },
-  {
-    "region": "PIURA",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "FELIX SEE HUNG CHANG APUY"
-  },
-  {
-    "region": "PUNO",
+    "region": "Extranjero (PEX)",
     "partido": "Ahora Nación",
-    "nombre_fuente": "HELARD BLADIMIR SONCO VILLANUEVA"
-  },
-  {
-    "region": "PUNO",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "CESAR HUGO TITO ROJAS"
-  },
-  {
-    "region": "PUNO",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "JESSICA SADITH PEREZ QUISPE"
-  },
-  {
-    "region": "PUNO",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "REMIGIO CONDORI FLORES"
-  },
-  {
-    "region": "PUNO",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "DINA IRENE HANCCO HANCCO"
-  },
-  {
-    "region": "SAN_MARTIN",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "FRANCISCO JAVIER GATICA VEGA"
-  },
-  {
-    "region": "SAN_MARTIN",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "LUIS ARTURO ALEGRIA GARCIA"
-  },
-  {
-    "region": "SAN_MARTIN",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "JACQUELINE VIVIANA TAPULLIMA INSAPILLO"
-  },
-  {
-    "region": "SAN_MARTIN",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "OLVER PENA CORDOVA"
-  },
-  {
-    "region": "TACNA",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "SVIETA VALIA FERNANDEZ GONZALEZ"
-  },
-  {
-    "region": "TACNA",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "JUAN CESAR CABRERA NIETO"
-  },
-  {
-    "region": "TUMBES",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "MARIA CANDELARIA RAMOS ROSALES"
-  },
-  {
-    "region": "TUMBES",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "RAFAEL ALDO CELIZ CASTILLO"
-  },
-  {
-    "region": "UCAYALI",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "JAIME AMERICO ABENSUR PINASCO"
-  },
-  {
-    "region": "UCAYALI",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "JESSICA LIZBETH NAVAS SANCHEZ"
-  },
-  {
-    "region": "UCAYALI",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "OSWAR ELBIS CAHUAZA MITIVIRE"
+    "nombre_fuente": "Ángel Meneses"
   }
     ]
