@@ -6,7 +6,6 @@ from pathlib import Path
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-from st_aggrid import AgGrid, GridOptionsBuilder, JsCode
 
 st.set_page_config(page_title="Proyectos de Ley — Congreso del Perú", layout="wide")
 
@@ -18,24 +17,37 @@ MESES_ES = {
     7: "Jul", 8: "Ago", 9: "Sep", 10: "Oct", 11: "Nov", 12: "Dic",
 }
 
-OTROS_LABEL = "Instituciones con Iniciativa Legislativa"
+# Dos etiquetas "sin clasificar" DISTINTAS a propósito:
+# - BANCADA_OTROS: para proyectos sin bancada (propuestos por el Ejecutivo,
+#   Judicial, colegios profesionales, etc.) — aparece en gráficos de bancada.
+# - TEMA_OTROS: para proyectos cuyo título no calzó con ninguna palabra
+#   clave — aparece SOLO en gráficos de temática. Antes usaban el mismo
+#   texto; ahora están separados a pedido.
+BANCADA_OTROS = "Instituciones con Iniciativa Legislativa"
+TEMA_OTROS = "Otros"
+
+# Orden fijo para el selector de "Dashboard por partido" (no alfabético).
+ORDEN_PARTIDOS = [
+    "Fuerza Popular", "Juntos por el Perú", "Renovación Popular",
+    "Partido del Buen Gobierno", "Partido Cívico Obras", "Ahora Nación",
+]
 
 # Colores por bancada, ajustados a los colores reales de cada logo/marca
 # partidaria (verificado contra fuentes públicas: Wikipedia, prensa).
-# Partido Cívico Obras se deja en blanco a pedido explícito (excluido del ajuste).
+# Partido Cívico Obras se deja en blanco (excluido del ajuste, a pedido).
 COLOR_BANCADA = {
-    "Fuerza Popular": "#F7931E",                # naranja (color histórico del fujimorismo)
-    "Renovación Popular": "#29ABE2",             # celeste
-    "Partido del Buen Gobierno": "#FFD400",      # amarillo ("cyber yellow")
-    "Partido Cívico Obras": "#F5F5F5",           # blanco (sin cambios, con borde para que se vea)
-    "Ahora Nación": "#E4032E",                   # rojo
-    "Juntos por el Perú": "#2E7D32",             # verde
-    "Multipartidario": "#1E63C8",                # azul
-    OTROS_LABEL: "#C8A2C8",                      # lila
+    "Fuerza Popular": "#F7931E",
+    "Renovación Popular": "#29ABE2",
+    "Partido del Buen Gobierno": "#FFD400",
+    "Partido Cívico Obras": "#F5F5F5",
+    "Ahora Nación": "#E4032E",
+    "Juntos por el Perú": "#2E7D32",
+    "Multipartidario": "#1E63C8",
+    BANCADA_OTROS: "#C8A2C8",
 }
 
 # Logos oficiales de cada partido, tomados de decideperu.com (fuente pública,
-# resultados JNE 2026). Se muestran con st.image / HTML directo desde la URL.
+# resultados JNE 2026).
 LOGO_PARTIDO = {
     "Fuerza Popular": "https://d26x1qb2ouso7w.cloudfront.net/PartidosPeru2026/1366_FUERZA%20POPULAR.jpg",
     "Juntos por el Perú": "https://d26x1qb2ouso7w.cloudfront.net/PartidosPeru2026/1264_JUNTOS%20POR%20EL%20PERU.jpg",
@@ -46,14 +58,8 @@ LOGO_PARTIDO = {
 }
 
 # Clasificación TEMÁTICA APROXIMADA, por palabras clave en el título.
-# Esto NO es una clasificación oficial del Congreso — es una heurística
-# simple. Un proyecto puede tocar varios temas; aquí se le asigna el
-# primero que calce, en el orden de esta lista (por eso los temas más
-# específicos van antes que los más genéricos). Lo que no calza con
-# ninguna palabra clave se etiqueta igual que la bancada institucional:
-# "Instituciones con Iniciativa Legislativa" — en la práctica, buena parte
-# de esos proyectos sin tema claro vienen de proponentes institucionales
-# (Poder Ejecutivo, Poder Judicial, colegios profesionales, etc.).
+# Esto NO es una clasificación oficial del Congreso. Un proyecto puede
+# tocar varios temas; aquí se le asigna el primero que calce.
 TEMAS_KEYWORDS = [
     ("Derechos Humanos", ["derechos humanos"]),
     ("Salud", ["salud", "essalud", "hospital", "médic", "medic", "sanitari", "enfermedad", "vacuna", "minsa", "cáncer", "cancer"]),
@@ -86,22 +92,16 @@ def clasificar_tema(titulo: str) -> str:
     for tema, palabras in TEMAS_KEYWORDS:
         if any(p in t for p in palabras):
             return tema
-    return OTROS_LABEL
+    return TEMA_OTROS
 
 
 def norm_tokens(s: str) -> set:
-    """Normaliza un nombre a un conjunto de palabras en mayúsculas sin tildes,
-    para poder cruzar 'Apellidos, Nombres' contra 'Nombres Apellidos' sin
-    depender del orden."""
     s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode("ascii")
     s = re.sub(r"[^A-Za-z ]", " ", s).upper()
     return {t for t in s.split() if t not in ("DE", "DEL", "LA", "LOS", "LAS", "Y")}
 
 
 def mejor_match(tokens_objetivo: set, candidatos: dict, min_score: int = 3):
-    """candidatos: {clave: set_de_tokens}. Devuelve (clave, score, ratio) del mejor match,
-    o (None, 0, 0) si ninguno supera el umbral. Match válido si hay 3+ palabras en
-    común, o si 2+ palabras cubren TODO el conjunto más chico (nombre abreviado)."""
     best_key, best_score, best_ratio = None, 0, 0.0
     for key, toks in candidatos.items():
         inter = tokens_objetivo & toks
@@ -117,16 +117,17 @@ def mejor_match(tokens_objetivo: set, candidatos: dict, min_score: int = 3):
 
 def construir_link(row) -> str:
     """Enlace al expediente del proyecto en el portal público del Congreso.
-    Patrón confirmado contra oficios reales del Congreso que citan este
-    mismo formato (.../expediente/{periodo}/{numero}) — no probado en vivo
-    contra un proyecto de ESTE periodo en particular, así que si algún
-    enlace no abre, avisa para ajustarlo."""
+    Usa el mismo formato de número con 5 dígitos (con ceros a la izquierda)
+    que usa el propio sitio para cifrar internamente el token — es el
+    segundo intento tras confirmar que la versión sin ceros no abría.
+    Si TODAVÍA no funciona, dilo: el patrón real puede ser distinto para
+    este periodo bicameral (2026-2031) frente al Congreso anterior."""
     try:
         periodo = int(row["periodo"])
         ply_num = int(row["ply_num"])
     except (TypeError, ValueError, KeyError):
         return ""
-    return f"https://wb2server.congreso.gob.pe/spley-portal/#/expediente/{periodo}/{ply_num}?codTipoParl=D"
+    return f"https://wb2server.congreso.gob.pe/spley-portal/#/expediente/{periodo}/{ply_num:05d}?codTipoParl=D"
 
 
 @st.cache_data
@@ -141,8 +142,6 @@ def load_data():
 
 
 def buscar_region(persona: str, directorio: list):
-    """Cruza un nombre 'Apellidos, Nombres' (Congreso) contra la nómina oficial
-    de diputados ('Nombres Apellidos', Excel provisto por el usuario)."""
     candidatos = {i: d["tokens"] for i, d in enumerate(directorio)}
     idx, score, ratio = mejor_match(norm_tokens(persona), candidatos)
     if idx is None:
@@ -153,9 +152,6 @@ def buscar_region(persona: str, directorio: list):
 
 @st.cache_data
 def contar_proyectos_por_diputado(_directorio, _df_autorias):
-    """Para cada uno de los diputados de la nómina oficial, cuenta cuántos
-    proyectos tiene (cruzando el nombre contra df_autorias). 0 si no aparece
-    en ningún proyecto todavía."""
     personas_unicas = _df_autorias["persona"].dropna().unique().tolist()
     tokens_personas = {p: norm_tokens(p) for p in personas_unicas}
     conteo = _df_autorias["persona"].value_counts().to_dict()
@@ -173,51 +169,10 @@ def contar_proyectos_por_diputado(_directorio, _df_autorias):
     return pd.DataFrame(filas)
 
 
-# ----------------------------------------------------------------------
-# Tabla filtrable estilo Excel (AgGrid): cada columna trae su propio filtro
-# (contiene / igual a / mayor-menor según el tipo de dato), no solo orden
-# ascendente/descendente. La numeración de filas empieza en 1.
-# ----------------------------------------------------------------------
-_grid_counter = [0]
-
-_LINK_RENDERER = JsCode("""
-class UrlCellRenderer {
-  init(params) {
-    this.eGui = document.createElement('a');
-    if (params.value) {
-      this.eGui.innerText = 'Abrir ↗';
-      this.eGui.setAttribute('href', params.value);
-      this.eGui.setAttribute('target', '_blank');
-    } else {
-      this.eGui.innerText = '';
-    }
-  }
-  getGui() { return this.eGui; }
-}
-""")
-
-
-def mostrar_tabla(df: pd.DataFrame, height: int = 420):
-    df = df.reset_index(drop=True)
-    df.insert(0, "N°", df.index + 1)
-
-    gb = GridOptionsBuilder.from_dataframe(df)
-    gb.configure_default_column(filter=True, floatingFilter=True, sortable=True, resizable=True)
-    gb.configure_column("N°", pinned="left", width=70, filter=False, floatingFilter=False)
-    if "Enlace" in df.columns:
-        gb.configure_column("Enlace", cellRenderer=_LINK_RENDERER, filter=False, floatingFilter=False)
-    if "Título" in df.columns:
-        gb.configure_column("Título", width=320)
-
-    _grid_counter[0] += 1
-    AgGrid(
-        df,
-        gridOptions=gb.build(),
-        height=height,
-        fit_columns_on_grid_load=False,
-        allow_unsafe_jscode=True,
-        key=f"grid_{_grid_counter[0]}",
-    )
+def ordenar_partidos(lista: list) -> list:
+    resto = sorted([p for p in lista if p not in ORDEN_PARTIDOS])
+    ordenados = [p for p in ORDEN_PARTIDOS if p in lista]
+    return ordenados + resto
 
 
 RENOMBRAR_COLUMNAS = {
@@ -233,17 +188,41 @@ RENOMBRAR_COLUMNAS = {
 
 
 def preparar_para_mostrar(df: pd.DataFrame, columnas: list) -> pd.DataFrame:
-    """Selecciona columnas, formatea la fecha sin hora, y renombra todo
-    a los encabezados en español pedidos."""
     d = df[columnas].copy()
     if "fecha_presentacion" in d.columns:
         d["fecha_presentacion"] = d["fecha_presentacion"].dt.strftime("%d/%m/%Y")
     return d.rename(columns=RENOMBRAR_COLUMNAS)
 
 
+def filtros_multiselect(df: pd.DataFrame, columnas: list, prefix: str) -> pd.DataFrame:
+    """Un desplegable de selección múltiple por columna, con las opciones
+    reales que existen en los datos — el equivalente práctico en Streamlit
+    al filtro de Excel (elige qué valores ver), aunque vive arriba de la
+    tabla en vez de dentro del clic del encabezado."""
+    filtrado = df.copy()
+    cols_widgets = st.columns(len(columnas))
+    for col_widget, nombre_col in zip(cols_widgets, columnas):
+        opciones = sorted(df[nombre_col].dropna().unique().tolist())
+        with col_widget:
+            seleccion = st.multiselect(nombre_col, opciones, key=f"{prefix}_{nombre_col}")
+        if seleccion:
+            filtrado = filtrado[filtrado[nombre_col].isin(seleccion)]
+    return filtrado
+
+
+def mostrar_tabla(df: pd.DataFrame, link_col: str = None):
+    """Tabla con el índice empezando en 1, y la columna de enlace (si existe)
+    como link clicable de verdad (st.column_config.LinkColumn)."""
+    df = df.reset_index(drop=True)
+    df.index = df.index + 1
+    config = {}
+    if link_col and link_col in df.columns:
+        config[link_col] = st.column_config.LinkColumn(link_col, display_text="Abrir ↗")
+    st.dataframe(df, use_container_width=True, column_config=config)
+
+
 def bar_con_etiquetas(df: pd.DataFrame, x: str, y: str, color: str = None,
                        color_discrete_map: dict = None, **kwargs):
-    """px.bar con el número y el porcentaje del total escritos encima de cada barra."""
     df = df.copy()
     total = df[y].sum()
     df["_pct"] = (df[y] / total * 100) if total else 0
@@ -257,29 +236,27 @@ def bar_con_etiquetas(df: pd.DataFrame, x: str, y: str, color: str = None,
     return fig
 
 
-def agregar_logos_sobre_barras(fig, categorias_en_orden: list, y_frac: float = 1.14,
-                                sizex: float = 0.6, sizey: float = 0.16):
-    """Superpone el logo de cada partido encima de su barra correspondiente.
-    Las posiciones son aproximadas (Plotly no da un ancla pixel-perfecta
-    para ejes categóricos) — si algún logo queda desalineado, ajusta
-    sizex/sizey/y_frac a ojo, es la única parte de este archivo que
-    depende de "verlo" para afinar."""
-    for cat in categorias_en_orden:
+def agregar_logos_dentro_de_barras(fig, df: pd.DataFrame, x_col: str, y_col: str,
+                                    fraccion_alto: float = 0.35, sizex: float = 0.55):
+    """Coloca el logo DENTRO de cada barra (no encima), a una altura
+    proporcional al valor de esa barra. Como Plotly no ancla imágenes a
+    ejes categóricos con precisión de píxel, esto es aproximado — si un
+    logo se ve cortado o desbordado, ajusta 'fraccion_alto' o 'sizex'."""
+    for _, row in df.iterrows():
+        cat, val = row[x_col], row[y_col]
         url = LOGO_PARTIDO.get(cat)
-        if not url:
+        if not url or val <= 0:
             continue
+        alto_logo = val * fraccion_alto
         fig.add_layout_image(dict(
-            source=url, xref="x", yref="paper",
-            x=cat, y=y_frac, sizex=sizex, sizey=sizey,
-            xanchor="center", yanchor="bottom",
+            source=url, xref="x", yref="y",
+            x=cat, y=alto_logo, sizex=sizex, sizey=alto_logo,
+            xanchor="center", yanchor="middle",
         ))
-    fig.update_layout(margin=dict(t=110))
     return fig
 
 
 def fila_logos_con_hover(conteo: dict, total: int):
-    """Fila de logos con tooltip nativo del navegador (al pasar el cursor)
-    mostrando el número de proyectos y el porcentaje de cada partido."""
     html = "<div style='display:flex; gap:28px; align-items:flex-end; flex-wrap:wrap;'>"
     for partido, url in LOGO_PARTIDO.items():
         n = int(conteo.get(partido, 0))
@@ -298,7 +275,7 @@ def fila_logos_con_hover(conteo: dict, total: int):
 df_proyectos, df_autorias, directorio = load_data()
 df_proyectos["fecha_presentacion"] = pd.to_datetime(df_proyectos["fecha_presentacion"])
 df_proyectos["tema_aprox"] = df_proyectos["titulo"].apply(clasificar_tema)
-df_proyectos["bancada"] = df_proyectos["bancada"].fillna("").replace("", OTROS_LABEL)
+df_proyectos["bancada"] = df_proyectos["bancada"].fillna("").replace("", BANCADA_OTROS)
 df_proyectos["link"] = df_proyectos.apply(construir_link, axis=1)
 
 st.title("Proyectos de Ley — Congreso del Perú (2026-2031)")
@@ -341,7 +318,7 @@ with tab_general:
     fig_banc = bar_con_etiquetas(banc, x="bancada", y="count", color="bancada", color_discrete_map=COLOR_BANCADA)
     fig_banc.update_traces(marker_line_color="#999", marker_line_width=1)
     fig_banc.update_layout(showlegend=False)
-    fig_banc = agregar_logos_sobre_barras(fig_banc, banc["bancada"].tolist())
+    fig_banc = agregar_logos_dentro_de_barras(fig_banc, banc, "bancada", "count")
     st.plotly_chart(fig_banc, use_container_width=True)
 
     col_a, col_b = st.columns(2)
@@ -361,20 +338,23 @@ with tab_general:
             st.info("Sin datos de sexo todavía — corre el scraper de nuevo.")
 
     st.subheader("Explorar proyectos")
-    st.caption("Filtra cualquier columna con el ícono de filtro en su encabezado.")
     busqueda = st.text_input("Buscar por palabra clave en el título")
     tabla = df_proyectos
     if busqueda:
         tabla = tabla[tabla["titulo"].str.contains(busqueda, case=False, na=False)]
-    mostrar_tabla(preparar_para_mostrar(
-        tabla, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "proponente", "bancada", "tema_aprox", "link"]
-    ))
+    tabla_f = filtros_multiselect(tabla, ["bancada", "estado", "tema_aprox"], prefix="explorar")
+    mostrar_tabla(
+        preparar_para_mostrar(
+            tabla_f, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "proponente", "bancada", "tema_aprox", "link"]
+        ),
+        link_col="Enlace",
+    )
 
 # ----------------------------------------------------------------------
 # TAB: DASHBOARD POR PARTIDO
 # ----------------------------------------------------------------------
 with tab_partidos:
-    partidos_disponibles = sorted(df_proyectos["bancada"].dropna().unique().tolist())
+    partidos_disponibles = ordenar_partidos(df_proyectos["bancada"].dropna().unique().tolist())
     partido_sel = st.selectbox("Elige un partido / bancada", partidos_disponibles)
 
     proy_partido = df_proyectos[df_proyectos["bancada"] == partido_sel]
@@ -409,7 +389,7 @@ with tab_partidos:
 with tab_temas:
     st.caption(
         "La clasificación temática es una aproximación por palabras clave en el título — "
-        "no es oficial del Congreso. Puede haber errores o temas mal asignados."
+        "no es oficial del Congreso."
     )
     temas_disponibles = sorted(df_proyectos["tema_aprox"].unique().tolist())
     tema_sel = st.selectbox("Elige una temática", temas_disponibles)
@@ -427,13 +407,15 @@ with tab_temas:
                                   color_discrete_map=COLOR_BANCADA)
     fig_tema.update_traces(marker_line_color="#999", marker_line_width=1)
     fig_tema.update_layout(showlegend=False)
-    fig_tema = agregar_logos_sobre_barras(fig_tema, banc_tema["bancada"].tolist())
+    fig_tema = agregar_logos_dentro_de_barras(fig_tema, banc_tema, "bancada", "proyectos")
     st.plotly_chart(fig_tema, use_container_width=True)
 
     st.subheader(f"Proyectos de '{tema_sel}'")
-    mostrar_tabla(preparar_para_mostrar(
-        proy_tema, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "bancada", "link"]
-    ))
+    proy_tema_f = filtros_multiselect(proy_tema, ["bancada", "estado"], prefix="tema")
+    mostrar_tabla(
+        preparar_para_mostrar(proy_tema_f, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "bancada", "link"]),
+        link_col="Enlace",
+    )
 
 # ----------------------------------------------------------------------
 # TAB: DIPUTADOS
@@ -442,13 +424,12 @@ with tab_diputados:
     st.subheader("Todos los diputados y sus proyectos")
     st.caption(
         "Los 130 diputados de la nómina oficial, con la cantidad de proyectos en los que "
-        "participó cada uno (0 si todavía no presenta ninguno). Usa el filtro de cada "
-        "columna (ícono en el encabezado) para acotar por región, partido o cantidad de "
-        "proyectos — igual que un filtro de Excel."
+        "participó cada uno (0 si todavía no presenta ninguno)."
     )
     tabla_diputados = contar_proyectos_por_diputado(directorio, df_autorias)
     tabla_diputados = tabla_diputados.sort_values(["Partido", "Proyectos"], ascending=[True, False])
-    mostrar_tabla(tabla_diputados, height=500)
+    tabla_diputados_f = filtros_multiselect(tabla_diputados, ["Partido", "Región", "Nombre"], prefix="diputados")
+    mostrar_tabla(tabla_diputados_f)
 
     st.subheader("Buscar diputado/a (con región y proyectos)")
     nombres = sorted(df_autorias["persona"].dropna().unique().tolist())
@@ -473,30 +454,27 @@ with tab_diputados:
                 "No se pudo identificar la región para este nombre en la nómina oficial — "
                 "puede tratarse de una diferencia de escritura del nombre entre ambas fuentes."
             )
-        mostrar_tabla(preparar_para_mostrar(
-            detalle, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "tema_aprox", "link"]
-        ))
+        mostrar_tabla(
+            preparar_para_mostrar(detalle, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "tema_aprox", "link"]),
+            link_col="Enlace",
+        )
 
     st.subheader("Directorio de diputados electos")
     st.caption(
         f"Nómina oficial de los {len(directorio)} de 130 diputados proclamados para el "
-        "periodo 2026-2031, con su región y partido — provista por el usuario, no viene "
-        "del Congreso junto a los proyectos de ley."
+        "periodo 2026-2031 — provista por el usuario."
     )
     if directorio:
         dir_df = pd.DataFrame([{"Región": d["region"], "Partido": d["partido"], "Nombre": d["nombre_fuente"]}
                                 for d in directorio])
-        region_filtro = st.selectbox("Filtrar por región", ["Todas"] + sorted(dir_df["Región"].unique().tolist()))
-        if region_filtro != "Todas":
-            dir_df = dir_df[dir_df["Región"] == region_filtro]
-        mostrar_tabla(dir_df.sort_values(["Región", "Partido", "Nombre"]), height=500)
+        dir_df_f = filtros_multiselect(dir_df, ["Región", "Partido", "Nombre"], prefix="directorio")
+        mostrar_tabla(dir_df_f.sort_values(["Región", "Partido", "Nombre"]))
 
 st.caption(
     "Notas: (1) la región y el directorio completo vienen de la nómina oficial de los "
-    "130 diputados proclamados (no del Congreso, que no la expone junto a los proyectos "
-    "de ley); el cruce de nombres entre ambas fuentes es automático por coincidencia de "
-    "palabras, no exacto. (2) La clasificación temática es una aproximación por palabras "
-    "clave, no oficial. (3) El enlace a cada proyecto sigue el patrón usado en oficios "
-    "reales del Congreso, pero no se probó en vivo contra este periodo — si algún enlace "
-    "no abre, avisa para ajustar el patrón."
+    "130 diputados proclamados; el cruce de nombres entre ambas fuentes es automático "
+    "por coincidencia de palabras, no exacto. (2) La clasificación temática es una "
+    "aproximación por palabras clave, no oficial. (3) El enlace a cada proyecto sigue el "
+    "patrón usado en oficios reales del Congreso, ajustado al formato de 5 dígitos — si "
+    "no abre, avisa para seguir ajustando."
 )
