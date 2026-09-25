@@ -99,11 +99,52 @@ def norm_tokens(s: str) -> set:
     return {t for t in s.split() if t not in ("DE", "DEL", "LA", "LOS", "LAS", "Y")}
 
 
+def levenshtein(a: str, b: str) -> int:
+    """Distancia de edición, con salida rápida si ya sabemos que es > 1
+    (es todo lo que necesitamos: tolerar UNA letra de diferencia, como
+    'Gonzales' vs 'González' o 'Alccahuaman' vs 'Alcahuamán')."""
+    if a == b:
+        return 0
+    la, lb = len(a), len(b)
+    if abs(la - lb) > 1:
+        return 99
+    dp = list(range(lb + 1))
+    for i in range(1, la + 1):
+        prev = dp[0]
+        dp[0] = i
+        for j in range(1, lb + 1):
+            tmp = dp[j]
+            cost = 0 if a[i - 1] == b[j - 1] else 1
+            dp[j] = min(dp[j] + 1, dp[j - 1] + 1, prev + cost)
+            prev = tmp
+    return dp[lb]
+
+
+def interseccion_difusa(tokens_a: set, tokens_b: set) -> int:
+    """Como una intersección normal de conjuntos, pero además cuenta como
+    coincidencia un par de palabras (de 5+ letras) que difieren en una
+    sola letra — para no perder gente por variantes de apellido entre
+    fuentes (Gonzales/González, Alccahuaman/Alcahuamán, etc.)."""
+    exactos = tokens_a & tokens_b
+    usados = set(exactos)
+    score = len(exactos)
+    for ta in tokens_a - exactos:
+        if len(ta) < 5:
+            continue
+        for tb in tokens_b - exactos:
+            if len(tb) < 5 or tb in usados:
+                continue
+            if levenshtein(ta, tb) <= 1:
+                score += 1
+                usados.add(tb)
+                break
+    return score
+
+
 def mejor_match(tokens_objetivo: set, candidatos: dict, min_score: int = 3):
     best_key, best_score, best_ratio = None, 0, 0.0
     for key, toks in candidatos.items():
-        inter = tokens_objetivo & toks
-        score = len(inter)
+        score = interseccion_difusa(tokens_objetivo, toks)
         smaller = min(len(tokens_objetivo), len(toks)) or 1
         ratio = score / smaller
         if score > best_score or (score == best_score and ratio > best_ratio):
@@ -117,15 +158,27 @@ def construir_link(row) -> str:
     """Enlace al expediente del proyecto en el portal público del Congreso.
     Patrón CONFIRMADO EN VIVO: se probó
     https://wb2server.congreso.gob.pe/spley-portal/#/diputados/expediente/2026/420
-    y cargó exactamente el proyecto 00420-2026-2031-CD. Sin ceros a la
-    izquierda, sin codTipoParl, con 'diputados' en la ruta (no 'congreso',
-    que es lo que usa el Congreso anterior 2021-2026)."""
+    y cargó exactamente el proyecto 00420-2026-2031-CD."""
     try:
         periodo = int(row["periodo"])
         ply_num = int(row["ply_num"])
     except (TypeError, ValueError, KeyError):
         return ""
     return f"https://wb2server.congreso.gob.pe/spley-portal/#/diputados/expediente/{periodo}/{ply_num}"
+
+
+def nombre_a_slug(nombre_apellidos_nombres: str) -> str:
+    """Convierte 'Apellidos, Nombres' en el slug que usa
+    diputados.congreso.gob.pe (confirmado en vivo, ej.
+    'Meneses Crispin, Ángel Renato' -> 'meneses-crispin-angel-renato')."""
+    s = unicodedata.normalize("NFKD", nombre_apellidos_nombres or "").encode("ascii", "ignore").decode("ascii")
+    s = s.lower().replace(",", "")
+    s = re.sub(r"\s+", "-", s.strip())
+    return s
+
+
+def ficha_oficial_url(nombre_apellidos_nombres: str) -> str:
+    return f"https://diputados.congreso.gob.pe/diputado/{nombre_a_slug(nombre_apellidos_nombres)}/labor-legislativa/proposiciones-legales/"
 
 
 @st.cache_data
@@ -609,8 +662,12 @@ with tab_diputados:
         if region_persona is None:
             st.caption(
                 "No se pudo identificar la región para este nombre en la nómina oficial — "
-                "puede tratarse de una diferencia de escritura del nombre entre ambas fuentes."
+                "puede tratarse de una diferencia de escritura del nombre entre ambas fuentes, "
+                "o de que esta persona no es diputado/a (podría ser senador/a)."
             )
+        st.markdown(
+            f"[📋 Ver ficha oficial de {seleccionado} en el Congreso ↗]({ficha_oficial_url(seleccionado)})"
+        )
         c5, c6, c7 = st.columns(3)
         c5.metric("Como autor principal", int((detalle["rol"] == "autor_principal").sum()))
         c6.metric("Como coautor", int((detalle["rol"] == "coautor").sum()))
@@ -626,18 +683,23 @@ with tab_diputados:
     st.subheader("Directorio de diputados electos")
     st.caption(
         f"Nómina oficial de los {len(directorio)} de 130 diputados proclamados para el "
-        "periodo 2026-2031 — provista por el usuario."
+        "periodo 2026-2031, tomada directamente de diputados.congreso.gob.pe. Haz clic en "
+        "'Ficha oficial' para ver la página del Congreso de cualquier diputado/a, con foto, "
+        "votación obtenida y todas sus proposiciones legales."
     )
     if directorio:
-        dir_df = pd.DataFrame([{"Región": d["region"], "Partido": d["partido"], "Nombre": d["nombre_fuente"]}
+        dir_df = pd.DataFrame([{"Región": d["region"], "Partido": d["partido"], "Nombre": d["nombre_fuente"],
+                                 "Ficha oficial": ficha_oficial_url(d["nombre_fuente"])}
                                 for d in directorio])
         dir_df_f = filtros_multiselect(dir_df, ["Región", "Partido", "Nombre"], prefix="directorio")
-        mostrar_tabla(dir_df_f.sort_values(["Región", "Partido", "Nombre"]))
+        mostrar_tabla(dir_df_f.sort_values(["Región", "Partido", "Nombre"]), link_col="Ficha oficial")
 
 st.caption(
-    "Notas: (1) la región y el directorio completo vienen de la nómina oficial de los "
-    "130 diputados proclamados; el cruce de nombres entre ambas fuentes es automático "
-    "por coincidencia de palabras, no exacto. (2) La clasificación temática es una "
-    "aproximación por palabras clave, no oficial. (3) El enlace a cada proyecto se "
-    "verificó en vivo contra el portal del Congreso."
+    "Notas: (1) la región y el directorio completo vienen directamente de "
+    "diputados.congreso.gob.pe (portal oficial de la Cámara de Diputados), no de un "
+    "Excel de terceros; el cruce de nombres contra los datos de proyectos de ley sigue "
+    "siendo automático por coincidencia de palabras porque ambas bases del propio "
+    "Congreso no siempre escriben los acentos igual. (2) La clasificación temática es "
+    "una aproximación por palabras clave, no oficial. (3) Los enlaces a cada proyecto y "
+    "a cada ficha de diputado se verificaron en vivo contra el portal del Congreso."
 )
