@@ -54,14 +54,20 @@ LOGO_PARTIDO = {
 
 TEMAS_KEYWORDS = [
     ("Derechos Humanos", ["derechos humanos"]),
+    ("Reglamentos del Congreso", ["reglamento del congreso", "reglamento del parlamento"]),
+    ("Mujer", ["mujer", "igualdad de género", "igualdad de genero", "violencia de género", "violencia de genero", "feminicidio", "paridad"]),
     ("Salud", ["salud", "essalud", "hospital", "médic", "medic", "sanitari", "enfermedad", "vacuna", "minsa", "cáncer", "cancer"]),
-    ("Educación", ["educ", "escolar", "universi", "docente", "estudiant", "colegio", "pedagóg"]),
-    ("Empleo", ["trabaj", "laboral", "empleo", "sindical", "remuneraci", "pension", "jubila"]),
+    ("Universidades", ["universi", "sunedu", "licenciamiento"]),
+    ("Educación", ["educ", "escolar", "docente", "estudiant", "colegio", "pedagóg"]),
+    ("Pensiones", ["pension", "jubila", "afp", "onp", "cesant"]),
+    ("Empleo", ["trabaj", "laboral", "empleo", "sindical", "remuneraci"]),
     ("Electoral", ["electoral", "elecciones", "voto", "onpe", "jne", "partido político", "sufragio"]),
     ("Niñez", ["niño", "niña", "infantil", "menor de edad", "adolescen"]),
     ("Agricultura", ["agricultura", "agrari", "agropecuari", "riego", "irrigaci", "campesin"]),
     ("Producción", ["industri", "pesc", "minero", "minería", "mype", "empresa", "comercio"]),
     ("Transportes", ["transporte", "vial", "tránsito", "transito", "carretera", "ferroviari", "aeropuerto", "puerto", "vehicular", "peaje"]),
+    ("Vivienda", ["vivienda", "urbanístic", "urbanistic", "saneamiento físico legal", "saneamiento fisico legal", "titulación", "titulacion"]),
+    ("Tributario", ["tributari", "impuesto", "sunat", "igv", " renta"]),
     ("Relaciones Exteriores", ["exterior", "diplomátic", "tratado internacional", "migrant", "frontera"]),
     ("OCDE", ["ocde", "cooperación y el desarrollo económicos", "cooperacion y el desarrollo economicos"]),
     ("Reforma Constitucional", ["constitución", "constitucional"]),
@@ -146,17 +152,30 @@ def buscar_region(persona: str, directorio: list):
 def contar_proyectos_por_diputado(_directorio, _df_autorias):
     personas_unicas = _df_autorias["persona"].dropna().unique().tolist()
     tokens_personas = {p: norm_tokens(p) for p in personas_unicas}
-    conteo = _df_autorias["persona"].value_counts().to_dict()
+    conteo_total = _df_autorias["persona"].value_counts().to_dict()
+    conteo_por_rol = _df_autorias.groupby(["persona", "rol"]).size().unstack(fill_value=0)
 
     filas = []
     for d in _directorio:
         persona_match, score, ratio = mejor_match(d["tokens"], tokens_personas)
-        n_proyectos = conteo.get(persona_match, 0) if persona_match else 0
+        n_proyectos = conteo_total.get(persona_match, 0) if persona_match else 0
+        n_autor = int(conteo_por_rol.loc[persona_match, "autor_principal"]) if (
+            persona_match and persona_match in conteo_por_rol.index and "autor_principal" in conteo_por_rol.columns
+        ) else 0
+        n_coautor = int(conteo_por_rol.loc[persona_match, "coautor"]) if (
+            persona_match and persona_match in conteo_por_rol.index and "coautor" in conteo_por_rol.columns
+        ) else 0
+        n_adherente = int(conteo_por_rol.loc[persona_match, "adherente"]) if (
+            persona_match and persona_match in conteo_por_rol.index and "adherente" in conteo_por_rol.columns
+        ) else 0
         filas.append({
             "Región": d["region"],
             "Partido": d["partido"],
             "Nombre": d["nombre_fuente"],
             "Proyectos": n_proyectos,
+            "Como autor principal": n_autor,
+            "Como coautor": n_coautor,
+            "Como adherente": n_adherente,
         })
     return pd.DataFrame(filas)
 
@@ -193,7 +212,7 @@ RENOMBRAR_COLUMNAS = {
     "estado": "Estado",
     "proponente": "Proponente",
     "bancada": "Bancada",
-    "tema_aprox": "Tema",
+    "tema_aprox": "Tema (aproximación)",
     "link": "Enlace",
 }
 
@@ -378,7 +397,7 @@ with tab_general:
     tabla_f = filtros_multiselect(tabla, ["bancada", "estado", "tema_aprox"], prefix="explorar")
     mostrar_tabla(
         preparar_para_mostrar(
-            tabla_f, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "proponente", "bancada", "tema_aprox", "link"]
+            tabla_f, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "bancada", "tema_aprox", "link"]
         ),
         link_col="Enlace",
     )
@@ -573,8 +592,8 @@ with tab_diputados:
     nombres = sorted(df_autorias["persona"].dropna().unique().tolist())
     if nombres:
         seleccionado = st.selectbox("Diputado/a", nombres)
-        proyectos_persona = df_autorias[df_autorias["persona"] == seleccionado]["proyecto_ley"]
-        detalle = df_proyectos[df_proyectos["proyecto_ley"].isin(proyectos_persona)]
+        autorias_persona = df_autorias[df_autorias["persona"] == seleccionado][["proyecto_ley", "rol"]]
+        detalle = df_proyectos.merge(autorias_persona, on="proyecto_ley", how="inner")
         bancada_persona = detalle["bancada"].mode()
         bancada_persona = bancada_persona.iloc[0] if not bancada_persona.empty and bancada_persona.iloc[0] else None
 
@@ -592,10 +611,17 @@ with tab_diputados:
                 "No se pudo identificar la región para este nombre en la nómina oficial — "
                 "puede tratarse de una diferencia de escritura del nombre entre ambas fuentes."
             )
-        mostrar_tabla(
-            preparar_para_mostrar(detalle, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "tema_aprox", "link"]),
-            link_col="Enlace",
-        )
+        c5, c6, c7 = st.columns(3)
+        c5.metric("Como autor principal", int((detalle["rol"] == "autor_principal").sum()))
+        c6.metric("Como coautor", int((detalle["rol"] == "coautor").sum()))
+        c7.metric("Como adherente", int((detalle["rol"] == "adherente").sum()))
+
+        ROL_LEGIBLE = {"autor_principal": "Autor principal", "coautor": "Coautor", "adherente": "Adherente"}
+        detalle["rol"] = detalle["rol"].map(ROL_LEGIBLE).fillna(detalle["rol"])
+        detalle_mostrar = preparar_para_mostrar(
+            detalle, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "tema_aprox", "rol", "link"]
+        ).rename(columns={"rol": "Rol"})
+        mostrar_tabla(detalle_mostrar, link_col="Enlace")
 
     st.subheader("Directorio de diputados electos")
     st.caption(
