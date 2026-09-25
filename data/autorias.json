@@ -1,5 +1,117 @@
 [
   {
+    "proyecto_ley": "00436-2026-2031-CD",
+    "persona": "Colchado Huamani, Harvey Julio",
+    "dni": "43592504",
+    "congresista_id": 168,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00436-2026-2031-CD",
+    "persona": "Holguín Loaiza, César Augusto",
+    "dni": "43572794",
+    "congresista_id": 192,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00436-2026-2031-CD",
+    "persona": "Huilca Flores, Indira Isabel",
+    "dni": "45218393",
+    "congresista_id": 194,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00436-2026-2031-CD",
+    "persona": "Buitrón Martínez, Freshman",
+    "dni": "41618961",
+    "congresista_id": 156,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00436-2026-2031-CD",
+    "persona": "Manrique Olivera, Bernardino Jair",
+    "dni": "70665764",
+    "congresista_id": 203,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00436-2026-2031-CD",
+    "persona": "Muedas Balbiese, César Augusto",
+    "dni": "42839004",
+    "congresista_id": 213,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00435-2026-2031-CD",
+    "persona": "Paucara Paxi, Carmela",
+    "dni": "41408779",
+    "congresista_id": 222,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00435-2026-2031-CD",
+    "persona": "Beteta Rubín, Karina Juliza",
+    "dni": "22509175",
+    "congresista_id": 153,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00435-2026-2031-CD",
+    "persona": "Takayama Jiménez, Liliana Milagros",
+    "dni": "16787889",
+    "congresista_id": 245,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00435-2026-2031-CD",
+    "persona": "Figari Mendoza, Pier Paolo",
+    "dni": "07268767",
+    "congresista_id": 180,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00435-2026-2031-CD",
+    "persona": "Obando Morgan, Auristela Ana",
+    "dni": "07737110",
+    "congresista_id": 84,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00435-2026-2031-CD",
+    "persona": "Patiño Urco, Ana Bertha",
+    "dni": "10792277",
+    "congresista_id": 221,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00435-2026-2031-CD",
+    "persona": "Gatica Vega, Francisco Javier",
+    "dni": "42667604",
+    "congresista_id": 184,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00435-2026-2031-CD",
+    "persona": "Pacheco Quispe, Marco Antonio",
+    "dni": "47000483",
+    "congresista_id": 216,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00434-2026-2031-CD",
     "persona": "Arminta Valencia, Marleny Bibiana",
     "dni": "29569533",

@@ -1,5 +1,27 @@
 [
   {
+    "proyecto_ley": "00436-2026-2031-CD",
+    "ply_num": 436,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA EL REGLAMENTO DE LA CAMARA DE DIPUTADOS Y CREA LA COMISION DE INTELIGENCIA DE LA CÁMARA DE DIPUTADOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-25T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00435-2026-2031-CD",
+    "ply_num": 435,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS ESPECIALES PARA LA PROTECCIÓN DE LAS ESPECIES NATIVAS DE ALGARROBO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-25T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
     "proyecto_ley": "00434-2026-2031-CD",
     "ply_num": 434,
     "periodo": 2026,
