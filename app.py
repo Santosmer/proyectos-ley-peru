@@ -278,12 +278,22 @@ def preparar_para_mostrar(df: pd.DataFrame, columnas: list) -> pd.DataFrame:
 
 
 def filtros_multiselect(df: pd.DataFrame, columnas: list, prefix: str) -> pd.DataFrame:
+    """Filtros en cascada: elegir un valor en una columna reduce las
+    opciones disponibles en las columnas siguientes (no se quedan todas
+    las opciones sueltas sin relación entre sí)."""
     filtrado = df.copy()
     cols_widgets = st.columns(len(columnas))
     for col_widget, nombre_col in zip(cols_widgets, columnas):
-        opciones = sorted(df[nombre_col].dropna().unique().tolist())
+        opciones = sorted(filtrado[nombre_col].dropna().unique().tolist())
+        key = f"{prefix}_{nombre_col}"
+        # Si al filtrar con las columnas anteriores alguna opción que ya
+        # estaba elegida en esta columna dejó de existir, hay que quitarla
+        # ANTES de crear el widget o Streamlit tira error (su valor
+        # guardado ya no sería un subconjunto válido de las opciones).
+        if key in st.session_state:
+            st.session_state[key] = [v for v in st.session_state[key] if v in opciones]
         with col_widget:
-            seleccion = st.multiselect(nombre_col, opciones, key=f"{prefix}_{nombre_col}")
+            seleccion = st.multiselect(nombre_col, opciones, key=key)
         if seleccion:
             filtrado = filtrado[filtrado[nombre_col].isin(seleccion)]
     return filtrado
@@ -643,8 +653,17 @@ with tab_diputados:
 
     st.subheader("Buscar diputado/a (con región y proyectos)")
     nombres = sorted(df_autorias["persona"].dropna().unique().tolist())
-    if nombres:
-        seleccionado = st.selectbox("Diputado/a", nombres)
+    opciones_busqueda = ["Ninguno", "Todos"] + nombres
+    seleccionado = st.selectbox("Diputado/a", opciones_busqueda)
+
+    if seleccionado == "Ninguno":
+        pass
+    elif seleccionado == "Todos":
+        st.info(
+            "Mostrando todos: mira la tabla 'Todos los diputados y sus proyectos' más "
+            "arriba en esta misma pestaña, que ya incluye a los 130 con su región y partido."
+        )
+    else:
         autorias_persona = df_autorias[df_autorias["persona"] == seleccionado][["proyecto_ley", "rol"]]
         detalle = df_proyectos.merge(autorias_persona, on="proyecto_ley", how="inner")
         bancada_persona = detalle["bancada"].mode()
@@ -657,7 +676,7 @@ with tab_diputados:
             if bancada_persona and bancada_persona in LOGO_PARTIDO:
                 st.image(LOGO_PARTIDO[bancada_persona], width=70)
         c2.metric("Bancada", bancada_persona or "No disponible")
-        c3.metric("Región", region_persona or "No identificada")
+        c3.metric("Representa a (región)", region_persona or "No identificada")
         c4.metric("Proyectos", len(detalle))
         if region_persona is None:
             st.caption(
@@ -665,6 +684,8 @@ with tab_diputados:
                 "puede tratarse de una diferencia de escritura del nombre entre ambas fuentes, "
                 "o de que esta persona no es diputado/a (podría ser senador/a)."
             )
+        else:
+            st.caption(f"{seleccionado} representa a la región **{region_persona}**.")
         st.markdown(
             f"[📋 Ver ficha oficial de {seleccionado} en el Congreso ↗]({ficha_oficial_url(seleccionado)})"
         )
