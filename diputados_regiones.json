@@ -1,652 +1,782 @@
 [
   {
-    "region": "Amazonas",
+    "region": "Ucayali",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "Royser Castro Grández"
+    "nombre_fuente": "Abensur Pinasco, Jaime Américo",
+    "correo": "jabensur@congreso.gob.pe"
   },
   {
-    "region": "Amazonas",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Mery Eliana Infantes Castañeda"
-  },
-  {
-    "region": "Áncash",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Luzmila María del Carmen Gamarra Pita"
-  },
-  {
-    "region": "Áncash",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Carlos Alberto Domínguez Herrera"
-  },
-  {
-    "region": "Áncash",
+    "region": "Junín",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Daniel Jefferson Varas Seguín"
+    "nombre_fuente": "Aguirre Ramos, Marlon Alberto",
+    "correo": "maguirre@congreso.gob.pe"
   },
   {
-    "region": "Áncash",
-    "partido": "Ahora Nación",
-    "nombre_fuente": "José Miguel Marcelo Salazar"
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Alayza Maccera, Rossana Herminia",
+    "correo": "ralayza@congreso.gob.pe"
+  },
+  {
+    "region": "Piura",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Albañil Carmona, Henry Antonio",
+    "correo": "halbanil@congreso.gob.pe"
+  },
+  {
+    "region": "San Martín",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Alegría García, Luis Arturo",
+    "correo": "aalegria@congreso.gob.pe"
   },
   {
     "region": "Áncash",
     "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Édgar Adrián Alvarón de la Cruz"
+    "nombre_fuente": "Alvaron de la Cruz, Edgar Adrián",
+    "correo": "ealvaron@congreso.gob.pe"
   },
   {
-    "region": "Apurímac",
+    "region": "Huánuco",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Jesús Pérez Alcahuamán"
+    "nombre_fuente": "Ambrosio Dominguez, Yuli Liliana",
+    "correo": "yambrosio@congreso.gob.pe"
   },
   {
-    "region": "Apurímac",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Luz Mérida Soto Ferrari"
-  },
-  {
-    "region": "Arequipa",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Édgar Dember Gonzales Polar"
-  },
-  {
-    "region": "Arequipa",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Gloria Hirache Pizarro"
+    "region": "Lima Provincias",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Andrade Salguero de Alvarez, Gladys Griselda",
+    "correo": "gandrade@congreso.gob.pe"
   },
   {
     "region": "Arequipa",
     "partido": "Renovación Popular",
-    "nombre_fuente": "Christian Aranda Vásquez"
+    "nombre_fuente": "Aranda Vasquez, Christian",
+    "correo": "caranda@congreso.gob.pe"
   },
   {
     "region": "Arequipa",
     "partido": "Ahora Nación",
-    "nombre_fuente": "Marleny Bibiana Arminta Valencia"
+    "nombre_fuente": "Arminta Valencia, Marleny Bibiana",
+    "correo": "marminta@congreso.gob.pe"
   },
   {
-    "region": "Arequipa",
+    "region": "Lima Metropolitana",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Amalia Palomino Pacheco"
+    "nombre_fuente": "Avendaño Vilca, Giannina Iris",
+    "correo": "gavendano@congreso.gob.pe"
   },
   {
-    "region": "Arequipa",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Luis Aurelio Masco Cáceres"
-  },
-  {
-    "region": "Ayacucho",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Alejandro Manay Pillaca"
-  },
-  {
-    "region": "Ayacucho",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Pilar Sulca Castillo"
-  },
-  {
-    "region": "Ayacucho",
-    "partido": "Ahora Nación",
-    "nombre_fuente": "Freshman Buitrón Martínez"
-  },
-  {
-    "region": "Cajamarca",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Yenifer Noelia Paredes Navarro"
-  },
-  {
-    "region": "Cajamarca",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Gabriel Robertino Gonzales Delgado"
-  },
-  {
-    "region": "Cajamarca",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Jessica Roxana Guevara Ramírez"
-  },
-  {
-    "region": "Cajamarca",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Luis Ángel Jibaja Ramos"
-  },
-  {
-    "region": "Cajamarca",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Juan Amílcar Villanueva Calderón"
-  },
-  {
-    "region": "Cajamarca",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Segundo Senovio Ticlla Rafael"
-  },
-  {
-    "region": "Callao",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Auristela Ana Obando Morgan"
-  },
-  {
-    "region": "Callao",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Ángel Bruno Bobadilla Galindo"
-  },
-  {
-    "region": "Callao",
+    "region": "Lima Metropolitana",
     "partido": "Renovación Popular",
-    "nombre_fuente": "Carlos Yalta Sotelo"
+    "nombre_fuente": "Baella Malca, José Isidro",
+    "correo": "jbaella@congreso.gob.pe"
   },
   {
-    "region": "Callao",
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Barbaran Reyes, Rosangella Andrea",
+    "correo": "rbarbaran@congreso.gob.pe"
+  },
+  {
+    "region": "La Libertad",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Bazán Calderón, Diego Alonso Fernando",
+    "correo": "dbazan@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
     "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Fernando Alberto García Huby"
-  },
-  {
-    "region": "Cusco",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Analí Márquez Huanca"
-  },
-  {
-    "region": "Cusco",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Julián Pérez Mallqui"
-  },
-  {
-    "region": "Cusco",
-    "partido": "Ahora Nación",
-    "nombre_fuente": "César Holguín Loaiza"
-  },
-  {
-    "region": "Cusco",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Edwin Espinoza Huillca"
-  },
-  {
-    "region": "Cusco",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Heber López Letona"
-  },
-  {
-    "region": "Huancavelica",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Catherin  Norma Palomino Casavilca"
-  },
-  {
-    "region": "Huancavelica",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Héctor Guillén Valencia"
+    "nombre_fuente": "Benitez Barrionuevo, Jessica",
+    "correo": "jbenitez@congreso.gob.pe"
   },
   {
     "region": "Huánuco",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "Karina Juliza Beteta Rubín"
+    "nombre_fuente": "Beteta Rubín, Karina Juliza",
+    "correo": "kbeteta@congreso.gob.pe"
+  },
+  {
+    "region": "Callao",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Bobadilla Galindo, Angel Bruno",
+    "correo": "abobadillag@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Bravo Quispe, Aldo Antonio",
+    "correo": "abravo@congreso.gob.pe"
+  },
+  {
+    "region": "Ayacucho",
+    "partido": "Ahora Nación",
+    "nombre_fuente": "Buitron Martínez, Freshman",
+    "correo": "fbuitron@congreso.gob.pe"
+  },
+  {
+    "region": "Tacna",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Cabrera Nieto, Juan César",
+    "correo": "jcabreran@congreso.gob.pe"
   },
   {
     "region": "Ucayali",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Oswar Elbis Cahuaza Mitivire"
+    "nombre_fuente": "Cahuaza Mitivire, Oswar Elbis",
+    "correo": "ocahuaza@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Camargo Porta, Raúl Jesús",
+    "correo": "rcamargo@congreso.gob.pe"
+  },
+  {
+    "region": "Piura",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Castillo Rivas, Eduardo Enrique",
+    "correo": "ecastillor@congreso.gob.pe"
+  },
+  {
+    "region": "Lambayeque",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Castrejón Fernández, Segundo Juan",
+    "correo": "scastrejon@congreso.gob.pe"
+  },
+  {
+    "region": "Lambayeque",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Castro Cruz, Javier Alejandro",
+    "correo": "jcastro@congreso.gob.pe"
+  },
+  {
+    "region": "Amazonas",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Castro Grandez, Royser",
+    "correo": "rcastro@congreso.gob.pe"
+  },
+  {
+    "region": "Tumbes",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Celiz Castillo, Rafael Aldo",
+    "correo": "rceliz@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Chacón De Vettori, Cecilia Isabel",
+    "correo": "cchacon@congreso.gob.pe"
+  },
+  {
+    "region": "Piura",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Chang Apuy, Felix See Hung",
+    "correo": "fchang@congreso.gob.pe"
   },
   {
     "region": "Moquegua",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Nery Rodolfo Fernández Nina"
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Chipana Condori, Graciela",
+    "correo": "gchipana@congreso.gob.pe"
   },
   {
-    "region": "Ica",
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Cipriani Thorne, Javier José María",
+    "correo": "jcipriani@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Ahora Nación",
+    "nombre_fuente": "Colchado Huamani, Harvey Julio",
+    "correo": "hcolchado@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "Carlos Alberto Zegarra Sánchez"
+    "nombre_fuente": "Columbus Murata, Diethell",
+    "correo": "dcolumbus@congreso.gob.pe"
   },
   {
     "region": "Puno",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Jessica Sadith Perez Quispe"
-  },
-  {
-    "region": "Ica",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "José Yataco Torrealva"
+    "nombre_fuente": "Condori Flores, Remigio",
+    "correo": "rcondori@congreso.gob.pe"
   },
   {
     "region": "Lima Metropolitana",
     "partido": "Renovación Popular",
-    "nombre_fuente": "Aldo Antonio Bravo Quispe"
+    "nombre_fuente": "De Paz Lancho, Leo Miguel",
+    "correo": "ldepaz@congreso.gob.pe"
   },
   {
-    "region": "Junín",
-    "partido": "Ahora Nación",
-    "nombre_fuente": "César Muedas Balbiese"
-  },
-  {
-    "region": "Junín",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Marlon Alberto Aguirre Ramos"
-  },
-  {
-    "region": "Junín",
+    "region": "Lima Metropolitana",
     "partido": "Fuerza Popular",
-    "nombre_fuente": "Ana Bertha Patiño Urco"
+    "nombre_fuente": "Dodero Jovich, Pierangeli Daniela",
+    "correo": "pdodero@congreso.gob.pe"
   },
   {
-    "region": "Junín",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Máximo Peralta Jorpa"
+    "region": "Áncash",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Dominguez Herrera, Carlos Alberto",
+    "correo": "cdominguez@congreso.gob.pe"
   },
   {
     "region": "Junín",
     "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Carmen Georgina Duarte Patiño de Pezet"
+    "nombre_fuente": "Duarte, Georgina",
+    "correo": "gduartep@congreso.gob.pe"
   },
   {
-    "region": "La Libertad",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Gilmer Trujillo Zegarra"
-  },
-  {
-    "region": "La Libertad",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Leticia Maruja Leiva Baylón"
-  },
-  {
-    "region": "La Libertad",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Geanmarco Quezada Castro"
-  },
-  {
-    "region": "La Libertad",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "Diego Alonso Fernando Bazán Calderón"
-  },
-  {
-    "region": "La Libertad",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Marino Teófilo Lavado Valdivia"
-  },
-  {
-    "region": "La Libertad",
+    "region": "Cusco",
     "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Nora Llaque Linares"
-  },
-  {
-    "region": "La Libertad",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Demetrio Flavio Valqui Calderón"
-  },
-  {
-    "region": "Lambayeque",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "José Marvin Palma Mendoza"
-  },
-  {
-    "region": "Lambayeque",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Javier Alejandro Castro Cruz"
-  },
-  {
-    "region": "Lambayeque",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Liliana Milagros Takayama Jiménez"
-  },
-  {
-    "region": "Lambayeque",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Ernesto Alonzo Zunini Yerren"
-  },
-  {
-    "region": "Lambayeque",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Segundo Juan Castrejón Fernández"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Cecilia Isabel Chacón de Vettori"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Diethell Columbus Murata"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Rosangella Andrea Barbarán Reyes"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Pier Paolo Figari Mendoza"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Marco Antonio Pacheco Quispe"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Pierangeli Daniela Dodero Jovich"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Flor de Jesús Meza Rivera"
-  },
-  {
-    "region": "Lima Provincias",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Alexander Salas Rivera"
-  },
-  {
-    "region": "Extranjero (PEX)",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Liz Huli Mendoza Bernedo"
-  },
-  {
-    "region": "Pasco",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Jhonn Brayam Valqui Ordoñez"
-  },
-  {
-    "region": "Pasco",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Kim Tami Muñoz Yurivilca"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Oscar Reto Otero"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Nathaly Molina Soto"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Luis Eliseo Quispe Candia"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Hilda Fernández de la Torre"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Jéssica Benítez Barrionuevo"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Rossana Herminia Alayza Maccera"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Romina Alejandra Uribe Sáenz"
-  },
-  {
-    "region": "Lima Provincias",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Milagros Santana Vera"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "Norma Martina Yarrow Lumbreras"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "José Isidro Baella Malca"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "Roxana María Rocha Gallegos"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "Javier José María Cipriani Thorne"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "Gustavo Segura Figueroa"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "Frank Krklec Torres"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "Paola Martínez Paitán"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "Leo Miguel De Paz Lancho"
-  },
-  {
-    "region": "Ica",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "Mady Yonz Nuñez"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Jenny Samanez Gonzales Vigil"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Víctor Piñan Mamani"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Andrea Medina Stein"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Raúl Camargo Porta"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Ahora Nación",
-    "nombre_fuente": "Harvey Julio Colchado Huamaní"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Ahora Nación",
-    "nombre_fuente": "Indira Isabel Huilca Flores"
-  },
-  {
-    "region": "Lima Provincias",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Gladys Griselda Andrade Salguero de Álvarez"
-  },
-  {
-    "region": "San Martin",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Francisco Javier Gatica Vega"
-  },
-  {
-    "region": "Lima Metropolitana",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Giannina Avendaño Vilca"
+    "nombre_fuente": "Espinoza Huillca, Edwin",
+    "correo": "eespinozah@congreso.gob.pe"
   },
   {
     "region": "Lima Provincias",
     "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Arturo Eusebio Padilla"
-  },
-  {
-    "region": "Loreto",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "César Manuel Vidaurre Floridas"
-  },
-  {
-    "region": "Loreto",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Nary Bernandina Pinasco Montenegro"
-  },
-  {
-    "region": "San Martín",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Olver Peña Cordova"
-  },
-  {
-    "region": "Loreto",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Juan César Cabrera Nieto"
-  },
-  {
-    "region": "Madre de Dios",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "James Arturo Holguín Aguirre"
+    "nombre_fuente": "Eusebio Padilla, Arturo César",
+    "correo": "aeusebio@congreso.gob.pe"
   },
   {
     "region": "Lima Metropolitana",
-    "partido": "Ahora Nación",
-    "nombre_fuente": "Bernardino Manrique"
-  },
-  {
-    "region": "Ica",
     "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Lila Prado Vallejos"
-  },
-  {
-    "region": "Huánuco",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Yuli Liliana Ambrosio Domínguez"
-  },
-  {
-    "region": "Huánuco",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Marco Antonio Flores Valdizán"
-  },
-  {
-    "region": "Piura",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "César Manuel Revilla Villanueva"
-  },
-  {
-    "region": "Piura",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Eduardo Enrique Castillo Rivas"
-  },
-  {
-    "region": "Piura",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Carmela Paucará Paxi"
-  },
-  {
-    "region": "Piura",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "María  Luisa Silupú Inga"
-  },
-  {
-    "region": "Piura",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "Félix See Hung Chang Apuy"
-  },
-  {
-    "region": "Piura",
-    "partido": "Partido del Buen Gobierno",
-    "nombre_fuente": "Miguel Félix Huamán Cornejo"
-  },
-  {
-    "region": "Piura",
-    "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Henry Antonio Albañil Carmona"
-  },
-  {
-    "region": "Puno",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "César Hugo Tito Rojas"
-  },
-  {
-    "region": "Puno",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Remigio Condori Flores"
+    "nombre_fuente": "Fernández de la Torre, Hilda Judit",
+    "correo": "hfernandez@congreso.gob.pe"
   },
   {
     "region": "Tacna",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Svieta Fernández Gonzales"
+    "nombre_fuente": "Fernández Gonzalez, Svieta Valia",
+    "correo": "sfernandezg@congreso.gob.pe"
   },
   {
     "region": "Moquegua",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Fernández Nina, Nery Rodolfo",
+    "correo": "nfernandezn@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Figari Mendoza, Pier Paolo",
+    "correo": "pfigari@congreso.gob.pe"
+  },
+  {
+    "region": "Huánuco",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Graciela Chipana Condori"
+    "nombre_fuente": "Flores Valdizan, Marco Antonio",
+    "correo": "mflores@congreso.gob.pe"
+  },
+  {
+    "region": "Áncash",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Gamarra Pita, Luzmila María del Carmen",
+    "correo": "lgamarra@congreso.gob.pe"
+  },
+  {
+    "region": "Callao",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "García Huby, Fernando Alberto",
+    "correo": "fgarcia@congreso.gob.pe"
+  },
+  {
+    "region": "San Martín",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Gatica Vega, Francisco Javier",
+    "correo": "fgatica@congreso.gob.pe"
+  },
+  {
+    "region": "Cajamarca",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Gonzales Delgado, Gabriel Robertino",
+    "correo": "ggonzales@congreso.gob.pe"
+  },
+  {
+    "region": "Arequipa",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Gonzales Polar, Edgar Dember",
+    "correo": "egonzales@congreso.gob.pe"
+  },
+  {
+    "region": "Cajamarca",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Guevara Ramírez, Jessica Roxana",
+    "correo": "jguevara@congreso.gob.pe"
+  },
+  {
+    "region": "Huancavelica",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Guillen Valencia, Héctor",
+    "correo": "hguillen@congreso.gob.pe"
   },
   {
     "region": "Puno",
     "partido": "Partido Cívico Obras",
-    "nombre_fuente": "Dina Hancco Hancco"
+    "nombre_fuente": "Hancco Hancco, Dina Irene",
+    "correo": "dhancco@congreso.gob.pe"
   },
   {
-    "region": "San Martín",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Luis Arturo Alegría García"
-  },
-  {
-    "region": "Ucayali",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Jaime Américo Abensur Pinasco"
-  },
-  {
-    "region": "San Martín",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Jacqueline Viviana Tapullima Insapillo"
-  },
-  {
-    "region": "Loreto",
-    "partido": "Juntos por el Perú",
-    "nombre_fuente": "Azucena Isla Rojas"
-  },
-  {
-    "region": "Loreto",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Ana Luisa Yuffra Lugo"
-  },
-  {
-    "region": "Puno",
-    "partido": "Ahora Nación",
-    "nombre_fuente": "Helard Sonco Villanueva"
-  },
-  {
-    "region": "Tumbes",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Rafael Aldo Celiz Castillo"
-  },
-  {
-    "region": "Tumbes",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "María Candelaria Ramos Rosales"
-  },
-  {
-    "region": "Ucayali",
-    "partido": "Fuerza Popular",
-    "nombre_fuente": "Jessica Lizbeth Navas Sánchez"
+    "region": "Arequipa",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Hirache Pizarro, Gloria Charito",
+    "correo": "ghirache@congreso.gob.pe"
   },
   {
     "region": "Madre de Dios",
     "partido": "Juntos por el Perú",
-    "nombre_fuente": "Haydeé Celinda Poma Huamaní"
+    "nombre_fuente": "Holguin Aguirre, James Arturo",
+    "correo": "jholguin@congreso.gob.pe"
   },
   {
-    "region": "Extranjero (PEX)",
-    "partido": "Renovación Popular",
-    "nombre_fuente": "Jorge Arturo Zeballos Aponte"
+    "region": "Cusco",
+    "partido": "Ahora Nación",
+    "nombre_fuente": "Holguin Loaiza, Cesar Augusto",
+    "correo": "cholguin@congreso.gob.pe"
+  },
+  {
+    "region": "Piura",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Huamán Cornejo, Miguel Felix",
+    "correo": "mhuamanc@congreso.gob.pe"
   },
   {
     "region": "Lima Metropolitana",
     "partido": "Ahora Nación",
-    "nombre_fuente": "Ángel Meneses"
+    "nombre_fuente": "Huilca Flores, Indira Isabel",
+    "correo": "ihuilca@congreso.gob.pe"
+  },
+  {
+    "region": "Amazonas",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Infantes Castañeda, Mery Eliana",
+    "correo": "minfantes@congreso.gob.pe"
+  },
+  {
+    "region": "Loreto",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Isla Rojas, Azucena",
+    "correo": "aisla@congreso.gob.pe"
+  },
+  {
+    "region": "Cajamarca",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Jibaja Ramos, Luis Angel",
+    "correo": "ljibaja@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Krklec Torres, Frank",
+    "correo": "fkrklec@congreso.gob.pe"
+  },
+  {
+    "region": "La Libertad",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Lavado Valdivia, Marino Teofilo",
+    "correo": "mlavado@congreso.gob.pe"
+  },
+  {
+    "region": "La Libertad",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Leiva Baylon, Leticia Maruja",
+    "correo": "lleivab@congreso.gob.pe"
+  },
+  {
+    "region": "La Libertad",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Llaque Linares, Nora María",
+    "correo": "nllaque@congreso.gob.pe"
+  },
+  {
+    "region": "Cusco",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "López Letona, Heber",
+    "correo": "hlopez@congreso.gob.pe"
+  },
+  {
+    "region": "Ayacucho",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Manay Pillaca, Alejandro José",
+    "correo": "amanay@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Ahora Nación",
+    "nombre_fuente": "Manrique Olivera, Bernardino Jair",
+    "correo": "bmanrique@congreso.gob.pe"
+  },
+  {
+    "region": "Áncash",
+    "partido": "Ahora Nación",
+    "nombre_fuente": "Marcelo Salazar, José Miguel",
+    "correo": "jmarcelo@congreso.gob.pe"
+  },
+  {
+    "region": "Cusco",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Marquez Huanca, Analí",
+    "correo": "amarquez@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Martínez Paitán, Paola Isabel",
+    "correo": "pmartinezp@congreso.gob.pe"
+  },
+  {
+    "region": "Arequipa",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Masco Cáceres, Luis Aurelio",
+    "correo": "lmasco@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Medina Stein, Andrea Dayna",
+    "correo": "amedina@congreso.gob.pe"
+  },
+  {
+    "region": "Peruanos en el Extranjero",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Mendoza Bernedo, Liz Huli",
+    "correo": "lmendozab@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Ahora Nación",
+    "nombre_fuente": "Meneses Crispin, Angel Renato",
+    "correo": "ameneses@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Meza Rivera, Flor de Jesús",
+    "correo": "fmeza@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Molina Soto, Nathaly Milagros",
+    "correo": "nmolinas@congreso.gob.pe"
+  },
+  {
+    "region": "Junín",
+    "partido": "Ahora Nación",
+    "nombre_fuente": "Muedas Balbiese, Cesar Augusto",
+    "correo": "cmuedas@congreso.gob.pe"
+  },
+  {
+    "region": "Pasco",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Muñoz Yurivilca, Kim Tami",
+    "correo": "kmunoz@congreso.gob.pe"
+  },
+  {
+    "region": "Ucayali",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Navas Sánchez, Jessica Lizbeth",
+    "correo": "jnavas@congreso.gob.pe"
+  },
+  {
+    "region": "Callao",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Obando Morgan, Auristela Ana",
+    "correo": "aobando@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Pacheco Quispe, Marco Antonio",
+    "correo": "mpachecoq@congreso.gob.pe"
+  },
+  {
+    "region": "Lambayeque",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Palma Mendoza, José Marvin",
+    "correo": "jpalma@congreso.gob.pe"
+  },
+  {
+    "region": "Huancavelica",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Palomino Casavilca, Catherin Norma",
+    "correo": "cnpalomino@congreso.gob.pe"
+  },
+  {
+    "region": "Arequipa",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Palomino Pacheco, Amalia Emilia",
+    "correo": "apalomino@congreso.gob.pe"
+  },
+  {
+    "region": "Cajamarca",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Paredes Navarro, Yenifer Noelia",
+    "correo": "yparedes@congreso.gob.pe"
+  },
+  {
+    "region": "Junín",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Patiño Urco, Ana Bertha",
+    "correo": "apatino@congreso.gob.pe"
+  },
+  {
+    "region": "Piura",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Paucara Paxi, Carmela",
+    "correo": "cpaucara@congreso.gob.pe"
+  },
+  {
+    "region": "San Martín",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Peña Córdova, Olver",
+    "correo": "opena@congreso.gob.pe"
+  },
+  {
+    "region": "Junín",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Peralta Jorpa, Máximo",
+    "correo": "mperaltaj@congreso.gob.pe"
+  },
+  {
+    "region": "Apurímac",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Pérez Alccahuaman, Jesús",
+    "correo": "jperez@congreso.gob.pe"
+  },
+  {
+    "region": "Cusco",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Pérez Mallqui, Julián Luis",
+    "correo": "jperezm@congreso.gob.pe"
+  },
+  {
+    "region": "Puno",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Perez Quispe, Jessica Sadith",
+    "correo": "jperezq@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Piñán Mamani, Víctor Eduardo",
+    "correo": "vpinan@congreso.gob.pe"
+  },
+  {
+    "region": "Loreto",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Pinasco Montenegro, Nary Benvinda",
+    "correo": "npinasco@congreso.gob.pe"
+  },
+  {
+    "region": "Madre de Dios",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Poma Huamaní, Haydee Celinda",
+    "correo": "hpoma@congreso.gob.pe"
+  },
+  {
+    "region": "Ica",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Prado Vallejos, Lila Marianela",
+    "correo": "lprado@congreso.gob.pe"
+  },
+  {
+    "region": "La Libertad",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Quezada Castro, Geanmarco Antonio",
+    "correo": "gquezada@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Quispe Candia, Luis Eliseo",
+    "correo": "lquispe@congreso.gob.pe"
+  },
+  {
+    "region": "Tumbes",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Ramos Rosales, María Candelaria",
+    "correo": "mramos@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Reto Otero, Oscar de Jesús",
+    "correo": "oreto@congreso.gob.pe"
+  },
+  {
+    "region": "Piura",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Revilla Villanueva, César Manuel",
+    "correo": "crevilla@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Rocha Gallegos, Roxana María",
+    "correo": "rrocha@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Provincias",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Salas Rivera, Alexander",
+    "correo": "asalasri@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Samanez Gonzales Vigil, Jeenny Cristina",
+    "correo": "jsamanez@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Provincias",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Santana Vera, Milagros Karina",
+    "correo": "msantana@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Segura Figueroa, Gustavo Alexander",
+    "correo": "asegura@congreso.gob.pe"
+  },
+  {
+    "region": "Piura",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Silupu Inga, María Luisa",
+    "correo": "msilupu@congreso.gob.pe"
+  },
+  {
+    "region": "Puno",
+    "partido": "Ahora Nación",
+    "nombre_fuente": "Sonco Villanueva, Helard Bladimir",
+    "correo": "hsonco@congreso.gob.pe"
+  },
+  {
+    "region": "Apurímac",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Soto Ferrari, Luz Mérida",
+    "correo": "lsoto@congreso.gob.pe"
+  },
+  {
+    "region": "Ayacucho",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Sulca Castillo, Pilar",
+    "correo": "psulca@congreso.gob.pe"
+  },
+  {
+    "region": "Lambayeque",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Takayama Jimenez, Liliana Milagros",
+    "correo": "ltakayama@congreso.gob.pe"
+  },
+  {
+    "region": "San Martín",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Tapullima Insapillo, Jacqueline Viviana",
+    "correo": "jtapullimai@congreso.gob.pe"
+  },
+  {
+    "region": "Cajamarca",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Ticlla Rafael, Segundo Senovio",
+    "correo": "sticlla@congreso.gob.pe"
+  },
+  {
+    "region": "Puno",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Tito Rojas, César Hugo",
+    "correo": "ctito@congreso.gob.pe"
+  },
+  {
+    "region": "La Libertad",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Trujillo Zegarra, Gilmer",
+    "correo": "gtrujillo@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Partido del Buen Gobierno",
+    "nombre_fuente": "Uribe Saenz, Romina Alejandra",
+    "correo": "ruribe@congreso.gob.pe"
+  },
+  {
+    "region": "La Libertad",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Valqui Calderón, Demetrio Flavio",
+    "correo": "dvalqui@congreso.gob.pe"
+  },
+  {
+    "region": "Pasco",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Valqui Ordoñez, Jhonn Brayam",
+    "correo": "jvalqui@congreso.gob.pe"
+  },
+  {
+    "region": "Áncash",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Varas Seguin, Daniel Jefferson",
+    "correo": "dvaras@congreso.gob.pe"
+  },
+  {
+    "region": "Loreto",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Vidaurre Floridas, César Manuel",
+    "correo": "cvidaurre@congreso.gob.pe"
+  },
+  {
+    "region": "Cajamarca",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Villanueva Calderón, Juan Amilcar",
+    "correo": "jvillanueva@congreso.gob.pe"
+  },
+  {
+    "region": "Callao",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Yalta Sotelo, Carlos Alberto",
+    "correo": "cyalta@congreso.gob.pe"
+  },
+  {
+    "region": "Lima Metropolitana",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Yarrow Lumbreras, Norma Martina",
+    "correo": "nyarrow@congreso.gob.pe"
+  },
+  {
+    "region": "Ica",
+    "partido": "Partido Cívico Obras",
+    "nombre_fuente": "Yataco Torrealva, José Ricardo",
+    "correo": "jyataco@congreso.gob.pe"
+  },
+  {
+    "region": "Ica",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Yonz Núñez, Mady Verónica",
+    "correo": "myonz@congreso.gob.pe"
+  },
+  {
+    "region": "Loreto",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Yuffra Lugo, Ana Luisa",
+    "correo": "ayuffra@congreso.gob.pe"
+  },
+  {
+    "region": "Peruanos en el Extranjero",
+    "partido": "Renovación Popular",
+    "nombre_fuente": "Zeballos Aponte, Jorge Arturo",
+    "correo": "jzeballos@congreso.gob.pe"
+  },
+  {
+    "region": "Ica",
+    "partido": "Fuerza Popular",
+    "nombre_fuente": "Zegarra Sánchez, Carlos Alberto",
+    "correo": "czegarra@congreso.gob.pe"
+  },
+  {
+    "region": "Lambayeque",
+    "partido": "Juntos por el Perú",
+    "nombre_fuente": "Zunini Yerren, Ernesto Alonzo",
+    "correo": "ezunini@congreso.gob.pe"
   }
 ]
