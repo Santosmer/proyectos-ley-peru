@@ -1,5 +1,27 @@
 [
   {
+    "proyecto_ley": "00438-2026-2031-CD",
+    "ply_num": 438,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 13 DE LA LEY 27803, PARA RECONOCER EL PERIODO DE CESE IRREGULAR EN EL CALCULO DE LA COMPENSACIÓN POR TIEMPO DE SERVICIO DE LOS TRABAJADORES ACTIVOS DE LOS REGIMENES LABORALES 276 Y 728.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-25T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00437-2026-2031-CD",
+    "ply_num": 437,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA LEY PARA PREVENIR Y REDUCIR LA ANEMIA Y LA DESNUTRICIÓN INFANTIL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-25T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
     "proyecto_ley": "00436-2026-2031-CD",
     "ply_num": 436,
     "periodo": 2026,

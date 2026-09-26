@@ -1,5 +1,93 @@
 [
   {
+    "proyecto_ley": "00438-2026-2031-CD",
+    "persona": "Alvarón De la Cruz, Édgar Adrián",
+    "dni": "43170121",
+    "congresista_id": 145,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00438-2026-2031-CD",
+    "persona": "Masco Cáceres, Luis Aurelio",
+    "dni": "41242025",
+    "congresista_id": 207,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00438-2026-2031-CD",
+    "persona": "Piñán Mamani, Víctor Eduardo",
+    "dni": "70074678",
+    "congresista_id": 228,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00438-2026-2031-CD",
+    "persona": "Cabrera Nieto, Juan César",
+    "dni": "00482691",
+    "congresista_id": 157,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00438-2026-2031-CD",
+    "persona": "Peralta Jorpa, Máximo",
+    "dni": "19995860",
+    "congresista_id": 224,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00437-2026-2031-CD",
+    "persona": "Dodero Jovich, Pierangeli Daniela",
+    "dni": "42433830",
+    "congresista_id": 172,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00437-2026-2031-CD",
+    "persona": "Alegría García, Luis Arturo",
+    "dni": "45382589",
+    "congresista_id": 6,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00437-2026-2031-CD",
+    "persona": "Meza Rivera, Flor de Jesús",
+    "dni": "72393802",
+    "congresista_id": 211,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00437-2026-2031-CD",
+    "persona": "Abensur Pinasco, Jaime Américo",
+    "dni": "09391698",
+    "congresista_id": 141,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00437-2026-2031-CD",
+    "persona": "Figari Mendoza, Pier Paolo",
+    "dni": "07268767",
+    "congresista_id": 180,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00437-2026-2031-CD",
+    "persona": "Castro Grández, Royser",
+    "dni": "10587515",
+    "congresista_id": 162,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00436-2026-2031-CD",
     "persona": "Colchado Huamani, Harvey Julio",
     "dni": "43592504",
@@ -710,6 +798,14 @@
     "congresista_id": 171,
     "sexo": "M",
     "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00424-2026-2031-CD",
+    "persona": "Baella Malca, José Isidro",
+    "dni": "09937296",
+    "congresista_id": 151,
+    "sexo": "M",
+    "rol": "adherente"
   },
   {
     "proyecto_ley": "00423-2026-2031-CD",
