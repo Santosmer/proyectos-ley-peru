@@ -1,5 +1,133 @@
 [
   {
+    "proyecto_ley": "00443-2026-2031-CD",
+    "persona": "Hancco Hancco, Dina Irene",
+    "dni": "01545223",
+    "congresista_id": 189,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00443-2026-2031-CD",
+    "persona": "López Letona, Heber",
+    "dni": "25001331",
+    "congresista_id": 201,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00443-2026-2031-CD",
+    "persona": "Peralta Jorpa, Máximo",
+    "dni": "19995860",
+    "congresista_id": 224,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00443-2026-2031-CD",
+    "persona": "Eusebio Padilla, Arturo César",
+    "dni": "07654582",
+    "congresista_id": 176,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00443-2026-2031-CD",
+    "persona": "Piñán Mamani, Víctor Eduardo",
+    "dni": "70074678",
+    "congresista_id": 228,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00440-2026-2031-CD",
+    "persona": "Palma Mendoza, José Marvin",
+    "dni": "45721573",
+    "congresista_id": 217,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00440-2026-2031-CD",
+    "persona": "Meza Rivera, Flor de Jesús",
+    "dni": "72393802",
+    "congresista_id": 211,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00440-2026-2031-CD",
+    "persona": "Pacheco Quispe, Marco Antonio",
+    "dni": "47000483",
+    "congresista_id": 216,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00440-2026-2031-CD",
+    "persona": "Alegría García, Luis Arturo",
+    "dni": "45382589",
+    "congresista_id": 6,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00440-2026-2031-CD",
+    "persona": "Barbarán Reyes, Rosangella Andrea",
+    "dni": "76030152",
+    "congresista_id": 15,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00439-2026-2031-CD",
+    "persona": "Marcelo Salazar, José Miguel",
+    "dni": "41840094",
+    "congresista_id": 204,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00439-2026-2031-CD",
+    "persona": "Holguín Loaiza, César Augusto",
+    "dni": "43572794",
+    "congresista_id": 192,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00439-2026-2031-CD",
+    "persona": "Buitrón Martínez, Freshman",
+    "dni": "41618961",
+    "congresista_id": 156,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00439-2026-2031-CD",
+    "persona": "Colchado Huamani, Harvey Julio",
+    "dni": "43592504",
+    "congresista_id": 168,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00439-2026-2031-CD",
+    "persona": "Muedas Balbiese, César Augusto",
+    "dni": "42839004",
+    "congresista_id": 213,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00439-2026-2031-CD",
+    "persona": "Huilca Flores, Indira Isabel",
+    "dni": "45218393",
+    "congresista_id": 194,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00438-2026-2031-CD",
     "persona": "Alvarón De la Cruz, Édgar Adrián",
     "dni": "43170121",

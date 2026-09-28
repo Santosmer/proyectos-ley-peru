@@ -1,10 +1,65 @@
 [
   {
+    "proyecto_ley": "00443-2026-2031-CD",
+    "ply_num": 443,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS NUMERALES 12 Y 14 DEL ARTÍCULO 4 DE LA LEY 32290, LEY QUE CREA LA UNIVERSIDAD NACIONAL DE DESAGUADERO EN EL DEPARTAMENTO DE PUNO, A FIN DE ADECUAR LA DENOMINACIÓN DE LAS CARRERAS PROFESIONALES DE INGENIERÍA ECONÓMICA Y MEDICINA HUMANA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00442-2026-2031-CD",
+    "ply_num": 442,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA PARA GARANTIZAR LA CALIDAD DE LA FORMACIÓN PROFESIONAL DEL MÉDICO CIRUJANO EN EL PERÚ.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Colegios Profesionales",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00441-2026-2031-CD",
+    "ply_num": 441,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA DEL SERVICIO RURAL Y URBANO MÁRGINAL DE SALUD - SERUMS",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Colegios Profesionales",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00440-2026-2031-CD",
+    "ply_num": 440,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 32461, A FIN DE CAMBIAR LA DENOMINACIÓN DE LA UNIVERSIDAD NACIONAL AUTÓNOMA DE CHICLAYO POR LA DE UNIVERSIDAD NACIONAL LEÓN XIV DE CHICLAYO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00439-2026-2031-CD",
+    "ply_num": 439,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA POR TRES AÑOS LAS EXONERACIONES DEL IMPUESTO A LA RENTA APLICABLES A LOS INTERESES DE LOS DEPÓSITOS DE AHORRO Y FORTALECE LA INCLUSIÓN FINANCIERA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00438-2026-2031-CD",
     "ply_num": 438,
     "periodo": 2026,
     "camara": "D",
-    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 13 DE LA LEY 27803, PARA RECONOCER EL PERIODO DE CESE IRREGULAR EN EL CALCULO DE LA COMPENSACIÓN POR TIEMPO DE SERVICIO DE LOS TRABAJADORES ACTIVOS DE LOS REGIMENES LABORALES 276 Y 728.",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 13 DE LA LEY 27803, PARA RECONOCER EL PERIODO DE CESE IRREGULAR EN EL CÁLCULO DE LA COMPENSACIÓN POR TIEMPO DE SERVICIO DE LOS TRABAJADORES ACTIVOS DE LOS REGÍMENES LABORALES 276 Y 728.",
     "estado": "PRESENTADO",
     "fecha_presentacion": "2026-09-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
@@ -15,7 +70,7 @@
     "ply_num": 437,
     "periodo": 2026,
     "camara": "D",
-    "titulo": "PROPOSICIÓN LEGISLATIVA LEY PARA PREVENIR Y REDUCIR LA ANEMIA Y LA DESNUTRICIÓN INFANTIL.",
+    "titulo": "PROPOSICIÓN LEGISLATIVA PARA PREVENIR Y REDUCIR LA ANEMIA Y LA DESNUTRICIÓN INFANTIL.",
     "estado": "PRESENTADO",
     "fecha_presentacion": "2026-09-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
@@ -26,8 +81,8 @@
     "ply_num": 436,
     "periodo": 2026,
     "camara": "D",
-    "titulo": "PROPOSICIÓN LEGISLATIVA DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA EL REGLAMENTO DE LA CAMARA DE DIPUTADOS Y CREA LA COMISION DE INTELIGENCIA DE LA CÁMARA DE DIPUTADOS.",
-    "estado": "PRESENTADO",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA EL REGLAMENTO DE LA CÁMARA DE DIPUTADOS Y CREA LA COMISIÓN DE INTELIGENCIA DE LA CÁMARA DE DIPUTADOS.",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -38,7 +93,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS ESPECIALES PARA LA PROTECCIÓN DE LAS ESPECIES NATIVAS DE ALGARROBO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -49,7 +104,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA LUCHA CONTRA EL CRIMEN ORGANIZADO E INCORPORA LA VIGILANCIA AÉREA Y LA INSTRUMENTALIZACIÓN DE NAVES NO TRIPULADAS COMO CIRCUNSTANCIAS AGRAVANTES EN EL ARTÍCULO 46 DEL CÓDIGO PENAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-24T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -60,7 +115,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE OPORTUNIDADES LABORALES A LOS JÓVENES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-24T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -71,7 +126,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE RESOLUCIÓN LEGISLATIVA QUE RESTITUYE LA COMISIÓN DE INCLUSIÓN SOCIAL Y PERSONAS CON DISCAPACIDAD COMO COMISIÓN ORDINARIA LEGISLATIVA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-24T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -82,7 +137,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRIORIZA EL RECONOCIMIENTO DE LAS 284 LAGUNAS DEL ALTO PERÚ COMO PARTE DEL SITIO RAMSAR.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-24T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -104,7 +159,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS PARA EL PAGO OPORTUNO DE LA COMPENSACIÓN POR TIEMPO DE SERVICIOS Y DE LOS SUBSIDIOS POR FALLECIMIENTO Y POR GASTOS DE SEPELIO DEL PERSONAL ADMINISTRATIVO DEL SECTOR EDUCACIÓN COMPRENDIDO EN EL RÉGIMEN LABORAL DEL DECRETO LEGISLATIVO 276.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-23T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -115,7 +170,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE LA HOJA DE COCA Y SUS USOS CULTURALES TRADICIONALES, Y PROMUEVE LA INVESTIGACIÓN CIENTÍFICA, EL DESARROLLO TECNOLÓGICO Y EL APROVECHAMIENTO LÍCITO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-23T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -148,7 +203,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRECISA EL ÁMBITO LEGAL DE LA INVESTIGACIÓN PRELIMINAR Y FORTALECE LA SEGURIDAD JURÍDICA",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-23T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -159,7 +214,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA EL REGLAMENTO DE LA CÁMARA DE DIPUTADOS PARA INCORPORAR LA COMISIÓN DE INTELIGENCIA",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-23T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -192,7 +247,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CONTROL DE ARMAS DE FUEGO DE USO CIVIL Y LA PARTICIPACIÓN DE LA POLICÍA NACIONAL DEL PERÚ EN SU CONTROL Y TRAZABILIDAD.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-23T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -225,7 +280,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS EXTRAORDINARIAS PARA LA PROTECCIÓN, RECUPERACIÓN Y REACTIVACIÓN DE LA PESCA ARTESANAL FRENTE A EVENTOS OCEANOGRÁFICOS, CLIMÁTICOS, AMBIENTALES Y OTRAS CONTINGENCIAS QUE AFECTEN SU ACTIVIDAD.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-22T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
