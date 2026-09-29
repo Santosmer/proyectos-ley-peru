@@ -1,5 +1,115 @@
 [
   {
+    "proyecto_ley": "00453-2026-2031-CD",
+    "ply_num": 453,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE TIPIFICA EL DELITO DE MANIPULACIÓN COORDINADA E INAUTÉNTICA DEL ECOSISTEMA DIGITAL Y ESTABLECE MEDIDAS DE PROTECCIÓN DE LA SOBERANÍA POPULAR EN PROCESOS ELECTORALES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00452-2026-2031-CD",
+    "ply_num": 452,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA EL ART 45 DEL REGLAMENTO DE LA CÁMARA DE DIPUTADOS DEL CONGRESO DE LA REPÚBLICA, Y CREA LA COMISIÓN ORDINARIA DE LAS PERSONAS CON DISCAPACIDAD",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00451-2026-2031-CD",
+    "ply_num": 451,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE LA CONDICIÓN DE ELEGIBLES Y ESTABLECE SU REGISTRO PARA LA ASIGNACIÓN PROGRESIVA DE PLAZAS EN EL SEGURO SOCIAL DE SALUD – ESSALUD, EN EL MARCO DEL PROCESO DE PROMOCIÓN INTERNA 2025–2026 DE FORMA EXCEPCIONAL Y POR ÚNICA VEZ.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00450-2026-2031-CD",
+    "ply_num": 450,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA EXCEPCIONALMENTE EL NOMBRAMIENTO DE DOCENTES DE LA EDUCACIÓN BÁSICA QUE QUEDARON HABILITADOS EN EL CONCURSO PÚBLICO DE INGRESO A LA CARRERA PÚBLICA MAGISTERIAL 2022 Y 2024.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00449-2026-2031-CD",
+    "ply_num": 449,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RESTITUYE EL DERECHO A LOS CENTROS POBLADOS A PARTICIPAR DE LA DISTRIBUCIÓN DIRECTA DEL CANON.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00448-2026-2031-CD",
+    "ply_num": 448,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA EL IMPEDIMENTO Y LA ABSTENCIÓN DEL PERSONAL DE LA POLICÍA NACIONAL DEL PERÚ EN LA FUNCIÓN DE INVESTIGACIÓN DEL DELITO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00447-2026-2031-CD",
+    "ply_num": 447,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN PENAL DE NIÑOS Y ADOLESCENTES FRENTE AL USO MALICIOSO DE SISTEMAS BASADOS EN INTELIGENCIA ARTIFICIAL Y REGULA EL RETIRO URGENTE DE CONTENIDO DIGITAL LESIVO",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00446-2026-2031-CD",
+    "ply_num": 446,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE LOS ESTUDIANTES FRENTE A LA VIOLENCIA EN LAS INSTITUCIONES EDUCATIVAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00445-2026-2031-CD",
+    "ply_num": 445,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 206-A DEL CÓDIGO PENAL, DECRETO LEGISLATIVO N.° 635, PARA INCORPORAR AGRAVANTES AL DELITO DE ABANDONO Y ACTOS DE CRUELDAD CONTRA ANIMALES DOMÉSTICOS Y SILVESTRES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00444-2026-2031-CD",
+    "ply_num": 444,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DEL CORREDOR ECONÓMICO DE LA SELVA CENTRAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
     "proyecto_ley": "00443-2026-2031-CD",
     "ply_num": 443,
     "periodo": 2026,
