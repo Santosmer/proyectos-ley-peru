@@ -1,5 +1,82 @@
 [
   {
+    "proyecto_ley": "00460-2026-2031-CD",
+    "ply_num": 460,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA E INCORPORA DISPOSICIONES A LA LEY 32024, LEY QUE OTORGA A LA MUNICIPALIDAD DISTRITAL DE MAJES, EXCEPCIONALMENTE, LA FACULTAD DE VENDER, CON FINES DE DESARROLLO URBANO, EN FORMA DIRECTA A FAVOR DE TERCEROS LOS PREDIOS DE DOMINIO PRIVADO QUE LE FUERON TRANSFERIDOS MEDIANTE LA LEY 28099, PARA GARANTIZAR LA FORMALIZACIÓN DE LA POSESIÓN Y REDUCIR SUS COSTOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00459-2026-2031-CD",
+    "ply_num": 459,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29719, LEY QUE PROMUEVE LA CONVIVENCIA SIN VIOLENCIA EN LAS INSTITUCIONES EDUCATIVAS, PARA FORTALECER LAS MEDIDAS FRENTE AL ACOSO Y LA VIOLENCIA ESCOLAR.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00458-2026-2031-CD",
+    "ply_num": 458,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LOS DECRETOS DE URGENCIA 010-2025 Y 003-2026, A FIN DE EVITAR LA PRIVATIZACIÓN DE PETROPERÚ S.A. Y ESTABLECE MEDIDAS URGENTES PARA SU FORTALECIMIENTO FINANCIERO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00457-2026-2031-CD",
+    "ply_num": 457,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE UNA MEJOR ATENCIÓN A LAS PERSONAS CON DISCAPACIDAD.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00456-2026-2031-CD",
+    "ply_num": 456,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE EL AGUA COMO DERECHO HUMANO FUNDAMENTAL, PROHÍBE SU PRIVATIZACIÓN Y GARANTIZA EL ACCESO UNIVERSAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00455-2026-2031-CD",
+    "ply_num": 455,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA AUTORIDAD PEDAGÓGICA, LA DISCIPLINA Y LA CONVIVENCIA ESCOLAR.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00454-2026-2031-CD",
+    "ply_num": 454,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN DE REFORMA CONSTITUCIONAL QUE RESTABLECE EL EQUILIBRIO ENTRE SENADORES Y DIPUTADOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00453-2026-2031-CD",
     "ply_num": 453,
     "periodo": 2026,
