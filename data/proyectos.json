@@ -1592,7 +1592,7 @@
     "estado": "ACTUALIZADA",
     "fecha_presentacion": "2026-09-17T00:00:00.000-05:00",
     "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
-    "bancada": ""
+    "bancada": null
   },
   {
     "proyecto_ley": "00315-2026-2031-CD",
@@ -1603,7 +1603,7 @@
     "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-17T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
-    "bancada": "Ahora Nación"
+    "bancada": null
   },
   {
     "proyecto_ley": "00314-2026-2031-CD",
@@ -3902,7 +3902,7 @@
     "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-01T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
-    "bancada": "Renovación Popular"
+    "bancada": null
   },
   {
     "proyecto_ley": "00105-2026-2031-CD",
