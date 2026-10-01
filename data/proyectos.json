@@ -1,5 +1,82 @@
 [
   {
+    "proyecto_ley": "00470-2026-2031-CD",
+    "ply_num": 470,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL FORTALECIMIENTO Y EXPANSIÓN DE LOS HOSPITALES DE LA SOLIDARIDAD EN EL PERÚ.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00469-2026-2031-CD",
+    "ply_num": 469,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA EL RETIRO EXTRAORDINARIO Y FACULTATIVO DE HASTA CUATRO UNIDADES IMPOSITIVAS TRIBUTARIAS (4 UIT) DE LOS FONDOS DE LOS AFILIADOS AL SISTEMA PRIVADO DE PENSIONES PARA MITIGAR LOS EFECTOS ECONÓMICOS DEL FENÓMENO “EL NIÑO”.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00468-2026-2031-CD",
+    "ply_num": 468,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 31473, LEY QUE REGULA LA CONTRATACIÓN DE PENSIONISTAS DE LAS FUERZAS ARMADAS Y DE LA POLICÍA NACIONAL DEL PERÚ.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00467-2026-2031-CD",
+    "ply_num": 467,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32735 Y RESTITUYE EL RÉGIMEN JURÍDICO ANTERIOR EN MATERIA DE DELITO DE FUNCIÓN Y COMPETENCIA JURISDICCIONAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00466-2026-2031-CD",
+    "ply_num": 466,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE MODIFICA LOS ARTÍCULOS 102-A, 102-B, 105, 106, 108 Y 206 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ PARA ESTABLECER EL EQUILIBRIO ENTRE EL SENADO Y LA CÁMARA DE DIPUTADOS EN LOS PROCEDIMIENTOS LEGISLATIVOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00465-2026-2031-CD",
+    "ply_num": 465,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30150, LEY DE PROTECCIÓN DE LAS PERSONAS CON TRASTORNO DEL ESPECTRO AUTISTA (TEA), PARA FORTALECER EL ACCESO A PRESTACIONES DE HABILITACIÓN Y REHABILITACIÓN EN SALUD Y PROMOVER SU INCLUSIÓN LABORAL",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00464-2026-2031-CD",
+    "ply_num": 464,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL RÉGIMEN DE ADECUACIÓN HÍDRICA PARA LA GARANTÍA DEL USO PRIORITARIO DEL AGUA PARA CONSUMO HUMANO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
     "proyecto_ley": "00463-2026-2031-CD",
     "ply_num": 463,
     "periodo": 2026,
@@ -29,7 +106,7 @@
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN PERIODO DE MORATORIA PARA LA CREACIÓN Y AUTORIZACIÓN DE FUNCIONAMIENTO DE NUEVAS UNIVERSIDADES PÚBLICA.",
     "estado": "PRESENTADO",
     "fecha_presentacion": "2026-09-30T00:00:00.000-05:00",
-    "proponente": "Presidente de la República",
+    "proponente": "PODER EJECUTIVO",
     "bancada": ""
   },
   {
@@ -4022,7 +4099,7 @@
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DELEGA EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA; FORTALECIMIENTO DE MICRO Y PEQUEÑAS EMPRESAS; PROMOCIÓN DEL EMPLEO; DESARROLLO PRODUCTIVO; RÉGIMEN TRIBUTARIO; SIMPLIFICACIÓN ADMINISTRATIVA Y OTRAS MATERIAS",
     "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-08-28T00:00:00.000-05:00",
-    "proponente": "Presidente de la República",
+    "proponente": "PODER EJECUTIVO",
     "bancada": ""
   },
   {
