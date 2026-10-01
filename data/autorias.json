@@ -1,5 +1,101 @@
 [
   {
+    "proyecto_ley": "00463-2026-2031-CD",
+    "persona": "Holguín Aguirre, James Arturo",
+    "dni": "04810886",
+    "congresista_id": 191,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00463-2026-2031-CD",
+    "persona": "Palomino Casavilca, Catherin Norma",
+    "dni": "48689735",
+    "congresista_id": 218,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00463-2026-2031-CD",
+    "persona": "Palomino Pacheco, Amalia Emilia",
+    "dni": "29313850",
+    "congresista_id": 219,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00463-2026-2031-CD",
+    "persona": "Tito Rojas, César Hugo",
+    "dni": "01320941",
+    "congresista_id": 248,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00463-2026-2031-CD",
+    "persona": "Villanueva Calderón, Juan Amílcar",
+    "dni": "41400923",
+    "congresista_id": 255,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00463-2026-2031-CD",
+    "persona": "Gonzales Delgado, Gabriel Robertino",
+    "dni": "40093361",
+    "congresista_id": 185,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00462-2026-2031-CD",
+    "persona": "Obando Morgan, Auristela Ana",
+    "dni": "07737110",
+    "congresista_id": 84,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00462-2026-2031-CD",
+    "persona": "Alegría García, Luis Arturo",
+    "dni": "45382589",
+    "congresista_id": 6,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00462-2026-2031-CD",
+    "persona": "Bobadilla Galindo, Ángel Bruno",
+    "dni": "40224994",
+    "congresista_id": 154,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00462-2026-2031-CD",
+    "persona": "Paucara Paxi, Carmela",
+    "dni": "41408779",
+    "congresista_id": 222,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00462-2026-2031-CD",
+    "persona": "Pacheco Quispe, Marco Antonio",
+    "dni": "47000483",
+    "congresista_id": 216,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00462-2026-2031-CD",
+    "persona": "Infantes Castañeda, Mery Eliana",
+    "dni": "16448130",
+    "congresista_id": 59,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00460-2026-2031-CD",
     "persona": "Hirache Pizarro, Gloria Charito",
     "dni": "29311981",

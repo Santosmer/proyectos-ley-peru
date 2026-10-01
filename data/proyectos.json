@@ -1,5 +1,38 @@
 [
   {
+    "proyecto_ley": "00463-2026-2031-CD",
+    "ply_num": 463,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA LA QUINTA DISPOSICION COMPLEMENTARIA FINAL A LA LEY 32412 PARA ESTABLECER UN REGIMEN DIFERENCIADO PARA LAS GASOLINAS, GASOHOLES Y DIESEL EN EL DISTRITO DE TAMBOPATA, PROVINCIA DE TAMBOPATA, DEPARTAMENTO DE MADRE DE DIOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-30T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00462-2026-2031-CD",
+    "ply_num": 462,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DISPONE EL USO DE EQUIPOS BIOMÉTRICOS DACTILARES EN LOS SERVICIOS DE EMERGENCIAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-30T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00461-2026-2031-CD",
+    "ply_num": 461,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN PERIODO DE MORATORIA PARA LA CREACIÓN Y AUTORIZACIÓN DE FUNCIONAMIENTO DE NUEVAS UNIVERSIDADES PÚBLICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-09-30T00:00:00.000-05:00",
+    "proponente": "Presidente de la República",
+    "bancada": ""
+  },
+  {
     "proyecto_ley": "00460-2026-2031-CD",
     "ply_num": 460,
     "periodo": 2026,
@@ -4482,7 +4515,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA LOS ARTÍCULOS 56.9, 58.7, 96-A, A LA LEY 30220, LEY UNIVERSITARIA, PARA GARANTIZAR LA PARTICIPACIÓN Y REPRESENTACIÓN SINDICAL DE LOS DOCENTES EN LAS UNIVERSIDADES PÚBLICAS Y PRIVADAS",
-    "estado": "EN COMISIÓN",
+    "estado": "Retirado por su Autor",
     "fecha_presentacion": "2026-08-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
