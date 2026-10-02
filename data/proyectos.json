@@ -1,5 +1,93 @@
 [
   {
+    "proyecto_ley": "00478-2026-2031-CD",
+    "ply_num": 478,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 02662/2021-PJ – PODER JUDICIAL).  \nPROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO CUARTO DE LA LEY 31131 Y PERMITE EL INCREMENTO DE LA CONTRAPRESTACIÓN ECONÓMICA DE LOS TRABAJADORES CAS DEL PODER JUDICIAL",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00477-2026-2031-CD",
+    "ply_num": 477,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA FIGURA DE LA EXTINCIÓN DE DOMINIO, CON EL OBJETIVO DE LUCHAR FRONTALMENTE CONTRA EL CRIMEN ORGANIZADO Y EL LAVADO DE ACTIVOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00476-2026-2031-CD",
+    "ply_num": 476,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL SERVICIO DE ALIMENTACIÓN ESTUDIANTIL PARA LOS ESTUDIANTES DE LOS INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIOR PÚBLICOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00475-2026-2031-CD",
+    "ply_num": 475,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30077, LEY CONTRA EL CRIMEN ORGANIZADO, EL ARTÍCULO 317 DEL DECRETO LEGISLATIVO 635, CÓDIGO PENAL Y LA LEY 27379, LEY DE PROCEDIMIENTO PARA ADOPTAR MEDIDAS EXCEPCIONALES DE LIMITACIÓN DE DERECHOS EN INVESTIGACIONES PRELIMINARES, CON EL OBJETIVO DE MEJORAR LAS CONDICIONES PARA UNA ADECUADA LUCHA CONTRA EL CRIMEN ORGANIZADO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00474-2026-2031-CD",
+    "ply_num": 474,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 31810, LEY QUE MODIFICA LA LEY 29158 RESPECTO AL ENCARGO DEL DESPACHO DE LA PRESIDENCIA DE LA REPÚBLICA Y DE SU GESTIÓN A TRAVÉS DE TECNOLOGIAS DIGITALES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00473-2026-2031-CD",
+    "ply_num": 473,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 23 Y 27 Y DEROGA EL LITERAL C) DEL ARTÍCULO 53 DE LA LEY N° 29944, LEY DE REFORMA MAGISTERIAL, PARA ESTABLECER EL CARÁCTER FORMATIVO Y NO PUNITIVO DE LA EVALUACIÓN DEL DESEMPEÑO DOCENTE Y GARANTIZAR LA PERMANENCIA EN LA CARRERA PÚBLICA MAGISTERIAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00472-2026-2031-CD",
+    "ply_num": 472,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROTEGE LA SALUD MENTAL DE NIÑAS, NIÑOS Y ADOLESCENTES FRENTE A LOS RIESGOS DEL ENTORNO DIGITAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00471-2026-2031-CD",
+    "ply_num": 471,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PENAL Y EL CÓDIGO PROCESAL PENAL PARA IMPEDIR LA IMPUNIDAD.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
     "proyecto_ley": "00470-2026-2031-CD",
     "ply_num": 470,
     "periodo": 2026,
