@@ -1,11 +1,18 @@
 import json
 import re
 import unicodedata
+from io import BytesIO
 from pathlib import Path
+from xml.sax.saxutils import escape
 
 import pandas as pd
 import plotly.express as px
 import streamlit as st
+from reportlab.lib import colors
+from reportlab.lib.pagesizes import A4
+from reportlab.lib.styles import getSampleStyleSheet
+from reportlab.lib.units import cm
+from reportlab.platypus import Paragraph, SimpleDocTemplate, Spacer, Table, TableStyle
 
 st.set_page_config(page_title="Proyectos de Ley — Congreso del Perú", layout="wide")
 
@@ -181,6 +188,69 @@ def ficha_oficial_url(nombre_apellidos_nombres: str) -> str:
     return f"https://diputados.congreso.gob.pe/diputado/{nombre_a_slug(nombre_apellidos_nombres)}/labor-legislativa/proposiciones-legales/"
 
 
+def generar_pdf_diputado(nombre: str, bancada: str, region: str, detalle: pd.DataFrame) -> bytes:
+    """Arma un PDF de una página (o varias si hay muchos proyectos) con los
+    datos del diputado y la lista de proyectos en los que participó."""
+    buffer = BytesIO()
+    doc = SimpleDocTemplate(
+        buffer, pagesize=A4,
+        topMargin=2 * cm, bottomMargin=2 * cm, leftMargin=1.8 * cm, rightMargin=1.8 * cm,
+    )
+    styles = getSampleStyleSheet()
+    elementos = []
+
+    elementos.append(Paragraph(escape(nombre), styles["Title"]))
+    elementos.append(Spacer(1, 0.2 * cm))
+    elementos.append(Paragraph(
+        "Reporte generado desde el dashboard de proyectos de ley — Congreso del Perú (2026-2031)",
+        styles["Italic"],
+    ))
+    elementos.append(Spacer(1, 0.5 * cm))
+    elementos.append(Paragraph(f"<b>Partido / bancada:</b> {escape(bancada or 'No disponible')}", styles["Normal"]))
+    elementos.append(Paragraph(f"<b>Región que representa:</b> {escape(region or 'No identificada')}", styles["Normal"]))
+    elementos.append(Paragraph(f"<b>Total de proyectos:</b> {len(detalle)}", styles["Normal"]))
+    if "rol" in detalle.columns:
+        elementos.append(Paragraph(
+            f"<b>Como autor principal:</b> {int((detalle['rol'] == 'Autor principal').sum())} · "
+            f"<b>Como coautor:</b> {int((detalle['rol'] == 'Coautor').sum())} · "
+            f"<b>Como adherente:</b> {int((detalle['rol'] == 'Adherente').sum())}",
+            styles["Normal"],
+        ))
+    elementos.append(Spacer(1, 0.6 * cm))
+    elementos.append(Paragraph("Proyectos de ley", styles["Heading2"]))
+    elementos.append(Spacer(1, 0.2 * cm))
+
+    celda_normal = styles["Normal"]
+    celda_normal.fontSize = 8
+    data = [["P.L.", "Fecha", "Título", "Estado", "Rol"]]
+    for _, row in detalle.iterrows():
+        fecha = row["fecha_presentacion"]
+        fecha_str = fecha.strftime("%d/%m/%Y") if hasattr(fecha, "strftime") else str(fecha)
+        data.append([
+            Paragraph(escape(str(row.get("proyecto_ley", ""))), celda_normal),
+            fecha_str,
+            Paragraph(escape(str(row.get("titulo", ""))), celda_normal),
+            Paragraph(escape(str(row.get("estado", ""))), celda_normal),
+            Paragraph(escape(str(row.get("rol", ""))), celda_normal),
+        ])
+
+    tabla = Table(data, colWidths=[2.3 * cm, 2 * cm, 7.2 * cm, 2.6 * cm, 2.4 * cm], repeatRows=1)
+    tabla.setStyle(TableStyle([
+        ("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#8B0000")),
+        ("TEXTCOLOR", (0, 0), (-1, 0), colors.white),
+        ("FONTSIZE", (0, 0), (-1, 0), 9),
+        ("FONTSIZE", (0, 1), (-1, -1), 8),
+        ("GRID", (0, 0), (-1, -1), 0.4, colors.grey),
+        ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#F5F5F5")]),
+    ]))
+    elementos.append(tabla)
+
+    doc.build(elementos)
+    buffer.seek(0)
+    return buffer.getvalue()
+
+
 @st.cache_data
 def load_data():
     proyectos = json.loads((DATA_DIR / "proyectos.json").read_text(encoding="utf-8"))
@@ -259,7 +329,7 @@ def ordenar_partidos(lista: list) -> list:
 
 
 RENOMBRAR_COLUMNAS = {
-    "proyecto_ley": "Proposición legislativa",
+    "proyecto_ley": "P.L.",
     "fecha_presentacion": "Fecha de presentación",
     "titulo": "Título",
     "estado": "Estado",
@@ -708,6 +778,14 @@ with tab_diputados:
             detalle_filtrado, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "tema_aprox", "rol", "link"]
         ).rename(columns={"rol": "Rol"})
         mostrar_tabla(detalle_mostrar, link_col="Enlace")
+
+        pdf_bytes = generar_pdf_diputado(seleccionado, bancada_persona, region_persona, detalle_filtrado)
+        st.download_button(
+            "📄 Descargar reporte PDF de este diputado",
+            data=pdf_bytes,
+            file_name=f"reporte_{nombre_a_slug(seleccionado)}.pdf",
+            mime="application/pdf",
+        )
 
     st.subheader("Directorio de diputados electos")
     st.caption(
