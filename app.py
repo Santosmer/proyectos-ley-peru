@@ -696,8 +696,16 @@ with tab_diputados:
 
         ROL_LEGIBLE = {"autor_principal": "Autor principal", "coautor": "Coautor", "adherente": "Adherente"}
         detalle["rol"] = detalle["rol"].map(ROL_LEGIBLE).fillna(detalle["rol"])
+
+        st.subheader(f"Proyectos en los que participó {seleccionado}")
+        st.caption("Filtra por rol para ver solo los que firmó como autor principal, coautor o adherente.")
+        rol_filtro = st.multiselect(
+            "Rol", ["Autor principal", "Coautor", "Adherente"], key="rol_filtro_diputado"
+        )
+        detalle_filtrado = detalle[detalle["rol"].isin(rol_filtro)] if rol_filtro else detalle
+
         detalle_mostrar = preparar_para_mostrar(
-            detalle, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "tema_aprox", "rol", "link"]
+            detalle_filtrado, ["proyecto_ley", "fecha_presentacion", "titulo", "estado", "tema_aprox", "rol", "link"]
         ).rename(columns={"rol": "Rol"})
         mostrar_tabla(detalle_mostrar, link_col="Enlace")
 
