@@ -1,5 +1,173 @@
 [
   {
+    "proyecto_ley": "00506-2026-2031-CD",
+    "persona": "De Paz Lancho, Leo Miguel",
+    "dni": "43401219",
+    "congresista_id": 171,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00506-2026-2031-CD",
+    "persona": "Rocha Gallegos, Roxana María",
+    "dni": "10275564",
+    "congresista_id": 236,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00506-2026-2031-CD",
+    "persona": "Yonz Nuñez, Mady Verónica",
+    "dni": "44689086",
+    "congresista_id": 258,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00506-2026-2031-CD",
+    "persona": "Cipriani Thorne, Javier José María",
+    "dni": "07744156",
+    "congresista_id": 167,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00506-2026-2031-CD",
+    "persona": "Yalta Sotelo, Carlos Alberto",
+    "dni": "08878867",
+    "congresista_id": 256,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00506-2026-2031-CD",
+    "persona": "Bravo Quispe, Aldo Antonio",
+    "dni": "10702554",
+    "congresista_id": 155,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00506-2026-2031-CD",
+    "persona": "Aranda Vásquez, Christian",
+    "dni": "70747151",
+    "congresista_id": 148,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00506-2026-2031-CD",
+    "persona": "Segura Figueroa, Gustavo Alexander",
+    "dni": "41010370",
+    "congresista_id": 240,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00505-2026-2031-CD",
+    "persona": "Rocha Gallegos, Roxana María",
+    "dni": "10275564",
+    "congresista_id": 236,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00505-2026-2031-CD",
+    "persona": "Cipriani Thorne, Javier José María",
+    "dni": "07744156",
+    "congresista_id": 167,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00505-2026-2031-CD",
+    "persona": "Yalta Sotelo, Carlos Alberto",
+    "dni": "08878867",
+    "congresista_id": 256,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00505-2026-2031-CD",
+    "persona": "Aranda Vásquez, Christian",
+    "dni": "70747151",
+    "congresista_id": 148,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00505-2026-2031-CD",
+    "persona": "Zeballos Aponte, Jorge Arturo",
+    "dni": "07026029",
+    "congresista_id": 128,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00505-2026-2031-CD",
+    "persona": "Yonz Nuñez, Mady Verónica",
+    "dni": "44689086",
+    "congresista_id": 258,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00505-2026-2031-CD",
+    "persona": "Bravo Quispe, Aldo Antonio",
+    "dni": "10702554",
+    "congresista_id": 155,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00504-2026-2031-CD",
+    "persona": "Arminta Valencia, Marleny Bibiana",
+    "dni": "29569533",
+    "congresista_id": 149,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00504-2026-2031-CD",
+    "persona": "Meneses Crispin, Ángel Renato",
+    "dni": "20595160",
+    "congresista_id": 210,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00504-2026-2031-CD",
+    "persona": "Holguín Loaiza, César Augusto",
+    "dni": "43572794",
+    "congresista_id": 192,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00504-2026-2031-CD",
+    "persona": "Buitrón Martínez, Freshman",
+    "dni": "41618961",
+    "congresista_id": 156,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00504-2026-2031-CD",
+    "persona": "Manrique Olivera, Bernardino Jair",
+    "dni": "70665764",
+    "congresista_id": 203,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00504-2026-2031-CD",
+    "persona": "Huilca Flores, Indira Isabel",
+    "dni": "45218393",
+    "congresista_id": 194,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00503-2026-2031-CD",
     "persona": "Cabrera Nieto, Juan César",
     "dni": "00482691",

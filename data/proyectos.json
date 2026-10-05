@@ -1,5 +1,38 @@
 [
   {
+    "proyecto_ley": "00506-2026-2031-CD",
+    "ply_num": 506,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE RECONOCE EL DERECHO A LA ATENCIÓN PRIORITARIA Y DIGNA EN SALUD DE LAS PERSONAS CON ENFERMEDADES TERMINALES, ONCOLÓGICAS O CATASTRÓFICAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00505-2026-2031-CD",
+    "ply_num": 505,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE DEFENSA RESPONSABLE.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00504-2026-2031-CD",
+    "ply_num": 504,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RESTITUYE LA ADSCRIPCIÓN DEL INSTITUTO NACIONAL DE DEFENSA CIVIL A LA PRESIDENCIA DEL CONSEJO DE MINISTROS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00503-2026-2031-CD",
     "ply_num": 503,
     "periodo": 2026,
@@ -71,7 +104,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 32385, LEY QUE REGULA EL USO DE TELÉFONOS CELULARES EN TODAS LAS INSTITUCIONES Y PROGRAMAS EDUCATIVOS DE LA EDUCACIÓN BÁSICA, PARA RESTRINGIR EL USO DE DISPOSITIVOS ELECTRÓNICOS DURANTE TODA LA JORNADA ESCOLAR Y REGULAR EL USO DE INTELIGENCIA ARTIFICIAL EN LOS ESTUDIANTES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-02T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -93,7 +126,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 13517/2025-PJ – PODER JUDICIAL).  \nPROPOSICIÓN LEGISLATIVA QUE FIJA EL PORCENTAJE DE APORTACIÓN DE LOS TRABAJADORES DEL SECTOR PÚBLICO NACIONAL COMPRENDIDOS EN EL RÉGIMEN DEL DECRETO LEY 20530.\n",
-    "estado": "ACTUALIZADA",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-02T00:00:00.000-05:00",
     "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
     "bancada": ""
@@ -104,7 +137,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CONTENIDO DEL DECRETO LEGISLATIVO N° 635 CÓDIGO PENAL, DEROGA LA LEY 32104 Y MODIFICA LA LEY 30424, CON EL OBJETIVO DE REFORZAR LA LUCHA CONTRA LA INSEGURIDAD CIUDADANA Y LA CRIMINALIDAD ORGANIZADA",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-02T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -126,7 +159,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 12552/2025-PJ – PODER JUDICIAL).  \nPROPOSICIÓN LEGISLATIVA QUE MODIFICA Y REGULA EL TRÁMITE DE LA EJECUCIÓN DE LAS SENTENCIAS Y AUTOS DEFINITIVOS CON PRINCIPIO DE EJECUCIÓN EN MATERIAS NO PENALES.\n",
-    "estado": "ACTUALIZADA",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-02T00:00:00.000-05:00",
     "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
     "bancada": ""
@@ -137,7 +170,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 12544/2025-PJ – PODER JUDICIAL). \nPROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUMERAL 3 DEL ARTÍCULO 32 DE LA LEY 27584 – LEY QUE REGULA EL PROCESO CONTENCIOSO ADMINISTRATIVO",
-    "estado": "ACTUALIZADA",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-02T00:00:00.000-05:00",
     "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
     "bancada": ""
@@ -148,7 +181,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 11960/2024-PJ – PODER JUDICIAL).  \nPROPOSICIÓN LEGISLATIVA QUE MODIFICA EL PRIMER PÁRRAFO DEL ARTÍCULO VIII DEL TÍTULO PRELIMINAR DE LA LEY 31307 - NUEVO CÓDIGO PROCESAL CONSTITUCIONAL.\n",
-    "estado": "ACTUALIZADA",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-02T00:00:00.000-05:00",
     "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
     "bancada": ""
@@ -621,7 +654,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN PENAL DE NIÑOS Y ADOLESCENTES FRENTE AL USO MALICIOSO DE SISTEMAS BASADOS EN INTELIGENCIA ARTIFICIAL Y REGULA EL RETIRO URGENTE DE CONTENIDO DIGITAL LESIVO",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -632,7 +665,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE LOS ESTUDIANTES FRENTE A LA VIOLENCIA EN LAS INSTITUCIONES EDUCATIVAS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -643,7 +676,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 206-A DEL CÓDIGO PENAL, DECRETO LEGISLATIVO N.° 635, PARA INCORPORAR AGRAVANTES AL DELITO DE ABANDONO Y ACTOS DE CRUELDAD CONTRA ANIMALES DOMÉSTICOS Y SILVESTRES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -654,7 +687,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DEL CORREDOR ECONÓMICO DE LA SELVA CENTRAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -665,7 +698,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS NUMERALES 12 Y 14 DEL ARTÍCULO 4 DE LA LEY 32290, LEY QUE CREA LA UNIVERSIDAD NACIONAL DE DESAGUADERO EN EL DEPARTAMENTO DE PUNO, A FIN DE ADECUAR LA DENOMINACIÓN DE LAS CARRERAS PROFESIONALES DE INGENIERÍA ECONÓMICA Y MEDICINA HUMANA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -676,7 +709,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA PARA GARANTIZAR LA CALIDAD DE LA FORMACIÓN PROFESIONAL DEL MÉDICO CIRUJANO EN EL PERÚ.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
     "proponente": "Colegios Profesionales",
     "bancada": ""
@@ -687,7 +720,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA DEL SERVICIO RURAL Y URBANO MÁRGINAL DE SALUD - SERUMS",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
     "proponente": "Colegios Profesionales",
     "bancada": ""
@@ -4460,7 +4493,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DELEGA EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA; FORTALECIMIENTO DE MICRO Y PEQUEÑAS EMPRESAS; PROMOCIÓN DEL EMPLEO; DESARROLLO PRODUCTIVO; RÉGIMEN TRIBUTARIO; SIMPLIFICACIÓN ADMINISTRATIVA Y OTRAS MATERIAS",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-08-28T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
