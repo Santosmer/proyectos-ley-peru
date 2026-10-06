@@ -1,5 +1,60 @@
 [
   {
+    "proyecto_ley": "00511-2026-2031-CD",
+    "ply_num": 511,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32680, LEY QUE MODIFICA LA LEY 30220, LEY UNIVERSITARIA, PARA INCORPORAR AL JEFE DE PRÁCTICA EN LA CARRERA DOCENTE UNIVERSITARIA Y DISPONER SU NOMBRAMIENTO EXCEPCIONAL, Y PARA REGULAR LA PROMOCIÓN DEL DOCENTE UNIVERSITARIO; Y RESTITUYE LA VIGENCIA DE LOS ARTÍCULOS 81, 82 Y 84 DE LA LEY 30220.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00510-2026-2031-CD",
+    "ply_num": 510,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA PARA LA PROMOCIÓN DE LA INVERSIÓN PÚBLICA Y PRIVADA EN EL CENTRO HISTÓRICO DE AREQUIPA PARA SU DESARROLLO INTEGRAL Y SOSTENIBLEPROPOSICIÓN LEGISLATIVA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00509-2026-2031-CD",
+    "ply_num": 509,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY DEL IMPUESTO A LA RENTA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
+    "proponente": "PODER EJECUTIVO",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00508-2026-2031-CD",
+    "ply_num": 508,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LA VIGENCIA DE LO DISPUESTO EN EL ARTICULO 13 DE LA LEY N° 31893, LEY DE MEDIDAS ESTRATÉGICAS Y DISPOSICIONES ECONÓMICAS Y TRIBUTARIAS PARA EL FORTALECIMIENTO Y POSICIONAMIENTO DEL ECOSISTEMA DEL LIBRO Y DE LA LECTURA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
+    "proponente": "PODER EJECUTIVO",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00507-2026-2031-CD",
+    "ply_num": 507,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30498, LEY QUE PROMUEVE LA DONACIÓN DE ALIMENTOS Y FACILITA EL TRANSPORTE DE DONACIONES EN SITUACIONES DE DESASTRES NATURALES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
+    "proponente": "PODER EJECUTIVO",
+    "bancada": ""
+  },
+  {
     "proyecto_ley": "00506-2026-2031-CD",
     "ply_num": 506,
     "periodo": 2026,
@@ -4240,7 +4295,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ, POR AFECTAR LA LIBERTAD DE CREACIÓN ARTÍSTICA, LA LIBERTAD DE TRABAJO, LA IDENTIDAD CULTURAL Y LA PROTECCIÓN DE LOS CONOCIMIENTOS Y MANIFESTACIONES CULTURALES DEL PERÚ.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-02T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -5307,7 +5362,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ (CPAP)",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-08-12T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Multipartidario"
@@ -5439,7 +5494,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY N' 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ (CPAP)",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-08-10T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
