@@ -1,5 +1,71 @@
 [
   {
+    "proyecto_ley": "00547-2026-2031-CD",
+    "ply_num": 547,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA EL AUMENTO DE LA CUOTA DEL PERÚ EN EL FONDO MONETARIO INTERNACIONAL",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-07T00:00:00.000-05:00",
+    "proponente": "Instituciones Públicas Autónomas",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00546-2026-2031-CD",
+    "ply_num": 546,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL FONDO SOLIDARIO CERVECERO A FAVOR DE LAS POBLACIONES VULNERABLES ACOGIDAS POR LAS SOCIEDADES DE BENEFICENCIA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-07T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00545-2026-2031-CD",
+    "ply_num": 545,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA EJECUCIÓN DE PROYECTOS DE INVERSIÓN EN INFRAESTRUCTURA DE RIEGO Y LA GESTIÓN SOSTENIBLE DEL AGUA EN LAS PROVINCIAS DE JAUJA, CONCEPCIÓN, HUANCAYO Y CHUPACA DEL DEPARTAMENTO DE JUNÍN",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-07T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00544-2026-2031-CD",
+    "ply_num": 544,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE EL 26 DE JULIO DE 1560 COMO FECHA DE FUNDACIÓN HISTÓRICA DEL PUEBLO DE SANTA ANA DE CHUQUIBAMBA, PROVINCIA DE CONDESUYOS, DEPARTAMENTO DE AREQUIPA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-07T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00543-2026-2031-CD",
+    "ply_num": 543,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUEVO CÓDIGO PROCESAL PENAL Y EL CÓDIGO PENAL MILITAR POLICIAL PARA GARANTIZAR EL PRINCIPIO DEL JUEZ NATURAL, LA EFICACIA DE LA ACCIÓN PENAL Y LA TUTELA JUDICIAL EFECTIVA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-07T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00542-2026-2031-CD",
+    "ply_num": 542,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL NOMBRE DEL PAPA LEÓN XIV A LA DENOMINACIÓN DE LA UNIVERSIDAD NACIONAL AUTÓNOMA DE CHICLAYO",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-07T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
     "proyecto_ley": "00541-2026-2031-CD",
     "ply_num": 541,
     "periodo": 2026,
@@ -4878,7 +4944,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DELEGA EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA; FORTALECIMIENTO DE MICRO Y PEQUEÑAS EMPRESAS; PROMOCIÓN DEL EMPLEO; DESARROLLO PRODUCTIVO; RÉGIMEN TRIBUTARIO; SIMPLIFICACIÓN ADMINISTRATIVA Y OTRAS MATERIAS",
-    "estado": "EN RECONSIDERACIÓN",
+    "estado": "APROBADO",
     "fecha_presentacion": "2026-08-28T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
