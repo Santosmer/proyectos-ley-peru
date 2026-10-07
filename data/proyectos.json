@@ -1,5 +1,93 @@
 [
   {
+    "proyecto_ley": "00541-2026-2031-CD",
+    "ply_num": 541,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LAS DISPOSICIONES INCORPORADAS POR LA LEY 32054 EN EL CÓDIGO PENAL, DECRETO LEGISLATIVO 635, Y EN LA LEY 30424, LEY QUE REGULA LA RESPONSABILIDAD ADMINISTRATIVA DE LAS PERSONAS JURÍDICAS EN EL PROCESO PENAL, A FIN DE QUE LOS PARTIDOS POLÍTICOS QUEDEN SUJETOS AL RÉGIMEN GENERAL DE LAS PERSONAS JURÍDICAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00540-2026-2031-CD",
+    "ply_num": 540,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1373 PARA FORTALECER LA AUTONOMÍA, EFICACIA Y GARANTÍAS DEL PROCESO DE EXTINCIÓN DE DOMINIO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00539-2026-2031-CD",
+    "ply_num": 539,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PROCESAL PENAL PARA RESTABLECER LA FUNCIONALIDAD DEL PROCESO ESPECIAL POR COLABORACIÓN EFICAZ.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00538-2026-2031-CD",
+    "ply_num": 538,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 84 DEL CÓDIGO PENAL PARA REGULAR LA SUSPENSIÓN DE LA PRESCRIPCIÓN DE LA ACCIÓN PENAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00537-2026-2031-CD",
+    "ply_num": 537,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31014, LEY QUE REGULA EL USO DE SUSTANCIAS MODELANTES EN TRATAMIENTOS CORPORALES CON FINES ESTÉTICOS, PARA ESTABLECER ESTÁNDARES ACADÉMICOS DE FORMACIÓN PRÁCTICA Y PRECISAR LAS COMPETENCIAS DEL ACTO MÉDICO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00536-2026-2031-CD",
+    "ply_num": 536,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE RECONOCE COMO DERECHO FUNDAMENTAL EL DERECHO A LA ALIMENTACIÓN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00535-2026-2031-CD",
+    "ply_num": 535,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 2 Y 3 DE LA LEY N.° 32712 PARA AMPLIAR EL ÁMBITO DE COLABORACIÓN DE LOS GOBIERNOS REGIONALES Y LOCALES EN FAVOR DE LA POLICÍA NACIONAL DEL PERÚ Y LA AUTORIDAD MARÍTIMA NACIONAL; Y GARANTIZAR LA CONTINUIDAD DE LAS INVERSIONES, CONVENIOS Y PROCEDIMIENTOS ADMINISTRATIVOS EN TRÁMITE",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00534-2026-2031-CD",
+    "ply_num": 534,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL PARA OPTIMIZAR EL RÉGIMEN PENAL ESPECIAL DE LOS ADOLESCENTES MAYORES DE 16 AÑOS DE EDAD A FIN DE COMBATIR LA EXTORSIÓN, SICARIATO, VIOLACIÓN SEXUAL Y DELITOS COMETIDOS POR ORGANIZACIONES CRIMINALES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
     "proyecto_ley": "00533-2026-2031-CD",
     "ply_num": 533,
     "periodo": 2026,
@@ -4790,7 +4878,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DELEGA EN EL PODER EJECUTIVO LA FACULTAD DE LEGISLAR EN MATERIA DE SEGURIDAD CIUDADANA; FORTALECIMIENTO DE MICRO Y PEQUEÑAS EMPRESAS; PROMOCIÓN DEL EMPLEO; DESARROLLO PRODUCTIVO; RÉGIMEN TRIBUTARIO; SIMPLIFICACIÓN ADMINISTRATIVA Y OTRAS MATERIAS",
-    "estado": "CON DICTAMEN",
+    "estado": "EN RECONSIDERACIÓN",
     "fecha_presentacion": "2026-08-28T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -5816,7 +5904,7 @@
     "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-08-05T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
-    "bancada": "Partido Cívico Obras"
+    "bancada": null
   },
   {
     "proyecto_ley": "00004-2026-2031-CD",
