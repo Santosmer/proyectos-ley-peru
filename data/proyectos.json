@@ -1,5 +1,27 @@
 [
   {
+    "proyecto_ley": "00571-2026-2031-CD",
+    "ply_num": 571,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26497, LEY ORGÁNICA DEL REGISTRO NACIONAL DE IDENTIFICACIÓN Y ESTADO CIVIL, CON EL FIN DE OPTIMIZAR Y FORTALECER LA PROTECCIÓN DE LOS DATOS PERSONALES EN LAS ADOPCIONES DE NIÑOS Y ADOLESCENTES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-12T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00570-2026-2031-CD",
+    "ply_num": 570,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE PRECISA LOS ALCANCES DEL ARTÍCULO 2 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ REFERIDO A LOS DERECHOS FUNDAMENTALES DE LAS PERSONAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-12T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
     "proyecto_ley": "00569-2026-2031-CD",
     "ply_num": 569,
     "periodo": 2026,
