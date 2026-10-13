@@ -1,5 +1,71 @@
 [
   {
+    "proyecto_ley": "00577-2026-2031-CD",
+    "ply_num": 577,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA TERCERA DISPOSICIÓN COMPLEMENTARIA FINAL DE LA LEY N° 30220, LEY UNIVERSITARIA, PARA INCORPORAR A LA ESCUELA SUPERIOR DE FORMACIÓN ARTÍSTICA PÚBLICA DE PUNO — ESFAP-PUNO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00576-2026-2031-CD",
+    "ply_num": 576,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA EXCEPCIONALMENTE EL NOMBRAMIENTO DE DOCENTES DE EDUCACIÓN BÁSICA QUE APROBARON LOS CONCURSOS PÚBLICOS DE INGRESO A LA CARRERA PÚBLICA MAGISTERIAL DE LOS AÑOS 2022 Y 2024 Y NO FUERON ADJUDICADOS EN UNA PLAZA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00575-2026-2031-CD",
+    "ply_num": 575,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUMERAL 3 DEL ARTÍCULO 112 DE LA LEY 29571, CÓDIGO DE PROTECCIÓN Y DEFENSA DEL CONSUMIDOR, PARA GARANTIZAR EL PAGO DE COSTAS Y COSTOS EN LOS SUPUESTOS DE ALLANAMIENTO Y RECONOCIMIENTO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00574-2026-2031-CD",
+    "ply_num": 574,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31917, LEY DE TRANSPORTE PÚBLICO DE PERSONAS EN VEHÍCULOS AUTOMOTORES MENORES, CATEGORÍA VEHICULAR L5, PARA REGULAR LA PRESTACIÓN DEL SERVICIO ESPECIAL MEDIANTE TRIMÓVILES NO MOTORIZADOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00573-2026-2031-CD",
+    "ply_num": 573,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FACILITA LA ADQUISICIÓN DE PRODUCTOS AGROPECUARIOS NACIONALES A PEQUEÑOS PRODUCTORES ANTE SITUACIONES EXCEPCIONALES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00572-2026-2031-CD",
+    "ply_num": 572,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA LEY DE CONTINUACIÓN DEL FORTALECIMIENTO DEL SISTEMA DE INSPECCIÓN DEL TRABAJO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
     "proyecto_ley": "00571-2026-2031-CD",
     "ply_num": 571,
     "periodo": 2026,
@@ -126,7 +192,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PENAL, A FIN DE ESTABLECER LA OBLIGATORIEDAD DE LA PRESTACIÓN DE SERVICIOS A LA COMUNIDAD CUANDO LA PENA SEA SUSPENDIDA",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -137,7 +203,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA RESPONSABILIDAD PENAL DE ADULTOS PARA ADOLESCENTES DE 14 A 17 AÑOS POR DELITOS GRAVES",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -148,7 +214,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA DEL CONGRESO QUE MODIFICA Y DEROGA DIVERSOS ARTÍCULOS DEL REGLAMENTO DEL CONGRESO DE LA REPÚBLICA PARA ADECUAR LA NORMATIVA SOBRE SU ORGANIZACIÓN Y FUNCIONAMIENTO ADMINISTRATIVO A LA INDEPENDENCIA Y AUTONOMÍA DE LAS CÁMARAS LEGISLATIVAS",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Multipartidario"
@@ -159,7 +225,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL NUMERAL 3 AL ARTÍCULO 423 DEL CÓDIGO CIVIL Y EL LITERAL D) AL ARTÍCULO 74 DEL CÓDIGO DE LOS NIÑOS Y ADOLESCENTES PARA FORTALECER LA AUTORIDAD PARENTAL",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -170,7 +236,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE FORTALECIMIENTO, SIMPLIFICACIÓN Y MODERNIZACIÓN DE LA FORMALIZACIÓN DE LA PROPIEDAD PREDIAL URBANA",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -181,7 +247,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PREVENCIÓN DE LA VIOLENCIA ESCOLAR MEDIANTE LA INTEGRACIÓN DE LA SALUD MENTAL EN LA EDUCACIÓN BÁSICA, LA TRANSVERSALIZACIÓN CURRICULAR\nSOCIOEMOCIONAL Y LA PRECISIÓN DE RESPONSABILIDADES CIVILES Y ADMINISTRATIVAS",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -192,7 +258,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE A LAS ENTIDADES TÉCNICAS DE TITULACIÓN Y REGULA LA PARTICIPACIÓN DEL SECTOR PRIVADO EN LOS PROCESOS MUNICIPALES DE FORMALIZACIÓN INTEGRAL Y TITULACIÓN DE PREDIOS URBANOS",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-09T00:00:00.000-05:00",
     "proponente": "Instituciones Públicas Autónomas",
     "bancada": ""
@@ -203,7 +269,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DISPONE LA INCORPORACIÓN PROGRESIVA DEL PERSONAL DEL PROGRAMA NACIONAL DE CENTROS JUVENILES (PRONACEJ) SUJETO AL DECRETO LEGISLATIVO N.° 1057 AL RÉGIMEN DEL DECRETO LEGISLATIVO N.° 728.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-07T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -214,7 +280,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA EL RECONOCIMIENTO Y CUMPLIMIENTO DE LOS BENEFICIOS DEL PERSONAL DE SALUD Y DE LAS FAMILIAS DEL PERSONAL FALLECIDO QUE ENFRENTO LA COVID-19.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-07T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -225,7 +291,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE NIÑAS, NIÑOS Y ADOLESCENTES FRENTE A LA VIOLENCIA ESCOLAR GRAVE, EL BULLYING Y EL CIBERBULLYING",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-07T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -236,7 +302,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROTEGE LA VIDA Y LA SALUD Y PREVIENE LA EXPOSICIÓN A RESIDUOS PELIGROSOS DE PLAGUICIDAS EN LOS ALIMENTOS: LEY ALIMENTOS SEGUROS ",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-07T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -247,7 +313,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROTEGE LOS INGRESOS, EL TRABAJO Y LOS MEDIOS DE VIDA DE AGRICULTORES, PESCADORES ARTESANALES Y ARTESANOS AFECTADOS POR EL FENÓMENO DEL NIÑO, HELADAS, FRIAJES Y OTROS DESASTRES CLIMÁTICOS",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-07T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -4496,7 +4562,7 @@
     "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-08T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
-    "bancada": null
+    "bancada": "Renovación Popular"
   },
   {
     "proyecto_ley": "00162-2026-2031-CD",

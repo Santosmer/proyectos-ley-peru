@@ -1,5 +1,309 @@
 [
   {
+    "proyecto_ley": "00577-2026-2031-CD",
+    "persona": "Perez Quispe, Jessica Sadith",
+    "dni": "44908591",
+    "congresista_id": 227,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00577-2026-2031-CD",
+    "persona": "Zunini Yerren, Ernesto Alonzo",
+    "dni": "45327535",
+    "congresista_id": 261,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00577-2026-2031-CD",
+    "persona": "Palomino Pacheco, Amalia Emilia",
+    "dni": "29313850",
+    "congresista_id": 219,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00577-2026-2031-CD",
+    "persona": "Avendaño Vilca, Giannina Iris",
+    "dni": "40855980",
+    "congresista_id": 150,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00577-2026-2031-CD",
+    "persona": "Paredes Navarro, Yenifer Noelia",
+    "dni": "74638299",
+    "congresista_id": 220,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00577-2026-2031-CD",
+    "persona": "Fernández González, Svieta Valia",
+    "dni": "45792658",
+    "congresista_id": 178,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00577-2026-2031-CD",
+    "persona": "Poma Huamani, Haydee Celinda",
+    "dni": "42984568",
+    "congresista_id": 230,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00576-2026-2031-CD",
+    "persona": "Palomino Pacheco, Amalia Emilia",
+    "dni": "29313850",
+    "congresista_id": 219,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00576-2026-2031-CD",
+    "persona": "Zunini Yerren, Ernesto Alonzo",
+    "dni": "45327535",
+    "congresista_id": 261,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00576-2026-2031-CD",
+    "persona": "Pérez Alccahuaman, Jesús",
+    "dni": "45043739",
+    "congresista_id": 225,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00576-2026-2031-CD",
+    "persona": "Tapullima Insapillo, Jacqueline Viviana",
+    "dni": "70163475",
+    "congresista_id": 246,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00576-2026-2031-CD",
+    "persona": "Holguín Aguirre, James Arturo",
+    "dni": "04810886",
+    "congresista_id": 191,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00576-2026-2031-CD",
+    "persona": "Perez Quispe, Jessica Sadith",
+    "dni": "44908591",
+    "congresista_id": 227,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00576-2026-2031-CD",
+    "persona": "Manay Pillaca, Alejandro José",
+    "dni": "44560484",
+    "congresista_id": 202,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00576-2026-2031-CD",
+    "persona": "Poma Huamani, Haydee Celinda",
+    "dni": "42984568",
+    "congresista_id": 230,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00576-2026-2031-CD",
+    "persona": "Guevara Ramírez, Jessica Roxana",
+    "dni": "45353055",
+    "congresista_id": 187,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00575-2026-2031-CD",
+    "persona": "Manrique Olivera, Bernardino Jair",
+    "dni": "70665764",
+    "congresista_id": 203,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00575-2026-2031-CD",
+    "persona": "Holguín Loaiza, César Augusto",
+    "dni": "43572794",
+    "congresista_id": 192,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00575-2026-2031-CD",
+    "persona": "Colchado Huamani, Harvey Julio",
+    "dni": "43592504",
+    "congresista_id": 168,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00575-2026-2031-CD",
+    "persona": "Huilca Flores, Indira Isabel",
+    "dni": "45218393",
+    "congresista_id": 194,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00575-2026-2031-CD",
+    "persona": "Buitrón Martínez, Freshman",
+    "dni": "41618961",
+    "congresista_id": 156,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00574-2026-2031-CD",
+    "persona": "Chacón De Vettori, Cecilia Isabel",
+    "dni": "09536896",
+    "congresista_id": 164,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00574-2026-2031-CD",
+    "persona": "Takayama Jiménez, Liliana Milagros",
+    "dni": "16787889",
+    "congresista_id": 245,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00574-2026-2031-CD",
+    "persona": "Paucara Paxi, Carmela",
+    "dni": "41408779",
+    "congresista_id": 222,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00574-2026-2031-CD",
+    "persona": "Beteta Rubín, Karina Juliza",
+    "dni": "22509175",
+    "congresista_id": 153,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00574-2026-2031-CD",
+    "persona": "Columbus Murata, Diethell",
+    "dni": "40826681",
+    "congresista_id": 169,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00574-2026-2031-CD",
+    "persona": "Leiva Baylón, Leticia Maruja",
+    "dni": "41919665",
+    "congresista_id": 199,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00573-2026-2031-CD",
+    "persona": "Arminta Valencia, Marleny Bibiana",
+    "dni": "29569533",
+    "congresista_id": 149,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00573-2026-2031-CD",
+    "persona": "Holguín Loaiza, César Augusto",
+    "dni": "43572794",
+    "congresista_id": 192,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00573-2026-2031-CD",
+    "persona": "Muedas Balbiese, César Augusto",
+    "dni": "42839004",
+    "congresista_id": 213,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00573-2026-2031-CD",
+    "persona": "Buitrón Martínez, Freshman",
+    "dni": "41618961",
+    "congresista_id": 156,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00573-2026-2031-CD",
+    "persona": "Huilca Flores, Indira Isabel",
+    "dni": "45218393",
+    "congresista_id": 194,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00572-2026-2031-CD",
+    "persona": "Celiz Castillo, Rafael Aldo",
+    "dni": "07750373",
+    "congresista_id": 163,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00572-2026-2031-CD",
+    "persona": "Revilla Villanueva, César Manuel",
+    "dni": "44275599",
+    "congresista_id": 101,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00572-2026-2031-CD",
+    "persona": "Quezada Castro, Geanmarco Antonio",
+    "dni": "18196788",
+    "congresista_id": 232,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00572-2026-2031-CD",
+    "persona": "Paucara Paxi, Carmela",
+    "dni": "41408779",
+    "congresista_id": 222,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00572-2026-2031-CD",
+    "persona": "Bobadilla Galindo, Ángel Bruno",
+    "dni": "40224994",
+    "congresista_id": 154,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00572-2026-2031-CD",
+    "persona": "Alegría García, Luis Arturo",
+    "dni": "45382589",
+    "congresista_id": 6,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00571-2026-2031-CD",
     "persona": "Dodero Jovich, Pierangeli Daniela",
     "dni": "42433830",
@@ -11418,42 +11722,42 @@
   {
     "proyecto_ley": "00163-2026-2031-CD",
     "persona": "Yonz Nuñez, Mady Verónica",
-    "dni": null,
-    "congresista_id": null,
-    "sexo": null,
-    "rol": null
+    "dni": "44689086",
+    "congresista_id": 258,
+    "sexo": "F",
+    "rol": "autor_principal"
   },
   {
     "proyecto_ley": "00163-2026-2031-CD",
     "persona": "Rocha Gallegos, Roxana María",
-    "dni": null,
-    "congresista_id": null,
-    "sexo": null,
-    "rol": null
+    "dni": "10275564",
+    "congresista_id": 236,
+    "sexo": "F",
+    "rol": "coautor"
   },
   {
     "proyecto_ley": "00163-2026-2031-CD",
     "persona": "De Paz Lancho, Leo Miguel",
-    "dni": null,
-    "congresista_id": null,
-    "sexo": null,
-    "rol": null
+    "dni": "43401219",
+    "congresista_id": 171,
+    "sexo": "M",
+    "rol": "coautor"
   },
   {
     "proyecto_ley": "00163-2026-2031-CD",
     "persona": "Yarrow Lumbreras, Norma Martina",
-    "dni": null,
-    "congresista_id": null,
-    "sexo": null,
-    "rol": null
+    "dni": "10806296",
+    "congresista_id": 126,
+    "sexo": "F",
+    "rol": "coautor"
   },
   {
     "proyecto_ley": "00163-2026-2031-CD",
     "persona": "Yalta Sotelo, Carlos Alberto",
-    "dni": null,
-    "congresista_id": null,
-    "sexo": null,
-    "rol": null
+    "dni": "08878867",
+    "congresista_id": 256,
+    "sexo": "M",
+    "rol": "coautor"
   },
   {
     "proyecto_ley": "00162-2026-2031-CD",
