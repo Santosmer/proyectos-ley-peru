@@ -1,5 +1,60 @@
 [
   {
+    "proyecto_ley": "00582-2026-2031-CD",
+    "ply_num": 582,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31336, LEY NACIONAL DEL CÁNCER, PARA FORTALECER LA OPORTUNIDAD Y CONTINUIDAD DE LA ATENCIÓN ONCOLÓGICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00581-2026-2031-CD",
+    "ply_num": 581,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LA VIGENCIA DE LAS EXONERACIONES PREVISTAS EN LOS INCISOS I) Y O) DEL ARTÍCULO 19 DE LA LEY DEL IMPUESTO A LA RENTA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00580-2026-2031-CD",
+    "ply_num": 580,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LOS DERECHOS DE DENOMINACIÓN COMERCIAL SOBRE INFRAESTRUCTURA DEPORTIVA PÚBLICA PARA FINANCIAR SU MANTENIMIENTO, SEGURIDAD Y REMODELACIÓN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00579-2026-2031-CD",
+    "ply_num": 579,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ARTICULACIÓN DE LOS SERVICIOS DE ASISTENCIA TÉCNICA Y VINCULACIÓN COMERCIAL PARA EL DESARROLLO COMPETITIVO DE LA AGRICULTURA FAMILIAR.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00578-2026-2031-CD",
+    "ply_num": 578,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DISPONE LA DISTRIBUCIÓN DEL CANON PARA FORTALECER LA LUCHA CONTRA LA ANEMIA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
     "proyecto_ley": "00577-2026-2031-CD",
     "ply_num": 577,
     "periodo": 2026,

@@ -1,5 +1,237 @@
 [
   {
+    "proyecto_ley": "00582-2026-2031-CD",
+    "persona": "Zegarra Sánchez, Carlos Alberto",
+    "dni": "80387180",
+    "congresista_id": 260,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00582-2026-2031-CD",
+    "persona": "Castro Grández, Royser",
+    "dni": "10587515",
+    "congresista_id": 162,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00582-2026-2031-CD",
+    "persona": "Barbarán Reyes, Rosangella Andrea",
+    "dni": "76030152",
+    "congresista_id": 15,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00582-2026-2031-CD",
+    "persona": "Andrade Salguero de Alvarez, Gladys Griselda",
+    "dni": "15984771",
+    "congresista_id": 147,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00582-2026-2031-CD",
+    "persona": "Takayama Jiménez, Liliana Milagros",
+    "dni": "16787889",
+    "congresista_id": 245,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00582-2026-2031-CD",
+    "persona": "Ramos Rosales, María Candelaria",
+    "dni": "29402006",
+    "congresista_id": 234,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00581-2026-2031-CD",
+    "persona": "Gatica Vega, Francisco Javier",
+    "dni": "42667604",
+    "congresista_id": 184,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00581-2026-2031-CD",
+    "persona": "Castro Grández, Royser",
+    "dni": "10587515",
+    "congresista_id": 162,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00581-2026-2031-CD",
+    "persona": "Trujillo Zegarra, Gilmer",
+    "dni": "08571708",
+    "congresista_id": 249,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00581-2026-2031-CD",
+    "persona": "Paucara Paxi, Carmela",
+    "dni": "41408779",
+    "congresista_id": 222,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00581-2026-2031-CD",
+    "persona": "Takayama Jiménez, Liliana Milagros",
+    "dni": "16787889",
+    "congresista_id": 245,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00581-2026-2031-CD",
+    "persona": "Domínguez Herrera, Carlos Alberto",
+    "dni": "40340841",
+    "congresista_id": 173,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00580-2026-2031-CD",
+    "persona": "Cipriani Thorne, Javier José María",
+    "dni": "07744156",
+    "congresista_id": 167,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00580-2026-2031-CD",
+    "persona": "De Paz Lancho, Leo Miguel",
+    "dni": "43401219",
+    "congresista_id": 171,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00580-2026-2031-CD",
+    "persona": "Bravo Quispe, Aldo Antonio",
+    "dni": "10702554",
+    "congresista_id": 155,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00580-2026-2031-CD",
+    "persona": "Bazán Calderón, Diego Alonso Fernando",
+    "dni": "46847115",
+    "congresista_id": 16,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00580-2026-2031-CD",
+    "persona": "Martínez Paitan, Paola Isabel",
+    "dni": "45363882",
+    "congresista_id": 206,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00579-2026-2031-CD",
+    "persona": "Domínguez Herrera, Carlos Alberto",
+    "dni": "40340841",
+    "congresista_id": 173,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00579-2026-2031-CD",
+    "persona": "Zegarra Sánchez, Carlos Alberto",
+    "dni": "80387180",
+    "congresista_id": 260,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00579-2026-2031-CD",
+    "persona": "Gatica Vega, Francisco Javier",
+    "dni": "42667604",
+    "congresista_id": 184,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00579-2026-2031-CD",
+    "persona": "Castro Cruz, Javier Alejandro",
+    "dni": "16650849",
+    "congresista_id": 161,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00579-2026-2031-CD",
+    "persona": "Meza Rivera, Flor de Jesús",
+    "dni": "72393802",
+    "congresista_id": 211,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00579-2026-2031-CD",
+    "persona": "Barbarán Reyes, Rosangella Andrea",
+    "dni": "76030152",
+    "congresista_id": 15,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00578-2026-2031-CD",
+    "persona": "Gamarra Pita, Luzmila María del Carmen",
+    "dni": "42516751",
+    "congresista_id": 182,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00578-2026-2031-CD",
+    "persona": "Ticlla Rafael, Segundo Senovio",
+    "dni": "27424381",
+    "congresista_id": 247,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00578-2026-2031-CD",
+    "persona": "Gatica Vega, Francisco Javier",
+    "dni": "42667604",
+    "congresista_id": 184,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00578-2026-2031-CD",
+    "persona": "Barbarán Reyes, Rosangella Andrea",
+    "dni": "76030152",
+    "congresista_id": 15,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00578-2026-2031-CD",
+    "persona": "Silupú Inga, María Luisa",
+    "dni": "03651034",
+    "congresista_id": 241,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00578-2026-2031-CD",
+    "persona": "Bobadilla Galindo, Ángel Bruno",
+    "dni": "40224994",
+    "congresista_id": 154,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00577-2026-2031-CD",
     "persona": "Perez Quispe, Jessica Sadith",
     "dni": "44908591",
