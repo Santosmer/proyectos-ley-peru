@@ -1,5 +1,16 @@
 [
   {
+    "proyecto_ley": "00583-2026-2031-CD",
+    "ply_num": 583,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 13 DE LA LEY 27795 LEY DE DEMARCACIÓN Y ORGANIZACIÓN TERRITORIAL, PARA OPTIMIZAR LOS PROCEDIMIENTOS SOBRE LA DEMARCACIÓN TERRITORIAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-14T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00582-2026-2031-CD",
     "ply_num": 582,
     "periodo": 2026,
@@ -27,7 +38,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LOS DERECHOS DE DENOMINACIÓN COMERCIAL SOBRE INFRAESTRUCTURA DEPORTIVA PÚBLICA PARA FINANCIAR SU MANTENIMIENTO, SEGURIDAD Y REMODELACIÓN.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -38,7 +49,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ARTICULACIÓN DE LOS SERVICIOS DE ASISTENCIA TÉCNICA Y VINCULACIÓN COMERCIAL PARA EL DESARROLLO COMPETITIVO DE LA AGRICULTURA FAMILIAR.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -49,7 +60,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DISPONE LA DISTRIBUCIÓN DEL CANON PARA FORTALECER LA LUCHA CONTRA LA ANEMIA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -60,7 +71,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA TERCERA DISPOSICIÓN COMPLEMENTARIA FINAL DE LA LEY N° 30220, LEY UNIVERSITARIA, PARA INCORPORAR A LA ESCUELA SUPERIOR DE FORMACIÓN ARTÍSTICA PÚBLICA DE PUNO — ESFAP-PUNO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -71,7 +82,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA EXCEPCIONALMENTE EL NOMBRAMIENTO DE DOCENTES DE EDUCACIÓN BÁSICA QUE APROBARON LOS CONCURSOS PÚBLICOS DE INGRESO A LA CARRERA PÚBLICA MAGISTERIAL DE LOS AÑOS 2022 Y 2024 Y NO FUERON ADJUDICADOS EN UNA PLAZA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -82,7 +93,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUMERAL 3 DEL ARTÍCULO 112 DE LA LEY 29571, CÓDIGO DE PROTECCIÓN Y DEFENSA DEL CONSUMIDOR, PARA GARANTIZAR EL PAGO DE COSTAS Y COSTOS EN LOS SUPUESTOS DE ALLANAMIENTO Y RECONOCIMIENTO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -93,7 +104,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31917, LEY DE TRANSPORTE PÚBLICO DE PERSONAS EN VEHÍCULOS AUTOMOTORES MENORES, CATEGORÍA VEHICULAR L5, PARA REGULAR LA PRESTACIÓN DEL SERVICIO ESPECIAL MEDIANTE TRIMÓVILES NO MOTORIZADOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -104,7 +115,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FACILITA LA ADQUISICIÓN DE PRODUCTOS AGROPECUARIOS NACIONALES A PEQUEÑOS PRODUCTORES ANTE SITUACIONES EXCEPCIONALES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -115,7 +126,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA LEY DE CONTINUACIÓN DEL FORTALECIMIENTO DEL SISTEMA DE INSPECCIÓN DEL TRABAJO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -126,7 +137,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26497, LEY ORGÁNICA DEL REGISTRO NACIONAL DE IDENTIFICACIÓN Y ESTADO CIVIL, CON EL FIN DE OPTIMIZAR Y FORTALECER LA PROTECCIÓN DE LOS DATOS PERSONALES EN LAS ADOPCIONES DE NIÑOS Y ADOLESCENTES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-12T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -137,7 +148,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE PRECISA LOS ALCANCES DEL ARTÍCULO 2 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ REFERIDO A LOS DERECHOS FUNDAMENTALES DE LAS PERSONAS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-12T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -148,7 +159,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE IMPLEMENTA LA ALFABETIZACIÓN DIGITAL Y LA FORMACIÓN EN INTELIGENCIA ARTIFICIAL EN LA EDUCACIÓN BÁSICA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-12T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -159,7 +170,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1297 PARA INCORPORAR DISPOSICIONES SOBRE LA COLABORACIÓN DE INSTITUCIONES PRIVADAS SIN FINES DE LUCRO PARA LA PROTECCIÓN DE NIÑAS, NIÑOS Y ADOLESCENTES SIN CUIDADOS PARENTALES O EN RIESGO DE PERDERLOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-12T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -170,7 +181,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LINEAMIENTOS PARA LA TRANSICIÓN DE JÓVENES EGRESADOS DE LA EDUCACIÓN SUPERIOR AL EMPLEO FORMAL",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-12T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -181,7 +192,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE REINSERSIÓN QUE ESTABLECE UN RÉGIMEN EXCEPCIONAL DE REHABILITACIÓN PARA CONDUCTORES CON INHABILITACIÓN ADMINISTRATIVA DEFINITIVA SIN DAÑO A LA INTEGRIDAD FÍSICA NI PÉRDIDA DE VIDA HUMANA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-12T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -192,7 +203,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29768, LEY DE MANCOMUNIDAD REGIONAL, PARA INCORPORAR CRITERIOS DE ARTICULACIÓN Y PRIORIZACIÓN DE INTERVENCIONES AGRARIAS INTERREGIONALES",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -203,7 +214,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE TITULACIÓN PRIORITARIA, SANEAMIENTO FÍSICO-LEGAL Y PROTECCIÓN INTEGRAL DE LOS TERRITORIOS DE LAS COMUNIDADES CAMPESINAS Y NATIVAS FRENTE A ECONOMÍAS ILEGALES",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -214,7 +225,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL MARCO PARA LA ATENCIÓN PREFERENTE Y EL DESARROLLO INTEGRAL DEL VALLE DE LOS RIOS APURIMAC, ENE Y MANTARO - VRAEM",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -225,7 +236,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL MONTO MÍNIMO DE COBERTURA A FAVOR DE PRODUCTORES AGRARIOS POR INDEMNIZACIÓN DEL SEGURO AGRARIO CATASTRÓFICO - SAC",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -236,7 +247,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE AMPLIA LOS ALCANCES DEL FONDO PARA LA INTERVENCION ANTE LA OCURRENCIA DE DESASTRES NATURALES (FONDES), PARA LA PROTECCIÓN DE LA ACTIVIDAD AGRARIA Y LA FAUNA ALTOANDINA FRENTE A FENOMENOS DE ORIGEN NATURAL",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -1952,7 +1963,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN REALIZADA EL 8 DE SETEIMBRE DE 2026 - (ANTES PL 00087/2021-IC - JURADO NACIONAL DE ELECCIONES)\nPROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL DEL ARTÍCULO 206 DE LA CONSTITUCIÓN DE 1993 POR EL QUE SE ESTABLECE EL PROCEDIMIENTO PARA LA REFORMA TOTAL DE LA ACTUAL \"CONSTITUCIÓN\" TOMANDO COMO BASE PARA ELLO EL TEXTO DE LA CONSTITUCIÓN DEL PERÚ DE 1979\" ",
-    "estado": "ACTUALIZADA",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-21T00:00:00.000-05:00",
     "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
     "bancada": ""
@@ -1974,7 +1985,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PREVIENE Y SANCIONA LA MANIPULACIÓN DIGITAL COORDINADA DE LA PARTICIPACIÓN DEMOCRÁTICA MEDIANTE GRANJAS DE BOTS Y REDES COORDINADAS INAUTÉNTICAS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -1985,7 +1996,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN REALIZADA EL 8 DE SETEIMBRE DE 2026 - (ANTES PL 11821/2021-IC - JURADO NACIONAL DE ELECCIONES)\nPROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE MODIFICA EL ARTÍCULO 206° DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ, A FIN DE PROHIBIR EXPRESAMENTE LA REFORMA TOTAL DE LA CONSTITUCIÓN A TRAVÉS DE UNA ASAMBLEA CONSTITUYENTE ",
-    "estado": "ACTUALIZADA",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-18T00:00:00.000-05:00",
     "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
     "bancada": ""
@@ -2304,7 +2315,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LAS LEYES 29230 Y 29837 PARA INCORPORAR LA MODALIDAD DE TALENTO PRODUCTIVO POR IMPUESTOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
