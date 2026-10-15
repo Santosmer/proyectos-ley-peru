@@ -1,11 +1,33 @@
 [
   {
+    "proyecto_ley": "00585-2026-2031-CD",
+    "ply_num": 585,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27613, LEY DE LA PARTICIPACIÓN EN RENTA DE ADUANAS Y LA LEY DE TRIBUTACIÓN MUNICIPAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-14T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00584-2026-2031-CD",
+    "ply_num": 584,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE DESTRABE SOSTENIBLE DE PROYECTOS DE INVERSIÓN EJECUTADOS Y SANEAMIENTO DE PASIVOS AMBIENTALES.\n",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-14T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00583-2026-2031-CD",
     "ply_num": 583,
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 13 DE LA LEY 27795 LEY DE DEMARCACIÓN Y ORGANIZACIÓN TERRITORIAL, PARA OPTIMIZAR LOS PROCEDIMIENTOS SOBRE LA DEMARCACIÓN TERRITORIAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-14T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -16,7 +38,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31336, LEY NACIONAL DEL CÁNCER, PARA FORTALECER LA OPORTUNIDAD Y CONTINUIDAD DE LA ATENCIÓN ONCOLÓGICA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -27,7 +49,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LA VIGENCIA DE LAS EXONERACIONES PREVISTAS EN LOS INCISOS I) Y O) DEL ARTÍCULO 19 DE LA LEY DEL IMPUESTO A LA RENTA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -5087,7 +5109,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ, POR AFECTAR LA LIBERTAD DE CREACIÓN ARTÍSTICA, LA LIBERTAD DE TRABAJO, LA IDENTIDAD CULTURAL Y LA PROTECCIÓN DE LOS CONOCIMIENTOS Y MANIFESTACIONES CULTURALES DEL PERÚ.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-09-02T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -6154,7 +6176,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ (CPAP)",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-08-12T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Multipartidario"
@@ -6286,7 +6308,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY N' 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ (CPAP)",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-08-10T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
