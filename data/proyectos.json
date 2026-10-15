@@ -1,5 +1,16 @@
 [
   {
+    "proyecto_ley": "00586-2026-2031-CD",
+    "ply_num": 586,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29719, LEY QUE PROMUEVE LA CONVIVENCIA SIN VIOLENCIA EN LAS INSTITUCIONES EDUCATIVAS, PARA FORTALECER LA PROTECCIÓN FRENTE A LA VIOLENCIA Y EL ACOSO ESCOLAR.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
     "proyecto_ley": "00585-2026-2031-CD",
     "ply_num": 585,
     "periodo": 2026,
@@ -4691,7 +4702,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27669, LEY DEL TRABAJO DE LA ENFERMERA(O), PARA FORTALECER EL EJERCICIO PROFESIONAL Y LA CALIDAD DEL CUIDADO DE ENFERMERÍA.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-08T00:00:00.000-05:00",
     "proponente": "Colegios Profesionales",
     "bancada": ""
@@ -5043,7 +5054,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA TRANSPARENCIA Y EL CONTROL DE LAS MODIFICACIONES EN LOS CONTRATOS PÚBLICOS.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-03T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -5439,7 +5450,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27669, LEY DEL TRABAJO DE LA ENFERMERA(O), PARA FORTALECER LA AUTONOMÍA PROFESIONAL DE ENFERMERÍA",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-08-24T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
