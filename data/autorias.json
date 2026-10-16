@@ -1,5 +1,53 @@
 [
   {
+    "proyecto_ley": "00596-2026-2031-CD",
+    "persona": "Navas Sánchez, Jessica Lizbeth",
+    "dni": "10028427",
+    "congresista_id": 215,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00596-2026-2031-CD",
+    "persona": "Paucara Paxi, Carmela",
+    "dni": "41408779",
+    "congresista_id": 222,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00596-2026-2031-CD",
+    "persona": "Silupú Inga, María Luisa",
+    "dni": "03651034",
+    "congresista_id": 241,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00596-2026-2031-CD",
+    "persona": "Ticlla Rafael, Segundo Senovio",
+    "dni": "27424381",
+    "congresista_id": 247,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00596-2026-2031-CD",
+    "persona": "Pacheco Quispe, Marco Antonio",
+    "dni": "47000483",
+    "congresista_id": 216,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00596-2026-2031-CD",
+    "persona": "Zegarra Sánchez, Carlos Alberto",
+    "dni": "80387180",
+    "congresista_id": 260,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00595-2026-2031-CD",
     "persona": "Patiño Urco, Ana Bertha",
     "dni": "10792277",
