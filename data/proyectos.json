@@ -1,5 +1,104 @@
 [
   {
+    "proyecto_ley": "00595-2026-2031-CD",
+    "ply_num": 595,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INSTITUCIONALIDAD DE LAS SOCIEDADES DE BENEFICENCIA PARA EL CUMPLIMIENTO DE SU FINALIDAD.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00594-2026-2031-CD",
+    "ply_num": 594,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30790, LEY QUE PROMUEVE A LOS COMEDORES POPULARES COMO UNIDADES DE EMPRENDIMIENTO PARA LA PRODUCCIÓN, PARA FORTALECER EL DESARROLLO PRODUCTIVO DE LAS MUJERES INTEGRANTES DE COMEDORES POPULARES Y OLLAS COMUNES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00593-2026-2031-CD",
+    "ply_num": 593,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26842, LEY GENERAL DE SALUD, PARA GARANTIZAR LA CONTINUIDAD DE LA ATENCIÓN ANTE LA INDISPONIBILIDAD DE SISTEMAS DIGITALES DE INFORMACIÓN CLÍNICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00592-2026-2031-CD",
+    "ply_num": 592,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA E INCORPORA DISPOSICIONES AL DECRETO LEGISLATIVO N.° 147, LEY DEL SERVICIO NACIONAL DE CAPACITACIÓN PARA LA INDUSTRIA DE LA CONSTRUCCIÓN (SENCICO), A FIN DE ADECUAR EL RÉGIMEN DE LA CONTRIBUCIÓN AL MARCO CONSTITUCIONAL Y TRIBUTARIO VIGENTE ",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00591-2026-2031-CD",
+    "ply_num": 591,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N° 28951, LEY DE ACTUALIZACIÓN DE LA LEY N° 13253, LEY DE PROFESIONALIZACIÓN DEL CONTADOR PÚBLICO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00590-2026-2031-CD",
+    "ply_num": 590,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 11 DEL DECRETO LEGISLATIVO 882, LEY DE PROMOCIÓN DE LA INVERSIÓN EN LA EDUCACIÓN, CON EL FIN DE GARANTIZAR QUE LAS INSTITUCIONES EDUCATIVAS PRIVADAS SE ACOJAN AL RÉGIMEN TRIBUTARIO QUE CORRESPONDA CONFORME A SU CAPACIDAD ECONÓMICA, INGRESOS Y NATURALEZA JURIDICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00589-2026-2031-CD",
+    "ply_num": 589,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL PARA FORTALECER LA SEGURIDAD CIUDADANA Y AMPLIAR EL PLAZO DE DETENCIÓN POLICIAL EN DELITOS DE SICARIATO, EXTORSIÓN Y CONSPIRACIÓN PARA SICARIATO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00588-2026-2031-CD",
+    "ply_num": 588,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL PARA AMPLIAR EL PLAZO DE DETENCIÓN PREVENTIVA O PRELIMINAR EN DELITOS DE ALTA PELIGROSIDAD.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00587-2026-2031-CD",
+    "ply_num": 587,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27972, LEY ORGÁNICA DE MUNICIPALIDADES, PARA FORTALECER LA FISCALIZACIÓN EN GOBIERNOS LOCALES Y LA PUBLICIDAD DE LAS SESIONES DEL CONCEJO MUNICIPAL",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00586-2026-2031-CD",
     "ply_num": 586,
     "periodo": 2026,
