@@ -1,5 +1,16 @@
 [
   {
+    "proyecto_ley": "00597-2026-2031-CD",
+    "ply_num": 597,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INTERPRETA Y MODIFICA LA LEY 31556, LEY QUE PROMUEVE MEDIDAS DE REACTIVACIÓN ECONÓMICA DE MICRO Y PEQUEÑAS EMPRESAS DE LOS RUBROS DE RESTAURANTES, HOTELES Y ALOJAMIENTOS TURÍSTICOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-16T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
     "proyecto_ley": "00596-2026-2031-CD",
     "ply_num": 596,
     "periodo": 2026,
@@ -93,7 +104,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL PARA AMPLIAR EL PLAZO DE DETENCIÓN PREVENTIVA O PRELIMINAR EN DELITOS DE ALTA PELIGROSIDAD.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -104,7 +115,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27972, LEY ORGÁNICA DE MUNICIPALIDADES, PARA FORTALECER LA FISCALIZACIÓN EN GOBIERNOS LOCALES Y LA PUBLICIDAD DE LAS SESIONES DEL CONCEJO MUNICIPAL",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -115,7 +126,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29719, LEY QUE PROMUEVE LA CONVIVENCIA SIN VIOLENCIA EN LAS INSTITUCIONES EDUCATIVAS, PARA FORTALECER LA PROTECCIÓN FRENTE A LA VIOLENCIA Y EL ACOSO ESCOLAR.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -126,7 +137,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27613, LEY DE LA PARTICIPACIÓN EN RENTA DE ADUANAS Y LA LEY DE TRIBUTACIÓN MUNICIPAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-14T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -137,7 +148,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE DESTRABE SOSTENIBLE DE PROYECTOS DE INVERSIÓN EJECUTADOS Y SANEAMIENTO DE PASIVOS AMBIENTALES.\n",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-14T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"

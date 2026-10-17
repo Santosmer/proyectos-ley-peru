@@ -1,5 +1,69 @@
 [
   {
+    "proyecto_ley": "00597-2026-2031-CD",
+    "persona": "Barbarán Reyes, Rosangella Andrea",
+    "dni": "76030152",
+    "congresista_id": 15,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00597-2026-2031-CD",
+    "persona": "Alegría García, Luis Arturo",
+    "dni": "45382589",
+    "congresista_id": 6,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00597-2026-2031-CD",
+    "persona": "Dodero Jovich, Pierangeli Daniela",
+    "dni": "42433830",
+    "congresista_id": 172,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00597-2026-2031-CD",
+    "persona": "Zegarra Sánchez, Carlos Alberto",
+    "dni": "80387180",
+    "congresista_id": 260,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00597-2026-2031-CD",
+    "persona": "Leiva Baylón, Leticia Maruja",
+    "dni": "41919665",
+    "congresista_id": 199,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00597-2026-2031-CD",
+    "persona": "Palma Mendoza, José Marvin",
+    "dni": "45721573",
+    "congresista_id": 217,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00597-2026-2031-CD",
+    "persona": "Gamarra Pita, Luzmila María del Carmen",
+    "dni": "42516751",
+    "congresista_id": 182,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00597-2026-2031-CD",
+    "persona": "Muñoz Yurivilca, Kim Tami",
+    "dni": "45892017",
+    "congresista_id": 214,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00596-2026-2031-CD",
     "persona": "Navas Sánchez, Jessica Lizbeth",
     "dni": "10028427",
