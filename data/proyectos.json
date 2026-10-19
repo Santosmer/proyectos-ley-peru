@@ -1,5 +1,71 @@
 [
   {
+    "proyecto_ley": "00603-2026-2031-CD",
+    "ply_num": 603,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCENTIVA LA PARTICIPACIÓN DE EMPRESAS EXTRANJERAS ESPECIALIZADAS EN LA CONSTRUCCIÓN Y GESTIÓN DE CENTROS PENITENCIARIOS PARA FORTALECER LA LUCHA CONTRA EL CRIMEN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00602-2026-2031-CD",
+    "ply_num": 602,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ELIMINA BARRERAS PARA EL ACCESO DE LOS JÓVENES A SU PRIMERA EXPERIENCIA LABORAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00601-2026-2031-CD",
+    "ply_num": 601,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PERMITIRÁ SALVAGUARDAR EFECTIVAMENTE LAS CABECERAS DE CUENCA.       ",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00600-2026-2031-CD",
+    "ply_num": 600,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EXCEPCIONES A LA PROHIBICIÓN DE DESINTEGRACIÓN O ESCISIÓN DE EMPRESAS PRESTADORAS PÚBLICAS DE ACCIONARIADO MUNICIPAL Y AUTORIZA LA CONSTITUCIÓN DE LA EPS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00599-2026-2031-CD",
+    "ply_num": 599,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31168, E INCORPORA LA ALFABETIZACIÓN DIGITAL, LA INTELIGENCIA ARTIFICIAL COMO PROGRAMAS ESPECÍFICOS Y OTORGA UNA BONIFICACION COMO INCENTIVO A LA INNOVACIÓN TECNOLÓGICA EN EL DESARROLLO PRODUCTIVO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00598-2026-2031-CD",
+    "ply_num": 598,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA LOS ARTÍCULOS 20-A Y 20-B EN LA LEY 29973, LEY GENERAL DE LA PERSONA CON DISCAPACIDAD, PARA GARANTIZAR EL TRASLADO DEL ACOMPAÑANTE INDISPENSABLE DE LA PERSONA CON DISCAPACIDAD SEVERA EN EL TRANSPORTE PÚBLICO TERRESTRE URBANO E INTERURBANO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
     "proyecto_ley": "00597-2026-2031-CD",
     "ply_num": 597,
     "periodo": 2026,
