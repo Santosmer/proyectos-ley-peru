@@ -1,5 +1,38 @@
 [
   {
+    "proyecto_ley": "00618-2026-2031-CD",
+    "ply_num": 618,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA APROBACIÓN OPORTUNA DE PLANES Y PROYECTOS DE INVESTIGACIÓN EN PREGRADO Y POSGRADO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00617-2026-2031-CD",
+    "ply_num": 617,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN AL DOCENTE FRENTE A AGRESIONES COMETIDAS POR ESTUDIANTES EN LAS INSTITUCIONES EDUCATIVAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00616-2026-2031-CD",
+    "ply_num": 616,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA EVALUACIÓN PERIÓDICA DEL CURRÍCULO NACIONAL Y SU ARTICULACIÓN CON LOS INSTRUMENTOS DE EVALUACIÓN EDUCATIVA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
     "proyecto_ley": "00615-2026-2031-CD",
     "ply_num": 615,
     "periodo": 2026,
@@ -82,7 +115,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE LA PEQUEÑA MINERÍA Y MINERÍA ARTESANAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -93,7 +126,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL PROCESO DE FORMALIZACIÓN DE LAS EMBARCACIONES PESQUERAS ARTESANALES EN EL MARCO DEL DECRETO LEGISLATIVO 1392-DECRETO LEGISLATIVO QUE PROMUEVE LA FORMALIZACIÓN DE LA ACTIVIDAD PESQUERA ARTESANAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -104,7 +137,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 108-B DEL CÓDIGO PENAL PARA FORTALECER LA PROTECCIÓN DE LAS NIÑAS, NIÑOS Y ADOLESCENTES EXPUESTOS A LA COMISIÓN DEL DELITO DE FEMINICIDIO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -115,7 +148,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INSTITUCIONALIZA EL 30 DE SETIEMBRE DE CADA AÑO COMO EL DÍA NACIONAL DE LA BIBLIA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -126,7 +159,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA PROTECCIÓN LABORAL PARA PERSONAS QUE BRINDAN ATENCIONES A SUS FAMILIARES CON DISCAPACIDAD, CON SÍNDROME Y/O CON ENFERMEDADES EN SITUACIÓN DE GRAN DEPENDENCIA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -137,7 +170,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCENTIVA LA PARTICIPACIÓN DE EMPRESAS EXTRANJERAS ESPECIALIZADAS EN LA CONSTRUCCIÓN Y GESTIÓN DE CENTROS PENITENCIARIOS PARA FORTALECER LA LUCHA CONTRA EL CRIMEN.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -148,7 +181,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ELIMINA BARRERAS PARA EL ACCESO DE LOS JÓVENES A SU PRIMERA EXPERIENCIA LABORAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -159,7 +192,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PERMITIRÁ SALVAGUARDAR EFECTIVAMENTE LAS CABECERAS DE CUENCA.       ",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -170,7 +203,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EXCEPCIONES A LA PROHIBICIÓN DE DESINTEGRACIÓN O ESCISIÓN DE EMPRESAS PRESTADORAS PÚBLICAS DE ACCIONARIADO MUNICIPAL Y AUTORIZA LA CONSTITUCIÓN DE LA EPS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -181,7 +214,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31168, E INCORPORA LA ALFABETIZACIÓN DIGITAL, LA INTELIGENCIA ARTIFICIAL COMO PROGRAMAS ESPECÍFICOS Y OTORGA UNA BONIFICACION COMO INCENTIVO A LA INNOVACIÓN TECNOLÓGICA EN EL DESARROLLO PRODUCTIVO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -192,7 +225,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA LOS ARTÍCULOS 20-A Y 20-B EN LA LEY 29973, LEY GENERAL DE LA PERSONA CON DISCAPACIDAD, PARA GARANTIZAR EL TRASLADO DEL ACOMPAÑANTE INDISPENSABLE DE LA PERSONA CON DISCAPACIDAD SEVERA EN EL TRANSPORTE PÚBLICO TERRESTRE URBANO E INTERURBANO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
