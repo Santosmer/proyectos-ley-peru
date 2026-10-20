@@ -1,5 +1,137 @@
 [
   {
+    "proyecto_ley": "00615-2026-2031-CD",
+    "ply_num": 615,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 84 DE LA LEY 30220, LEY UNIVERSITARIA, PARA RESTABLECER LA EDAD LÍMITE PARA EL EJERCICIO DE LA DOCENCIA ORDINARIA Y FIJAR UN RÉGIMEN DE CONTINUIDAD INSTITUCIONAL DEL DOCENTE MEDIANTE CONTRATACIÓN EN FUNCIONES ADMINISTRATIVAS, DE TUTORÍA ACADÉMICA Y DE ASESORÍA EN INVESTIGACIÓN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00614-2026-2031-CD",
+    "ply_num": 614,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27933, LEY DEL SISTEMA NACIONAL DE SEGURIDAD CIUDADANA, PARA CREAR Y REGULAR LAS RONDAS URBANAS COMO ORGANIZACIONES SOCIALES DE COLABORACIÓN VECINAL EN LA PREVENCIÓN DEL DELITO, Y MODIFICA LOS ARTICULOS 121, 122 Y367 DEL CÓDIGO PENAL PARA BRINDARLES PROTECCIÓN PENAL REFORZADA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00613-2026-2031-CD",
+    "ply_num": 613,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUMERAL 100.6 DEL ARTÍCULO 100 E INCORPORA EL ARTÍCULO 100-A A LA LEY 302220, LEY UNIVERSITARIA, PARA PRECISAR LOS ALCANCES DEL DERECHO DE ASOCIACIÓN DE LOS ESTUDIANTES Y GARANTIZAR SU EJERCICIO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00612-2026-2031-CD",
+    "ply_num": 612,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32326, LEY QUE MODIFICA EL DECRETO LEGISLATIVO 1373, DECRETO LEGISLATIVO SOBRE EXTINCIÓN DE DOMINIO, A FIN DE PERFECCIONAR EL PROCESO DE EXTINCIÓN DE DOMINIO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00611-2026-2031-CD",
+    "ply_num": 611,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RESTABLECE EL RÉGIMEN DE SUSPENSIÓN DE LA PRESCRIPCIÓN DE LA ACCIÓN PENAL Y DEROGA LAS LEYES PROCRIMEN 31751 Y 32104.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00610-2026-2031-CD",
+    "ply_num": 610,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 91 DE LA LEY GENERAL DE MINERÍA, CUYO TEXTO ÚNICO ORDENADO FUE APROBADO MEDIANTE DECRETO SUPREMO 014-92-EM, Y ESTABLECE LÍMITES MÁXIMOS DIFERENCIADOS DE PRODUCCIÓN PARA LOS PEQUEÑOS PRODUCTORES MINEROS, SEGÚN SE TRATE DE MINERÍA SUBTERRÁNEA O A CIELO ABIERTO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00609-2026-2031-CD",
+    "ply_num": 609,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 2 DE LA LEY 29409, LEY QUE CONCEDE EL DERECHO DE LICENCIA POR PATERNIDAD A LOS TRABAJADORES DE LA ACTIVIDAD PÚBLICA Y PRIVADA, PARA AMPLIAR A VEINTIOCHO (28) DÍAS CALENDARIO EL PLAZO DE LA LICENCIA POR PATERNIDAD",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00608-2026-2031-CD",
+    "ply_num": 608,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE LA PEQUEÑA MINERÍA Y MINERÍA ARTESANAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "PODER EJECUTIVO",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00607-2026-2031-CD",
+    "ply_num": 607,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL PROCESO DE FORMALIZACIÓN DE LAS EMBARCACIONES PESQUERAS ARTESANALES EN EL MARCO DEL DECRETO LEGISLATIVO 1392-DECRETO LEGISLATIVO QUE PROMUEVE LA FORMALIZACIÓN DE LA ACTIVIDAD PESQUERA ARTESANAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00606-2026-2031-CD",
+    "ply_num": 606,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 108-B DEL CÓDIGO PENAL PARA FORTALECER LA PROTECCIÓN DE LAS NIÑAS, NIÑOS Y ADOLESCENTES EXPUESTOS A LA COMISIÓN DEL DELITO DE FEMINICIDIO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00605-2026-2031-CD",
+    "ply_num": 605,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INSTITUCIONALIZA EL 30 DE SETIEMBRE DE CADA AÑO COMO EL DÍA NACIONAL DE LA BIBLIA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00604-2026-2031-CD",
+    "ply_num": 604,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA PROTECCIÓN LABORAL PARA PERSONAS QUE BRINDAN ATENCIONES A SUS FAMILIARES CON DISCAPACIDAD, CON SÍNDROME Y/O CON ENFERMEDADES EN SITUACIÓN DE GRAN DEPENDENCIA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
     "proyecto_ley": "00603-2026-2031-CD",
     "ply_num": 603,
     "periodo": 2026,
@@ -71,7 +203,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INTERPRETA Y MODIFICA LA LEY 31556, LEY QUE PROMUEVE MEDIDAS DE REACTIVACIÓN ECONÓMICA DE MICRO Y PEQUEÑAS EMPRESAS DE LOS RUBROS DE RESTAURANTES, HOTELES Y ALOJAMIENTOS TURÍSTICOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-16T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -82,7 +214,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28667, LEY QUE DECLARA LA REVERSIÓN DE PREDIOS RÚSTICOS AL DOMINIO DEL ESTADO, ADJUDICADOS CON FINES AGRARIOS, OCUPADOS POR ASENTAMIENTOS HUMANOS, PARA FORTALECER EL PROCEDIMIENTO DE REVERSIÓN Y SU PUBLICIDAD REGISTRAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-16T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -93,7 +225,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INSTITUCIONALIDAD DE LAS SOCIEDADES DE BENEFICENCIA PARA EL CUMPLIMIENTO DE SU FINALIDAD.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -104,7 +236,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30790, LEY QUE PROMUEVE A LOS COMEDORES POPULARES COMO UNIDADES DE EMPRENDIMIENTO PARA LA PRODUCCIÓN, PARA FORTALECER EL DESARROLLO PRODUCTIVO DE LAS MUJERES INTEGRANTES DE COMEDORES POPULARES Y OLLAS COMUNES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -115,7 +247,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26842, LEY GENERAL DE SALUD, PARA GARANTIZAR LA CONTINUIDAD DE LA ATENCIÓN ANTE LA INDISPONIBILIDAD DE SISTEMAS DIGITALES DE INFORMACIÓN CLÍNICA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -126,7 +258,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA E INCORPORA DISPOSICIONES AL DECRETO LEGISLATIVO N.° 147, LEY DEL SERVICIO NACIONAL DE CAPACITACIÓN PARA LA INDUSTRIA DE LA CONSTRUCCIÓN (SENCICO), A FIN DE ADECUAR EL RÉGIMEN DE LA CONTRIBUCIÓN AL MARCO CONSTITUCIONAL Y TRIBUTARIO VIGENTE ",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -137,7 +269,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N° 28951, LEY DE ACTUALIZACIÓN DE LA LEY N° 13253, LEY DE PROFESIONALIZACIÓN DEL CONTADOR PÚBLICO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -148,7 +280,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 11 DEL DECRETO LEGISLATIVO 882, LEY DE PROMOCIÓN DE LA INVERSIÓN EN LA EDUCACIÓN, CON EL FIN DE GARANTIZAR QUE LAS INSTITUCIONES EDUCATIVAS PRIVADAS SE ACOJAN AL RÉGIMEN TRIBUTARIO QUE CORRESPONDA CONFORME A SU CAPACIDAD ECONÓMICA, INGRESOS Y NATURALEZA JURIDICA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -159,7 +291,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL PARA FORTALECER LA SEGURIDAD CIUDADANA Y AMPLIAR EL PLAZO DE DETENCIÓN POLICIAL EN DELITOS DE SICARIATO, EXTORSIÓN Y CONSPIRACIÓN PARA SICARIATO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
