@@ -1,11 +1,55 @@
 [
   {
+    "proyecto_ley": "00622-2026-2031-CD",
+    "ply_num": 622,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA VIGILANCIA DE LAS ASOCIACIONES DE PADRES DE FAMILIA SOBRE LOS ALIMENTOS DE LOS PROGRAMAS SOCIALES DE ALIMENTACIÓN ESCOLAR PREPARADOS POR TERCEROS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00621-2026-2031-CD",
+    "ply_num": 621,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 24 DE LA LEY 27972, LEY ORGÁNICA DE MUNICIPALIDADES, A FIN DE REGULAR LA SUCESIÓN DEFINITIVA EN LA ALCALDÍA Y FORTALECER LA ALTERNANCIA MUNICIPAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00620-2026-2031-CD",
+    "ply_num": 620,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA E INCORPORA DIVERSOS ARTÍCULOS DEL DECRETO LEGISLATIVO 1280, DECRETO LEGISLATIVO QUE APRUEBA LA LEY DEL SERVICIO UNIVERSAL DE AGUA POTABLE Y SANEAMIENTO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00619-2026-2031-CD",
+    "ply_num": 619,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN QUE REGULA LA APOLOGÍA DE LA ORGANIZACIÓN CRIMINAL Y DE LA BANDA CRIMINAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
     "proyecto_ley": "00618-2026-2031-CD",
     "ply_num": 618,
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA APROBACIÓN OPORTUNA DE PLANES Y PROYECTOS DE INVESTIGACIÓN EN PREGRADO Y POSGRADO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -16,7 +60,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN AL DOCENTE FRENTE A AGRESIONES COMETIDAS POR ESTUDIANTES EN LAS INSTITUCIONES EDUCATIVAS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -27,7 +71,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA EVALUACIÓN PERIÓDICA DEL CURRÍCULO NACIONAL Y SU ARTICULACIÓN CON LOS INSTRUMENTOS DE EVALUACIÓN EDUCATIVA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -38,7 +82,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 84 DE LA LEY 30220, LEY UNIVERSITARIA, PARA RESTABLECER LA EDAD LÍMITE PARA EL EJERCICIO DE LA DOCENCIA ORDINARIA Y FIJAR UN RÉGIMEN DE CONTINUIDAD INSTITUCIONAL DEL DOCENTE MEDIANTE CONTRATACIÓN EN FUNCIONES ADMINISTRATIVAS, DE TUTORÍA ACADÉMICA Y DE ASESORÍA EN INVESTIGACIÓN.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -49,7 +93,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27933, LEY DEL SISTEMA NACIONAL DE SEGURIDAD CIUDADANA, PARA CREAR Y REGULAR LAS RONDAS URBANAS COMO ORGANIZACIONES SOCIALES DE COLABORACIÓN VECINAL EN LA PREVENCIÓN DEL DELITO, Y MODIFICA LOS ARTICULOS 121, 122 Y367 DEL CÓDIGO PENAL PARA BRINDARLES PROTECCIÓN PENAL REFORZADA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -60,7 +104,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUMERAL 100.6 DEL ARTÍCULO 100 E INCORPORA EL ARTÍCULO 100-A A LA LEY 302220, LEY UNIVERSITARIA, PARA PRECISAR LOS ALCANCES DEL DERECHO DE ASOCIACIÓN DE LOS ESTUDIANTES Y GARANTIZAR SU EJERCICIO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -71,7 +115,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32326, LEY QUE MODIFICA EL DECRETO LEGISLATIVO 1373, DECRETO LEGISLATIVO SOBRE EXTINCIÓN DE DOMINIO, A FIN DE PERFECCIONAR EL PROCESO DE EXTINCIÓN DE DOMINIO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -82,7 +126,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE RESTABLECE EL RÉGIMEN DE SUSPENSIÓN DE LA PRESCRIPCIÓN DE LA ACCIÓN PENAL Y DEROGA LAS LEYES PROCRIMEN 31751 Y 32104.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -93,7 +137,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 91 DE LA LEY GENERAL DE MINERÍA, CUYO TEXTO ÚNICO ORDENADO FUE APROBADO MEDIANTE DECRETO SUPREMO 014-92-EM, Y ESTABLECE LÍMITES MÁXIMOS DIFERENCIADOS DE PRODUCCIÓN PARA LOS PEQUEÑOS PRODUCTORES MINEROS, SEGÚN SE TRATE DE MINERÍA SUBTERRÁNEA O A CIELO ABIERTO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -104,7 +148,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 2 DE LA LEY 29409, LEY QUE CONCEDE EL DERECHO DE LICENCIA POR PATERNIDAD A LOS TRABAJADORES DE LA ACTIVIDAD PÚBLICA Y PRIVADA, PARA AMPLIAR A VEINTIOCHO (28) DÍAS CALENDARIO EL PLAZO DE LA LICENCIA POR PATERNIDAD",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
