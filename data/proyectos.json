@@ -1,5 +1,49 @@
 [
   {
+    "proyecto_ley": "00626-2026-2031-CD",
+    "ply_num": 626,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.º 31533, LEY QUE PROMUEVE EL EMPLEO DE JÓVENES TÉCNICOS Y PROFESIONALES EN EL SECTOR PÚBLICO, PARA FORTALECER SU ACCESO AL EMPLEO PÚBLICO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00625-2026-2031-CD",
+    "ply_num": 625,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY N°. 31751 Y N°. 32104 Y RESTABLECE LA REGULACIÓN DE LA SUSPENSIÓN DEL PLAZO DE PRESCRIPCIÓN DE LA ACCIÓN PENAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00624-2026-2031-CD",
+    "ply_num": 624,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA EL PAGO OPORTUNO, LA PROTECCIÓN Y LA TRAZABILIDAD DE LAS OBLIGACIONES DE SEGURIDAD SOCIAL Y PREVISIONALES DE LOS TRABAJADORES DEL SECTOR PÚBLICO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00623-2026-2031-CD",
+    "ply_num": 623,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LAS LEYES 32108 Y 32138 Y RESTITUYE EL MARCO NORMATIVO ANTERIOR EN MATERIA DE LUCHA CONTRA EL CRIMEN ORGANIZADO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
     "proyecto_ley": "00622-2026-2031-CD",
     "ply_num": 622,
     "periodo": 2026,
@@ -37,7 +81,7 @@
     "ply_num": 619,
     "periodo": 2026,
     "camara": "D",
-    "titulo": "PROPOSICIÓN QUE REGULA LA APOLOGÍA DE LA ORGANIZACIÓN CRIMINAL Y DE LA BANDA CRIMINAL.",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA APOLOGÍA DE LA ORGANIZACIÓN CRIMINAL Y DE LA BANDA CRIMINAL.",
     "estado": "PRESENTADO",
     "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
@@ -2139,7 +2183,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE LA HOJA DE COCA Y SUS USOS CULTURALES TRADICIONALES, Y PROMUEVE LA INVESTIGACIÓN CIENTÍFICA, EL DESARROLLO TECNOLÓGICO Y EL APROVECHAMIENTO LÍCITO.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-23T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -4889,7 +4933,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DECLARA EL SEGUNDO LUNES DE NOVIEMBRE DE CADA AÑO COMO EL DÍA NACIONAL DE LA ORFANDAD.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-09-10T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -5098,7 +5142,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27669, LEY DEL TRABAJO DE LA ENFERMERA(O), PARA FORTALECER EL EJERCICIO PROFESIONAL Y LA CALIDAD DEL CUIDADO DE ENFERMERÍA.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-09-08T00:00:00.000-05:00",
     "proponente": "Colegios Profesionales",
     "bancada": ""
@@ -5846,7 +5890,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27669, LEY DEL TRABAJO DE LA ENFERMERA(O), PARA FORTALECER LA AUTONOMÍA PROFESIONAL DE ENFERMERÍA",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-08-24T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
