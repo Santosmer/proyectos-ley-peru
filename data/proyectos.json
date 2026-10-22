@@ -1,5 +1,93 @@
 [
   {
+    "proyecto_ley": "00649-2026-2031-CD",
+    "ply_num": 649,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA CAPACIDAD OPERATIVA DE LA DIRECCIÓN NACIONAL DE INTELIGENCIA-DINI Y FORTALECE EL SISTEMA DE INTELIGENCIA NACIONAL -SINA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00648-2026-2031-CD",
+    "ply_num": 648,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RESTABLECE EL CONTENIDO ESENCIAL DEL DERECHO CONSTITUCIONAL DE REFERÉNDUM.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00647-2026-2031-CD",
+    "ply_num": 647,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1280, PARA LA APLICACIÓN, METODOLOGÍA Y FÓRMULA DE CÁLCULO DE LA COMPENSACIÓN AUTOMÁTICA POR INTERRUPCIÓN DEL SERVICIO PÚBLICO DE AGUA POTABLE Y SANEAMIENTO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00646-2026-2031-CD",
+    "ply_num": 646,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL VOLUNTARIADO PROFESIONAL EN LA LEY 28238, LEY GENERAL DEL VOLUNTARIADO, Y LO RECONOCE COMO EXPERIENCIA LABORAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00645-2026-2031-CD",
+    "ply_num": 645,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL LITERAL D) DEL NUMERAL 1 DEL ARTÍCULO 242 DEL CÓDIGO PROCESAL PENAL Y EL ARTÍCULO 19 DE LA LEY 30364 PARA GARANTIZAR LA REALIZACIÓN OPORTUNA E INAPLAZABLE DE LA ENTREVISTA ÚNICA EN CASOS DE VIOLENCIA SEXUAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00644-2026-2031-CD",
+    "ply_num": 644,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 46 DEL TEXTO ÚNICO ORDENADO DE LA LEY DEL IMPUESTO A LA RENTA, PARA ESTABLECER LA DEDUCCIÓN DE GASTOS POR SERVICIOS DE SALUD Y POR EL EJERCICIO DE PROFESIONES, ARTES, CIENCIAS U OFICIOS SUSTENTADOS EN COMPROBANTES DE PAGO ELECTRÓNICOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00643-2026-2031-CD",
+    "ply_num": 643,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE MEJORAMIENTO INTEGRAL DE LA GESTIÓN DE LOS SERVICIOS PÚBLICOS DE SALUD.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00642-2026-2031-CD",
+    "ply_num": 642,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS PARA EL DESARROLLO URBANO SOSTENIBLE, LA REMEDIACIÓN AMBIENTAL Y LA MEJORA DE LA CALIDAD DE VIDA DE LA POBLACIÓN DE CERRO DE PASCO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
     "proyecto_ley": "00641-2026-2031-CD",
     "ply_num": 641,
     "periodo": 2026,
@@ -70,7 +158,7 @@
     "ply_num": 635,
     "periodo": 2026,
     "camara": "D",
-    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA PROTECCION, CONSERVACION Y RECUPERACION DEL PINGUINO DE HUMBOLDT (SPHENISCUS HUMBOLDTI) Y DE SU HABITAD EN EL LITORAL PERUANO.",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DECLARA DE INTERÉS NACIONAL Y NECESIDAD PÚBLICA LA PROTECCIÓN, CONSERVACIÓN Y RECUPERACIÓN DEL PINGUINO DE HUMBOLDT (SPHENISCUS HUMBOLDTI) Y DE SU HABITAD EN EL LITORAL PERUANO.",
     "estado": "PRESENTADO",
     "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
@@ -126,7 +214,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA LA ORIENTACIÓN Y BIENESTAR DEL EDUCANDO (OBE) EN LA LEY N.° 28044, LEY GENERAL DE EDUCACIÓN, PARA FORTALECER LA AUTORIDAD PEDAGÓGICA EN LA EDUCACIÓN BÁSICA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -137,7 +225,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28094, LEY DE ORGANIZACIONES POLÍTICAS, PARA QUE LA HOJA DE VIDA DE QUIENES POSTULAN A CARGOS DE ELECCIÓN POPULAR INCLUYA EL HISTORIAL DOCUMENTADO DE SERVICIO SOCIAL DE LOS ÚLTIMOS DIEZ AÑOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -148,7 +236,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL USO DE TUTORES DE INTELIGENCIA ARTIFICIAL EN APOYO A LA LABOR DOCENTE PARA LA RECUPERACIÓN DE APRENDIZAJES EN LA EDUCACIÓN BÁSICA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -159,7 +247,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 34-A A LA LEY 28044, LEY GENERAL DE EDUCACIÓN, Y PROMUEVE LA RESPONSABILIDAD Y EL CUIDADO DE LOS ESPACIOS EDUCATIVOS EN LA EDUCACIÓN PRIMARIA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -170,7 +258,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.º 31533, LEY QUE PROMUEVE EL EMPLEO DE JÓVENES TÉCNICOS Y PROFESIONALES EN EL SECTOR PÚBLICO, PARA FORTALECER SU ACCESO AL EMPLEO PÚBLICO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -181,7 +269,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY N°. 31751 Y N°. 32104 Y RESTABLECE LA REGULACIÓN DE LA SUSPENSIÓN DEL PLAZO DE PRESCRIPCIÓN DE LA ACCIÓN PENAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -192,7 +280,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA EL PAGO OPORTUNO, LA PROTECCIÓN Y LA TRAZABILIDAD DE LAS OBLIGACIONES DE SEGURIDAD SOCIAL Y PREVISIONALES DE LOS TRABAJADORES DEL SECTOR PÚBLICO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -203,7 +291,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LAS LEYES 32108 Y 32138 Y RESTITUYE EL MARCO NORMATIVO ANTERIOR EN MATERIA DE LUCHA CONTRA EL CRIMEN ORGANIZADO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-21T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -214,7 +302,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA VIGILANCIA DE LAS ASOCIACIONES DE PADRES DE FAMILIA SOBRE LOS ALIMENTOS DE LOS PROGRAMAS SOCIALES DE ALIMENTACIÓN ESCOLAR PREPARADOS POR TERCEROS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -225,7 +313,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 24 DE LA LEY 27972, LEY ORGÁNICA DE MUNICIPALIDADES, A FIN DE REGULAR LA SUCESIÓN DEFINITIVA EN LA ALCALDÍA Y FORTALECER LA ALTERNANCIA MUNICIPAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -236,7 +324,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA E INCORPORA DIVERSOS ARTÍCULOS DEL DECRETO LEGISLATIVO 1280, DECRETO LEGISLATIVO QUE APRUEBA LA LEY DEL SERVICIO UNIVERSAL DE AGUA POTABLE Y SANEAMIENTO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -247,7 +335,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA APOLOGÍA DE LA ORGANIZACIÓN CRIMINAL Y DE LA BANDA CRIMINAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
