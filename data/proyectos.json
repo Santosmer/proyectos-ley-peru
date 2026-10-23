@@ -1,5 +1,60 @@
 [
   {
+    "proyecto_ley": "00660-2026-2031-CD",
+    "ply_num": 660,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN REALIZADA EL 8 DE SETEIMBRE DE 2026 - (ANTES PL 13905/2025-CR – AUTOR: CONGRESISTA ECHAIZ RAMOS)\nPROPOSICIÓN LEGISLATIVA QUE DISPONE LA CATEGORIZACIÓN EXTRAORDINARIA DE LOS DOCENTES NOMBRADOS DE LA ESCUELA DE EDUCACIÓN SUPERIOR PEDAGÓGICA PÚBLICA MONTERRICO, INCORPORADOS MEDIANTE LA LEY 30541 AL RÉGIMEN DE LA CARRERA PÚBLICA DOCENTE DE LA LEY 30512",
+    "estado": "ACTUALIZADA",
+    "fecha_presentacion": "2026-10-23T00:00:00.000-05:00",
+    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00659-2026-2031-CD",
+    "ply_num": 659,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 98 Y 100 DE LA LEY 30220, LEY UNIVERSITARIA, PARA PROHIBIR QUE UNA PERSONA MANTENGA SIMULTÁNEAMENTE VACANTES EN MÁS DE UNA CARRERA PROFESIONAL DE PREGRADO EN UNIVERSIDADES PÚBLICAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00658-2026-2031-CD",
+    "ply_num": 658,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE DISPOSICIONES PARA EL USO PRODUCTIVO TEMPORAL DE LOCALES COMUNALES EN EL MARCO DEL DESARROLLO ECONÓMICO LOCAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00657-2026-2031-CD",
+    "ply_num": 657,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29073, LEY DEL ARTESANO Y DEL DESARROLLO DE LA ACTIVIDAD ARTESANAL, PARA FORTALECER LA ACTIVIDAD ARTESANAL Y PROMOVER SU RESILIENCIA FRENTE A FENÓMENOS CLIMÁTICOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00656-2026-2031-CD",
+    "ply_num": 656,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA TEMPORALIDAD, EVALUACIÓN Y ALTERNANCIA EN PUESTOS DE DIRECCIÓN Y JEFATURA DE ENTIDADES REGULADORAS, SUPERVISORAS Y FISCALIZADORAS DEL ESTADO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
     "proyecto_ley": "00655-2026-2031-CD",
     "ply_num": 655,
     "periodo": 2026,
