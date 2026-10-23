@@ -1,5 +1,71 @@
 [
   {
+    "proyecto_ley": "00655-2026-2031-CD",
+    "ply_num": 655,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29158, LEY ORGÁNICA DEL PODER EJECUTIVO, PARA PRECISAR LA RESPONSABILIDAD POLÍTICA Y ADMINISTRATIVA POR EL INCUMPLIMIENTO INJUSTIFICADO DE LA REGLAMENTACIÓN DE LAS LEYES ",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00654-2026-2031-CD",
+    "ply_num": 654,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA SEGURIDAD ALIMENTARIA Y NUTRICIONAL PARA LA PREVENCIÓN DE LA ANEMIA INFANTIL, INCORPORANDO LA PARTICIPACIÓN DEL INGENIERO ZOOTECNISTA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00653-2026-2031-CD",
+    "ply_num": 653,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PREVENCIÓN Y SANCIÓN DEL USO ILÍCITO DE UNIFORMES, INSIGNIAS Y DISTINTIVOS DE LA POLICÍA NACIONAL DEL PERÚ Y DE LAS FUERZAS ARMADAS, Y ESTABLECE MECANISMOS DE TRAZABILIDAD DIGITAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00652-2026-2031-CD",
+    "ply_num": 652,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE RECONOCE COMO DERECHO FUNDAMENTAL EL DERECHO A LA VERDAD.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00651-2026-2031-CD",
+    "ply_num": 651,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26842, LEY GENERAL DE SALUD, EL DECRETO LEGISLATIVO 1163, DECRETO LEGISLATIVO QUE APRUEBA DISPOSICIONES PARA EL FORTALECIMIENTO DEL SEGURO INTEGRAL DE SALUD Y EL DECRETO LEGISLATIVO 1302, DECRETO LEGISLATIVO QUE OPTIMIZA EL INTERCAMBIO PRESTACIONAL EN SALUD EN EL SECTOR PÚBLICO, PARA GARANTIZAR LA REFERENCIA DIRECTA POR ACCESIBILIDAD SANITARIA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00650-2026-2031-CD",
+    "ply_num": 650,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LOS RECURSOS PROPIOS DEL MINISTERIO PÚBLICO PROVENIENTES DE LA APLICACIÓN DEL PRINCIPIO DE OPORTUNIDAD, DE LAS MULTAS POR DENUNCIA CALUMNIOSA Y DEL PAGO POR REPRODUCCIÓN DE COPIAS FÍSICAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-22T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
     "proyecto_ley": "00649-2026-2031-CD",
     "ply_num": 649,
     "periodo": 2026,
@@ -5186,7 +5252,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DECLARA EL SEGUNDO LUNES DE NOVIEMBRE DE CADA AÑO COMO EL DÍA NACIONAL DE LA ORFANDAD.",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "APROBADO",
     "fecha_presentacion": "2026-09-10T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -5813,7 +5879,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ, POR AFECTAR LA LIBERTAD DE CREACIÓN ARTÍSTICA, LA LIBERTAD DE TRABAJO, LA IDENTIDAD CULTURAL Y LA PROTECCIÓN DE LOS CONOCIMIENTOS Y MANIFESTACIONES CULTURALES DEL PERÚ.",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "APROBADO",
     "fecha_presentacion": "2026-09-02T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -6209,7 +6275,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FACILITA Y GARANTIZA EL ACCESO A SERVICIOS DE PROTECCIÓN SOCIAL Y RESIDENCIA A LOS PERUANOS MIGRANTES RETORNADO",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-08-21T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -6880,7 +6946,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ (CPAP)",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "APROBADO",
     "fecha_presentacion": "2026-08-12T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Multipartidario"
@@ -7012,7 +7078,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY N' 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ (CPAP)",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "APROBADO",
     "fecha_presentacion": "2026-08-10T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
