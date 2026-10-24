@@ -1,5 +1,16 @@
 [
   {
+    "proyecto_ley": "00666-2026-2031-CD",
+    "ply_num": 666,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DESINCENTIVA LA DEFORESTACION Y PROTEGE EL DERECHO A LA CONSULTA PREVIA MEDIANTE LA DEROGACIÓN DE LA LEY N.° 31973.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00665-2026-2031-CD",
     "ply_num": 665,
     "periodo": 2026,
@@ -4790,7 +4801,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ATENCIÓN MÉDICA Y LA VIGILANCIA EPIDEMIOLÓGICA PARA LA POBLACIÓN AFECTADA POR LA CONTAMINACIÓN CON METALES PESADOS Y OTRAS SUSTANCIAS QUÍMICAS DERIVADA DE LA ACTIVIDAD MINERA",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
