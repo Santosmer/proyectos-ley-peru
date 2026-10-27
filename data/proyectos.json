@@ -1,5 +1,60 @@
 [
   {
+    "proyecto_ley": "00676-2026-2031-CD",
+    "ply_num": 676,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32301 Y RESTITUYE EL MARCO LEGAL ANTERIOR DE LA AGENCIA DE COOPERACIÓN INTERNACIONAL (APCI).",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00675-2026-2031-CD",
+    "ply_num": 675,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30407, LEY DE PROTECCIÓN Y BIENESTAR ANIMAL, PARA PROHIBIR EL MALTRATO ANIMAL EN LOS ESPECTÁCULOS DE CORRIDAS DE TOROS Y PELEAS DE GALLOS",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00674-2026-2031-CD",
+    "ply_num": 674,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE REIVINDICA EL VALOR DEL TIEMPO DE LOS PASAJEROS Y FORTALECE SUS DERECHOS FRENTE A LOS RETRASOS AÉREOS INJUSTIFICADOS",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00673-2026-2031-CD",
+    "ply_num": 673,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28044, LEY GENERAL DE EDUCACIÓN, PARA ESTABLECER EL RÉGIMEN DISCIPLINARIO DE LOS ESTUDIANTES EN LAS INSTITUCIONES EDUCATIVAS",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00672-2026-2031-CD",
+    "ply_num": 672,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26549, LEY DE LOS CENTROS EDUCATIVOS PRIVADOS, PARA INCORPORAR UN SUBREGISTRO DE DEUDAS POR PENSIONES ESCOLARES EN EL SISTEMA DE INFORMACIÓN DE APOYO A LA GESTIÓN DE LA INSTITUCIÓN EDUCATIVA (SIAGIE).",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
     "proyecto_ley": "00671-2026-2031-CD",
     "ply_num": 671,
     "periodo": 2026,
@@ -104,7 +159,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL SISTEMA NACIONAL DE CUIDADOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-23T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Multipartidario"
@@ -5428,7 +5483,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DECLARA EL SEGUNDO LUNES DE NOVIEMBRE DE CADA AÑO COMO EL DÍA NACIONAL DE LA ORFANDAD.",
-    "estado": "APROBADO",
+    "estado": "Expediente de propuesta legislativa remitida al senado de la república",
     "fecha_presentacion": "2026-09-10T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -6055,7 +6110,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ, POR AFECTAR LA LIBERTAD DE CREACIÓN ARTÍSTICA, LA LIBERTAD DE TRABAJO, LA IDENTIDAD CULTURAL Y LA PROTECCIÓN DE LOS CONOCIMIENTOS Y MANIFESTACIONES CULTURALES DEL PERÚ.",
-    "estado": "APROBADO",
+    "estado": "Expediente de propuesta legislativa remitida al senado de la república",
     "fecha_presentacion": "2026-09-02T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -7122,7 +7177,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ (CPAP)",
-    "estado": "APROBADO",
+    "estado": "Expediente de propuesta legislativa remitida al senado de la república",
     "fecha_presentacion": "2026-08-12T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Multipartidario"
@@ -7254,7 +7309,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY N' 32645, LEY QUE CREA EL COLEGIO PROFESIONAL DE ARTISTAS DEL PERÚ (CPAP)",
-    "estado": "APROBADO",
+    "estado": "Expediente de propuesta legislativa remitida al senado de la república",
     "fecha_presentacion": "2026-08-10T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
