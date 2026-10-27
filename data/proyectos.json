@@ -1,5 +1,82 @@
 [
   {
+    "proyecto_ley": "00683-2026-2031-CD",
+    "ply_num": 683,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 08968/2024-CR, AUTOR: ALEGRÍA GARCIA).  \nPROPOSICIÓN LEGISLATIVA PARA LA PREVENCIÓN Y GESTIÓN DE INCENDIOS FORESTALES EN EL PERÚ.",
+    "estado": "ACTUALIZADA",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00682-2026-2031-CD",
+    "ply_num": 682,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 11305/2024-CR, AUTOR: ALEGRÍA GARCIA). \nPROPOSICIÓN LEGISLATIVA QUE INCORPORA A SERFOR EN EL SISTEMA NACIONAL DE ORDENAMIENTO TERRITORIAL PARA ASEGURAR LA SOSTENIBILIDAD FORESTAL EN EL PERÚ. ",
+    "estado": "ACTUALIZADA",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00681-2026-2031-CD",
+    "ply_num": 681,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29230 PARA FORTALECER LA ESTRUCTURACIÓN INTEGRAL DE LAS INTERVENCIONES, LA GESTIÓN PREDIAL TEMPRANA Y LA PRIORIZACIÓN DE INFRAESTRUCTURA Y SERVICIOS PÚBLICOS DE SALUD Y EDUCACIÓN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00680-2026-2031-CD",
+    "ply_num": 680,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA LEY QUE MODIFICA LA LEY 27972 LEY ORGÁNICA DE MUNICIPALIDADES PARA FORTALECER LAS GARANTÍAS EN LA IMPOSICIÓN Y COBRANZA DE MULTAS ADMINISTRATIVAS Y EN LA EJECUCIÓN DE MEDIDAS MUNICIPALES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00679-2026-2031-CD",
+    "ply_num": 679,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 200 DEL CÓDIGO PENAL, DECRETO LEGISLATIVO 635, PARA ESTABLECER AGRAVANTES ESPECÍFICAS EN EL DELITO DE EXTORSIÓN VINCULADO AL SERVICIO DE TRANSPORTE PÚBLICO DE PASAJEROS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00678-2026-2031-CD",
+    "ply_num": 678,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31883 PARA AMPLIAR PROGRESIVAMENTE HASTA LOS 26 AÑOS LA VACUNACIÓN CONTRA EL VIRUS DEL PAPILOMA HUMANO Y FORTALECER LA PREVENCIÓN DEL CÁNCER DE CUELLO UTERINO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00677-2026-2031-CD",
+    "ply_num": 677,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28278, LEY DE RADIO Y TELEVISIÓN, PARA QUE LA SEÑAL PÚBLICA, EDUCATIVA Y DE EMERGENCIA LLEGUE AL PERÚ PROFUNDO MEDIANTE DTH.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00676-2026-2031-CD",
     "ply_num": 676,
     "periodo": 2026,
@@ -1985,7 +2062,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 14076/2025-PJ – PODER JUDICIAL). \nPROPOSICIÓN LEGISLATIVA QUE EXTIENDE LA COLABORACIÓN DE LOS GOBIERNOS REGIONALES Y LOCALES EN LA FASE DE FORMULACIÓN Y EVALUACIÓN DE LOS PROYECTOS DE INVERSIÓN PÚBLICA PARA OPTIMIZAR EL SERVICIO DE JUSTICIA",
-    "estado": "ACTUALIZADA",
+    "estado": "Archivado de Plano",
     "fecha_presentacion": "2026-10-02T00:00:00.000-05:00",
     "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
     "bancada": ""
@@ -2018,7 +2095,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 12615/2025-PJ – PODER JUDICIAL). \nPROPOSICIÓN LEGISLATIVA QUE EXONERA AL PODER JUDICIAL DE TODA PROHIBICIÓN DE GASTO EN INGRESOS DEL PERSONAL QUE DISPONGA LA LEY DE PRESUPUESTO DEL SECTOR PÚBLICO PARA EL AÑO FISCAL 2026",
-    "estado": "ACTUALIZADA",
+    "estado": "Archivado de Plano",
     "fecha_presentacion": "2026-10-02T00:00:00.000-05:00",
     "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
     "bancada": ""
