@@ -1,5 +1,71 @@
 [
   {
+    "proyecto_ley": "00690-2026-2031-CD",
+    "ply_num": 690,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 206-A DEL CÓDIGO PENAL, DECRETO LEGISLATIVO 635, PARA INCREMENTAR LAS PENAS POR ABANDONO Y ACTOS DE CRUELDAD CONTRA ANIMALES DOMÉSTICOS Y SILVESTRES",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00688-2026-2031-CD",
+    "ply_num": 688,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE EL TIEMPO DE SERVICIO MILITAR VOLUNTARIO COMO EXPERIENCIA FORMATIVA VALORABLE PARA EL ACCESO AL EMPLEO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00687-2026-2031-CD",
+    "ply_num": 687,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 30 DE LA LEY 28044, LEY GENERAL DE EDUCACIÓN, PARA ESTABLECER LA EXPRESIÓN NUMÉRICA DE LOS RESULTADOS DE LA EVALUACIÓN DE LOS APRENDIZAJES EN LA EDUCACIÓN PRIMARIA Y SECUNDARIA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00686-2026-2031-CD",
+    "ply_num": 686,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 3934/2022-CR, AUTOR: ALEGRÍA GARCIA).  \nPROPOSICIÓN LEGISLATIVA QUE ELIMINA EL USO DE PAPEL BOND EN EL ESTADO Y ESTABLECE MEDIDAS DE ECOEFICIENCIA.",
+    "estado": "ACTUALIZADA",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00685-2026-2031-CD",
+    "ply_num": 685,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 6474/2023-CR, AUTOR: ALEGRÍA GARCIA).  \nPROPOSICIÓN LEGISLATIVA QUE MODIFICA LA DENOMINACIÓN ÁREA DE CONSERVACIÓN PRIVADA POR ÁREA DE CONSERVACIÓN VOLUNTARIA Y RECONOCE EL DÍA DE LA CONSERVACIÓN VOLUNTARIA EN EL PERÚ.",
+    "estado": "ACTUALIZADA",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00684-2026-2031-CD",
+    "ply_num": 684,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 10161/2024-CR, AUTOR: ALEGRÍA GARCIA).  \nPROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA AGRICULTURA SOSTENIBLE Y REGENERATIVA EN EL PERÚ.",
+    "estado": "ACTUALIZADA",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+    "bancada": ""
+  },
+  {
     "proyecto_ley": "00683-2026-2031-CD",
     "ply_num": 683,
     "periodo": 2026,
