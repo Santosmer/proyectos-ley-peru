@@ -1,5 +1,148 @@
 [
   {
+    "proyecto_ley": "00703-2026-2031-CD",
+    "ply_num": 703,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA PARA EL FOMENTO Y LA MODERNIZACIÓN DE LOS MERCADOS DE ABASTOS DEL PERÚ.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00702-2026-2031-CD",
+    "ply_num": 702,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LAS AUTORIZACIONES OPERATIVAS DE LA COMISIÓN NACIONAL PARA EL DESARROLLO Y VIDA SIN DROGAS (DEVIDA) Y ESTABLECE DISPOSICIONES SOBRE INFORMACIÓN Y TRANSPARENCIA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00701-2026-2031-CD",
+    "ply_num": 701,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30947, LEY DE SALUD MENTAL, PARA FORTALECER LAS GARANTÍAS FRENTE AL INTERNAMIENTO Y LA HOSPITALIZACIÓN SIN CONSENTIMIENTO, LA DETECCIÓN TEMPRANA DEL RIESGO SUICIDA Y LA TRANSPARENCIA Y FISCALIZACIÓN DE RESULTADOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00700-2026-2031-CD",
+    "ply_num": 700,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA ACREDITACIÓN PLURAL Y EL ACCESO DE LA PRENSA A LOS EVENTOS DEPORTIVOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00699-2026-2031-CD",
+    "ply_num": 699,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30897, LEY DE PROMOCIÓN DE LA INVERSIÓN Y DESARROLLO DEL DEPARTAMENTO DE LORETO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00698-2026-2031-CD",
+    "ply_num": 698,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CONTENIDO DEL NUEVO CÓDIGO PROCESAL PENAL, DECRETO LEGISLATIVO 957, CON EL OBJETIVO DE RESTITUIR LOS PRINCIPIOS DE LA INVESTIGACIÓN FISCAL, LUCHA CONTRA LA INSEGURIDAD CIUDADANA Y LA CRIMINALIDAD ORGANIZADA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00697-2026-2031-CD",
+    "ply_num": 697,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29944, LEY DE REFORMA MAGISTERIAL, PARA FORTALECER LA FORMACIÓN DOCENTE MEDIANTE LAS CIENCIAS DEL APRENDIZAJE Y LA NEUROEDUCACIÓN BASADA EN EVIDENCIA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00696-2026-2031-CD",
+    "ply_num": 696,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ALERTA AMBER Y LA DIFUSIÓN DE INFORMACIÓN PARA LA BÚSQUEDA DE PERSONAS DESAPARECIDAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00695-2026-2031-CD",
+    "ply_num": 695,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROPONE LA REFORMA DE LA LEY N° 30453, LEY DEL SISTEMA NACIONAL DE RESIDENTADO MÉDICO (SINAREME)",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Colegios Profesionales",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00694-2026-2031-CD",
+    "ply_num": 694,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29230, LEY QUE IMPULSA LA INVERSIÓN PÚBLICA REGIONAL Y LOCAL CON PARTICIPACIÓN DEL SECTOR PRIVADO, PARA PRIORIZAR EL CIERRE DE BRECHAS DE INFRAESTRUCTURA, EQUIPAMIENTO Y CAPACIDAD OPERATIVA DE LOS ESTABLECIMIENTOS PÚBLICOS DE SALUD MEDIANTE OBRAS POR IMPUESTOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00693-2026-2031-CD",
+    "ply_num": 693,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE LA PROFESIÓN DE CONTADOR PÚBLICO Y DE LA JUNTA DE DECANOS DE COLEGIOS DE CONTADORES PÚBLICOS DEL PERÚ ",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Colegios Profesionales",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00692-2026-2031-CD",
+    "ply_num": 692,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 6 DEL DECRETO LEGISLATIVO 1293 PARA AMPLIAR LA VIGENCIA DEL PROCESO DE FORMALIZACIÓN MINERA INTEGRAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00691-2026-2031-CD",
+    "ply_num": 691,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31557, LEY QUE REGULA LA EXPLOTACIÓN DE LOS JUEGOS A DISTANCIA Y APUESTAS DEPORTIVAS A DISTANCIA, PARA DESCENTRALIZAR EL FINANCIAMIENTO DE LOS SERVICIOS DE SALUD MENTAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
     "proyecto_ley": "00690-2026-2031-CD",
     "ply_num": 690,
     "periodo": 2026,
@@ -214,7 +357,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27806, LEY DE TRANSPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA, PARA ESTABLECER LA PUBLICACIÓN DEL ESTADO DEL EQUIPAMIENTO MÉDICO DE ALTA COMPLEJIDAD TECNOLÓGICA EN LOS PORTALES DE TRANSPARENCIA ESTÁNDAR.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-26T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -225,7 +368,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27806, LEY DE TRANSPARENCIA Y ACCESO A LA INFORMACIÓN PÚBLICA, PARA ESTABLECER OBLIGACIONES DE TRANSPARENCIA ACTIVA SOBRE LA DISPONIBILIDAD Y REPOSICIÓN DE MEDICAMENTOS EN EL SECTOR PÚBLICO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-26T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -236,7 +379,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN RÉGIMEN EXCEPCIONAL Y TEMPORAL DE REGISTRO DIFERIDO AL SISTEMA DE INFORMACIÓN NACIONAL PARA LA RESPUESTA Y REHABILITACIÓN (SINPAD), EN EL MARCO DE LA LEY 29664, LEY QUE CREA EL SISTEMA NACIONAL DE GESTIÓN DEL RIESGO DE DESASTRES (SINAGERD), ANTE EL FENÓMENO EL NIÑO 2026-2027.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-26T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -247,7 +390,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 4-A EN LA LEY 23330, LEY DEL SERVICIO RURAL Y URBANO MARGINAL DE SALUD, PARA RECONOCER EL SERUMS COMO EXPERIENCIA LABORAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-26T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -257,8 +400,8 @@
     "ply_num": 667,
     "periodo": 2026,
     "camara": "D",
-    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INTEROPERABILIDAD DE LA INFORMACIÓN CATRASTAL Y REGISTRAL PARA PREVENIR Y GESTIONAR SUPERPOSICIONES TERRITORIALES.",
-    "estado": "PRESENTADO",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INTEROPERABILIDAD DE LA INFORMACIÓN CATASTRAL Y REGISTRAL PARA PREVENIR Y GESTIONAR SUPERPOSICIONES TERRITORIALES.",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-26T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -269,7 +412,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DESINCENTIVA LA DEFORESTACIÓN Y PROTEGE EL DERECHO A LA CONSULTA PREVIA MEDIANTE LA DEROGACIÓN DE LA LEY N.° 31973.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-23T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -280,7 +423,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA DIFUSIÓN DE LA MÚSICA NACIONAL Y PROMUEVE LA PARTICIPACIÓN DEL ARTISTA NACIONAL EN EVENTOS CON ARTISTAS INTERNACIONALES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-10-23T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -1622,7 +1765,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUEVO CÓDIGO PROCESAL PENAL Y EL CÓDIGO PENAL MILITAR POLICIAL PARA GARANTIZAR EL PRINCIPIO DEL JUEZ NATURAL, LA EFICACIA DE LA ACCIÓN PENAL Y LA TUTELA JUDICIAL EFECTIVA",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-10-07T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -3117,7 +3260,7 @@
     "ply_num": 407,
     "periodo": 2026,
     "camara": "D",
-    "titulo": "PROPOSICIÓN LEGISLATIVA DE ASFIXIA FINANCIERA DE LA EXTORCIÓN Y DE LA PROTECCIÓN DE LAS VICTIMAS QUE DENUNCIAN.",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE LEY DE ASFIXIA FINANCIERA DE LA EXTORSIÓN Y DE LA PROTECCIÓN DE LAS VICTIMAS QUE DENUNCIAN.",
     "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-09-21T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
@@ -5516,7 +5659,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA EL PROCESO DE LOS DELITOS COMUNES ATRIBUIDOS AL PERSONAL POLICIAL Y MILITAR Y OTORGA SEGURIDAD JURÍDICA A QUIEN ACTÚA EN CUMPLIMIENTO LEGÍTIMO DE SU FUNCIÓN",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-10T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -7353,7 +7496,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32130 Y RESTABLECE EL RÉGIMEN JURÍDICO ANTERIOR DEL CÓDIGO PROCESAL PENAL EN MATERIA DE CONDUCCIÓN DE LA INVESTIGACIÓN DEL DELITO",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-08-12T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -7551,7 +7694,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32735, CONOCIDA COMO LEY DE IMPUNIDAD MILITAR POLICIAL Y RESTITUYE LA COMPETENCIA DE LA JUSTICIA PENAL ORDINARIA",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-08-05T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
