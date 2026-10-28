@@ -11,6 +11,17 @@
     "bancada": "Partido del Buen Gobierno"
   },
   {
+    "proyecto_ley": "00689-2026-2031-CD",
+    "ply_num": 689,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA DEL CONGRESO QUE INCORPORA EL ARTÍCULO 53-A AL REGLAMENTO DEL CONGRESO DE LA REPÚBLICA, A FIN DE ESTABLECER EL PROCEDIMIENTO EXCEPCIONAL PARA RESOLVER EL EMPATE ABSOLUTO EN LA ELECCIÓN DE LAS MESAS DIRECTIVAS DEL SENADO Y DE LA CÁMARA DE DIPUTADOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
     "proyecto_ley": "00688-2026-2031-CD",
     "ply_num": 688,
     "periodo": 2026,

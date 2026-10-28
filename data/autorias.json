@@ -64,6 +64,54 @@
     "rol": "coautor"
   },
   {
+    "proyecto_ley": "00689-2026-2031-CD",
+    "persona": "Guillén Valencia, Héctor",
+    "dni": "23266182",
+    "congresista_id": 188,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00689-2026-2031-CD",
+    "persona": "Lavado Valdivia, Marino Teófilo",
+    "dni": "42578522",
+    "congresista_id": 198,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00689-2026-2031-CD",
+    "persona": "Perez Quispe, Jessica Sadith",
+    "dni": "44908591",
+    "congresista_id": 227,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00689-2026-2031-CD",
+    "persona": "Zunini Yerren, Ernesto Alonzo",
+    "dni": "45327535",
+    "congresista_id": 261,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00689-2026-2031-CD",
+    "persona": "Guevara Ramírez, Jessica Roxana",
+    "dni": "45353055",
+    "congresista_id": 187,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00689-2026-2031-CD",
+    "persona": "Varas Seguin, Daniel Jefferson",
+    "dni": "43403563",
+    "congresista_id": 253,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00688-2026-2031-CD",
     "persona": "Segura Figueroa, Gustavo Alexander",
     "dni": "41010370",
