@@ -1,5 +1,16 @@
 [
   {
+    "proyecto_ley": "00704-2026-2031-CD",
+    "ply_num": 704,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RESTABLECE EL BACHILLERATO AUTOMÁTICO HASTA EL AÑO ACADÉMICO 2027 PARA LOS EGRESADOS DE UNIVERSIDADES Y DE ESCUELAS DE EDUCACIÓN SUPERIOR.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
     "proyecto_ley": "00703-2026-2031-CD",
     "ply_num": 703,
     "periodo": 2026,
