@@ -1,5 +1,115 @@
 [
   {
+    "proyecto_ley": "00714-2026-2031-CD",
+    "ply_num": 714,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA RECUPERACIÓN EXTRAJUDICIAL Y JUDICIAL DE PREDIOS DE PROPIEDAD ESTATAL FRENTE A INVASIONES, ESPECIALMENTE EN ZONAS DE RIESGO, Y ESTABLECE RESPONSABILIDAD PENAL Y DISCIPLINARIA POR LA OMISIÓN FUNCIONARIAL EN SU EJECUCIÓN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00713-2026-2031-CD",
+    "ply_num": 713,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL REGISTRO DE PUEBLOS EN EL SISTEMA NACIONAL DE LOS REGISTROS PUBLICOS DE SUNARP",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00712-2026-2031-CD",
+    "ply_num": 712,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA GESTIÓN DEL CHATARREO VEHICULAR Y DE LOS DEPÓSITOS VEHICULARES, Y MODIFICA LOS DECRETOS DE URGENCIA 029-2019 Y 019-2020.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00711-2026-2031-CD",
+    "ply_num": 711,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 66 Y 71 DE LA LEY 30220, LEY UNIVERSITARIA, PARA ESTABLECER LA VOTACIÓN PARITARIA DE DOCENTES Y ESTUDIANTES EN LA ELECCIÓN DE AUTORIDADES DE LAS UNIVERSIDADES PÚBLICAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00710-2026-2031-CD",
+    "ply_num": 710,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE ARTICULACIÓN INTERINSTITUCIONAL Y TRAZABILIDAD DE LA CADENA PRODUCTIVA DEL CAFÉ PERUANO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00709-2026-2031-CD",
+    "ply_num": 709,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 15129, ADJUDICANDO A LA UNIVERSIDAD NACIONAL DEL CENTRO DEL PERÚ, CON SEDE EN LA CIUDAD DE HUANCAYO LOS TERRENOS QUE SE INDICA, PARA INCLUIR LA FACULTAD DE CIENCIAS AGRARIAS DE LA SEDE EN SATIPO EN SUS ALCANCES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00708-2026-2031-CD",
+    "ply_num": 708,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN RÉGIMEN EXCEPCIONAL Y TEMPORAL DE FORMALIZACIÓN DE LA POSESIÓN SOBRE BIENES ESTATALES DE DOMINIO PRIVADO A FAVOR DE PERSONAS DE BAJOS RECURSOS",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00707-2026-2031-CD",
+    "ply_num": 707,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 2 E INCORPORA EL ARTÍCULO 7 EN LA LEY 29159, PARA PROMOVER LA CONECTIVIDAD AÉREA INTERREGIONAL Y EL APROVECHAMIENTO DE LA INFRAESTRUCTURA AEROPORTUARIA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00706-2026-2031-CD",
+    "ply_num": 706,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INVESTIGACIÓN POLICIAL Y LA LUCHA CONTRA LA DELINCUENCIA MEDIANTE LA COLABORACIÓN DE LOS GOBIERNOS REGIONALES Y LOCALES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00705-2026-2031-CD",
+    "ply_num": 705,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL DE LOS ARTÍCULOS 113 Y 134 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ PARA GARANTIZAR LA ESTABILIDAD POLÍTICA DEL PAÍS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00704-2026-2031-CD",
     "ply_num": 704,
     "periodo": 2026,
@@ -6000,7 +6110,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27669, LEY DEL TRABAJO DE LA ENFERMERA(O), PARA FORTALECER EL EJERCICIO PROFESIONAL Y LA CALIDAD DEL CUIDADO DE ENFERMERÍA.",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "APROBADO",
     "fecha_presentacion": "2026-09-08T00:00:00.000-05:00",
     "proponente": "Colegios Profesionales",
     "bancada": ""
@@ -6748,7 +6858,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27669, LEY DEL TRABAJO DE LA ENFERMERA(O), PARA FORTALECER LA AUTONOMÍA PROFESIONAL DE ENFERMERÍA",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "APROBADO",
     "fecha_presentacion": "2026-08-24T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
