@@ -1,5 +1,27 @@
 [
   {
+    "proyecto_ley": "00726-2026-2031-CD",
+    "ply_num": 726,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 279-A, 279-B, 279-F Y 279-G DEL CÓDIGO PENAL, PARA FORTALECER LA RESPUESTA DEL ESTADO FRENTE A LOS DELITOS RELACIONADOS CON ARMAS DE FUEGO, MUNICIONES, EXPLOSIVOS Y OTROS MATERIALES RELACIONADOS, A FIN DE CONTRIBUIR A LA SEGURIDAD CIUDADANA Y LA LUCHA CONTRA LA CRIMINALIDAD.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-30T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00725-2026-2031-CD",
+    "ply_num": 725,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA LA DESIGNACIÓN EXCEPCIONAL DE DOCENTES A CARGOS DIRECTIVOS EN INSTITUCIONES EDUCATIVAS PÚBLICAS DE EDUCACIÓN BÁSICA REGULAR PARA FORTALECER LA GESTIÓN EDUCATIVA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-10-30T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
     "proyecto_ley": "00724-2026-2031-CD",
     "ply_num": 724,
     "periodo": 2026,
@@ -6220,7 +6242,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27669, LEY DEL TRABAJO DE LA ENFERMERA(O), PARA FORTALECER EL EJERCICIO PROFESIONAL Y LA CALIDAD DEL CUIDADO DE ENFERMERÍA.",
-    "estado": "PROPUESTA LEGISLATIVA APROBADA",
+    "estado": "Expediente de propuesta legislativa remitida al senado de la república",
     "fecha_presentacion": "2026-09-08T00:00:00.000-05:00",
     "proponente": "Colegios Profesionales",
     "bancada": ""
@@ -6968,7 +6990,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27669, LEY DEL TRABAJO DE LA ENFERMERA(O), PARA FORTALECER LA AUTONOMÍA PROFESIONAL DE ENFERMERÍA",
-    "estado": "PROPUESTA LEGISLATIVA APROBADA",
+    "estado": "Expediente de propuesta legislativa remitida al senado de la república",
     "fecha_presentacion": "2026-08-24T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
