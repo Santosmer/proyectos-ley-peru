@@ -1,5 +1,115 @@
 [
   {
+    "proyecto_ley": "00743-2026-2031-CD",
+    "ply_num": 743,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30407, LEY DE PROTECCIÓN Y BIENESTAR ANIMAL, PARA FORTALECER LA EDUCACIÓN BÁSICA EN MATERIA DE TENENCIA RESPONSABLE DE ANIMALES DE COMPAÑÍA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-03T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00742-2026-2031-CD",
+    "ply_num": 742,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 377 DEL CÓDIGO PENAL PARA RESPONDER A OMISIONES ILEGALES DE FUNCIONARIOS PÚBLICOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-03T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00741-2026-2031-CD",
+    "ply_num": 741,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO Nº 1280 PARA REGULAR LA SEPARACIÓN EXCEPCIONAL DE EMPRESAS PRESTADORAS PÚBLICAS DE ACCIONARIADO MUNICIPAL Y ESTABLECER LA RUTA DE EVALUACIÓN DE UNA EPS PROPIA PARA SATIPO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-03T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00740-2026-2031-CD",
+    "ply_num": 740,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE AUTORIZA A LAS UNIVERSIDADES PÚBLICAS A RETRIBUIR A LOS SERVIDORES DEL RÉGIMEN CAS POR LOS SERVICIOS QUE PRESTEN, FUERA DE SU JORNADA, EN SUS CENTROS DE PRODUCCIÓN Y SIMILARES, CON CARGO A LOS RECURSOS QUE ESTOS GENERAN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-03T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00739-2026-2031-CD",
+    "ply_num": 739,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26842, LEY GENERAL DE SALUD, EL DECRETO LEGISLATIVO 1062 Y EL DECRETO LEGISLATIVO 1290, PARA ESTABLECER LA EVALUACIÓN PREVIA DE LA HABILITACIÓN SANITARIA DE LOS ESTABLECIMIENTOS QUE FABRICAN ALIMENTOS Y BEBIDAS INDUSTRIALIZADOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-03T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00738-2026-2031-CD",
+    "ply_num": 738,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CONTROL, IDENTIFICACIÓN Y TRAZABILIDAD INTEGRAL DE LAS MUNICIONES DE USO CIVIL Y MODIFICA LA LEY 30299, EL CÓDIGO PENAL Y LA LEY 30424",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-03T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00737-2026-2031-CD",
+    "ply_num": 737,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 326 DEL CÓDIGO CIVIL, INCORPORA LOS ARTÍCULOS 326-A, 326-B, 326-C, 326-D, 326-E, 326-F, 326-G Y 326-H EN EL CÓDIGO CIVIL, Y EL ARTÍCULO 52-A EN LA LEY 26662, LEY DE COMPETENCIA NOTARIAL EN ASUNTOS NO CONTENCIOSOS, PARA RECONOCER EXPRESAMENTE LA FACULTAD DE LOS INTEGRANTES DE UNA UNIÓN DE HECHO DE ELEGIR Y SUSTITUIR SU RÉGIMEN PATRIMONIAL, CON GARANTÍAS DE INFORMACIÓN Y PROTECCIÓN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-03T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00736-2026-2031-CD",
+    "ply_num": 736,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 3 Y 6 DE LA LEY 26790, LEY DE MODERNIZACIÓN DE LA SEGURIDAD SOCIAL EN SALUD, PARA INCORPORAR COMO DERECHOHABIENTES A LOS PADRES ECONÓMICAMENTE DEPENDIENTES DEL AFILIADO REGULAR.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-03T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00735-2026-2031-CD",
+    "ply_num": 735,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29719, LEY QUE PROMUEVE LA CONVIVENCIA SIN VIOLENCIA EN LAS INSTITUCIONES EDUCATIVAS PARA PRIORIZAR LA PROTECCIÓN DE LAS VÍCTIMAS DE ACOSO Y VIOLENCIA ESCOLAR.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-03T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00734-2026-2031-CD",
+    "ply_num": 734,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY Nº 30220, PARA AMPLIAR LA VIGENCIA DEL CARNÉ UNIVERSITARIO, FORTALECER SUS BENEFICIOS Y FACILITAR SU ACREDITACIÓN DIGITAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-03T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00733-2026-2031-CD",
     "ply_num": 733,
     "periodo": 2026,
@@ -456,7 +566,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 6 DEL DECRETO LEGISLATIVO 1293 PARA AMPLIAR LA VIGENCIA DEL PROCESO DE FORMALIZACIÓN MINERA INTEGRAL.",
-    "estado": "EN COMISIÓN",
+    "estado": "Retirado por su Autor",
     "fecha_presentacion": "2026-10-28T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -5780,7 +5890,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA IDONEIDAD DE LOS SERVIDORES CIVILES RESPONSABLES DE LA GESTIÓN DEL RIESGO DE DESASTRES EN LOS GOBIERNOS REGIONALES Y LOCALES",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-11T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -6220,7 +6330,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE OTORGA BENEFICIOS A LOS EGRESADOS DE LOS CURSOS DE EXTENSIÓN UNIVERSITARIA CON EL PROPÓSITO DE CAPTAR AL MEJOR TALENTO PARA EL SECTOR PÚBLICO.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -6935,7 +7045,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA PRIORIZACIÓN DEL PRESUPUESTO DESTINADO A LA GESTIÓN DEL RIESGO DE DESASTRES EN LOS GOBIERNOS SUBNACIONALES.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-01T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
