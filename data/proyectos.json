@@ -1,5 +1,126 @@
 [
   {
+    "proyecto_ley": "00790-2026-2031-CD",
+    "ply_num": 790,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA PARA EL EMPLEO JUVENIL DIGNO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00789-2026-2031-CD",
+    "ply_num": 789,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA LA UNIVERSIDAD NACIONAL CIENTIFICA DE LA MAR -UNCLAM.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00788-2026-2031-CD",
+    "ply_num": 788,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO VIII DEL TÍTULO PRELIMINAR DEL NUEVO CÓDIGO PROCESAL CONSTITUCIONAL (LEY N° 31307) PARA CONSOLIDAR EL CONTROL DE CONVENCIONALIDAD Y REFORZAR LA MOTIVACIÓN JUDICIAL ANTE PRONUNCIAMIENTOS DE ORGANISMOS INTERNACIONALES DE DERECHOS HUMANOS",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00787-2026-2031-CD",
+    "ply_num": 787,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA CAPACITACIÓN Y LA FORMALIZACIÓN PRODUCTIVA DE LOS EMOLIENTEROS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00786-2026-2031-CD",
+    "ply_num": 786,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1293, DECRETO LEGISLATIVO QUE DECLARA DE INTERÉS NACIONAL LA FORMALIZACIÓN DE LAS ACTIVIDADES DE LA PEQUEÑA MINERÍA Y MINERÍA ARTESANAL, A FIN DE DEPURAR EL REGISTRO INTEGRAL DE FORMALIZACIÓN MINERA (REINFO) Y AMPLIAR LA VIGENCIA DEL PROCESO DE FORMALIZACIÓN MINERA INTEGRAL HASTA EL 31 DE DICIEMBRE DE 2030",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00785-2026-2031-CD",
+    "ply_num": 785,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PENAL PARA TIPIFICAR LA TRATA DE PERSONAS CON FINES DE RECLUTAMIENTO PARA CONFLICTOS ARMADOS",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00784-2026-2031-CD",
+    "ply_num": 784,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL LITERAL C) DEL ARTÍCULO 3 DE LA LEY 32566, LEY QUE AUTORIZA EL CAMBIO DE CONTRATO CAS-COVID A CONTRATO CAS AL PERSONAL ASISTENCIAL DEL SEGURO SOCIAL DE SALUD (ESSALUD) NO BENEFICIADO POR LA LEY 31539 [...], PARA INCORPORAR AL PERSONAL QUE RENUNCIÓ AL CONTRATO CAS-COVID.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00783-2026-2031-CD",
+    "ply_num": 783,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODERNIZA EL SISTEMA DE PUBLICACIÓN DE SENTENCIAS CASATORIAS, PRECEDENTES VINCULANTES Y NO VINCULANTES A TRAVÉS DE LA PLATAFORMA DIGITAL DEL PODER JUDICIAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
+    "proponente": "Poder Judicial",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00782-2026-2031-CD",
+    "ply_num": 782,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE OPTIMIZA EL MONITOREO Y LA VIDEOVIGILANCIA A CARGO DE LOS GOBIERNOS REGIONALES Y GOBIERNOS LOCALES PARA LA PREVENCIÓN DEL DELITO Y LA SEGURIDAD CIUDADANA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00781-2026-2031-CD",
+    "ply_num": 781,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL FORTALECIMIENTO DE EMPRENDIMIENTOS DE MADRES INTEGRANTES DE ORGANIZACIONES SOCIALES DE BASE.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00780-2026-2031-CD",
+    "ply_num": 780,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA SOBRE LA PROTECCIÓN DE LA SALUD MENTAL Y BIENESTAR DIGITAL DE NIÑOS Y ADOLESCENTES EN ENTORNOS DIGITALES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
     "proyecto_ley": "00779-2026-2031-CD",
     "ply_num": 779,
     "periodo": 2026,
@@ -125,7 +246,7 @@
     "ply_num": 768,
     "periodo": 2026,
     "camara": "D",
-    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N° 30916, LEY ORGÁNICA DE LA JUNTA NACIONAL DE JUSTICIA, LA LEY ORGÁNICA DEL PODER JUDICIAL Y LA LEY ORGÁNICA DEL MINISTERIO PÚBLICO",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N° 30916, LEY ORGÁNICA DE LA JUNTA NACIONAL DE JUSTICIA, LA LEY ORGÁNICA DEL PODER JUDICIAL Y LA LEY ORGÁNICA DEL MINISTERIO PÚBLICO.",
     "estado": "PRESENTADO",
     "fecha_presentacion": "2026-11-05T00:00:00.000-05:00",
     "proponente": "Defensoría del Pueblo",
@@ -159,7 +280,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL MEDIO PASAJE EN EL TRANSPORTE PÚBLICO Y EL ACCESO GRATUITO A ESPACIOS CULTURALES Y TURÍSTICOS PÚBLICOS PARA LAS PERSONAS ADULTAS MAYORES PERUANAS",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-05T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -170,7 +291,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 10407/2024-DP).  \nPROPOSICIÓN LEGISLATIVA QUE MODIFICA EL TEXTO ÚNICO ORDENADO DEL CÓDIGO DE EJECUCIÓN PENAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-05T00:00:00.000-05:00",
     "proponente": "Defensoría del Pueblo",
     "bancada": ""
@@ -181,7 +302,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA EL EJERCICIO PROFESIONAL DEL QUÍMICO EN EL PERÚ",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-05T00:00:00.000-05:00",
     "proponente": "Colegios Profesionales",
     "bancada": ""
@@ -192,7 +313,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30150, LEY DE PROTECCIÓN DE LAS PERSONAS CON TRASTORNO DEL ESPECTRO AUTISTA (TEA), PARA FORTALECER LA ACCESIBILIDAD, LA INCLUSIÓN EDUCATIVA, LA ARTICULACIÓN TERRITORIAL Y LA PARTICIPACIÓN DE LAS PERSONAS CON TEA Y SUS FAMILIAS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-05T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -203,7 +324,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE MODIFICA LOS ARTÍCULOS 110, 111, 113 Y 124 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ, PARA QUE LOS CANDIDATOS A LA PRESIDENCIA Y A LAS VICEPRESIDENCIAS DE LA REPÚBLICA Y QUIENES EJERZAN DICHOS CARGOS, ASÍ COMO LOS MINISTROS DE ESTADO DESIGNADOS, TENGAN NACIONALIDAD ÚNICA",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-05T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -214,7 +335,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE OTORGA EL TÍTULO HONORÍFICO DE “PROVINCIA HEROICA DE CONCEPCIÓN” A LA PROVINCIA DE CONCEPCIÓN, DEPARTAMENTO DE JUNÍN Y ESTABLECE MEDIDAS PARA SU PUESTA EN VALOR, EDUCACIÓN Y DESARROLLO HISTÓRICO – CULTURAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-05T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -225,7 +346,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 30 DE LA LEY 32069, LEY GENERAL DE CONTRATACIONES PÚBLICAS, PARA IMPEDIR QUE LAS PERSONAS NATURALES Y JURÍDICAS QUE MANTENGAN DEUDAS TRIBUTARIAS CONTRATEN CON EL ESTADO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-05T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -236,7 +357,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30057, LEY DEL SERVICIO CIVIL, PARA REGULAR LA ASUNCIÓN Y REEMBOLSO DE SERVIDORES Y EXSERVIDORES CIVILES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-04T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -247,7 +368,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTICULO 23° DE LA LEY DE ELECCIONES MUNICIPALES Y ESTABLECE LA SEGUNDA VUELTA PARA LA ELECCION DE ALCALDE Y REGIDORES EN LA MUNICIPALIDAD METROPOLITANA DE LIMA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-04T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -258,7 +379,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 95 DE LEY 30057, LEY DEL SERVICIO CIVIL, RESPECTO A LOS EFECTOS CON QUE SE CONCEDE UN MEDIO IMPUGNATORIO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-04T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -269,7 +390,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA EL DECRETO LEGISLATIVO 1740, DECRETO LEGISLATIVO QUE MODIFICA EL ARTÍCULO 94 DEL DECRETO LEY 25844, LEY DE CONCESIONES ELÉCTRICAS, A FIN DE INCREMENTAR LOS NIVELES DE ILUMINACIÓN EN LAS VÍAS CON ÍNDICES DE CRIMINALIDAD COMPROBADOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-04T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -280,7 +401,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL TEXTO ÚNICO ORDENADO DEL DECRETO LEGISLATIVO 728 – LEY DE PRODUCTIVIDAD Y COMPETITIVIDAD LABORAL, APROBADO MEDIANTE DECRETO SUPREMO N° 003-97-TR, A FIN DE ACTUALIZAR LA REGULACIÓN DE LA LICENCIA SIN GOCE DE HABER Y LAS CAUSALES DE CESE DEFINITIVO PARA LOS TRABAJADORES COMPRENDIDOS EN LOS GOBIERNOS REGIONALES Y LOCALES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-04T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -291,7 +412,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DISPONE EL ESTABLECIMIENTO DE LA ZONA DE PROTECCIÓN DE RECURSOS HIDRICOS DEL APU CURASMA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-04T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -2183,7 +2304,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LA VIGENCIA DE LAS EXONERACIONES PREVISTAS EN LOS INCISOS I) Y O) DEL ARTÍCULO 19 DE LA LEY DEL IMPUESTO A LA RENTA.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -2975,7 +3096,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY DEL IMPUESTO A LA RENTA",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
