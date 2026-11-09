@@ -1,5 +1,27 @@
 [
   {
+    "proyecto_ley": "00792-2026-2031-CD",
+    "ply_num": 792,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA ACTUALIZACIÓN DE LA REMUNERACIÓN MÍNIMA VITAL SEGÚN EL COSTO DE VIDA, REGULA SU REVISIÓN TÉCNICA ANUAL Y DISPONE MEDIDAS DE ACOMPAÑAMIENTO PARA LA MICRO, PEQUEÑA Y MEDIANA EMPRESA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00791-2026-2031-CD",
+    "ply_num": 791,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DISPONE LA APLICACIÓN DE LA CLÁUSULA DE EXCEPCIÓN A LAS REGLAS MACROFISCALES DEL SECTOR PÚBLICO NO FINANCIERO Y  DISPONE SU RETORNO GRADUAL",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
+    "proponente": "PODER EJECUTIVO",
+    "bancada": ""
+  },
+  {
     "proyecto_ley": "00790-2026-2031-CD",
     "ply_num": 790,
     "periodo": 2026,
