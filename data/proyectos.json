@@ -1,5 +1,181 @@
 [
   {
+    "proyecto_ley": "00818-2026-2031-CD",
+    "ply_num": 818,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE A LOS PEQUEÑOS PRODUCTORES AGRARIOS MEDIANTE LA FORMALIZACIÓN DE COOPERATIVAS Y PROMUEVE LA SOBERANÍA ALIMENTARIA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00817-2026-2031-CD",
+    "ply_num": 817,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL REGISTRO PÚBLICO DE SEGUIMIENTO DE LA REGLAMENTACIÓN Y LA IMPLEMENTACIÓN DE LAS LEYES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00816-2026-2031-CD",
+    "ply_num": 816,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE OPTIMIZA LA COLABORACIÓN DE LOS GOBIERNOS REGIONALES Y LOS GOBIERNOS LOCALES CON LA FINALIDAD DE FORTALECER LA SEGURIDAD CIUDADANA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00815-2026-2031-CD",
+    "ply_num": 815,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 22 DE LA LEY 24686, CON EL FIN DE GARANTIZAR LA DEVOLUCIÓN TOTAL Y EQUITATIVA DE LOS APORTES DEL FONDO DE VIVIENDA MILITAR Y POLICIAL PARA EL PERSONAL EN SITUACIÓN DE RETIRO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00814-2026-2031-CD",
+    "ply_num": 814,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA EL REGLAMENTO DE LA CÁMARA DE DIPUTADOS PARA GARANTIZAR UN ADECUADO PROCESO DE FISCALIZACIÓN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00813-2026-2031-CD",
+    "ply_num": 813,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA IDONEIDAD TÉCNICA DEL CONTRALOR GENERAL Y DE LOS VICECONTRALORES GENERALES DE LA REPÚBLICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00812-2026-2031-CD",
+    "ply_num": 812,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE OPTIMIZA LOS MECANISMOS DE SUPERVISIÓN DE LA CALIDAD UNIVERSITARIA MEDIANTE EL RECONOCIMIENTO DE LA ACREDITACIÓN INSTITUCIONAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00811-2026-2031-CD",
+    "ply_num": 811,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 15 DE LA LEY N° 26842, LEY GENERAL DE SALUD, PARA RECONOCER Y GARANTIZAR EL DERECHO AL ACOMPAÑAMIENTO DEL PACIENTE HOSPITALIZADO EN LOS ESTABLECIMIENTOS DE SALUD PÚBLICOS, PRIVADOS Y MIXTOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00810-2026-2031-CD",
+    "ply_num": 810,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY Nº 29535, LEY QUE OTORGA RECONOCIMIENTO OFICIAL A LA LENGUA DE SEÑAS PERUANA, PARA FORTALECER LA ATENCIÓN EDUCATIVA DE LOS ESTUDIANTES SORDOS EN LA EDUCACIÓN BÁSICA REGULAR.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00809-2026-2031-CD",
+    "ply_num": 809,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL SERVICIO MILITAR PARA POSTULAR A LA POLICÍA NACIONAL DEL PERÚ.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00808-2026-2031-CD",
+    "ply_num": 808,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL SISTEMA DE AUXILIO POLICIAL PARA VÍA RÁPIDA DE AMBULANCIAS EN SITUACIONES DE EMERGENCIA MÉDICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00807-2026-2031-CD",
+    "ply_num": 807,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29245, LEY QUE REGULA LOS SERVICIOS DE TERCERIZACIÓN, A FIN DE GARANTIZAR LA IGUALDAD SALARIAL, LOS DERECHOS COLECTIVOS Y LA SEGURIDAD Y SALUD DE LOS TRABAJADORES TERCERIZADOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Multipartidario"
+  },
+  {
+    "proyecto_ley": "00806-2026-2031-CD",
+    "ply_num": 806,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL TEXTO ÚNICO ORDENADO DE LA LEY DEL IMPUESTO GENERAL A LAS VENTAS E IMPUESTO SELECTIVO AL CONSUMO, Y EL DECRETO LEGISLATIVO N.° 1053, DECRETO LEGISLATIVO QUE APRUEBA LA LEY GENERAL DE ADUANAS, PARA FACILITAR EL TRATAMIENTO DE ENFERMEDADES RARAS Y HUÉRFANAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00805-2026-2031-CD",
+    "ply_num": 805,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL CUADERNO DE INCIDENCIAS DE TRATO DIGNO Y AJUSTES RAZONABLES A FAVOR DE LAS PERSONAS ADULTAS MAYORES Y DE LAS PERSONAS CON DISCAPACIDAD EN LA ATENCIÓN QUE BRINDAN LAS ENTIDADES PÚBLICAS Y PRIVADAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00804-2026-2031-CD",
+    "ply_num": 804,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 10176/2024-CR). \nPROPOSICIÓN LEGISLATIVA QUE CREA LA LISTA DE ORGANIZACIONES TERRORISTAS Y MODIFICA EL DECRETO LEY 25475, SOBRE LA TIPIFICACIÓN DEL DELITO DE TERRORISMO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00803-2026-2031-CD",
+    "ply_num": 803,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL USO COMPARTIDO DE LA INFRAESTRUCTURA DEPORTIVA PÚBLICA Y DE LAS INSTITUCIONES EDUCATIVAS PÚBLICAS - LEY DE CANCHAS ABIERTAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
     "proyecto_ley": "00802-2026-2031-CD",
     "ply_num": 802,
     "periodo": 2026,
@@ -3239,7 +3415,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LA VIGENCIA DE LO DISPUESTO EN EL ARTICULO 13 DE LA LEY N° 31893, LEY DE MEDIDAS ESTRATÉGICAS Y DISPOSICIONES ECONÓMICAS Y TRIBUTARIAS PARA EL FORTALECIMIENTO Y POSICIONAMIENTO DEL ECOSISTEMA DEL LIBRO Y DE LA LECTURA.",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "EN DEBATE - PLENO",
     "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -3756,7 +3932,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN PERIODO DE MORATORIA PARA LA CREACIÓN Y AUTORIZACIÓN DE FUNCIONAMIENTO DE NUEVAS UNIVERSIDADES PÚBLICA.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-30T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -5461,7 +5637,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LA VIGENCIA DEL REINTEGRO TRIBUTARIO DEL IMPUESTO GENERAL A LA VENTAS Y DE LA EXONERACIÓN DEL IMPUESTO A LA RENTA A LAS REGALÍAS POR DERECHO DE AUTOR PREVISTOS EN LA LEY 31893, LEY DE MEDIDAS ESTRATÉGICAS Y DISPOSICIONES ECONÓMICAS Y TRIBUTARIAS PARA EL FORTALECIMIENTO Y POSICIONAMIENTO DEL ECOSISTEMA DEL LIBRO Y DE LA LECTURA. ",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "EN DEBATE - PLENO",
     "fecha_presentacion": "2026-09-17T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
