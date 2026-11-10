@@ -1,5 +1,115 @@
 [
   {
+    "proyecto_ley": "00802-2026-2031-CD",
+    "ply_num": 802,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30364 Y EL CÓDIGO DE LOS NIÑOS Y ADOLESCENTES, PARA FORTALECER LA PROTECCIÓN DE NIÑOSY ADOLESCENTES EXPUESTOS A ENTORNOS DE VIOLENCIA Y ESTABLECE MECANISMOS DE ALERTA PARA LA PREVENCIÓN DE LA VIOLENCIA DESDE LAS INSTITUCIONES EDUCATIVAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00801-2026-2031-CD",
+    "ply_num": 801,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY DEL IMPUESTO A LA RENTA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
+    "proponente": "PODER EJECUTIVO",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00800-2026-2031-CD",
+    "ply_num": 800,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 307-B DEL CÓDIGO PENAL INCORPORANDO EXPRESAMENTE LAS ZONAS DE AMORTIGUAMIENTO EN LA AGRAVANTE PARA LA MINERÍA ILEGAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00799-2026-2031-CD",
+    "ply_num": 799,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 32322 PARA AMPLIAR HASTA EL 31 DE DICIEMBRE DE 2028 LA LIBRE DISPONIBILIDAD DE LA COMPENSACIÓN POR TIEMPO DE SERVICIOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00798-2026-2031-CD",
+    "ply_num": 798,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA MODIFICA EL ARTÍCULO 13 E INCORPORA LOS ARTÍCULOS 13-A Y 13-B EN LA LEY 27795, LEY DE DEMARCACIÓN Y ORGANIZACIÓN TERRITORIAL, PARA VIABILIZAR LA CREACIÓN DE DISTRITOS Y PROVINCIAS EN ZONAS DE FRONTERA Y EN ZONAS DECLARADAS DE INTERÉS NACIONAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00797-2026-2031-CD",
+    "ply_num": 797,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31533, LEY QUE PROMUEVE EL EMPLEO DE JOVENES TÉCNICOS Y PROFESIONALES EN EL SECTOR PÚBLICO, A FIN DE RECONOCER LA EXPERIENCIA LABORAL ADQUIRIDA EN LOS SECTORES PÚBLICO Y PRIVADO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00796-2026-2031-CD",
+    "ply_num": 796,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 76 Y 239 DE LA LEY 27444, LEY DEL PROCEDIMIENTO ADMINISTRATIVO GENERAL, PARA ESTABLECER PLAZOS DE RESPUESTA A LAS SOLICITUDES DE INFORMACIÓN ENTRE ENTIDADES PÚBLICAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00795-2026-2031-CD",
+    "ply_num": 795,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DECLARA EL 26 DE FEBRERO DE 1864 FECHA DE CONMEMORACIÓN DEL ESTABLECIMIENTO DEL PUERTO FLUVIAL EN IQUITOS, Y DEROGA LA LEY 14702.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00794-2026-2031-CD",
+    "ply_num": 794,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26859, LEY ORGÁNICA DE ELECCIONES, RESPECTO DEL PLAZO DE PROHIBICIÓN DE DIFUSIÓN DE ENCUESTAS ELECTORALES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00793-2026-2031-CD",
+    "ply_num": 793,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INFORMACIÓN TÉCNICA, LA TRAZABILIDAD POSVENTA Y LA EVALUACIÓN INDEPENDIENTE EN LA ADQUISICIÓN DE VEHÍCULOS AUTOMOTORES NUEVOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00792-2026-2031-CD",
     "ply_num": 792,
     "periodo": 2026,
@@ -1292,7 +1402,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30407, LEY DE PROTECCIÓN Y BIENESTAR ANIMAL, PARA PROHIBIR EL MALTRATO ANIMAL EN LOS ESPECTÁCULOS DE CORRIDAS DE TOROS Y PELEAS DE GALLOS",
-    "estado": "EN COMISIÓN",
+    "estado": "RETIRADO",
     "fecha_presentacion": "2026-10-26T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -1985,7 +2095,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32326, LEY QUE MODIFICA EL DECRETO LEGISLATIVO 1373, DECRETO LEGISLATIVO SOBRE EXTINCIÓN DE DOMINIO, A FIN DE PERFECCIONAR EL PROCESO DE EXTINCIÓN DE DOMINIO.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -1996,7 +2106,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE RESTABLECE EL RÉGIMEN DE SUSPENSIÓN DE LA PRESCRIPCIÓN DE LA ACCIÓN PENAL Y DEROGA LAS LEYES PROCRIMEN 31751 Y 32104.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-10-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -2326,7 +2436,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LA VIGENCIA DE LAS EXONERACIONES PREVISTAS EN LOS INCISOS I) Y O) DEL ARTÍCULO 19 DE LA LEY DEL IMPUESTO A LA RENTA.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -2777,7 +2887,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1373 PARA FORTALECER LA AUTONOMÍA, EFICACIA Y GARANTÍAS DEL PROCESO DE EXTINCIÓN DE DOMINIO.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -2799,7 +2909,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 84 DEL CÓDIGO PENAL PARA REGULAR LA SUSPENSIÓN DE LA PRESCRIPCIÓN DE LA ACCIÓN PENAL.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -3118,7 +3228,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY DEL IMPUESTO A LA RENTA",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -3129,7 +3239,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LA VIGENCIA DE LO DISPUESTO EN EL ARTICULO 13 DE LA LEY N° 31893, LEY DE MEDIDAS ESTRATÉGICAS Y DISPOSICIONES ECONÓMICAS Y TRIBUTARIAS PARA EL FORTALECIMIENTO Y POSICIONAMIENTO DEL ECOSISTEMA DEL LIBRO Y DE LA LECTURA.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -3140,7 +3250,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30498, LEY QUE PROMUEVE LA DONACIÓN DE ALIMENTOS Y FACILITA EL TRANSPORTE DE DONACIONES EN SITUACIONES DE DESASTRES NATURALES.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -3283,7 +3393,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL CONTENIDO DEL DECRETO LEGISLATIVO N° 635 CÓDIGO PENAL, DEROGA LA LEY 32104 Y MODIFICA LA LEY 30424, CON EL OBJETIVO DE REFORZAR LA LUCHA CONTRA LA INSEGURIDAD CIUDADANA Y LA CRIMINALIDAD ORGANIZADA",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-10-02T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -3470,7 +3580,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA FIGURA DE LA EXTINCIÓN DE DOMINIO, CON EL OBJETIVO DE LUCHAR FRONTALMENTE CONTRA EL CRIMEN ORGANIZADO Y EL LAVADO DE ACTIVOS.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -3536,7 +3646,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PENAL Y EL CÓDIGO PROCESAL PENAL PARA IMPEDIR LA IMPUNIDAD.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-10-01T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -5351,7 +5461,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LA VIGENCIA DEL REINTEGRO TRIBUTARIO DEL IMPUESTO GENERAL A LA VENTAS Y DE LA EXONERACIÓN DEL IMPUESTO A LA RENTA A LAS REGALÍAS POR DERECHO DE AUTOR PREVISTOS EN LA LEY 31893, LEY DE MEDIDAS ESTRATÉGICAS Y DISPOSICIONES ECONÓMICAS Y TRIBUTARIAS PARA EL FORTALECIMIENTO Y POSICIONAMIENTO DEL ECOSISTEMA DEL LIBRO Y DE LA LECTURA. ",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-09-17T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -6187,7 +6297,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ATENCIÓN MÉDICA Y LA VIGILANCIA EPIDEMIOLÓGICA PARA LA POBLACIÓN AFECTADA POR LA CONTAMINACIÓN CON METALES PESADOS Y OTRAS SUSTANCIAS QUÍMICAS DERIVADA DE LA ACTIVIDAD MINERA",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-09-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -8475,7 +8585,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 32130 Y RESTABLECE EL RÉGIMEN JURÍDICO ANTERIOR DEL CÓDIGO PROCESAL PENAL EN MATERIA DE CONDUCCIÓN DE LA INVESTIGACIÓN DEL DELITO",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-08-12T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -8530,7 +8640,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1373, DECRETO LEGISLATIVO SOBRE EXTINCIÓN DE DOMINIO, PARA RESTABLECER LA AUTONOMÍA DEL PROCESO DE EXTINCIÓN DE DOMINIO, Y DEROGA LA LEY 32326",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-08-11T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -8574,7 +8684,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1373 SOBRE EXTINCIÓN DE DOMINIO",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-08-10T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -8618,7 +8728,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 31751 Y LA LEY 32104, QUE MODIFICAN LA SUSPENSIÓN DEL PLAZO DE PRESCRIPCIÓN DE LA ACCIÓN PENAL",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-08-10T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -8640,7 +8750,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA DIVERSAS REFORMAS LEGISLATIVAS QUE HAN GENERADO RETROCESOS NORMATIVOS EN LA LUCHA CONTRA EL CRIMEN ORGANIZADO\n",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-08-07T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -8695,7 +8805,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA EL MARCO NORMATIVO CONOCIDO COMO LEYES PRO CRIMEN Y RESTABLECE LAS CAPACIDADES DEL ESTADO PARA LA INVESTIGACIÓN Y PERSECUCIÓN DEL CRIMEN ORGANIZADO, LA CORRUPCIÓN Y LAS GRAVES VIOLACIONES A LOS DERECHOS HUMANOS.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-08-04T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
