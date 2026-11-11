@@ -1,5 +1,60 @@
 [
   {
+    "proyecto_ley": "00823-2026-2031-CD",
+    "ply_num": 823,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26834, LEY DE ÁREAS NATURALES PROTEGIDAS PARA FORTALECER LA BIODIVERSIDAD ACUÁTICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00822-2026-2031-CD",
+    "ply_num": 822,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1107 CON LA FINALIDAD DE CREAR EL FONDO PARA LA REMEDIACIÓN AMBIENTAL DE LOS DAÑOS OCASIONADOS POR LA MINERÍA ILEGAL E INFORMAL (FORAMII).",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00821-2026-2031-CD",
+    "ply_num": 821,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28044, LEY GENERAL DE EDUCACIÓN, A FIN DE INCORPORAR LA EDUCACIÓN VIAL Y DE TRÁNSITO COMO CONTENIDO OBLIGATORIO DE LA EDUCACIÓN BÁSICA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00820-2026-2031-CD",
+    "ply_num": 820,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO DE URGENCIA 002-2020 PARA AMPLIAR EL PLAZO DE SUPERVISIÓN ORIENTATIVA SOBRE LA TITULACIÓN DOCENTE EN LAS INSTITUCIONES EDUCATIVAS PRIVADAS DE EDUCACIÓN BÁSICA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00819-2026-2031-CD",
+    "ply_num": 819,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROHÍBE EL ACCESO A CUENTAS PERSONALES EN REDES SOCIALES A MENORES DE QUINCE AÑOS PARA FORTALECER LA PROTECCIÓN DIGITAL DE NIÑOS, NIÑAS Y ADOLESCENTES EN EL PERÚ.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00818-2026-2031-CD",
     "ply_num": 818,
     "periodo": 2026,
@@ -180,7 +235,7 @@
     "ply_num": 802,
     "periodo": 2026,
     "camara": "D",
-    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30364 Y EL CÓDIGO DE LOS NIÑOS Y ADOLESCENTES, PARA FORTALECER LA PROTECCIÓN DE NIÑOSY ADOLESCENTES EXPUESTOS A ENTORNOS DE VIOLENCIA Y ESTABLECE MECANISMOS DE ALERTA PARA LA PREVENCIÓN DE LA VIOLENCIA DESDE LAS INSTITUCIONES EDUCATIVAS.",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30364 Y EL CÓDIGO DE LOS NIÑOS Y ADOLESCENTES, PARA FORTALECER LA PROTECCIÓN DE NIÑOS Y ADOLESCENTES EXPUESTOS A ENTORNOS DE VIOLENCIA Y ESTABLECE MECANISMOS DE ALERTA PARA LA PREVENCIÓN DE LA VIOLENCIA DESDE LAS INSTITUCIONES EDUCATIVAS.",
     "estado": "PRESENTADO",
     "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
@@ -192,7 +247,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY DEL IMPUESTO A LA RENTA",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -203,7 +258,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 307-B DEL CÓDIGO PENAL INCORPORANDO EXPRESAMENTE LAS ZONAS DE AMORTIGUAMIENTO EN LA AGRAVANTE PARA LA MINERÍA ILEGAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -214,7 +269,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 32322 PARA AMPLIAR HASTA EL 31 DE DICIEMBRE DE 2028 LA LIBRE DISPONIBILIDAD DE LA COMPENSACIÓN POR TIEMPO DE SERVICIOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -225,7 +280,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA MODIFICA EL ARTÍCULO 13 E INCORPORA LOS ARTÍCULOS 13-A Y 13-B EN LA LEY 27795, LEY DE DEMARCACIÓN Y ORGANIZACIÓN TERRITORIAL, PARA VIABILIZAR LA CREACIÓN DE DISTRITOS Y PROVINCIAS EN ZONAS DE FRONTERA Y EN ZONAS DECLARADAS DE INTERÉS NACIONAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -236,7 +291,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 31533, LEY QUE PROMUEVE EL EMPLEO DE JOVENES TÉCNICOS Y PROFESIONALES EN EL SECTOR PÚBLICO, A FIN DE RECONOCER LA EXPERIENCIA LABORAL ADQUIRIDA EN LOS SECTORES PÚBLICO Y PRIVADO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -247,7 +302,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 76 Y 239 DE LA LEY 27444, LEY DEL PROCEDIMIENTO ADMINISTRATIVO GENERAL, PARA ESTABLECER PLAZOS DE RESPUESTA A LAS SOLICITUDES DE INFORMACIÓN ENTRE ENTIDADES PÚBLICAS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -258,7 +313,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DECLARA EL 26 DE FEBRERO DE 1864 FECHA DE CONMEMORACIÓN DEL ESTABLECIMIENTO DEL PUERTO FLUVIAL EN IQUITOS, Y DEROGA LA LEY 14702.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -269,7 +324,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26859, LEY ORGÁNICA DE ELECCIONES, RESPECTO DEL PLAZO DE PROHIBICIÓN DE DIFUSIÓN DE ENCUESTAS ELECTORALES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -280,7 +335,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INFORMACIÓN TÉCNICA, LA TRAZABILIDAD POSVENTA Y LA EVALUACIÓN INDEPENDIENTE EN LA ADQUISICIÓN DE VEHÍCULOS AUTOMOTORES NUEVOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -291,7 +346,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA ACTUALIZACIÓN DE LA REMUNERACIÓN MÍNIMA VITAL SEGÚN EL COSTO DE VIDA, REGULA SU REVISIÓN TÉCNICA ANUAL Y DISPONE MEDIDAS DE ACOMPAÑAMIENTO PARA LA MICRO, PEQUEÑA Y MEDIANA EMPRESA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -302,7 +357,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DISPONE LA APLICACIÓN DE LA CLÁUSULA DE EXCEPCIÓN A LAS REGLAS MACROFISCALES DEL SECTOR PÚBLICO NO FINANCIERO Y  DISPONE SU RETORNO GRADUAL",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-09T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -313,7 +368,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA PARA EL EMPLEO JUVENIL DIGNO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -324,7 +379,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA LA UNIVERSIDAD NACIONAL CIENTIFICA DE LA MAR -UNCLAM.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -335,7 +390,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO VIII DEL TÍTULO PRELIMINAR DEL NUEVO CÓDIGO PROCESAL CONSTITUCIONAL (LEY N° 31307) PARA CONSOLIDAR EL CONTROL DE CONVENCIONALIDAD Y REFORZAR LA MOTIVACIÓN JUDICIAL ANTE PRONUNCIAMIENTOS DE ORGANISMOS INTERNACIONALES DE DERECHOS HUMANOS",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -346,7 +401,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA CAPACITACIÓN Y LA FORMALIZACIÓN PRODUCTIVA DE LOS EMOLIENTEROS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -357,7 +412,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1293, DECRETO LEGISLATIVO QUE DECLARA DE INTERÉS NACIONAL LA FORMALIZACIÓN DE LAS ACTIVIDADES DE LA PEQUEÑA MINERÍA Y MINERÍA ARTESANAL, A FIN DE DEPURAR EL REGISTRO INTEGRAL DE FORMALIZACIÓN MINERA (REINFO) Y AMPLIAR LA VIGENCIA DEL PROCESO DE FORMALIZACIÓN MINERA INTEGRAL HASTA EL 31 DE DICIEMBRE DE 2030",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-06T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
