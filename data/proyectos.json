@@ -1,5 +1,27 @@
 [
   {
+    "proyecto_ley": "00830-2026-2031-CD",
+    "ply_num": 830,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE EL DERECHO AL CUIDADO Y ESTABLECE MEDIDAS DE PROTECCIÓN PARA LAS PERSONAS QUE REQUIEREN CUIDADOS Y PARA SUS PERSONAS CUIDADORAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-12T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00829-2026-2031-CD",
+    "ply_num": 829,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL FONDO SOBERANO DE RIQUEZA DEL PERÚ Y REGULA EL AHORRO FISCAL NACIONAL, EL AHORRO DE BONANZA EXTRACTIVA Y LA GESTIÓN Y RENTABILIZACIÓN DE ACTIVOS PÚBLICOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-12T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
     "proyecto_ley": "00828-2026-2031-CD",
     "ply_num": 828,
     "periodo": 2026,
