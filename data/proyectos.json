@@ -1,5 +1,16 @@
 [
   {
+    "proyecto_ley": "00828-2026-2031-CD",
+    "ply_num": 828,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL CIERRE DE BRECHAS DE CONECTIVIDAD DIGITAL EN LAS INSTITUCIONES EDUCATIVAS PÚBLICAS DE ZONAS ALTOANDINAS Y AMAZÓNICAS DEL PERÚ.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-12T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
     "proyecto_ley": "00827-2026-2031-CD",
     "ply_num": 827,
     "periodo": 2026,
