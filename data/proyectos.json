@@ -1,5 +1,27 @@
 [
   {
+    "proyecto_ley": "00845-2026-2031-CD",
+    "ply_num": 845,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA MOVILIDAD INTERUNIVERSITARIA DEFINITIVA DE DOCENTES ORDINARIOS DE UNIVERSIDADES PÚBLICAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00844-2026-2031-CD",
+    "ply_num": 844,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 09144/2024-CR ).  \nPROPOSICIÓN LEGISLATIVA QUE REGULA EL “APAGÓN TELEFÓNICO” DE EQUIPOS MÓVILES EN LOS ESTABLECIMIENTOS PENITENCIARIOS DEL PAÍS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+    "bancada": ""
+  },
+  {
     "proyecto_ley": "00843-2026-2031-CD",
     "ply_num": 843,
     "periodo": 2026,
