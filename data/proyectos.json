@@ -1,5 +1,16 @@
 [
   {
+    "proyecto_ley": "00863-2026-2031-CD",
+    "ply_num": 863,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS DE TRANSPARENCIA, EVALUACIÓN Y RESPONSABILIDAD PARA EL USO SEGURO DE LA INTELIGENCIA ARTIFICIAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
     "proyecto_ley": "00861-2026-2031-CD",
     "ply_num": 861,
     "periodo": 2026,
