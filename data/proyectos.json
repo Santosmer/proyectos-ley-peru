@@ -1,5 +1,181 @@
 [
   {
+    "proyecto_ley": "00861-2026-2031-CD",
+    "ply_num": 861,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE MODIFICA EL ARTÍCULO 191 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ PARA PRECISAR LA REPRESENTACIÓN DE MUJERES Y HOMBRES EN LOS CONSEJOS REGIONALES   Y CONCEJOS MUNICIPALES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00860-2026-2031-CD",
+    "ply_num": 860,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA TRANSFERENCIA DE TITULARIDAD DE BIENES INSCRITOS O NO INSCRITOS Y LA DELEGACIÓN DE COMPETENCIAS DE ENTIDADES PÚBLICAS A FAVOR DE PROINVERSIÓN PARA EL DESARROLLO DE PROYECTOS EN ACTIVOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00859-2026-2031-CD",
+    "ply_num": 859,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS EXTRAORDINARIAS Y TEMPORALES DE ALIVIO TRIBUTARIO Y PROTECCIÓN CREDITICIA PARA LAS MICRO Y PEQUEÑAS EMPRESAS AFECTADAS POR EL FENÓMENO EL NIÑO 2026-2027.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00858-2026-2031-CD",
+    "ply_num": 858,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.° 31336, LEY NACIONAL DEL CÁNCER, PARA FACILITAR LA CONTINUIDAD DEL TRATAMIENTO ONCOLÓGICO MEDIANTE LA ENTREGA DE MEDICAMENTOS CERCA DEL PACIENTE.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00857-2026-2031-CD",
+    "ply_num": 857,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27037, LEY DE PROMOCIÓN DE LA INVERSIÓN EN LA AMAZONÍA, A FIN DE FORTALECER EL MERCADO DE COMBUSTIBLES",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00856-2026-2031-CD",
+    "ply_num": 856,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA INVERSIÓN DE LOS RECURSOS DEL CANON Y SOBRECANON EN INFRAESTRUCTURA Y EQUIPAMIENTO DE SERVICIOS DE CUIDADO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00855-2026-2031-CD",
+    "ply_num": 855,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 3 DE LA LEY 31883, LEY QUE PROMUEVE LA VACUNACIÓN CONTRA EL VIRUS DEL PAPILOMA HUMANO (VPH) EN LA NIÑEZ Y ADOLESCENCIA, PARA AMPLIAR LA VACUNACIÓN HASTA LOS 26 AÑOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00854-2026-2031-CD",
+    "ply_num": 854,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.º 29973, LEY GENERAL DE LA PERSONA CON DISCAPACIDAD, PARA RECONOCER EL ACOMPAÑAMIENTO INDISPENSABLE Y EXTENDER BENEFICIOS DE ACCESO AL ACOMPAÑANTE.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00853-2026-2031-CD",
+    "ply_num": 853,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE COMPRAS PÚBLICAS INCLUSIVAS PARA PUEBLOS INDÍGENAS U ORIGINARIOS, PUEBLO AFROPERUANO Y COMUNIDADES CAMPESINAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00852-2026-2031-CD",
+    "ply_num": 852,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE LA PROPIEDAD TERRITORIAL DE LAS COMUNIDADES CAMPESINAS Y ESTABLECE GARANTÍAS PARA LA FORMALIZACIÓN DE TIERRAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00851-2026-2031-CD",
+    "ply_num": 851,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26549, LEY DE LOS CENTROS EDUCATIVOS PRIVADOS, PARA GARANTIZAR LA ESTABILIDAD DE LOS PARÁMETROS DIMENSIONALES DE INFRAESTRUCTURA DE LOS LOCALES DE LAS INSTITUCIONES EDUCATIVAS PRIVADAS AUTORIZADAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00850-2026-2031-CD",
+    "ply_num": 850,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL INCISO “C” AL ARTÍCULO 183 DEL CÓDIGO PENAL QUE SANCIONA A LOS MEDIOS DE COMUNICACIÓN SOCIAL LAS EXHIBICIONES OBSCENAS Y PORNOGRÁFICAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00849-2026-2031-CD",
+    "ply_num": 849,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.º 29664, LEY QUE CREA EL SISTEMA NACIONAL DE GESTIÓN DEL RIESGO DE DESASTRES (SINAGERD), PARA FORTALECER LA ATENCIÓN Y EL SEGUIMIENTO DE LOS PUNTOS CRÍTICOS ANTE EL RIESGO DE INUNDACIONES Y DESBORDAMIENTOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00848-2026-2031-CD",
+    "ply_num": 848,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 06758/2023-CR).  \nPROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 151-B AL CÓDIGO PENAL, TIPIFICANDO EL DELITO DE AMENAZA TELEFÓNICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00847-2026-2031-CD",
+    "ply_num": 847,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 06794/2023-CR).  \nPROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA IGUALDAD DE DERECHO DEL PADRE O MADRE A NO REVELAR LA IDENTIDAD DEL OTRO Y CREA EL REGISTRO RESERVADO DE IDENTIDAD DE PADRES BIOLÓGICOS NO REVELADOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00846-2026-2031-CD",
+    "ply_num": 846,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL DELITO DE OBSTRUCCIÓN PARENTAL EN EL CÓDIGO PENAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
     "proyecto_ley": "00845-2026-2031-CD",
     "ply_num": 845,
     "periodo": 2026,
@@ -2909,7 +3085,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA LA VIGENCIA DE LAS EXONERACIONES PREVISTAS EN LOS INCISOS I) Y O) DEL ARTÍCULO 19 DE LA LEY DEL IMPUESTO A LA RENTA.",
-    "estado": "APROBADO",
+    "estado": "Expediente de propuesta legislativa remitida al senado de la república",
     "fecha_presentacion": "2026-10-13T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -3701,7 +3877,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY DEL IMPUESTO A LA RENTA",
-    "estado": "APROBADO",
+    "estado": "Expediente de propuesta legislativa remitida al senado de la república",
     "fecha_presentacion": "2026-10-05T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -4471,7 +4647,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PRORROGA POR TRES AÑOS LAS EXONERACIONES DEL IMPUESTO A LA RENTA APLICABLES A LOS INTERESES DE LOS DEPÓSITOS DE AHORRO Y FORTALECE LA INCLUSIÓN FINANCIERA.",
-    "estado": "APROBADO",
+    "estado": "Expediente de propuesta legislativa remitida al senado de la república",
     "fecha_presentacion": "2026-09-28T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -6363,7 +6539,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON LA SEGUNDA DISPOSICIÓN COMPLEMENTARIA TRANSITORIA DEL REGLAMENTO DEL CONGRESO - (ANTES PL 03566/2022-CR - CONGRESO).\nPROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1350, DECRETO LEGISLATIVO DE MIGRACIONES, PARA PRECISAR CONCEPTOS E INCORPORAR PROCEDIMIENTOS DE POLÍTICA MIGRATORIA.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-16T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -6649,7 +6825,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON LA SEGUNDA DISPOSICIÓN COMPLEMENTARIA TRANSITORIA DEL REGLAMENTO DEL CONGRESO - (ANTES PL 01575/2021-CR - CONGRESO).\nPROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1267, LEY DE LA POLICÍA NACIONAL DEL PERÚ.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-15T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -8464,7 +8640,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INTEGRIDAD Y LA PREVENCIÓN DEL SOBORNO EN LAS EMPRESAS PRESTADORAS DE SERVICIOS DE AGUA POTABLE Y SANEAMIENTO PÚBLICAS DE ACCIONARIADO MUNICIPAL.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-08-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
