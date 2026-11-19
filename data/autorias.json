@@ -1,5 +1,733 @@
 [
   {
+    "proyecto_ley": "00888-2026-2031-CD",
+    "persona": "Quispe Candia, Luis Eliseo",
+    "dni": "40067839",
+    "congresista_id": 233,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00888-2026-2031-CD",
+    "persona": "Huaman Cornejo, Miguel Félix",
+    "dni": "02819812",
+    "congresista_id": 193,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00888-2026-2031-CD",
+    "persona": "Gonzales Polar, Édgar Dember",
+    "dni": "29715400",
+    "congresista_id": 186,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00888-2026-2031-CD",
+    "persona": "Uribe Sáenz, Romina Alejandra",
+    "dni": "75421660",
+    "congresista_id": 250,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00888-2026-2031-CD",
+    "persona": "Hirache Pizarro, Gloria Charito",
+    "dni": "29311981",
+    "congresista_id": 190,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00888-2026-2031-CD",
+    "persona": "Alayza Maccera, Rossana Herminia",
+    "dni": "43478989",
+    "congresista_id": 143,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00888-2026-2031-CD",
+    "persona": "Benítez Barrionuevo, Jessica",
+    "dni": "41356710",
+    "congresista_id": 152,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00888-2026-2031-CD",
+    "persona": "García Huby, Fernando Alberto",
+    "dni": "08573694",
+    "congresista_id": 183,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00888-2026-2031-CD",
+    "persona": "Espinoza Huillca, Edwin",
+    "dni": "41678124",
+    "congresista_id": 175,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00888-2026-2031-CD",
+    "persona": "Llaque Linares, Nora María",
+    "dni": "06296745",
+    "congresista_id": 200,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00888-2026-2031-CD",
+    "persona": "Prado Vallejos, Lila Marianela",
+    "dni": "45741388",
+    "congresista_id": 231,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00887-2026-2031-CD",
+    "persona": "Manay Pillaca, Alejandro José",
+    "dni": "44560484",
+    "congresista_id": 202,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00887-2026-2031-CD",
+    "persona": "Zunini Yerren, Ernesto Alonzo",
+    "dni": "45327535",
+    "congresista_id": 261,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00887-2026-2031-CD",
+    "persona": "Tito Rojas, César Hugo",
+    "dni": "01320941",
+    "congresista_id": 248,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00887-2026-2031-CD",
+    "persona": "Poma Huamani, Haydee Celinda",
+    "dni": "42984568",
+    "congresista_id": 230,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00887-2026-2031-CD",
+    "persona": "Guillén Valencia, Héctor",
+    "dni": "23266182",
+    "congresista_id": 188,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00887-2026-2031-CD",
+    "persona": "Cahuaza Mitivire, Oswar Elbis",
+    "dni": "00106838",
+    "congresista_id": 158,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00887-2026-2031-CD",
+    "persona": "Holguín Aguirre, James Arturo",
+    "dni": "04810886",
+    "congresista_id": 191,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00887-2026-2031-CD",
+    "persona": "Huilca Flores, Indira Isabel",
+    "dni": "45218393",
+    "congresista_id": 194,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00886-2026-2031-CD",
+    "persona": "Alvarón De la Cruz, Édgar Adrián",
+    "dni": "43170121",
+    "congresista_id": 145,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00886-2026-2031-CD",
+    "persona": "Piñán Mamani, Víctor Eduardo",
+    "dni": "70074678",
+    "congresista_id": 228,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00886-2026-2031-CD",
+    "persona": "Yataco Torrealva, José Ricardo",
+    "dni": "42188288",
+    "congresista_id": 257,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00886-2026-2031-CD",
+    "persona": "Valqui Calderón, Demetrio Flavio",
+    "dni": "17930730",
+    "congresista_id": 251,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00886-2026-2031-CD",
+    "persona": "Albañil Carmona, Henry Antonio",
+    "dni": "46602828",
+    "congresista_id": 144,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00886-2026-2031-CD",
+    "persona": "Camargo Porta, Raúl Jesús",
+    "dni": "19845556",
+    "congresista_id": 159,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00885-2026-2031-CD",
+    "persona": "Hirache Pizarro, Gloria Charito",
+    "dni": "29311981",
+    "congresista_id": 190,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00885-2026-2031-CD",
+    "persona": "Alayza Maccera, Rossana Herminia",
+    "dni": "43478989",
+    "congresista_id": 143,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00885-2026-2031-CD",
+    "persona": "Huaman Cornejo, Miguel Félix",
+    "dni": "02819812",
+    "congresista_id": 193,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00885-2026-2031-CD",
+    "persona": "Uribe Sáenz, Romina Alejandra",
+    "dni": "75421660",
+    "congresista_id": 250,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00885-2026-2031-CD",
+    "persona": "Benítez Barrionuevo, Jessica",
+    "dni": "41356710",
+    "congresista_id": 152,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00885-2026-2031-CD",
+    "persona": "Quispe Candia, Luis Eliseo",
+    "dni": "40067839",
+    "congresista_id": 233,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00885-2026-2031-CD",
+    "persona": "Espinoza Huillca, Edwin",
+    "dni": "41678124",
+    "congresista_id": 175,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00885-2026-2031-CD",
+    "persona": "Llaque Linares, Nora María",
+    "dni": "06296745",
+    "congresista_id": 200,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00885-2026-2031-CD",
+    "persona": "García Huby, Fernando Alberto",
+    "dni": "08573694",
+    "congresista_id": 183,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00885-2026-2031-CD",
+    "persona": "Gonzales Polar, Édgar Dember",
+    "dni": "29715400",
+    "congresista_id": 186,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00885-2026-2031-CD",
+    "persona": "Prado Vallejos, Lila Marianela",
+    "dni": "45741388",
+    "congresista_id": 231,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00884-2026-2031-CD",
+    "persona": "Hirache Pizarro, Gloria Charito",
+    "dni": "29311981",
+    "congresista_id": 190,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00884-2026-2031-CD",
+    "persona": "Alayza Maccera, Rossana Herminia",
+    "dni": "43478989",
+    "congresista_id": 143,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00884-2026-2031-CD",
+    "persona": "García Huby, Fernando Alberto",
+    "dni": "08573694",
+    "congresista_id": 183,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00884-2026-2031-CD",
+    "persona": "Uribe Sáenz, Romina Alejandra",
+    "dni": "75421660",
+    "congresista_id": 250,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00884-2026-2031-CD",
+    "persona": "Huaman Cornejo, Miguel Félix",
+    "dni": "02819812",
+    "congresista_id": 193,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00884-2026-2031-CD",
+    "persona": "Fernandez de la Torre, Hilda Judit",
+    "dni": "31038213",
+    "congresista_id": 177,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00884-2026-2031-CD",
+    "persona": "Quispe Candia, Luis Eliseo",
+    "dni": "40067839",
+    "congresista_id": 233,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00884-2026-2031-CD",
+    "persona": "Espinoza Huillca, Edwin",
+    "dni": "41678124",
+    "congresista_id": 175,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00884-2026-2031-CD",
+    "persona": "Llaque Linares, Nora María",
+    "dni": "06296745",
+    "congresista_id": 200,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00884-2026-2031-CD",
+    "persona": "Benítez Barrionuevo, Jessica",
+    "dni": "41356710",
+    "congresista_id": 152,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00883-2026-2031-CD",
+    "persona": "Benítez Barrionuevo, Jessica",
+    "dni": "41356710",
+    "congresista_id": 152,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00883-2026-2031-CD",
+    "persona": "Huaman Cornejo, Miguel Félix",
+    "dni": "02819812",
+    "congresista_id": 193,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00883-2026-2031-CD",
+    "persona": "Llaque Linares, Nora María",
+    "dni": "06296745",
+    "congresista_id": 200,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00883-2026-2031-CD",
+    "persona": "Alayza Maccera, Rossana Herminia",
+    "dni": "43478989",
+    "congresista_id": 143,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00883-2026-2031-CD",
+    "persona": "Espinoza Huillca, Edwin",
+    "dni": "41678124",
+    "congresista_id": 175,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00883-2026-2031-CD",
+    "persona": "Hirache Pizarro, Gloria Charito",
+    "dni": "29311981",
+    "congresista_id": 190,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00883-2026-2031-CD",
+    "persona": "Duarte Patiño de Pezet, Carmen Georgina",
+    "dni": "10277219",
+    "congresista_id": 174,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00883-2026-2031-CD",
+    "persona": "García Huby, Fernando Alberto",
+    "dni": "08573694",
+    "congresista_id": 183,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00883-2026-2031-CD",
+    "persona": "Quispe Candia, Luis Eliseo",
+    "dni": "40067839",
+    "congresista_id": 233,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00883-2026-2031-CD",
+    "persona": "Gonzales Polar, Édgar Dember",
+    "dni": "29715400",
+    "congresista_id": 186,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00882-2026-2031-CD",
+    "persona": "Sulca Castillo, Pilar",
+    "dni": "28303446",
+    "congresista_id": 244,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00882-2026-2031-CD",
+    "persona": "Poma Huamani, Haydee Celinda",
+    "dni": "42984568",
+    "congresista_id": 230,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00882-2026-2031-CD",
+    "persona": "Paredes Navarro, Yenifer Noelia",
+    "dni": "74638299",
+    "congresista_id": 220,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00882-2026-2031-CD",
+    "persona": "Pérez Mallqui, Julián Luis",
+    "dni": "10536312",
+    "congresista_id": 226,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00882-2026-2031-CD",
+    "persona": "Guevara Ramírez, Jessica Roxana",
+    "dni": "45353055",
+    "congresista_id": 187,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00881-2026-2031-CD",
+    "persona": "Prado Vallejos, Lila Marianela",
+    "dni": "45741388",
+    "congresista_id": 231,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00881-2026-2031-CD",
+    "persona": "Huaman Cornejo, Miguel Félix",
+    "dni": "02819812",
+    "congresista_id": 193,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00881-2026-2031-CD",
+    "persona": "Alayza Maccera, Rossana Herminia",
+    "dni": "43478989",
+    "congresista_id": 143,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00881-2026-2031-CD",
+    "persona": "Benítez Barrionuevo, Jessica",
+    "dni": "41356710",
+    "congresista_id": 152,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00881-2026-2031-CD",
+    "persona": "Hirache Pizarro, Gloria Charito",
+    "dni": "29311981",
+    "congresista_id": 190,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00881-2026-2031-CD",
+    "persona": "Espinoza Huillca, Edwin",
+    "dni": "41678124",
+    "congresista_id": 175,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00881-2026-2031-CD",
+    "persona": "García Huby, Fernando Alberto",
+    "dni": "08573694",
+    "congresista_id": 183,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00881-2026-2031-CD",
+    "persona": "Quispe Candia, Luis Eliseo",
+    "dni": "40067839",
+    "congresista_id": 233,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00881-2026-2031-CD",
+    "persona": "Fernandez de la Torre, Hilda Judit",
+    "dni": "31038213",
+    "congresista_id": 177,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00881-2026-2031-CD",
+    "persona": "Llaque Linares, Nora María",
+    "dni": "06296745",
+    "congresista_id": 200,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00881-2026-2031-CD",
+    "persona": "Duarte Patiño de Pezet, Carmen Georgina",
+    "dni": "10277219",
+    "congresista_id": 174,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00880-2026-2031-CD",
+    "persona": "García Huby, Fernando Alberto",
+    "dni": "08573694",
+    "congresista_id": 183,
+    "sexo": "M",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00880-2026-2031-CD",
+    "persona": "Alayza Maccera, Rossana Herminia",
+    "dni": "43478989",
+    "congresista_id": 143,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00880-2026-2031-CD",
+    "persona": "Huaman Cornejo, Miguel Félix",
+    "dni": "02819812",
+    "congresista_id": 193,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00880-2026-2031-CD",
+    "persona": "Duarte Patiño de Pezet, Carmen Georgina",
+    "dni": "10277219",
+    "congresista_id": 174,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00880-2026-2031-CD",
+    "persona": "Espinoza Huillca, Edwin",
+    "dni": "41678124",
+    "congresista_id": 175,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00880-2026-2031-CD",
+    "persona": "Benítez Barrionuevo, Jessica",
+    "dni": "41356710",
+    "congresista_id": 152,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00880-2026-2031-CD",
+    "persona": "Quispe Candia, Luis Eliseo",
+    "dni": "40067839",
+    "congresista_id": 233,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00880-2026-2031-CD",
+    "persona": "Hirache Pizarro, Gloria Charito",
+    "dni": "29311981",
+    "congresista_id": 190,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00880-2026-2031-CD",
+    "persona": "Uribe Sáenz, Romina Alejandra",
+    "dni": "75421660",
+    "congresista_id": 250,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00880-2026-2031-CD",
+    "persona": "Llaque Linares, Nora María",
+    "dni": "06296745",
+    "congresista_id": 200,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00879-2026-2031-CD",
+    "persona": "Hirache Pizarro, Gloria Charito",
+    "dni": "29311981",
+    "congresista_id": 190,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00879-2026-2031-CD",
+    "persona": "Huaman Cornejo, Miguel Félix",
+    "dni": "02819812",
+    "congresista_id": 193,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00879-2026-2031-CD",
+    "persona": "Alayza Maccera, Rossana Herminia",
+    "dni": "43478989",
+    "congresista_id": 143,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00879-2026-2031-CD",
+    "persona": "Benítez Barrionuevo, Jessica",
+    "dni": "41356710",
+    "congresista_id": 152,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00879-2026-2031-CD",
+    "persona": "Quispe Candia, Luis Eliseo",
+    "dni": "40067839",
+    "congresista_id": 233,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00879-2026-2031-CD",
+    "persona": "Espinoza Huillca, Edwin",
+    "dni": "41678124",
+    "congresista_id": 175,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00879-2026-2031-CD",
+    "persona": "Llaque Linares, Nora María",
+    "dni": "06296745",
+    "congresista_id": 200,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00879-2026-2031-CD",
+    "persona": "Fernandez de la Torre, Hilda Judit",
+    "dni": "31038213",
+    "congresista_id": 177,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00879-2026-2031-CD",
+    "persona": "García Huby, Fernando Alberto",
+    "dni": "08573694",
+    "congresista_id": 183,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00878-2026-2031-CD",
     "persona": "Huilca Flores, Indira Isabel",
     "dni": "45218393",

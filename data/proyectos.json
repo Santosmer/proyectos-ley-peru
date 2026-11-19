@@ -1,5 +1,115 @@
 [
   {
+    "proyecto_ley": "00888-2026-2031-CD",
+    "ply_num": 888,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30936, LEY QUE PROMUEVE Y REGULA EL USO DE LA BICICLETA COMO MEDIO DE TRANSPORTE SOSTENIBLE; PARA FOMENTAR EL DESARROLLO DE LA INFRAESTRUCTURA CICLOVIAL SEGURA Y LOS SISTEMAS DE BICICLETAS PÚBLICAS ",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00887-2026-2031-CD",
+    "ply_num": 887,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA ATENCIÓN GRATUITA, PREFERENTE Y PERMANENTE PARA EL RESTABLECIMIENTO INTEGRAL DE LA SALUD FÍSICA Y MENTAL DE LAS PERSONAS CIVILES AFECTADAS Y SUS FAMILIARES CON OCASIÓN DE LAS PROTESTAS SOCIALES OCURRIDAS ENTRE DICIEMBRE DE 2022 Y MARZO DE 2023.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00886-2026-2031-CD",
+    "ply_num": 886,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA A LOS INSTITUTOS PÚBLICOS DE INVESTIGACIÓN COMO BENEFICIARIOS DEL CANON.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00885-2026-2031-CD",
+    "ply_num": 885,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 6 A LA LEY 28858, LEY QUE COMPLEMENTA LA LEY 16053, PARA RECONOCER EXPRESAMENTE LAS COMPETENCIAS PROFESIONALES DEL INGENIERO ZOOTECNISTA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00884-2026-2031-CD",
+    "ply_num": 884,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA COMPETENCIA FARMACÉUTICA Y LA ENTRADA OPORTUNA DE MEDICAMENTOS GENÉRICOS, BIOSIMILARES E INTERCAMBIABLES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00883-2026-2031-CD",
+    "ply_num": 883,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE LA CONDICIÓN DE ELEGIBLE Y REGULA LA ASIGNACIÓN PROGRESIVA DE PLAZAS EN ESSALUD EN EL MARCO DE LA PROMOCIÓN INTERNA 2025-2026",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00882-2026-2031-CD",
+    "ply_num": 882,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE EL LEGADO HISTÓRICO DE LA PROVINCIA DE HUANTA EN LA DEFENSA DE LA EDUCACIÓN GRATUITA Y PROMUEVE LA PRESERVACIÓN DE LA MEMORIA DE LOS MÁRTIRES DEL 22 DE JUNIO DE 1969.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00881-2026-2031-CD",
+    "ply_num": 881,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE PREVENCIÓN DE LOS RIESGOS QUE AFECTAN LA INTEGRIDAD PÚBLICA DERIVADOS DEL OFRECIMIENTO, ENTREGA Y RECEPCIÓN DE REGALOS, ATENCIONES Y OTRAS CORTESÍAS EN LAS ENTIDADES DE LA ADMINISTRACIÓN PÚBLICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00880-2026-2031-CD",
+    "ply_num": 880,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE MODIFICA EL ARTÍCULO 28 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ, A FIN DE FORTALECER LAS NEGOCIACIONES COLECTIVAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00879-2026-2031-CD",
+    "ply_num": 879,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26859, LEY ORGÁNICA DE ELECCIONES, PARA GARANTIZAR LA AUTENTICIDAD DE LA PROPAGANDA ELECTORAL FRENTE A LAS REDES COORDINADAS INAUTÉNTICAS, ESTABLECIENDO EL CESE DE SU DIFUSIÓN, LA EXCLUSIÓN DEL CANDIDATO RESPONSABLE Y LA SANCIÓN A LA ORGANIZACIÓN POLÍTICA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
     "proyecto_ley": "00878-2026-2031-CD",
     "ply_num": 878,
     "periodo": 2026,
