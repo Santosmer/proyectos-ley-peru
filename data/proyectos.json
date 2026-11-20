@@ -1,5 +1,93 @@
 [
   {
+    "proyecto_ley": "00907-2026-2031-CD",
+    "ply_num": 907,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27795, LEY DE DEMARCACIÓN Y ORGANIZACIÓN TERRITORIAL, RESPECTO DE LAS ACCIONES DE DEMARCACIÓN TERRITORIAL EN ZONAS DE FRONTERA Y DE INTERÉS NACIONAL",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00906-2026-2031-CD",
+    "ply_num": 906,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL PASAJE DIFERENCIADO PARA LA PERSONA ADULTA MAYOR DE 60 AÑOS EN EL TRANSPORTE PÚBLICO TERRESTRE.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00905-2026-2031-CD",
+    "ply_num": 905,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN DE LAS CABECERAS DE CUENCA Y LA SEGURIDAD HÍDRICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00904-2026-2031-CD",
+    "ply_num": 904,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 27-A EN LA LEY 32069, LEY GENERAL DE CONTRATACIONES PÚBLICAS, PARA FORTALECER EL SUSTENTO DE LAS DECISIONES DE EJECUCIÓN CONTRACTUAL ANTE SITUACIONES ADVERSAS PENDIENTES DEL CONTROL CONCURRENTE.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00903-2026-2031-CD",
+    "ply_num": 903,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA SEGUNDA VUELTA PARA LA ELECCIÓN DE LA ALCALDÍA METROPOLITANA DE LIMA Y FORTALECE LA REPRESENTACIÓN DEL CONCEJO METROPOLITANO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00902-2026-2031-CD",
+    "ply_num": 902,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA AL DECRETO LEGISLATIVO 1156 MECANISMO DE VERIFICACIÓN PERIÓDICA Y ACTIVACIÓN OBLIGATORIA DE LA EVALUACIÓN ANTE INDICADORES EPIDEMIOLÓGICOS DE ARBOVIROSIS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00901-2026-2031-CD",
+    "ply_num": 901,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA OCTAVA DISPOSICIÓN COMPLEMENTARIA FINAL DE LA LEY 32394 PARA FACILITAR LA EJECUCIÓN CONJUNTA DE INVERSIONES DEL PRIMER NIVEL DE ATENCIÓN MEDIANTE OBRAS POR IMPUESTOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00900-2026-2031-CD",
+    "ply_num": 900,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30057, LEY DEL SERVICIO CIVIL, Y LA LEY 32069, LEY GENERAL DE CONTRATACIONES PÚBLICAS, PARA REGULAR TANTO EL FINANCIAMIENTO, LA CONTRATACIÓN, LA RECUPERACIÓN DE LOS COSTOS DE DEFENSA Y ASESORÍA PÚBLICAS, COMO SU REGISTRO INTEGRADO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
     "proyecto_ley": "00899-2026-2031-CD",
     "ply_num": 899,
     "periodo": 2026,
@@ -1897,7 +1985,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA DE LA CÁMARA DE DIPUTADOS POR LA QUE SE APRUEBA LA AGENDA LEGISLATIVA PARA EL PERÍODO ANUAL DE SESIONES 2026-2027.",
-    "estado": "AUTÓGRAFA",
+    "estado": "Publicada en el Diario Oficial El Peruano",
     "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Multipartidario"
@@ -4163,7 +4251,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL DESARME VOLUNTARIO Y REDUCE LA CIRCULACIÓN DE ARMAS ILEGALES.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -4823,7 +4911,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE UN PERIODO DE MORATORIA PARA LA CREACIÓN Y AUTORIZACIÓN DE FUNCIONAMIENTO DE NUEVAS UNIVERSIDADES PÚBLICA.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-09-30T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
@@ -7672,7 +7760,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS TEMPORALES PARA PROMOVER LA ENTREGA VOLUNTARIA, ANÓNIMA Y CON INCENTIVO ECONÓMICO, DE ARMAS DE FUEGO, MUNICIONES, GRANADAS DE GUERRA, EXPLOSIVOS, DINAMITA Y OTRAS ESPECIES SIMILARES DE PROCEDENCIA ILÍCITA O IRREGULAR, POR UN PLAZO DE 60 DÍAS, PARA CONTRIBUIR AL FORTALECIMIENTO DE LA SEGURIDAD CIUDADANA Y LA LUCHA CONTRA LA CRIMINALIDAD.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-09-11T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -8046,7 +8134,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE OTORGA BENEFICIOS A LOS EGRESADOS DE LOS CURSOS DE EXTENSIÓN UNIVERSITARIA CON EL PROPÓSITO DE CAPTAR AL MEJOR TALENTO PARA EL SECTOR PÚBLICO.",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-09-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -9674,7 +9762,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE CREACIÓN DEL DISTRITO DE TUYANKUWAS EN LA PROVINCIA DE BAGUA DEL DEPARTAMENTO DE AMAZONAS",
-    "estado": "CON DICTAMEN",
+    "estado": "EN AGENDA DEL PLENO",
     "fecha_presentacion": "2026-08-11T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
