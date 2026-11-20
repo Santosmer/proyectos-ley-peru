@@ -1,5 +1,38 @@
 [
   {
+    "proyecto_ley": "00899-2026-2031-CD",
+    "ply_num": 899,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 27 y 77 DEL REGLAMENTO DEL CONGRESO DE LA REPÚBLICA DEL PERÚ, DISPONIENDO QUE LOS SENADORES Y DIPUTADOS SUPLENTES PUEDEN REEMPLAZAR A LOS TITULARES, SIN NECESIDAD QUE LOS TITULARES INFORMEN PREVIAMENTE POR  ESCRITO; Y QUE TODOS LOS SENADORES PUEDEN PARTICIPAR EN EL DEBATE DE LA LEY DE LA CUENTA GENERAL DE LA REPÚBLICA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Senado de la República",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00898-2026-2031-CD",
+    "ply_num": 898,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 61 DE LA LEY 32069, LEY GENERAL DE CONTRATACIONES PÚBLICAS, PARA FORTALECER LA VERIFICACIÓN Y LA EJECUCIÓN DE LAS GARANTÍAS FINANCIERAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00897-2026-2031-CD",
+    "ply_num": 897,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA CALIDAD DE LA FORMACIÓN UNIVERSITARIA Y LAS COMPETENCIAS DE LOS PROFESIONALES DE LA SALUD.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
     "proyecto_ley": "00896-2026-2031-CD",
     "ply_num": 896,
     "periodo": 2026,
@@ -1864,7 +1897,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROYECTO DE RESOLUCIÓN LEGISLATIVA DE LA CÁMARA DE DIPUTADOS POR LA QUE SE APRUEBA LA AGENDA LEGISLATIVA PARA EL PERÍODO ANUAL DE SESIONES 2026-2027.",
-    "estado": "APROBADO",
+    "estado": "AUTÓGRAFA",
     "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Multipartidario"
@@ -2348,7 +2381,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA PARA LA PREVENCIÓN Y GESTIÓN DE INCENDIOS FORESTALES EN EL PERÚ.\nACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 08968/2024-CR, AUTOR: ALEGRÍA GARCIA).  ",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-10-27T00:00:00.000-05:00",
     "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
     "bancada": ""
