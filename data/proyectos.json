@@ -1,5 +1,27 @@
 [
   {
+    "proyecto_ley": "00909-2026-2031-CD",
+    "ply_num": 909,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 8 DEL DECRETO LEGISLATIVO 1267, LEY DE LA POLICÍA NACIONAL DEL PERÚ, PARA REGULAR EL CESE ANTICIPADO DEL COMANDANTE GENERAL DE LA POLICÍA NACIONAL DEL PERÚ ",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00908-2026-2031-CD",
+    "ply_num": 908,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA LA RED NACIONAL DE FARMACIAS PÚBLICAS COMUNITARIAS «FARMAPERÚ» PARA MEJORAR EL ACCESO A MEDICAMENTOS ESENCIALES GENÉRICOS EN DENOMINACIÓN COMÚN INTERNACIONAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
     "proyecto_ley": "00907-2026-2031-CD",
     "ply_num": 907,
     "periodo": 2026,
