@@ -1,5 +1,159 @@
 [
   {
+    "proyecto_ley": "00923-2026-2031-CD",
+    "ply_num": 923,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 326 DEL CÓDIGO CIVIL A FIN DE PROTEGER LOS DERECHOS PATRIMONIALES DERIVADOS DE LA UNIÓN DE HECHO EN LOS ACTOS A TÍTULO GRATUITO",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00922-2026-2031-CD",
+    "ply_num": 922,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1141 PARA INCORPORAR AL COMANDO DE INTELIGENCIA Y OPERACIONES ESPECIALES CONJUNTAS -CIOEC AL SISTEMA DE INTELIGENCIA NACIONAL -SINA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00921-2026-2031-CD",
+    "ply_num": 921,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEFINE, DESARROLLA Y REGULA EL MONITOREO DE COMUNICACIONES Y LOS DATOS DERIVADOS DE ESTAS, PREVISTO EN EL NUMERAL 1 DEL ARTÍCULO 230 DEL CÓDIGO PROCESAL PENAL.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00920-2026-2031-CD",
+    "ply_num": 920,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL COMBATE CONTRA EL COMERCIO ILÍCITO DE EQUIPOS TERMINALES MÓVILES Y LA SEGURIDAD CIUDADANA MEDIANTE LA VERIFICACIÓN Y EL CONTROL POLICIAL PREVENTIVO DEL IMEI",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00919-2026-2031-CD",
+    "ply_num": 919,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE INCORPORA EL DERECHO A LA CONSULTA PREVIA DE LOS PUEBLOS INDÍGENAS U ORIGINARIOS EN LA CONSTITUCIÓN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00918-2026-2031-CD",
+    "ply_num": 918,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL PUNTO ÚNICO DE DENUNCIA POR ROBO, HURTO O PÉRDIDA DE EQUIPOS TERMINALES MÓVILES",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00917-2026-2031-CD",
+    "ply_num": 917,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 117 DE LA LEY 30220, LEY UNIVERSITARIA, PARA PREVENIR LA ELUSIÓN FISCAL EN ACTIVIDADES COMERCIALES DE LAS UNIVERSIDADES PRIVADAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00916-2026-2031-CD",
+    "ply_num": 916,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 31498, LEY QUE IMPULSA LA CALIDAD DE LOS MATERIALES Y RECURSOS EDUCATIVOS EN EL PERÚ, Y RESTITUYE EL TEXTO ORIGINAL DE LAS LEYES 28044, 28628 Y 31224",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00915-2026-2031-CD",
+    "ply_num": 915,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE OPTIMIZA EL SISTEMA DE VIDEOVIGILANCIA INTEGRADA, INTEROPERABILIDAD TECNOLÓGICA Y ARTICULACIÓN OPERATIVA POLICIAL CON LOS GOBIERNOS REGIONALES Y LOCALES PARA LA SEGURIDAD CIUDADANA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
+    "proyecto_ley": "00914-2026-2031-CD",
+    "ply_num": 914,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PREVENCIÓN Y SANCIÓN DEL ACOSO POLÍTICO CONTRA LAS MUJERES EN LA VIDA POLÍTICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Multipartidario"
+  },
+  {
+    "proyecto_ley": "00913-2026-2031-CD",
+    "ply_num": 913,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA ENSEÑANZA OBLIGATORIA DE LA REANIMACIÓN CARDIOPULMONAR BÁSICA Y DEL USO DEL DESFIBRILADOR EXTERNO AUTOMÁTICO EN LAS INSTITUCIONES EDUCATIVAS DEL PAÍS",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00912-2026-2031-CD",
+    "ply_num": 912,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PROTECCIÓN PARA VÍCTIMAS DIRECTAS E INDIRECTAS DEL FEMINICIDIO ",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00911-2026-2031-CD",
+    "ply_num": 911,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA CONVIVENCIA ESCOLAR Y REGULA MEDIDAS PARA PREVENIR Y ATENDER LA VIOLENCIA EN LAS INSTITUCIONES EDUCATIVAS DE EDUCACIÓN BÁSICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00910-2026-2031-CD",
+    "ply_num": 910,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE CREA EL ORGANISMO DE FISCALIZACIÓN Y CONTROL DE EXPORTACIONES DE CONCENTRADOS DE MINERALES (OFICOMIN).",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-23T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
     "proyecto_ley": "00909-2026-2031-CD",
     "ply_num": 909,
     "periodo": 2026,
@@ -71,7 +225,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA SEGUNDA VUELTA PARA LA ELECCIÓN DE LA ALCALDÍA METROPOLITANA DE LIMA Y FORTALECE LA REPRESENTACIÓN DEL CONCEJO METROPOLITANO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -82,7 +236,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA AL DECRETO LEGISLATIVO 1156 MECANISMO DE VERIFICACIÓN PERIÓDICA Y ACTIVACIÓN OBLIGATORIA DE LA EVALUACIÓN ANTE INDICADORES EPIDEMIOLÓGICOS DE ARBOVIROSIS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -93,7 +247,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA OCTAVA DISPOSICIÓN COMPLEMENTARIA FINAL DE LA LEY 32394 PARA FACILITAR LA EJECUCIÓN CONJUNTA DE INVERSIONES DEL PRIMER NIVEL DE ATENCIÓN MEDIANTE OBRAS POR IMPUESTOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -104,7 +258,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30057, LEY DEL SERVICIO CIVIL, Y LA LEY 32069, LEY GENERAL DE CONTRATACIONES PÚBLICAS, PARA REGULAR TANTO EL FINANCIAMIENTO, LA CONTRATACIÓN, LA RECUPERACIÓN DE LOS COSTOS DE DEFENSA Y ASESORÍA PÚBLICAS, COMO SU REGISTRO INTEGRADO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -115,7 +269,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 27 y 77 DEL REGLAMENTO DEL CONGRESO DE LA REPÚBLICA DEL PERÚ, DISPONIENDO QUE LOS SENADORES Y DIPUTADOS SUPLENTES PUEDEN REEMPLAZAR A LOS TITULARES, SIN NECESIDAD QUE LOS TITULARES INFORMEN PREVIAMENTE POR  ESCRITO; Y QUE TODOS LOS SENADORES PUEDEN PARTICIPAR EN EL DEBATE DE LA LEY DE LA CUENTA GENERAL DE LA REPÚBLICA",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
     "proponente": "Senado de la República",
     "bancada": "Renovación Popular"
@@ -126,7 +280,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 61 DE LA LEY 32069, LEY GENERAL DE CONTRATACIONES PÚBLICAS, PARA FORTALECER LA VERIFICACIÓN Y LA EJECUCIÓN DE LAS GARANTÍAS FINANCIERAS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -137,7 +291,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA CALIDAD DE LA FORMACIÓN UNIVERSITARIA Y LAS COMPETENCIAS DE LOS PROFESIONALES DE LA SALUD.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-20T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -148,7 +302,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA EQUIDAD EN EL ACCESO Y LA PERMANENCIA EN BECA 18 Y OTRAS BECAS ADMINISTRADAS POR EL PROGRAMA NACIONAL DE BECAS Y CRÉDITO EDUCATIVO",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -159,7 +313,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA EL SERVICIO DE INTERMEDIACIÓN DIGITAL PARA EL TRANSPORTE DE PERSONAS Y MERCANCÍAS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -170,7 +324,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1085, CON LA FINALIDAD DE FORTALECER LAS COMPETENCIAS DEL ORGANISMO DE SUPERVISIÓN DE LOS RECURSOS FORESTALES Y DE FAUNA SILVESTRE (OSINFOR).",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -181,7 +335,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ATENCIÓN INTEGRAL DE LAS PERSONAS CON FIBROMIALGIA Y PROMUEVE SU INCLUSIÓN LABORAL Y SOCIAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -192,7 +346,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA AUTONOMÍA E INDEPENDENCIA DE LA CONTRALORÍA GENERAL DE LA REPÚBLICA EN LA DESIGNACIÓN Y REMOCIÓN DEL JEFE DEL ÓRGANO DE CONTROL INSTITUCIONAL DEL CONGRESO DE LA REPÚBLICA Y REFUERZA LA FISCALIZACIÓN EN EL MARCO DEL DISEÑO PARLAMENTARIO BICAMERAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -203,7 +357,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29360, LEY DEL SERVICIO DE DEFENSA PÚBLICA, PARA EXTENDER SU ALCANCE Y ASISTENCIA JURÍDICA A LOS PERUANOS RESIDENTES EN EL EXTRANJERO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -214,7 +368,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ATENCIÓN INTEGRAL DE LAS ENFERMEDADES CARDIOVASCULARES Y ESTABLECE EL CÓDIGO INFARTO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -225,7 +379,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DECLARA A LA PROVINCIA DE HUANTA, DEPARTAMENTO DE AYACUCHO, CUNA DE LA DEFENSA DE LA GRATUIDAD EDUCATIVA E INSTITUCIONALIZA EL DÍA DE LOS MÁRTIRES QUE DEFENDIERON LA EDUCACIÓN GRATUITA EL 22 DE JUNIO DE CADA AÑO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -236,7 +390,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30936, LEY QUE PROMUEVE Y REGULA EL USO DE LA BICICLETA COMO MEDIO DE TRANSPORTE SOSTENIBLE; PARA FOMENTAR EL DESARROLLO DE LA INFRAESTRUCTURA CICLOVIAL SEGURA Y LOS SISTEMAS DE BICICLETAS PÚBLICAS ",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -247,7 +401,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA ATENCIÓN GRATUITA, PREFERENTE Y PERMANENTE PARA EL RESTABLECIMIENTO INTEGRAL DE LA SALUD FÍSICA Y MENTAL DE LAS PERSONAS CIVILES AFECTADAS Y SUS FAMILIARES CON OCASIÓN DE LAS PROTESTAS SOCIALES OCURRIDAS ENTRE DICIEMBRE DE 2022 Y MARZO DE 2023.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -258,7 +412,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA A LOS INSTITUTOS PÚBLICOS DE INVESTIGACIÓN COMO BENEFICIARIOS DEL CANON.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -269,7 +423,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 6 A LA LEY 28858, LEY QUE COMPLEMENTA LA LEY 16053, PARA RECONOCER EXPRESAMENTE LAS COMPETENCIAS PROFESIONALES DEL INGENIERO ZOOTECNISTA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -280,7 +434,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA COMPETENCIA FARMACÉUTICA Y LA ENTRADA OPORTUNA DE MEDICAMENTOS GENÉRICOS, BIOSIMILARES E INTERCAMBIABLES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -291,7 +445,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE LA CONDICIÓN DE ELEGIBLE Y REGULA LA ASIGNACIÓN PROGRESIVA DE PLAZAS EN ESSALUD EN EL MARCO DE LA PROMOCIÓN INTERNA 2025-2026",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -302,7 +456,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE RECONOCE EL LEGADO HISTÓRICO DE LA PROVINCIA DE HUANTA EN LA DEFENSA DE LA EDUCACIÓN GRATUITA Y PROMUEVE LA PRESERVACIÓN DE LA MEMORIA DE LOS MÁRTIRES DEL 22 DE JUNIO DE 1969.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -313,7 +467,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE PREVENCIÓN DE LOS RIESGOS QUE AFECTAN LA INTEGRIDAD PÚBLICA DERIVADOS DEL OFRECIMIENTO, ENTREGA Y RECEPCIÓN DE REGALOS, ATENCIONES Y OTRAS CORTESÍAS EN LAS ENTIDADES DE LA ADMINISTRACIÓN PÚBLICA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -324,7 +478,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE MODIFICA EL ARTÍCULO 28 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ, A FIN DE FORTALECER LAS NEGOCIACIONES COLECTIVAS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -335,7 +489,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 26859, LEY ORGÁNICA DE ELECCIONES, PARA GARANTIZAR LA AUTENTICIDAD DE LA PROPAGANDA ELECTORAL FRENTE A LAS REDES COORDINADAS INAUTÉNTICAS, ESTABLECIENDO EL CESE DE SU DIFUSIÓN, LA EXCLUSIÓN DEL CANDIDATO RESPONSABLE Y LA SANCIÓN A LA ORGANIZACIÓN POLÍTICA",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-19T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -346,7 +500,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE MODIFICACIÓN DE LA LEY 27692 DE CREACIÓN DE LA AGENCIA PERUANA DE COOPERACIÓN INTERNACIONAL (APCI) ",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -357,7 +511,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL MARCO NORMATIVO DEL DEPORTE Y DEL SISTEMA DEPORTIVO NACIONAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -368,7 +522,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA TRANSPARENCIA Y EL ACCESO OPORTUNO A MEDICAMENTOS DE ALTO COSTO Y SIN COMPETENCIA EFECTIVA ",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -379,7 +533,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30987, LEY QUE FORTALECE LA PLANIFICACIÓN DE LA PRODUCCIÓN AGRARIA, PARA MEJORAR LA INFORMACIÓN PARA LA TOMA DE DECISIONES DE LOS PRODUCTORES AGRARIOS Y PROMOVER LOS SISTEMAS DE GESTIÓN TERRITORIAL AGRARIA DE LAS ORGANIZACIONES DE USUARIOS DE AGUA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -390,7 +544,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27336 PARA AMPLIAR LAS COMPETENCIAS DEL OSIPTEL EN MATERIA DE SUPERVISIÓN DE PLATAFORMAS DIGITALES DE INTERACCIÓN SOCIAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -401,7 +555,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.º 31339, LEY QUE PROMUEVE LA INDUSTRIALIZACIÓN DEL AGRO, PARA FACILITAR EL ACCESO DE LOS PEQUEÑOS PRODUCTORES AGRARIOS A SERVICIOS DE TRANSFORMACIÓN AGROINDUSTRIAL",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -412,7 +566,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN DE RESOLUCIÓN LEGISLATIVA QUE ACERCA EL CONGRESO A LA CIUDADANÍA MEDIANTE LA CREACIÓN DE LA RED TERRITORIAL DE PUNTOS DE CONTACTO LEGISLATIVO CIUDADANO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -423,7 +577,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON EL ACUERDO DE JUNTA DE PORTAVOCES N° 031-2026-2027/JUNTA CÁMARA DE DIPUTADOS ADOPTADO EN SESIÓN DEL 8 DE SETIEMBRE DE 2026 - (ANTES PL 06383/2023-CR)\nPROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27337, CÓDIGO DE LOS NIÑOS Y ADOLESCENTES, PROPONIENDO LA CONCILIACIÓN OBLIGATORIA COMO RESOLUCIÓN PACÍFICA, FRENTE A UNA SEPARACIÓN, EN MATERIA DE ALIMENTOS, TENENCIA Y VISITAS",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "CÁMARA DE DIPUTADOS - ACTUALIZACIÓN",
     "bancada": ""
@@ -434,7 +588,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE LA LEY GENERAL DEL SISTEMA TRADICIONAL DE SEMILLAS NATIVAS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -445,7 +599,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA TRANSPARENCIA SOBRE EL EJERCICIO Y REEMPLAZO DEL CARGO DE ALCALDE Y PRECISA LA APLICACIÓN DE LA PROHIBICIÓN DE REELECCIÓN INMEDIATA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -456,7 +610,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29719, LEY QUE PROMUEVE LA CONVIVENCIA SIN VIOLENCIA EN LAS INSTITUCIONES EDUCATIVAS PARA FORTALECER LA PREVENCIÓN, ATENCIÓN, SEGUIMIENTO Y CONTRARRESTAR LA VIOLENCIA COMO EL ACOSO ESCOLAR.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -467,7 +621,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL SISTEMA NACIONAL DE TRAZABILIDAD Y RECUPERACIÓN DE ARMAS DE FUEGO Y MUNICIONES DE USO CIVIL, FORTALECE SU LOCALIZACIÓN, ENTREGA VOLUNTARIA Y RETIRO DEFINITIVO DE CIRCULACIÓN, Y MODIFICA LA LEY 30299.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -478,7 +632,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA EL AVISTAMIENTO RESPONSABLE DE CETÁCEOS Y ESTABLECE MEDIDAS PARA SU CONSERVACIÓN EN EL ÁMBITO MARINO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -489,7 +643,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROTEGE LA ECONOMÍA FAMILIAR, REDUCE AL 50% EL TOPE DE INTERÉS PARA CRÉDITOS DE CONSUMO Y TARJETAS, Y SANCIONA LA USURA AGRAVADA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -500,7 +654,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 28094, LEY DE ORGANIZACIONES POLÍTICAS, CON LA FINALIDAD DE INCORPORAR LA INSTRUMENTALIZACIÓN CRIMINAL COMO CAUSAL DE DECLARACIÓN JUDICIAL DE ILEGALIDAD DE LAS ORGANIZACIONES POLÍTICAS",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -511,7 +665,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS DE TRANSPARENCIA, EVALUACIÓN Y RESPONSABILIDAD PARA EL USO SEGURO DE LA INTELIGENCIA ARTIFICIAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -522,7 +676,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA PUBLICIDAD OFICIAL DE NORMAS JURÍDICAS Y LA TRANSFORMACIÓN DIGITAL DE EDITORA PERÚ Y DEL DIARIO OFICIAL EL PERUANO",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-18T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -533,7 +687,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE MODIFICA EL ARTÍCULO 191 DE LA CONSTITUCIÓN POLÍTICA DEL PERÚ PARA PRECISAR LA REPRESENTACIÓN DE MUJERES Y HOMBRES EN LOS CONSEJOS REGIONALES   Y CONCEJOS MUNICIPALES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -544,7 +698,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE REGULA LA TRANSFERENCIA DE TITULARIDAD DE BIENES INSCRITOS O NO INSCRITOS Y LA DELEGACIÓN DE COMPETENCIAS DE ENTIDADES PÚBLICAS A FAVOR DE PROINVERSIÓN PARA EL DESARROLLO DE PROYECTOS EN ACTIVOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -555,7 +709,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS EXTRAORDINARIAS Y TEMPORALES DE ALIVIO TRIBUTARIO Y PROTECCIÓN CREDITICIA PARA LAS MICRO Y PEQUEÑAS EMPRESAS AFECTADAS POR EL FENÓMENO EL NIÑO 2026-2027.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -566,7 +720,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N.° 31336, LEY NACIONAL DEL CÁNCER, PARA FACILITAR LA CONTINUIDAD DEL TRATAMIENTO ONCOLÓGICO MEDIANTE LA ENTREGA DE MEDICAMENTOS CERCA DEL PACIENTE.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -577,7 +731,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27037, LEY DE PROMOCIÓN DE LA INVERSIÓN EN LA AMAZONÍA, A FIN DE FORTALECER EL MERCADO DE COMBUSTIBLES",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -588,7 +742,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA INVERSIÓN DE LOS RECURSOS DEL CANON Y SOBRECANON EN INFRAESTRUCTURA Y EQUIPAMIENTO DE SERVICIOS DE CUIDADO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-17T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -6022,7 +6176,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "ACTUALIZACIÓN DE CONFORMIDAD CON LA SEGUNDA DISPOSICIÓN COMPLEMENTARIA TRANSITORIA DEL REGLAMENTO DEL CONGRESO -  (ANTES PL 07182/2023-CR - CONGRESO).\nPROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1126, DECRETO LEGISLATIVO QUE ESTABLECE MEDIDAS DE CONTROL EN LOS INSUMOS QUÍMICOS Y PRODUCTOS FISCALIZADOS, MAQUINARIAS Y EQUIPOS UTILIZADOS PARA LA ELABORACIÓN DE DROGAS ILÍCITAS, RESPECTO DE LA BAJA DEFINITIVA DE LA INSCRIPCIÓN EN EL REGISTRO.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-09-18T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
