@@ -1,5 +1,38 @@
 [
   {
+    "proyecto_ley": "00947-2026-2031-CD",
+    "ply_num": 947,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27337, CÓDIGO DE LOS NIÑOS Y ADOLESCENTES, A FIN DE GARANTIZAR EL CUMPLIMIENTO DEL RÉGIMEN DE VISITAS Y PROTEGER EL INTERÉS SUPERIOR DEL NIÑO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00946-2026-2031-CD",
+    "ply_num": 946,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL RÉGIMEN DE GESTIÓN DEL RIESGO FEMINICIDA Y EL MECANISMO DE REVISIÓN DE FEMINICIDIOS",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00945-2026-2031-CD",
+    "ply_num": 945,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DECLARA DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA INTERVENCIÓN SUBSIDIARIA DE PETROPERÚ S.A. EN EL MERCADO MINORISTA DE COMBUSTIBLES EN LA AMAZONÍA PERUANA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
     "proyecto_ley": "00944-2026-2031-CD",
     "ply_num": 944,
     "periodo": 2026,

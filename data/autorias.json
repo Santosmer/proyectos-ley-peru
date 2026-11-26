@@ -1,5 +1,165 @@
 [
   {
+    "proyecto_ley": "00947-2026-2031-CD",
+    "persona": "Meza Rivera, Flor de Jesús",
+    "dni": "72393802",
+    "congresista_id": 211,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00947-2026-2031-CD",
+    "persona": "Ramos Rosales, María Candelaria",
+    "dni": "29402006",
+    "congresista_id": 234,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00947-2026-2031-CD",
+    "persona": "Dodero Jovich, Pierangeli Daniela",
+    "dni": "42433830",
+    "congresista_id": 172,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00947-2026-2031-CD",
+    "persona": "Domínguez Herrera, Carlos Alberto",
+    "dni": "40340841",
+    "congresista_id": 173,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00947-2026-2031-CD",
+    "persona": "Salas Rivera, Alexander",
+    "dni": "80328889",
+    "congresista_id": 237,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00947-2026-2031-CD",
+    "persona": "Columbus Murata, Diethell",
+    "dni": "40826681",
+    "congresista_id": 169,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00947-2026-2031-CD",
+    "persona": "Pinasco Montenegro, Nary Benvinda",
+    "dni": "05414308",
+    "congresista_id": 229,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00946-2026-2031-CD",
+    "persona": "Guevara Ramírez, Jessica Roxana",
+    "dni": "45353055",
+    "congresista_id": 187,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00946-2026-2031-CD",
+    "persona": "Zunini Yerren, Ernesto Alonzo",
+    "dni": "45327535",
+    "congresista_id": 261,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00946-2026-2031-CD",
+    "persona": "Gonzales Delgado, Gabriel Robertino",
+    "dni": "40093361",
+    "congresista_id": 185,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00946-2026-2031-CD",
+    "persona": "Villanueva Calderón, Juan Amílcar",
+    "dni": "41400923",
+    "congresista_id": 255,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00946-2026-2031-CD",
+    "persona": "Tito Rojas, César Hugo",
+    "dni": "01320941",
+    "congresista_id": 248,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00945-2026-2031-CD",
+    "persona": "Poma Huamani, Haydee Celinda",
+    "dni": "42984568",
+    "congresista_id": 230,
+    "sexo": "F",
+    "rol": "autor_principal"
+  },
+  {
+    "proyecto_ley": "00945-2026-2031-CD",
+    "persona": "Tito Rojas, César Hugo",
+    "dni": "01320941",
+    "congresista_id": 248,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00945-2026-2031-CD",
+    "persona": "Manay Pillaca, Alejandro José",
+    "dni": "44560484",
+    "congresista_id": 202,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00945-2026-2031-CD",
+    "persona": "Isla Rojas, Azucena",
+    "dni": "05206203",
+    "congresista_id": 195,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00945-2026-2031-CD",
+    "persona": "Palomino Pacheco, Amalia Emilia",
+    "dni": "29313850",
+    "congresista_id": 219,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00945-2026-2031-CD",
+    "persona": "Soto Ferrari, Luz Mérida",
+    "dni": "31012880",
+    "congresista_id": 243,
+    "sexo": "F",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00945-2026-2031-CD",
+    "persona": "Guillén Valencia, Héctor",
+    "dni": "23266182",
+    "congresista_id": 188,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
+    "proyecto_ley": "00945-2026-2031-CD",
+    "persona": "Villanueva Calderón, Juan Amílcar",
+    "dni": "41400923",
+    "congresista_id": 255,
+    "sexo": "M",
+    "rol": "coautor"
+  },
+  {
     "proyecto_ley": "00944-2026-2031-CD",
     "persona": "Eusebio Padilla, Arturo César",
     "dni": "07654582",
