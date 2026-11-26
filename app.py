@@ -1,4 +1,3 @@
-
 import json
 import re
 import unicodedata
@@ -247,6 +246,51 @@ def generar_pdf_diputado(nombre: str, bancada: str, region: str, detalle: pd.Dat
     ]))
     elementos.append(tabla)
 
+    doc.build(elementos)
+    buffer.seek(0)
+    return buffer.getvalue()
+
+
+def generar_pdf_ranking(bloques: list, titulo: str) -> bytes:
+    """bloques: lista de (partido, rol_label, df con columnas Puesto, Nombre, Región, N).
+    Un bloque por tabla; ajusta los anchos de columna al contenido."""
+    buffer = BytesIO()
+    doc = SimpleDocTemplate(
+        buffer, pagesize=A4,
+        topMargin=1.6 * cm, bottomMargin=1.6 * cm, leftMargin=1.8 * cm, rightMargin=1.8 * cm,
+    )
+    styles = getSampleStyleSheet()
+    elementos = [
+        Paragraph(escape(titulo), styles["Title"]),
+        Paragraph("Fuente: dashboard de proyectos de ley — Cámara de Diputados 2026-2031. "
+                  "Conteo de proyectos por diputado según su rol de firma.", styles["Italic"]),
+        Spacer(1, 0.4 * cm),
+    ]
+    for partido, rol_label, df in bloques:
+        color = colors.HexColor(COLOR_BANCADA.get(partido, "#8B0000"))
+        # texto oscuro o claro según luminosidad del color del partido
+        lum = 0.299 * color.red + 0.587 * color.green + 0.114 * color.blue
+        txt = colors.black if lum > 0.6 else colors.white
+        elementos.append(Paragraph(
+            f"{escape(partido)} — ranking por {escape(rol_label.lower())} "
+            f"({len(df)} diputados, {int(df['N'].sum())} proyectos)", styles["Heading3"]))
+        data = [["Puesto", "Diputado/a", "Región", rol_label]]
+        for _, r in df.iterrows():
+            data.append([int(r["Puesto"]), r["Nombre"], r["Región"], int(r["N"])])
+        t = Table(data, colWidths=[1.4 * cm, 8.4 * cm, 4.6 * cm, 2.4 * cm], repeatRows=1)
+        t.setStyle(TableStyle([
+            ("BACKGROUND", (0, 0), (-1, 0), color),
+            ("TEXTCOLOR", (0, 0), (-1, 0), txt),
+            ("FONTSIZE", (0, 0), (-1, -1), 8),
+            ("TOPPADDING", (0, 0), (-1, -1), 2),
+            ("BOTTOMPADDING", (0, 0), (-1, -1), 2),
+            ("ALIGN", (0, 0), (0, -1), "CENTER"),
+            ("ALIGN", (3, 0), (3, -1), "CENTER"),
+            ("GRID", (0, 0), (-1, -1), 0.3, colors.grey),
+            ("ROWBACKGROUNDS", (0, 1), (-1, -1), [colors.white, colors.HexColor("#F5F5F5")]),
+        ]))
+        elementos.append(t)
+        elementos.append(Spacer(1, 0.5 * cm))
     doc.build(elementos)
     buffer.seek(0)
     return buffer.getvalue()
@@ -713,58 +757,87 @@ with tab_regiones:
 # ----------------------------------------------------------------------
 with tab_ranking:
     st.caption(
-        "Ranking de diputados por número de proyectos, dentro de cada grupo parlamentario. "
-        "'Total' suma autor principal, coautor y adherente: un adherente firma un proyecto "
-        "ajeno, así que para medir autoría real usa 'Autor principal'."
+        "Ranking de diputados por grupo parlamentario. Primero por autoría (autor principal), "
+        "luego por coautoría. 'Total' incluye adherentes, que firman proyectos ajenos."
     )
-    ROLES_RANK = {
-        "Total": "Proyectos",
-        "Autor principal": "Como autor principal",
-        "Coautor": "Como coautor",
-        "Adherente": "Como adherente",
-    }
-    c_r1, c_r2 = st.columns(2)
-    rol_rank = c_r1.selectbox("Ordenar por rol", list(ROLES_RANK.keys()), key="rank_rol")
+    ROLES_RANK = [  # (pestaña, columna, etiqueta corta)
+        ("✍️ Autoría", "Como autor principal", "Autor principal"),
+        ("🤝 Coautoría", "Como coautor", "Coautor"),
+        ("➕ Adherente", "Como adherente", "Adherente"),
+        ("Σ Total", "Proyectos", "Total"),
+    ]
     tabla_rank = contar_proyectos_por_diputado(directorio, df_autorias)
-    col_val = ROLES_RANK[rol_rank]
     partidos_rank = [TODOS] + ordenar_partidos(tabla_rank["Partido"].unique().tolist())
-    partido_rank = c_r2.selectbox("Grupo parlamentario", partidos_rank, key="rank_partido")
+    partido_rank = st.selectbox("Grupo parlamentario", partidos_rank, key="rank_partido")
+    lista_partidos = (ordenar_partidos(tabla_rank["Partido"].unique().tolist())
+                      if partido_rank == TODOS else [partido_rank])
 
-    if partido_rank == TODOS:
-        st.subheader(f"Total de proyectos por grupo ({rol_rank})")
-        resumen_rank = tabla_rank.groupby("Partido")[col_val].sum().reset_index()
-        resumen_rank = resumen_rank.sort_values(col_val, ascending=False)
-        st.plotly_chart(
-            bar_con_etiquetas(resumen_rank, x="Partido", y=col_val, color="Partido",
-                              color_discrete_map=COLOR_BANCADA),
-            use_container_width=True, key="chart_15",
-        )
-        for p in ordenar_partidos(tabla_rank["Partido"].unique().tolist()):
-            sub = tabla_rank[tabla_rank["Partido"] == p].sort_values(
-                [col_val, "Nombre"], ascending=[False, True]).reset_index(drop=True)
-            with st.expander(f"{p} — {len(sub)} diputados, {int(sub[col_val].sum())} ({rol_rank.lower()})"):
-                sub.insert(0, "Puesto", range(1, len(sub) + 1))
-                mostrar_tabla(sub[["Puesto", "Nombre", "Región", col_val]].set_index("Puesto").reset_index())
-    else:
-        sub = tabla_rank[tabla_rank["Partido"] == partido_rank].sort_values(
+    def ranking_de(partido, col_val):
+        sub = tabla_rank[tabla_rank["Partido"] == partido].sort_values(
             [col_val, "Nombre"], ascending=[False, True]).reset_index(drop=True)
-        m1, m2, m3 = st.columns(3)
-        m1.metric("Diputados del grupo", len(sub))
-        m2.metric(f"Proyectos ({rol_rank})", int(sub[col_val].sum()))
-        m3.metric("Sin proyectos", int((sub[col_val] == 0).sum()))
-        st.subheader(f"Ranking {partido_rank} — {rol_rank}")
-        graf = sub.copy()
-        graf["Puesto"] = range(1, len(graf) + 1)
-        graf["Diputado"] = graf["Puesto"].astype(str) + ". " + graf["Nombre"]
-        graf = graf.iloc[::-1]  # el puesto 1 queda arriba en barras horizontales
-        fig_rk = bar_con_etiquetas(graf, x=col_val, y="Diputado", orientation="h")
-        fig_rk.update_traces(marker_color=COLOR_BANCADA.get(partido_rank, "#888"),
-                             marker_line_color="#555", marker_line_width=0.5)
-        fig_rk.update_layout(height=max(400, 22 * len(graf) + 120), yaxis_title=None)
-        st.plotly_chart(fig_rk, use_container_width=True, key="chart_16")
         sub.insert(0, "Puesto", range(1, len(sub) + 1))
-        mostrar_tabla(sub[["Puesto", "Nombre", "Región", "Proyectos",
-                           "Como autor principal", "Como coautor", "Como adherente"]])
+        return sub
+
+    def tabla_compacta(df):
+        """Tabla que ocupa solo el ancho de su contenido."""
+        df = df.reset_index(drop=True)
+        _tabla_counter[0] += 1
+        st.dataframe(
+            df, hide_index=True, use_container_width=False,
+            height=min(38 + 35 * len(df), 600),
+            column_config={c: st.column_config.Column(width="small") for c in df.columns if c not in ("Nombre", "Región")},
+            key=f"tabla_{_tabla_counter[0]}",
+        )
+
+    inner = st.tabs([r[0] for r in ROLES_RANK])
+    for (tab_r, (nombre_tab, col_val, rol_label)) in zip(inner, ROLES_RANK):
+        with tab_r:
+            if partido_rank == TODOS:
+                resumen_rank = (tabla_rank.groupby("Partido")[col_val].sum().reset_index()
+                                .sort_values(col_val, ascending=True))
+                fig_t = bar_con_etiquetas(resumen_rank, x=col_val, y="Partido", color="Partido",
+                                          color_discrete_map=COLOR_BANCADA, orientation="h")
+                fig_t.update_layout(height=60 + 38 * len(resumen_rank), showlegend=False,
+                                    yaxis_title=None, xaxis_title=None, bargap=0.15,
+                                    margin=dict(l=0, t=10, b=10, r=90))
+                st.plotly_chart(fig_t, use_container_width=True, key=f"chart_rk_tot_{col_val}")
+
+            for p in lista_partidos:
+                sub = ranking_de(p, col_val)
+                st.markdown(
+                    f"**{p}** · {len(sub)} diputados · {int(sub[col_val].sum())} proyectos · "
+                    f"{int((sub[col_val] == 0).sum())} sin proyectos"
+                )
+                col_g, col_t = st.columns([3, 2])
+                graf = sub.copy()
+                graf["Diputado"] = graf["Puesto"].astype(str) + ". " + graf["Nombre"]
+                graf = graf.iloc[::-1]
+                fig_rk = bar_con_etiquetas(graf, x=col_val, y="Diputado", orientation="h")
+                fig_rk.update_traces(marker_color=COLOR_BANCADA.get(p, "#888"),
+                                     marker_line_color="#555", marker_line_width=0.5)
+                fig_rk.update_layout(height=max(160, 20 * len(graf) + 40), bargap=0.12,
+                                     yaxis_title=None, xaxis_title=None,
+                                     margin=dict(l=0, t=5, b=5, r=80))
+                fig_rk.update_yaxes(tickfont=dict(size=11))
+                col_g.plotly_chart(fig_rk, use_container_width=True, key=f"chart_rk_{p}_{col_val}")
+                with col_t:
+                    tabla_compacta(sub[["Puesto", "Nombre", "Región", col_val]])
+
+    # ---- Reporte PDF (autoría y coautoría) ----
+    st.divider()
+    bloques = []
+    for p in lista_partidos:
+        for _, col_val, rol_label in ROLES_RANK[:2]:
+            d = ranking_de(p, col_val).rename(columns={col_val: "N"})
+            bloques.append((p, rol_label, d[["Puesto", "Nombre", "Región", "N"]]))
+    titulo_pdf = ("Ranking de diputados por autoría y coautoría — todos los grupos"
+                  if partido_rank == TODOS else f"Ranking de diputados — {partido_rank}")
+    st.download_button(
+        "📄 Descargar reporte PDF (autoría y coautoría)",
+        data=generar_pdf_ranking(bloques, titulo_pdf),
+        file_name=f"ranking_{'todos' if partido_rank == TODOS else nombre_a_slug(partido_rank)}.pdf",
+        mime="application/pdf", key="pdf_ranking",
+    )
 
 # ----------------------------------------------------------------------
 # TAB: DIPUTADOS
