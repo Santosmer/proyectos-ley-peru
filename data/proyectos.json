@@ -1,5 +1,49 @@
 [
   {
+    "proyecto_ley": "00951-2026-2031-CD",
+    "ply_num": 951,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL USO GRATUITO DE LOS ESTACIONAMIENTOS EN LOS CENTROS COMERCIALES, TIENDAS POR DEPARTAMENTOS Y SUPERMERCADOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00950-2026-2031-CD",
+    "ply_num": 950,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA EJECUCIÓN EFECTIVA DE LAS INICIATIVAS DE APOYO A LA COMPETITIVIDAD PRODUCTIVA (PROCOMPITE) Y PRIORIZA EL AGRO SOSTENIBLE EN LOS DEPARTAMENTOS AMAZÓNICOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00949-2026-2031-CD",
+    "ply_num": 949,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA PRODUCCIÓN FORESTAL FAMILIAR DE CICLO CORTO Y EL APROVECHAMIENTO PRODUCTIVO SOSTENIBLE DE LA REGENERACIÓN NATURAL EN BOSQUES SECUNDARIOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00948-2026-2031-CD",
+    "ply_num": 948,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LOS REQUISITOS DE IDONEIDAD TÉCNICA PARA EL EJERCICIO DE LOS CARGOS DE CONTRALOR GENERAL DE LA REPÚBLICA Y DE VICECONTRALOR GENERAL DE LA REPÚBLICA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
     "proyecto_ley": "00947-2026-2031-CD",
     "ply_num": 947,
     "periodo": 2026,
