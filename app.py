@@ -1,3 +1,4 @@
+
 import json
 import re
 import unicodedata
@@ -470,9 +471,9 @@ col1.metric("Total de proyectos", len(df_proyectos))
 col2.metric("Personas involucradas", df_autorias["persona"].nunique())
 col3.metric("Proponentes distintos", df_proyectos["proponente"].nunique())
 
-tab_general, tab_partidos, tab_temas, tab_regiones, tab_diputados = st.tabs(
+tab_general, tab_partidos, tab_temas, tab_regiones, tab_ranking, tab_diputados = st.tabs(
     ["📊 General", "🏛️ Dashboard por partido", "📚 Dashboard por temática",
-     "🗺️ Dashboard por región", "🧑‍💼 Diputados"]
+     "🗺️ Dashboard por región", "🏆 Ranking por grupo parlamentario", "🧑‍💼 Diputados"]
 )
 
 # ----------------------------------------------------------------------
@@ -706,6 +707,64 @@ with tab_regiones:
         st.subheader(f"Diputados de {region_sel}")
         tabla_diputados = contar_proyectos_por_diputado(directorio, df_autorias)
         mostrar_tabla(tabla_diputados[tabla_diputados["Región"] == region_sel].sort_values("Proyectos", ascending=False))
+
+# ----------------------------------------------------------------------
+# TAB: RANKING POR GRUPO PARLAMENTARIO
+# ----------------------------------------------------------------------
+with tab_ranking:
+    st.caption(
+        "Ranking de diputados por número de proyectos, dentro de cada grupo parlamentario. "
+        "'Total' suma autor principal, coautor y adherente: un adherente firma un proyecto "
+        "ajeno, así que para medir autoría real usa 'Autor principal'."
+    )
+    ROLES_RANK = {
+        "Total": "Proyectos",
+        "Autor principal": "Como autor principal",
+        "Coautor": "Como coautor",
+        "Adherente": "Como adherente",
+    }
+    c_r1, c_r2 = st.columns(2)
+    rol_rank = c_r1.selectbox("Ordenar por rol", list(ROLES_RANK.keys()), key="rank_rol")
+    tabla_rank = contar_proyectos_por_diputado(directorio, df_autorias)
+    col_val = ROLES_RANK[rol_rank]
+    partidos_rank = [TODOS] + ordenar_partidos(tabla_rank["Partido"].unique().tolist())
+    partido_rank = c_r2.selectbox("Grupo parlamentario", partidos_rank, key="rank_partido")
+
+    if partido_rank == TODOS:
+        st.subheader(f"Total de proyectos por grupo ({rol_rank})")
+        resumen_rank = tabla_rank.groupby("Partido")[col_val].sum().reset_index()
+        resumen_rank = resumen_rank.sort_values(col_val, ascending=False)
+        st.plotly_chart(
+            bar_con_etiquetas(resumen_rank, x="Partido", y=col_val, color="Partido",
+                              color_discrete_map=COLOR_BANCADA),
+            use_container_width=True, key="chart_15",
+        )
+        for p in ordenar_partidos(tabla_rank["Partido"].unique().tolist()):
+            sub = tabla_rank[tabla_rank["Partido"] == p].sort_values(
+                [col_val, "Nombre"], ascending=[False, True]).reset_index(drop=True)
+            with st.expander(f"{p} — {len(sub)} diputados, {int(sub[col_val].sum())} ({rol_rank.lower()})"):
+                sub.insert(0, "Puesto", range(1, len(sub) + 1))
+                mostrar_tabla(sub[["Puesto", "Nombre", "Región", col_val]].set_index("Puesto").reset_index())
+    else:
+        sub = tabla_rank[tabla_rank["Partido"] == partido_rank].sort_values(
+            [col_val, "Nombre"], ascending=[False, True]).reset_index(drop=True)
+        m1, m2, m3 = st.columns(3)
+        m1.metric("Diputados del grupo", len(sub))
+        m2.metric(f"Proyectos ({rol_rank})", int(sub[col_val].sum()))
+        m3.metric("Sin proyectos", int((sub[col_val] == 0).sum()))
+        st.subheader(f"Ranking {partido_rank} — {rol_rank}")
+        graf = sub.copy()
+        graf["Puesto"] = range(1, len(graf) + 1)
+        graf["Diputado"] = graf["Puesto"].astype(str) + ". " + graf["Nombre"]
+        graf = graf.iloc[::-1]  # el puesto 1 queda arriba en barras horizontales
+        fig_rk = bar_con_etiquetas(graf, x=col_val, y="Diputado", orientation="h")
+        fig_rk.update_traces(marker_color=COLOR_BANCADA.get(partido_rank, "#888"),
+                             marker_line_color="#555", marker_line_width=0.5)
+        fig_rk.update_layout(height=max(400, 22 * len(graf) + 120), yaxis_title=None)
+        st.plotly_chart(fig_rk, use_container_width=True, key="chart_16")
+        sub.insert(0, "Puesto", range(1, len(sub) + 1))
+        mostrar_tabla(sub[["Puesto", "Nombre", "Región", "Proyectos",
+                           "Como autor principal", "Como coautor", "Como adherente"]])
 
 # ----------------------------------------------------------------------
 # TAB: DIPUTADOS
