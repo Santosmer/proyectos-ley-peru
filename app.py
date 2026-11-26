@@ -156,7 +156,7 @@ def mejor_match(tokens_objetivo: set, candidatos: dict, min_score: int = 3):
         ratio = score / smaller
         if score > best_score or (score == best_score and ratio > best_ratio):
             best_key, best_score, best_ratio = key, score, ratio
-    if best_key and (best_score >= min_score or (best_score >= 2 and best_ratio == 1.0)):
+    if best_key is not None and (best_score >= min_score or (best_score >= 2 and best_ratio == 1.0)):
         return best_key, best_score, best_ratio
     return None, 0, 0.0
 
@@ -305,6 +305,45 @@ def load_data():
     for d in directorio:
         d["tokens"] = norm_tokens(d["nombre_fuente"])
     return pd.DataFrame(proyectos), pd.DataFrame(autorias), directorio
+
+
+PARTIDO_COD = {
+    "FP": "Fuerza Popular", "JPP": "Juntos por el Perú", "RP": "Renovación Popular",
+    "PBG": "Partido del Buen Gobierno", "PCO": "Partido Cívico Obras", "AN": "Ahora Nación",
+}
+ORDEN_CARGO = {"Presidente": 0, "Vicepresidente": 1, "Secretario": 2, "Titular": 3, "Suplente": 4}
+VISOR_SESIONES_URL = "https://wb2server.congreso.gob.pe/visor-sesiones/#/d"
+
+
+@st.cache_data
+def cargar_comisiones(_directorio):
+    """Lee data/comisiones.txt (obtenido de las páginas oficiales de cada comisión en
+    diputados.congreso.gob.pe) y cruza cada integrante con el directorio de diputados
+    para añadir la región. Formato: línea '#nombre|tipo|url|ubicación|horario' seguida
+    de líneas 'Apellidos, Nombres|código partido|cargo'."""
+    path = DATA_DIR / "comisiones.txt"
+    if not path.exists():
+        return []
+    candidatos = {i: d["tokens"] for i, d in enumerate(_directorio)}
+    comisiones = []
+    for linea in path.read_text(encoding="utf-8").split("\n"):
+        if not linea.strip():
+            continue
+        if linea.startswith("#"):
+            campos = (linea[1:].split("|") + [""] * 5)[:5]
+            comisiones.append({"nombre": campos[0], "tipo": campos[1], "url": campos[2],
+                               "ubicacion": campos[3], "horario": campos[4], "miembros": []})
+        else:
+            nombre, cod, cargo = (linea.split("|") + ["", "", ""])[:3]
+            idx, _, _ = mejor_match(norm_tokens(nombre), candidatos)
+            d = _directorio[idx] if idx is not None else None
+            comisiones[-1]["miembros"].append({
+                "Nombre": d["nombre_fuente"] if d else nombre,
+                "Partido": PARTIDO_COD.get(cod, cod),
+                "Cargo": cargo,
+                "Región": d["region"] if d else "No identificada",
+            })
+    return comisiones
 
 
 def buscar_region(persona: str, directorio: list):
@@ -515,9 +554,9 @@ col1.metric("Total de proyectos", len(df_proyectos))
 col2.metric("Personas involucradas", df_autorias["persona"].nunique())
 col3.metric("Proponentes distintos", df_proyectos["proponente"].nunique())
 
-tab_general, tab_partidos, tab_temas, tab_regiones, tab_ranking, tab_diputados = st.tabs(
+tab_general, tab_partidos, tab_temas, tab_regiones, tab_ranking, tab_comisiones, tab_diputados = st.tabs(
     ["📊 General", "🏛️ Dashboard por partido", "📚 Dashboard por temática",
-     "🗺️ Dashboard por región", "🏆 Ranking por grupo parlamentario", "🧑‍💼 Diputados"]
+     "🗺️ Dashboard por región", "🏆 Ranking por grupo parlamentario", "🗂️ Comisiones", "🧑‍💼 Diputados"]
 )
 
 # ----------------------------------------------------------------------
@@ -838,6 +877,121 @@ with tab_ranking:
         file_name=f"ranking_{'todos' if partido_rank == TODOS else nombre_a_slug(partido_rank)}.pdf",
         mime="application/pdf", key="pdf_ranking",
     )
+
+# ----------------------------------------------------------------------
+# TAB: COMISIONES
+# ----------------------------------------------------------------------
+with tab_comisiones:
+    comisiones = cargar_comisiones(directorio)
+    st.caption(
+        "Integrantes según la página oficial de cada comisión (Cámara de Diputados, periodo anual "
+        "2026-2027). Las sesiones y sus agendas están en el visor oficial: "
+        f"[Sesiones de comisiones ↗]({VISOR_SESIONES_URL}). "
+        "Aún no se muestran las sumillas por sesión porque la API del visor exige credenciales."
+    )
+    if not comisiones:
+        st.warning("Falta el archivo data/comisiones.txt en el repositorio.")
+    else:
+        tabla_dip = contar_proyectos_por_diputado(directorio, df_autorias)
+        proy_autor = dict(zip(tabla_dip["Nombre"], tabla_dip["Como autor principal"]))
+        proy_total = dict(zip(tabla_dip["Nombre"], tabla_dip["Proyectos"]))
+
+        def df_miembros(c):
+            m = pd.DataFrame(c["miembros"])
+            m["_o"] = m["Cargo"].map(ORDEN_CARGO).fillna(9)
+            m = m.sort_values(["_o", "Partido", "Nombre"]).drop(columns="_o").reset_index(drop=True)
+            m["Proyectos (autor principal)"] = m["Nombre"].map(proy_autor).fillna(0).astype(int)
+            m["Proyectos (total)"] = m["Nombre"].map(proy_total).fillna(0).astype(int)
+            return m
+
+        nombres_com = {c["nombre"]: c for c in comisiones}
+        sel_com = st.selectbox("Comisión", [TODAS] + list(nombres_com.keys()), key="com_sel")
+
+        if sel_com == TODAS:
+            filas = []
+            for c in comisiones:
+                m = pd.DataFrame(c["miembros"])
+                pres = m[m["Cargo"] == "Presidente"]
+                filas.append({
+                    "Comisión": c["nombre"], "Tipo": c["tipo"],
+                    "Con voto (mesa + titulares)": int(m["Cargo"].isin(["Presidente", "Vicepresidente", "Secretario", "Titular"]).sum()),
+                    "Suplentes": int((m["Cargo"] == "Suplente").sum()),
+                    "Presidente/a": pres["Nombre"].iloc[0] if len(pres) else "",
+                    "Partido de la presidencia": pres["Partido"].iloc[0] if len(pres) else "",
+                    "Horario": c["horario"], "Ubicación": c["ubicacion"], "Ficha oficial": c["url"],
+                })
+            resumen_com = pd.DataFrame(filas)
+            st.subheader("Directorio de comisiones")
+            _tabla_counter[0] += 1
+            st.dataframe(
+                resumen_com, hide_index=True, use_container_width=False,
+                column_config={"Ficha oficial": st.column_config.LinkColumn("Ficha oficial", display_text="Abrir ↗")},
+                key=f"tabla_{_tabla_counter[0]}",
+            )
+
+            col_a, col_b = st.columns(2)
+            with col_a:
+                st.subheader("Presidencias por partido")
+                pres_p = resumen_com[resumen_com["Partido de la presidencia"] != ""]["Partido de la presidencia"] \
+                    .value_counts().reset_index()
+                pres_p.columns = ["Partido", "Comisiones"]
+                fig_pr = bar_con_etiquetas(pres_p.sort_values("Comisiones"), x="Comisiones", y="Partido",
+                                           color="Partido", color_discrete_map=COLOR_BANCADA, orientation="h")
+                fig_pr.update_layout(showlegend=False, yaxis_title=None, xaxis_title=None,
+                                     height=60 + 38 * len(pres_p), margin=dict(l=0, t=10, b=10, r=90), bargap=0.15)
+                st.plotly_chart(fig_pr, use_container_width=True, key="chart_17")
+            with col_b:
+                st.subheader("Diputados en más comisiones")
+                todos_m = pd.concat([pd.DataFrame(c["miembros"]).assign(Comisión=c["nombre"]) for c in comisiones])
+                con_voto = todos_m[todos_m["Cargo"] != "Suplente"]
+                n_com = (con_voto.groupby(["Nombre", "Partido"]).size().reset_index(name="Comisiones (titular o mesa)")
+                         .sort_values(["Comisiones (titular o mesa)", "Nombre"], ascending=[False, True]).head(15))
+                n_com.insert(0, "Puesto", range(1, len(n_com) + 1))
+                _tabla_counter[0] += 1
+                st.dataframe(n_com, hide_index=True, use_container_width=False,
+                             key=f"tabla_{_tabla_counter[0]}")
+        else:
+            c = nombres_com[sel_com]
+            m = df_miembros(c)
+            mesa = m[m["Cargo"].isin(["Presidente", "Vicepresidente", "Secretario"])]
+            st.subheader(c["nombre"])
+            st.markdown(
+                f"**Tipo:** {c['tipo']}  ·  **Integrantes:** {len(m)} "
+                f"({int((m['Cargo'] != 'Suplente').sum())} con voto, {int((m['Cargo'] == 'Suplente').sum())} suplentes)"
+                + (f"  ·  **Horario:** {c['horario']}" if c["horario"] else "")
+                + (f"  ·  **Ubicación:** {c['ubicacion']}" if c["ubicacion"] else "")
+            )
+            st.markdown(f"[Ficha oficial ↗]({c['url']}) · [Sesiones y agendas ↗]({VISOR_SESIONES_URL})")
+
+            st.markdown("**Mesa directiva**")
+            _tabla_counter[0] += 1
+            st.dataframe(mesa[["Cargo", "Nombre", "Partido", "Región"]], hide_index=True,
+                         use_container_width=False, key=f"tabla_{_tabla_counter[0]}")
+
+            col_g, col_t = st.columns([2, 3])
+            with col_g:
+                st.markdown("**Integrantes por partido**")
+                comp = m.groupby("Partido").size().reset_index(name="Integrantes").sort_values("Integrantes")
+                fig_c = bar_con_etiquetas(comp, x="Integrantes", y="Partido", color="Partido",
+                                          color_discrete_map=COLOR_BANCADA, orientation="h")
+                fig_c.update_layout(showlegend=False, yaxis_title=None, xaxis_title=None,
+                                    height=60 + 38 * len(comp), margin=dict(l=0, t=10, b=10, r=90), bargap=0.15)
+                st.plotly_chart(fig_c, use_container_width=True, key=f"chart_com_{sel_com}")
+            with col_t:
+                st.markdown("**Integrantes**")
+                f1, f2 = st.columns(2)
+                cargos_sel = f1.multiselect("Cargo", list(ORDEN_CARGO.keys()), key=f"com_cargo_{sel_com}")
+                partidos_sel = f2.multiselect("Partido", ordenar_partidos(m["Partido"].unique().tolist()),
+                                              key=f"com_part_{sel_com}")
+                vista = m
+                if cargos_sel:
+                    vista = vista[vista["Cargo"].isin(cargos_sel)]
+                if partidos_sel:
+                    vista = vista[vista["Partido"].isin(partidos_sel)]
+                vista = vista.reset_index(drop=True)
+                vista.index = vista.index + 1
+                _tabla_counter[0] += 1
+                st.dataframe(vista, use_container_width=False, key=f"tabla_{_tabla_counter[0]}")
 
 # ----------------------------------------------------------------------
 # TAB: DIPUTADOS
