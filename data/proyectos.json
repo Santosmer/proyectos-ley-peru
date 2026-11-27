@@ -1,5 +1,170 @@
 [
   {
+    "proyecto_ley": "00975-2026-2031-CD",
+    "ply_num": 975,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL RÉGIMEN ESPECIAL DE IMPORTACIÓN DE BIENES DESTINADOS A LA INVESTIGACIÓN CIENTÍFICA, EL DESARROLLO TECNOLÓGICO Y LA INNOVACIÓN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Renovación Popular"
+  },
+  {
+    "proyecto_ley": "00974-2026-2031-CD",
+    "ply_num": 974,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA EL ARTÍCULO 10-A EN LA LEY 31199, LEY DE GESTIÓN Y PROTECCIÓN DE LOS ESPACIOS PÚBLICOS, PARA INCLUIR ÁREAS DE CALISTENIA AL AIRE LIBRE EN LOS PROYECTOS DE INVERSIÓN DE PARQUES Y ESPACIOS RECREATIVOS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00973-2026-2031-CD",
+    "ply_num": 973,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N° 30916, LEY ORGÁNICA DE LA JUNTA NACIONAL DE JUSTICIA, PARA EL FORTALECIMIENTO DEL SISTEMA DE CONTROL FUNCIONAL DE LOS JUECES Y FISCALES",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Instituciones Públicas Autónomas",
+    "bancada": ""
+  },
+  {
+    "proyecto_ley": "00972-2026-2031-CD",
+    "ply_num": 972,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA FORMALIZACIÓN, INCLUSIÓN LABORAL Y EMPODERAMIENTO ECONÓMICO DE LAS PERSONAS SELECCIONADORAS MANUALES DE MINERAL AURÍFERO A NIVEL NACIONAL DENOMINADA TRADICIONALMENTE COMO ‘‘PALLAQUERA’’ O ‘‘PALLAQUERO’’.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00971-2026-2031-CD",
+    "ply_num": 971,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DISPONE LA INSTITUCIONALIZACIÓN DE LA ACADEMIA MAYOR DE LA LENGUA QUECHUA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00970-2026-2031-CD",
+    "ply_num": 970,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PROCESAL PENAL PARA AMPLIAR LOS DELITOS EN LOS QUE PROCEDE LA REVISIÓN DE EQUIPOS INFORMÁTICOS EN FLAGRANCIA Y REGULAR LA EXTRACCIÓN FORENSE DE SU INFORMACIÓN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00969-2026-2031-CD",
+    "ply_num": 969,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PROCESAL PENAL PARA FORTALECER EL IMPEDIMENTO DE SALIDA DEL PAÍS ANTE EL PELIGRO DE FUGA Y REGULAR SU APLICACIÓN FRENTE AL VENCIMIENTO DE LA PRISIÓN PREVENTIVA ",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00968-2026-2031-CD",
+    "ply_num": 968,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 266 DEL CÓDIGO PROCESAL PENAL PARA FORTALECER LA DETENCIÓN JUDICIAL EN CASO DE FLAGRANCIA, LA PROTECCIÓN DE LAS VÍCTIMAS Y LA EFICACIA DE LA INVESTIGACIÓN PRELIMINAR ",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00967-2026-2031-CD",
+    "ply_num": 967,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL CÓDIGO PROCESAL PENAL, DECRETO LEGISLATIVO 957, PARA SUPRIMIR LA CADUCIDAD DE LAS REQUISITORIAS Y ESTABLECER SU CONTROL JUDICIAL PERIÓDICO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Ahora Nación"
+  },
+  {
+    "proyecto_ley": "00966-2026-2031-CD",
+    "ply_num": 966,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30364, LEY PARA PREVENIR, SANCIONAR Y ERRADICAR LA VIOLENCIA CONTRA LAS MUJERES Y LOS INTEGRANTES DEL GRUPO FAMILIAR, PARA GARANTIZAR EL CAMBIO OPORTUNO DEL LUGAR DE TRABAJO DE LA VÍCTIMA Y SU PROTECCIÓN FRENTE A LA PERSONA AGRESORA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00965-2026-2031-CD",
+    "ply_num": 965,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA LOS ARTÍCULOS 568-A, 568-B Y 568-C AL CÓDIGO PROCESAL CIVIL, PARA ESTABLECER LA RETENCIÓN ELECTRÓNICA DE OFICIO DE LA DEUDA ALIMENTARIA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00964-2026-2031-CD",
+    "ply_num": 964,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL NUMERAL 43.2 DEL ARTÍCULO 43 DE LA LEY 30220, LEY UNIVERSITARIA, PARA ARMONIZAR EL REQUISITO DE IDIOMA DE LOS ESTUDIOS DE MAESTRÍA CON EL EXIGIDO PARA EL GRADO DE MAESTRO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00963-2026-2031-CD",
+    "ply_num": 963,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE INCORPORA LOS ARTÍCULOS 4-A, 4-B, 4-C Y 4-D A LA LEY 26644, LEY QUE PRECISA EL GOCE DEL DERECHO DE DESCANSO PRENATAL Y POSTNATAL DE LA TRABAJADORA GESTANTE, PARA RECONOCER EL DERECHO A LA LICENCIA SIN GOCE DE HABER Y A LA REINCORPORACIÓN LABORAL A MEDIO TIEMPO DE LA MADRE TRABAJADORA",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00962-2026-2031-CD",
+    "ply_num": 962,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE DEROGA LA LEY 29719 Y CREA EL NUEVO MARCO NORMATIVO INTEGRAL PARA PREVENIR, ATENDER Y ELIMINAR LA VIOLENCIA ESCOLAR, Y PROMOVER ENTORNOS EDUCATIVOS SEGUROS Y PROTECTORES.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido del Buen Gobierno"
+  },
+  {
+    "proyecto_ley": "00961-2026-2031-CD",
+    "ply_num": 961,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30754, LEY MARCO SOBRE CAMBIO CLIMÁTICO",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-27T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Partido Cívico Obras"
+  },
+  {
     "proyecto_ley": "00960-2026-2031-CD",
     "ply_num": 960,
     "periodo": 2026,
@@ -1589,7 +1754,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE OPTIMIZA LA COLABORACIÓN DE LOS GOBIERNOS REGIONALES Y LOS GOBIERNOS LOCALES CON LA FINALIDAD DE FORTALECER LA SEGURIDAD CIUDADANA.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-11-10T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -2799,7 +2964,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA INVESTIGACIÓN POLICIAL Y LA LUCHA CONTRA LA DELINCUENCIA MEDIANTE LA COLABORACIÓN DE LOS GOBIERNOS REGIONALES Y LOCALES.",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-10-29T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -4680,7 +4845,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LOS ARTÍCULOS 2 Y 3 DE LA LEY N.° 32712 PARA AMPLIAR EL ÁMBITO DE COLABORACIÓN DE LOS GOBIERNOS REGIONALES Y LOCALES EN FAVOR DE LA POLICÍA NACIONAL DEL PERÚ Y LA AUTORIDAD MARÍTIMA NACIONAL; Y GARANTIZAR LA CONTINUIDAD DE LAS INVERSIONES, CONVENIOS Y PROCEDIMIENTOS ADMINISTRATIVOS EN TRÁMITE",
-    "estado": "EN COMISIÓN",
+    "estado": "CON DICTAMEN",
     "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -9520,7 +9685,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA E INCORPORA DIVERSOS ARTÍCULOS DE LA LEY 29338, LEY DE RECURSOS HÍDRICOS, PARA EL FORTALECIMIENTO DE LAS ORGANIZACIONES DE USUARIOS DE AGUA EN LA EJECUCIÓN DE DEFENSAS RIBEREÑAS Y EL CONTROL DE INUNDACIONES EN PUNTOS CRÍTICOS.",
-    "estado": "EN COMISIÓN",
+    "estado": "Retirado por su Autor",
     "fecha_presentacion": "2026-08-27T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
