@@ -1,5 +1,104 @@
 [
   {
+    "proyecto_ley": "00960-2026-2031-CD",
+    "ply_num": 960,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL DESARROLLO Y LA COMERCIALIZACIÓN DE LA ARTESANÍA TRADICIONAL DEL DEPARTAMENTO DE JUNÍN",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00959-2026-2031-CD",
+    "ply_num": 959,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA TRANSFORMACIÓN PRODUCTIVA, LA INDUSTRIALIZACIÓN DESCENTRALIZADA, LA INNOVACIÓN TECNOLÓGICA Y LA GENERACIÓN DE EMPLEO FORMAL EN LAS NUEVE PROVINCIAS DEL DEPARTAMENTO DE JUNÍN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00958-2026-2031-CD",
+    "ply_num": 958,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA SEGURIDAD CIUDADANA EN EL DEPARTAMENTO DE JUNÍN",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00957-2026-2031-CD",
+    "ply_num": 957,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ATENCIÓN Y PROTECCIÓN DE LAS MUJERES VÍCTIMAS DE VIOLENCIA EN LAS COMUNIDADES RURALES DEL DEPARTAMENTO DE JUNÍN.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00956-2026-2031-CD",
+    "ply_num": 956,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1373, DECRETO LEGISLATIVO SOBRE EXTINCIÓN DE DOMINIO, PARA FORTALECER LA ADMINISTRACIÓN, APROVECHAMIENTO Y DISPOSICIÓN DE LOS BIENES A CARGO DEL PROGRAMA NACIONAL DE BIENES INCAUTADOS – PRONABI, MAXIMIZAR SU VALOR PÚBLICO Y PRIORIZAR SU APROVECHAMIENTO PARA INFRAESTRUCTURA Y SERVICIOS PÚBLICOS DE SALUD Y EDUCACIÓN",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00955-2026-2031-CD",
+    "ply_num": 955,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA DEL SISTEMA FERROVIARIO Y DEL DESARROLLO FERROVIARIO.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00954-2026-2031-CD",
+    "ply_num": 954,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 29571, CÓDIGO DE PROTECCIÓN Y DEFENSA DEL CONSUMIDOR, PARA GARANTIZAR EL DERECHO A LA INFORMACIÓN SOBRE LA PUBLICIDAD EN LAS BOLSAS DE PLÁSTICO COMERCIALIZADAS.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Fuerza Popular"
+  },
+  {
+    "proyecto_ley": "00953-2026-2031-CD",
+    "ply_num": 953,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL BENEFICIO DEL PASAJE INTERPROVINCIAL Y AÉREO PARA ESTUDIANTES DE UNIVERSIDADES, INSTITUTOS Y ESCUELAS DE EDUCACIÓN SUPERIOR",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
+    "proyecto_ley": "00952-2026-2031-CD",
+    "ply_num": 952,
+    "periodo": 2026,
+    "camara": "D",
+    "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE EL DESARROLLO SOSTENIBLE DEL CULTIVO, PRODUCCIÓN Y APROVECHAMIENTO INDUSTRIAL DEL YUTE EN LA AMAZONÍA PERUANA.",
+    "estado": "PRESENTADO",
+    "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
+    "proponente": "Cámara de Diputados",
+    "bancada": "Juntos por el Perú"
+  },
+  {
     "proyecto_ley": "00951-2026-2031-CD",
     "ply_num": 951,
     "periodo": 2026,
@@ -16,7 +115,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE GARANTIZA LA EJECUCIÓN EFECTIVA DE LAS INICIATIVAS DE APOYO A LA COMPETITIVIDAD PRODUCTIVA (PROCOMPITE) Y PRIORIZA EL AGRO SOSTENIBLE EN LOS DEPARTAMENTOS AMAZÓNICOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -27,7 +126,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE PROMUEVE LA PRODUCCIÓN FORESTAL FAMILIAR DE CICLO CORTO Y EL APROVECHAMIENTO PRODUCTIVO SOSTENIBLE DE LA REGENERACIÓN NATURAL EN BOSQUES SECUNDARIOS.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -38,7 +137,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LOS REQUISITOS DE IDONEIDAD TÉCNICA PARA EL EJERCICIO DE LOS CARGOS DE CONTRALOR GENERAL DE LA REPÚBLICA Y DE VICECONTRALOR GENERAL DE LA REPÚBLICA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-26T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -49,7 +148,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 27337, CÓDIGO DE LOS NIÑOS Y ADOLESCENTES, A FIN DE GARANTIZAR EL CUMPLIMIENTO DEL RÉGIMEN DE VISITAS Y PROTEGER EL INTERÉS SUPERIOR DEL NIÑO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -60,7 +159,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE EL RÉGIMEN DE GESTIÓN DEL RIESGO FEMINICIDA Y EL MECANISMO DE REVISIÓN DE FEMINICIDIOS",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -71,7 +170,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE DECLARA DE NECESIDAD PÚBLICA E INTERÉS NACIONAL LA INTERVENCIÓN SUBSIDIARIA DE PETROPERÚ S.A. EN EL MERCADO MINORISTA DE COMBUSTIBLES EN LA AMAZONÍA PERUANA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -82,7 +181,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 85 DE LA LEY 30057, LEY DEL SERVICIO CIVIL, PARA INCORPORAR COMO FALTA DISCIPLINARIA EL INCUMPLIMIENTO INJUSTIFICADO DE LAS OBLIGACIONES FUNCIONALES VINCULADAS CON LA REGLAMENTACIÓN DE LAS LEYES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido Cívico Obras"
@@ -93,7 +192,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS PARA LA EVALUACIÓN E IMPLEMENTACIÓN PROGRESIVA DE LAS UNIDADES DE GESTIÓN EDUCATIVA LOCAL TAMBOPATA, TAHUAMANU Y MANU COMO UNIDADES EJECUTORAS PRESUPUESTARIAS",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -104,7 +203,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL ARTÍCULO 7 DE LA LEY 29571, CÓDIGO DE PROTECCIÓN Y DEFENSA DEL CONSUMIDOR, PROHIBIENDO EL RECARGO POR EL MEDIO DE PAGO UTILIZADO.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -115,7 +214,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA EL DECRETO LEGISLATIVO 1297, DECRETO LEGISLATIVO PARA LA PROTECCIÓN DE NIÑAS, NIÑOS Y ADOLESCENTES SIN CUIDADOS PARENTALES O EN RIESGO DE PERDERLOS, PARA FORTALECER LOS PROCEDIMIENTOS DE ADOPTABILIDAD Y EVITAR LA INSTITUCIONALIZACIÓN PROLONGADA.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Fuerza Popular"
@@ -126,7 +225,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE OPTIMIZA LA TRANSFERENCIA DE GESTIÓN DE GOBIERNOS REGIONALES Y GOBIERNOS LOCALES MEDIANTE EL FORTALECIMIENTO DEL CONTROL GUBERNAMENTAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -137,7 +236,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE REFORMA CONSTITUCIONAL QUE RESGUARDA LA SOBERANÍA DIGITAL NACIONAL.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Ahora Nación"
@@ -148,7 +247,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY 30364. LEY PARA PREVENIR, SANCIONAR Y ERRADICAR LA VIOLENCIA CONTRA LAS MUJERES Y LOS INTEGRANTES DEL GRUPO FAMILIAR, A EFECTOS DE FORTALECER LA RESPUESTA INSTITUCIONAL FRENTE A LA VIOLENCIA FACILITADA POR TECNOLOGÍAS DIGITALES.",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-25T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Partido del Buen Gobierno"
@@ -159,7 +258,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE MODIFICA LA LEY N° 29973, LEY GENERAL DE LA PERSONA CON DISCAPACIDAD, PARA GARANTIZAR LA ACCESIBILIDAD COGNITIVA Y SENSORIAL Y LOS AJUSTES RAZONABLES DE LAS PERSONAS CON DISCAPACIDAD",
-    "estado": "PRESENTADO",
+    "estado": "EN COMISIÓN",
     "fecha_presentacion": "2026-11-24T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -4735,7 +4834,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE EL DESARME VOLUNTARIO Y REDUCE LA CIRCULACIÓN DE ARMAS ILEGALES.",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "APROBADO",
     "fecha_presentacion": "2026-10-06T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -7936,7 +8035,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE FORTALECE LA ATENCIÓN MÉDICA Y LA VIGILANCIA EPIDEMIOLÓGICA PARA LA POBLACIÓN AFECTADA POR LA CONTAMINACIÓN CON METALES PESADOS Y OTRAS SUSTANCIAS QUÍMICAS DERIVADA DE LA ACTIVIDAD MINERA",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "APROBADO",
     "fecha_presentacion": "2026-09-15T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -8244,7 +8343,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE ESTABLECE MEDIDAS TEMPORALES PARA PROMOVER LA ENTREGA VOLUNTARIA, ANÓNIMA Y CON INCENTIVO ECONÓMICO, DE ARMAS DE FUEGO, MUNICIONES, GRANADAS DE GUERRA, EXPLOSIVOS, DINAMITA Y OTRAS ESPECIES SIMILARES DE PROCEDENCIA ILÍCITA O IRREGULAR, POR UN PLAZO DE 60 DÍAS, PARA CONTRIBUIR AL FORTALECIMIENTO DE LA SEGURIDAD CIUDADANA Y LA LUCHA CONTRA LA CRIMINALIDAD.",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "APROBADO",
     "fecha_presentacion": "2026-09-11T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Renovación Popular"
@@ -8618,7 +8717,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA QUE OTORGA BENEFICIOS A LOS EGRESADOS DE LOS CURSOS DE EXTENSIÓN UNIVERSITARIA CON EL PROPÓSITO DE CAPTAR AL MEJOR TALENTO PARA EL SECTOR PÚBLICO.",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "APROBADO",
     "fecha_presentacion": "2026-09-09T00:00:00.000-05:00",
     "proponente": "Cámara de Diputados",
     "bancada": "Juntos por el Perú"
@@ -10246,7 +10345,7 @@
     "periodo": 2026,
     "camara": "D",
     "titulo": "PROPOSICIÓN LEGISLATIVA DE CREACIÓN DEL DISTRITO DE TUYANKUWAS EN LA PROVINCIA DE BAGUA DEL DEPARTAMENTO DE AMAZONAS",
-    "estado": "EN AGENDA DEL PLENO",
+    "estado": "APROBADO",
     "fecha_presentacion": "2026-08-11T00:00:00.000-05:00",
     "proponente": "PODER EJECUTIVO",
     "bancada": ""
